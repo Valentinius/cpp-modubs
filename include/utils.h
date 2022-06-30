@@ -1,6 +1,8 @@
 #ifndef UNTITLED1_INCLUDE_UTILS_H_
 #define UNTITLED1_INCLUDE_UTILS_H_
 
+#include <cstdint>
+
 namespace modbus {
   namespace enums {
     enum RequestStatus {
@@ -10,9 +12,9 @@ namespace modbus {
     };
 
     enum ModbusFramer {
-      RTU,
-      ASCII,
-      TCP
+      RTU = 0,
+      ASCII = 1,
+      TCP = 2
     };
 
     enum RegisterType {
@@ -35,7 +37,7 @@ namespace modbus {
   }
 
   namespace utils {
-
+    void crc(const uint8_t *data, uint8_t size, uint8_t &msb, uint8_t &lsb);
   }
 }
 #endif //UNTITLED1_INCLUDE_UTILS_H_
