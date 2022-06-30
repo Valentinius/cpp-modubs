@@ -21,6 +21,17 @@ namespace modbus {
       HOLDING_REGISTERS,
       INPUT_REGISTERS
     };
+
+    enum ModbusFunction {
+      READ_DISCRETE_INPUTS_GROUP = 0x02,
+      READ_COILS_GROUP = 0x01,
+      READ_INPUTS_GROUP = 0x04,
+      READ_HOLDING_REGISTERS_GROUP = 0x03,
+      WRITE_COILS_ONE = 0x05,
+      WRITE_COILS_GROUP = 0x0F,
+      WRITE_HOLDING_REGISTERS_ONE = 0x06,
+      WRITE_HOLDING_REGISTERS_GROUP = 0x10
+    };
   }
 
   namespace utils {
