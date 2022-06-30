@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(untitled1)
+project(modbus-library-cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -7,11 +7,30 @@ set(CMAKE_CXX_STANDARD 14)
 #add_library(testlib SHARED IMPORTED)
 #set_property(TARGET testlib PROPERTY IMPORTED_LOCATION "lib/libmodbus/lib/libmodbus.so*")
 
+
+file(GLOB_RECURSE PROJECT_SRCS "main.cpp" "src/*.c" "src/*.cpp")
+
+#add_executable(${PROJECT_NAME} main.cpp)
+
+# Add source files to project
+add_executable(
+        ${PROJECT_NAME}
+        ${PROJECT_SRCS}
+)
+
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
+target_link_libraries(${PROJECT_NAME} PRIVATE Threads::Threads)
 
-add_executable(untitled1 main.cpp)
-target_link_libraries(untitled1 PRIVATE Threads::Threads)
+
+# Include project header files
+target_include_directories(
+        ${PROJECT_NAME}
+        PUBLIC include
+)
+
+
+
 
 
 # Libmodbus library
