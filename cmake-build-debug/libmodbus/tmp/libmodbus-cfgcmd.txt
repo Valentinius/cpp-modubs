@@ -1,1 +1,0 @@
-cmd='/home/valentin/CLionProjects/untitled1/lib/libmodbus/configure;--srcdir=/home/valentin/CLionProjects/untitled1/lib/libmodbus;--prefix=/home/valentin/CLionProjects/untitled1/cmake-build-debug/libmodbus;--enable-static=yes;--disable-shared'
