@@ -7,7 +7,7 @@
     <includes local="no">boost/asio.hpp</includes>
     <includes local="no">boost/asio/ts/buffer.hpp</includes>
     <includes local="no">boost/asio/ts/internet.hpp</includes>
-    <includedby refid="modbustcpclient_8cpp" local="yes">src/modbustcpclient.cpp</includedby>
+    <includedby refid="modbustcpclient_8cpp" local="yes">/home/valentin/CLionProjects/cpp-modubs/src/modbustcpclient.cpp</includedby>
     <incdepgraph>
       <node id="5">
         <label>utils.h</label>
@@ -44,7 +44,7 @@
         <label>vector</label>
       </node>
       <node id="1">
-        <label>include/modbustcpclient.h</label>
+        <label>/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h</label>
         <link refid="modbustcpclient_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -60,13 +60,13 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="1">
-        <label>include/modbustcpclient.h</label>
+        <label>/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h</label>
         <link refid="modbustcpclient_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
       <node id="2">
-        <label>src/modbustcpclient.cpp</label>
+        <label>/home/valentin/CLionProjects/cpp-modubs/src/modbustcpclient.cpp</label>
         <link refid="modbustcpclient_8cpp"/>
       </node>
     </invincdepgraph>
@@ -108,6 +108,6 @@
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//MODBUS_LIBRARY_CPP_INCLUDE_MODBUSTCPCLIENT_H_</highlight></codeline>
     </programlisting>
-    <location file="include/modbustcpclient.h"/>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h"/>
   </compounddef>
 </doxygen>

@@ -64,13 +64,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/utils.h" line="47" column="10" bodyfile="src/utils.cpp" bodystart="3" bodyend="22" declfile="include/utils.h" declline="47" declcolumn="10"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" line="47" column="10" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/utils.cpp" bodystart="3" bodyend="22" declfile="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" declline="47" declcolumn="10"/>
+        <references refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" compoundref="main_8cpp" startline="83" endline="107">crc</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="include/utils.h" line="39" column="17"/>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" line="39" column="17"/>
   </compounddef>
 </doxygen>

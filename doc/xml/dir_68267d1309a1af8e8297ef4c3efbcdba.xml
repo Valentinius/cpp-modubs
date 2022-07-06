@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
   <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
-    <compoundname>src</compoundname>
+    <compoundname>/home/valentin/CLionProjects/cpp-modubs/src</compoundname>
     <innerfile refid="modbusclient_8cpp">modbusclient.cpp</innerfile>
     <innerfile refid="modbustcpclient_8cpp">modbustcpclient.cpp</innerfile>
     <innerfile refid="utils_8cpp">utils.cpp</innerfile>
@@ -9,6 +9,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="src/"/>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/src/"/>
   </compounddef>
 </doxygen>

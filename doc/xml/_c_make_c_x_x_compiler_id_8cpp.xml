@@ -13,7 +13,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="11" column="11" bodyfile="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="11" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="11" column="11" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="11" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_c_make_c_x_x_compiler_id_8cpp_1a81dee0709ded976b2e0319239f72d174" prot="public" static="no">
         <name>COMPILER_ID</name>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="381" column="10" bodyfile="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="381" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="381" column="10" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="381" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_c_make_c_x_x_compiler_id_8cpp_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" prot="public" static="no">
         <name>STRINGIFY_HELPER</name>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="401" column="9" bodyfile="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="401" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="401" column="9" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="401" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_c_make_c_x_x_compiler_id_8cpp_1a43e1cad902b6477bec893cb6430bd6c8" prot="public" static="no">
         <name>STRINGIFY</name>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="402" column="9" bodyfile="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="402" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="402" column="9" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="402" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_c_make_c_x_x_compiler_id_8cpp_1adbc5372f40838899018fadbc89bd588b" prot="public" static="no">
         <name>PLATFORM_ID</name>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="509" column="10" bodyfile="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="509" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="509" column="10" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="509" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_c_make_c_x_x_compiler_id_8cpp_1aba35d0d200deaeb06aee95ca297acb28" prot="public" static="no">
         <name>ARCHITECTURE_ID</name>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="637" column="12" bodyfile="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="637" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="637" column="12" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="637" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_c_make_c_x_x_compiler_id_8cpp_1ad1280362da42492bbc11aa78cbf776ad" prot="public" static="no">
         <name>DEC</name>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="641" column="9" bodyfile="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="641" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="641" column="9" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="641" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_c_make_c_x_x_compiler_id_8cpp_1a46d5d95daa1bef867bd0179594310ed5" prot="public" static="no">
         <name>HEX</name>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="652" column="9" bodyfile="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="652" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="652" column="9" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="652" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_c_make_c_x_x_compiler_id_8cpp_1a34cc889e576a1ae6c84ae9e0a851ba21" prot="public" static="no">
         <name>CXX_STD</name>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="735" column="12" bodyfile="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="735" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="735" column="12" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="735" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
@@ -133,7 +133,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="388" column="12" bodyfile="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="388" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="388" column="12" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="388" bodyend="-1"/>
+        <referencedby refid="_c_make_c_x_x_compiler_id_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_c_make_c_x_x_compiler_id_8cpp" startline="766" endline="790">main</referencedby>
       </memberdef>
       <memberdef kind="variable" id="_c_make_c_x_x_compiler_id_8cpp_1a2321403dee54ee23f0c2fa849c60f7d4" prot="public" static="no" mutable="no">
         <type>char const  *</type>
@@ -147,7 +148,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="717" column="12" bodyfile="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="717" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="717" column="12" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="717" bodyend="-1"/>
+        <referencedby refid="_c_make_c_x_x_compiler_id_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_c_make_c_x_x_compiler_id_8cpp" startline="766" endline="790">main</referencedby>
       </memberdef>
       <memberdef kind="variable" id="_c_make_c_x_x_compiler_id_8cpp_1a59647e99d304ed33b15cb284c27ed391" prot="public" static="no" mutable="no">
         <type>char const  *</type>
@@ -161,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="718" column="12" bodyfile="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="718" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="718" column="12" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="718" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="_c_make_c_x_x_compiler_id_8cpp_1a4607cccf070750927b458473ca82c090" prot="public" static="no" mutable="no">
         <type>const char *</type>
@@ -189,7 +191,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="738" column="12" bodyfile="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="738" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="738" column="12" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="738" bodyend="-1"/>
+        <referencedby refid="_c_make_c_x_x_compiler_id_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_c_make_c_x_x_compiler_id_8cpp" startline="766" endline="790">main</referencedby>
       </memberdef>
       <memberdef kind="variable" id="_c_make_c_x_x_compiler_id_8cpp_1a0f46a8a39e09d9b803c4766904fd7e99" prot="public" static="no" mutable="no">
         <type>const char *</type>
@@ -211,7 +214,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="754" column="12" bodyfile="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="754" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="754" column="12" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="754" bodyend="-1"/>
+        <referencedby refid="_c_make_c_x_x_compiler_id_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_c_make_c_x_x_compiler_id_8cpp" startline="766" endline="790">main</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -235,7 +239,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="766" column="5" bodyfile="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="766" bodyend="790"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" line="766" column="5" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" bodystart="766" bodyend="790"/>
+        <references refid="_c_make_c_x_x_compiler_id_8cpp_1a4b0efeb7a5d59313986b3a0390f050f6" compoundref="_c_make_c_x_x_compiler_id_8cpp" startline="388">info_compiler</references>
+        <references refid="_c_make_c_x_x_compiler_id_8cpp_1a0f46a8a39e09d9b803c4766904fd7e99" compoundref="_c_make_c_x_x_compiler_id_8cpp" startline="754">info_language_extensions_default</references>
+        <references refid="_c_make_c_x_x_compiler_id_8cpp_1a4607cccf070750927b458473ca82c090" compoundref="_c_make_c_x_x_compiler_id_8cpp" startline="738">info_language_standard_default</references>
+        <references refid="_c_make_c_x_x_compiler_id_8cpp_1a2321403dee54ee23f0c2fa849c60f7d4" compoundref="_c_make_c_x_x_compiler_id_8cpp" startline="717">info_platform</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -253,7 +261,7 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(__has_include)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>If<sp/>the<sp/>compiler<sp/>does<sp/>not<sp/>have<sp/>__has_include,<sp/>pretend<sp/>the<sp/>answer<sp/>is</highlight></codeline>
 <codeline lineno="10"><highlight class="comment"><sp/><sp/><sp/>always<sp/>no.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>__has_include(x)<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="_c_make_c_x_x_compiler_id_8cpp_1ae5510d82e4946f1656f4969911c54736" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>__has_include(x)<sp/>0</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
@@ -623,14 +631,14 @@
 <codeline lineno="378"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>COMPILER_ID<sp/>&quot;HP&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="379"><highlight class="normal"></highlight></codeline>
 <codeline lineno="380"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="comment">/*<sp/>unknown<sp/>compiler<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="381"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>COMPILER_ID<sp/>&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="381" refid="_c_make_c_x_x_compiler_id_8cpp_1a81dee0709ded976b2e0319239f72d174" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>COMPILER_ID<sp/>&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="382"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="383"><highlight class="normal"></highlight></codeline>
 <codeline lineno="384"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Construct<sp/>the<sp/>string<sp/>literal<sp/>in<sp/>pieces<sp/>to<sp/>prevent<sp/>the<sp/>source<sp/>from</highlight></codeline>
 <codeline lineno="385"><highlight class="comment"><sp/><sp/><sp/>getting<sp/>matched.<sp/><sp/>Store<sp/>it<sp/>in<sp/>a<sp/>pointer<sp/>rather<sp/>than<sp/>an<sp/>array</highlight></codeline>
 <codeline lineno="386"><highlight class="comment"><sp/><sp/><sp/>because<sp/>some<sp/>compilers<sp/>will<sp/>just<sp/>produce<sp/>instructions<sp/>to<sp/>fill<sp/>the</highlight></codeline>
 <codeline lineno="387"><highlight class="comment"><sp/><sp/><sp/>array<sp/>rather<sp/>than<sp/>assigning<sp/>a<sp/>pointer<sp/>to<sp/>a<sp/>static<sp/>array.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="388"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">*<sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1a4b0efeb7a5d59313986b3a0390f050f6" kindref="member">info_compiler</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;INFO&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;compiler[&quot;</highlight><highlight class="normal"><sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1a81dee0709ded976b2e0319239f72d174" kindref="member">COMPILER_ID</ref><sp/></highlight><highlight class="stringliteral">&quot;]&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="388" refid="_c_make_c_x_x_compiler_id_8cpp_1a4b0efeb7a5d59313986b3a0390f050f6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">*<sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1a4b0efeb7a5d59313986b3a0390f050f6" kindref="member">info_compiler</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;INFO&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;compiler[&quot;</highlight><highlight class="normal"><sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1a81dee0709ded976b2e0319239f72d174" kindref="member">COMPILER_ID</ref><sp/></highlight><highlight class="stringliteral">&quot;]&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="389"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>SIMULATE_ID</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="390"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">*<sp/>info_simulate<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;INFO&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;simulate[&quot;</highlight><highlight class="normal"><sp/>SIMULATE_ID<sp/></highlight><highlight class="stringliteral">&quot;]&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="391"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
@@ -643,8 +651,8 @@
 <codeline lineno="398"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*info_cray<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;INFO&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;compiler_wrapper[CrayPrgEnv]&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="399"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="400"><highlight class="normal"></highlight></codeline>
-<codeline lineno="401"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STRINGIFY_HELPER(X)<sp/>#X</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="402"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STRINGIFY(X)<sp/>STRINGIFY_HELPER(X)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="401" refid="_c_make_c_x_x_compiler_id_8cpp_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STRINGIFY_HELPER(X)<sp/>#X</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="402" refid="_c_make_c_x_x_compiler_id_8cpp_1a43e1cad902b6477bec893cb6430bd6c8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STRINGIFY(X)<sp/>STRINGIFY_HELPER(X)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="403"><highlight class="normal"></highlight></codeline>
 <codeline lineno="404"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Identify<sp/>known<sp/>platforms<sp/>by<sp/>name.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="405"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__linux)<sp/>||<sp/>defined(__linux__)<sp/>||<sp/>defined(linux)</highlight><highlight class="normal"></highlight></codeline>
@@ -751,7 +759,7 @@
 <codeline lineno="506"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="507"><highlight class="normal"></highlight></codeline>
 <codeline lineno="508"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="comment">/*<sp/>unknown<sp/>platform<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="509"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>PLATFORM_ID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="509" refid="_c_make_c_x_x_compiler_id_8cpp_1adbc5372f40838899018fadbc89bd588b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>PLATFORM_ID</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="510"><highlight class="normal"></highlight></codeline>
 <codeline lineno="511"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="512"><highlight class="normal"></highlight></codeline>
@@ -879,11 +887,11 @@
 <codeline lineno="634"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="635"><highlight class="normal"></highlight></codeline>
 <codeline lineno="636"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="637"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>ARCHITECTURE_ID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="637" refid="_c_make_c_x_x_compiler_id_8cpp_1aba35d0d200deaeb06aee95ca297acb28" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>ARCHITECTURE_ID</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="638"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="639"><highlight class="normal"></highlight></codeline>
 <codeline lineno="640"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Convert<sp/>integer<sp/>to<sp/>decimal<sp/>digit<sp/>literals.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="641"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEC(n)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="641" refid="_c_make_c_x_x_compiler_id_8cpp_1ad1280362da42492bbc11aa78cbf776ad" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEC(n)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
 <codeline lineno="642"><highlight class="preprocessor"><sp/><sp/>(&apos;0&apos;<sp/>+<sp/>(((n)<sp/>/<sp/>10000000)%10)),<sp/>\</highlight></codeline>
 <codeline lineno="643"><highlight class="preprocessor"><sp/><sp/>(&apos;0&apos;<sp/>+<sp/>(((n)<sp/>/<sp/>1000000)%10)),<sp/><sp/>\</highlight></codeline>
 <codeline lineno="644"><highlight class="preprocessor"><sp/><sp/>(&apos;0&apos;<sp/>+<sp/>(((n)<sp/>/<sp/>100000)%10)),<sp/><sp/><sp/>\</highlight></codeline>
@@ -894,7 +902,7 @@
 <codeline lineno="649"><highlight class="preprocessor"><sp/><sp/>(&apos;0&apos;<sp/>+<sp/><sp/>((n)<sp/>%<sp/>10))</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="650"><highlight class="normal"></highlight></codeline>
 <codeline lineno="651"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Convert<sp/>integer<sp/>to<sp/>hex<sp/>digit<sp/>literals.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="652"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HEX(n)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="652" refid="_c_make_c_x_x_compiler_id_8cpp_1a46d5d95daa1bef867bd0179594310ed5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HEX(n)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
 <codeline lineno="653"><highlight class="preprocessor"><sp/><sp/>(&apos;0&apos;<sp/>+<sp/>((n)&gt;&gt;28<sp/>&amp;<sp/>0xF)),<sp/>\</highlight></codeline>
 <codeline lineno="654"><highlight class="preprocessor"><sp/><sp/>(&apos;0&apos;<sp/>+<sp/>((n)&gt;&gt;24<sp/>&amp;<sp/>0xF)),<sp/>\</highlight></codeline>
 <codeline lineno="655"><highlight class="preprocessor"><sp/><sp/>(&apos;0&apos;<sp/>+<sp/>((n)&gt;&gt;20<sp/>&amp;<sp/>0xF)),<sp/>\</highlight></codeline>
@@ -959,8 +967,8 @@
 <codeline lineno="714"><highlight class="comment"><sp/><sp/><sp/>getting<sp/>matched.<sp/><sp/>Store<sp/>it<sp/>in<sp/>a<sp/>pointer<sp/>rather<sp/>than<sp/>an<sp/>array</highlight></codeline>
 <codeline lineno="715"><highlight class="comment"><sp/><sp/><sp/>because<sp/>some<sp/>compilers<sp/>will<sp/>just<sp/>produce<sp/>instructions<sp/>to<sp/>fill<sp/>the</highlight></codeline>
 <codeline lineno="716"><highlight class="comment"><sp/><sp/><sp/>array<sp/>rather<sp/>than<sp/>assigning<sp/>a<sp/>pointer<sp/>to<sp/>a<sp/>static<sp/>array.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="717"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">*<sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1a2321403dee54ee23f0c2fa849c60f7d4" kindref="member">info_platform</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;INFO&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;platform[&quot;</highlight><highlight class="normal"><sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1adbc5372f40838899018fadbc89bd588b" kindref="member">PLATFORM_ID</ref><sp/></highlight><highlight class="stringliteral">&quot;]&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="718"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">*<sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1a59647e99d304ed33b15cb284c27ed391" kindref="member">info_arch</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;INFO&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;arch[&quot;</highlight><highlight class="normal"><sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1aba35d0d200deaeb06aee95ca297acb28" kindref="member">ARCHITECTURE_ID</ref><sp/></highlight><highlight class="stringliteral">&quot;]&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="717" refid="_c_make_c_x_x_compiler_id_8cpp_1a2321403dee54ee23f0c2fa849c60f7d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">*<sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1a2321403dee54ee23f0c2fa849c60f7d4" kindref="member">info_platform</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;INFO&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;platform[&quot;</highlight><highlight class="normal"><sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1adbc5372f40838899018fadbc89bd588b" kindref="member">PLATFORM_ID</ref><sp/></highlight><highlight class="stringliteral">&quot;]&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="718" refid="_c_make_c_x_x_compiler_id_8cpp_1a59647e99d304ed33b15cb284c27ed391" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">*<sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1a59647e99d304ed33b15cb284c27ed391" kindref="member">info_arch</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;INFO&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;arch[&quot;</highlight><highlight class="normal"><sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1aba35d0d200deaeb06aee95ca297acb28" kindref="member">ARCHITECTURE_ID</ref><sp/></highlight><highlight class="stringliteral">&quot;]&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="719"><highlight class="normal"></highlight></codeline>
 <codeline lineno="720"><highlight class="normal"></highlight></codeline>
 <codeline lineno="721"><highlight class="normal"></highlight></codeline>
@@ -977,10 +985,10 @@
 <codeline lineno="732"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(_MSC_VER)<sp/>&amp;&amp;<sp/>defined(_MSVC_LANG)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="733"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>CXX_STD<sp/>_MSVC_LANG</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="734"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="735"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>CXX_STD<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="735" refid="_c_make_c_x_x_compiler_id_8cpp_1a34cc889e576a1ae6c84ae9e0a851ba21" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>CXX_STD<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="736"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="737"><highlight class="normal"></highlight></codeline>
-<codeline lineno="738"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1a4607cccf070750927b458473ca82c090" kindref="member">info_language_standard_default</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;INFO&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;standard_default[&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="738" refid="_c_make_c_x_x_compiler_id_8cpp_1a4607cccf070750927b458473ca82c090" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1a4607cccf070750927b458473ca82c090" kindref="member">info_language_standard_default</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;INFO&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;standard_default[&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="739"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>CXX_STD<sp/>&gt;<sp/>202002L</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="740"><highlight class="normal"><sp/><sp/></highlight><highlight class="stringliteral">&quot;23&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="741"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>CXX_STD<sp/>&gt;<sp/>201703L</highlight><highlight class="normal"></highlight></codeline>
@@ -996,7 +1004,7 @@
 <codeline lineno="751"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="752"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;]&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="753"><highlight class="normal"></highlight></codeline>
-<codeline lineno="754"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1a0f46a8a39e09d9b803c4766904fd7e99" kindref="member">info_language_extensions_default</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;INFO&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;extensions_default[&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="754" refid="_c_make_c_x_x_compiler_id_8cpp_1a0f46a8a39e09d9b803c4766904fd7e99" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1a0f46a8a39e09d9b803c4766904fd7e99" kindref="member">info_language_extensions_default</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;INFO&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;extensions_default[&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="755"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(defined(__clang__)<sp/>||<sp/>defined(__GNUC__)<sp/>||<sp/>defined(__xlC__)<sp/>||<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
 <codeline lineno="756"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>defined(__TI_COMPILER_VERSION__))<sp/>&amp;&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
 <codeline lineno="757"><highlight class="preprocessor"><sp/><sp/>!defined(__STRICT_ANSI__)</highlight><highlight class="normal"></highlight></codeline>
@@ -1008,7 +1016,7 @@
 <codeline lineno="763"><highlight class="normal"></highlight></codeline>
 <codeline lineno="764"><highlight class="normal"></highlight><highlight class="comment">/*--------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="765"><highlight class="normal"></highlight></codeline>
-<codeline lineno="766"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>argv[])</highlight></codeline>
+<codeline lineno="766" refid="_c_make_c_x_x_compiler_id_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>argv[])</highlight></codeline>
 <codeline lineno="767"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="768"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>require<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="769"><highlight class="normal"><sp/><sp/>require<sp/>+=<sp/><ref refid="_c_make_c_x_x_compiler_id_8cpp_1a4b0efeb7a5d59313986b3a0390f050f6" kindref="member">info_compiler</ref>[argc];</highlight></codeline>
@@ -1034,6 +1042,6 @@
 <codeline lineno="789"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>require;</highlight></codeline>
 <codeline lineno="790"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"/>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"/>
   </compounddef>
 </doxygen>

@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/utils.h" line="8" column="23" bodyfile="include/utils.h" bodystart="8" bodyend="12"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" line="8" column="23" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" bodystart="8" bodyend="12"/>
       </memberdef>
       <memberdef kind="enum" id="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327" prot="public" static="no" strong="no">
         <type></type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/utils.h" line="14" column="22" bodyfile="include/utils.h" bodystart="14" bodyend="18"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" line="14" column="22" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" bodystart="14" bodyend="18"/>
       </memberdef>
       <memberdef kind="enum" id="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" prot="public" static="no" strong="no">
         <type></type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/utils.h" line="20" column="22" bodyfile="include/utils.h" bodystart="20" bodyend="25"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" line="20" column="22" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" bodystart="20" bodyend="25"/>
       </memberdef>
       <memberdef kind="enum" id="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70" prot="public" static="no" strong="no">
         <type></type>
@@ -183,13 +183,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/utils.h" line="27" column="24" bodyfile="include/utils.h" bodystart="27" bodyend="36"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" line="27" column="24" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" bodystart="27" bodyend="36"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="include/utils.h" line="7" column="17"/>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" line="7" column="17"/>
   </compounddef>
 </doxygen>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
   <compounddef id="dir_9756b2e6bf3957c50dc5a46b179969f2" kind="dir">
-    <compoundname>cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC</compoundname>
+    <compoundname>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC</compoundname>
     <innerfile refid="_c_make_c_compiler_id_8c">CMakeCCompilerId.c</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/"/>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/"/>
   </compounddef>
 </doxygen>

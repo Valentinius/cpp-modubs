@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
   <compounddef id="dir_8eb1ae61a5ce2f4b231b9cbdb8a50d83" kind="dir">
-    <compoundname>cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/src</compoundname>
+    <compoundname>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/src</compoundname>
     <innerfile refid="modbusclient_8cpp_8o_8d">modbusclient.cpp.o.d</innerfile>
     <innerfile refid="utils_8cpp_8o_8d">utils.cpp.o.d</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/src/"/>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/src/"/>
   </compounddef>
 </doxygen>

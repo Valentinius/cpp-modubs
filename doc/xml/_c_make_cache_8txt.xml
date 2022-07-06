@@ -387,6 +387,6 @@
 <codeline lineno="378"><highlight class="normal">THREADS_HAVE_PTHREAD_ARG:INTERNAL=TRUE</highlight></codeline>
 <codeline lineno="379"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="cmake-build-debug/CMakeCache.txt"/>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeCache.txt"/>
   </compounddef>
 </doxygen>

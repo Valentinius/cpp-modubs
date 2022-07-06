@@ -19,7 +19,7 @@
         <label>string</label>
       </node>
       <node id="1">
-        <label>main.cpp</label>
+        <label>/home/valentin/CLionProjects/cpp-modubs/main.cpp</label>
         <link refid="main_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -68,7 +68,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="main.cpp" line="70" column="5" bodyfile="main.cpp" bodystart="70" bodyend="76" declfile="main.cpp" declline="11" declcolumn="5"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/main.cpp" line="70" column="5" bodyfile="/home/valentin/CLionProjects/cpp-modubs/main.cpp" bodystart="70" bodyend="76" declfile="/home/valentin/CLionProjects/cpp-modubs/main.cpp" declline="11" declcolumn="5"/>
+        <referencedby refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="main_8cpp" startline="18" endline="64">main</referencedby>
       </memberdef>
       <memberdef kind="function" id="main_8cpp_1ad3e61260729326d72aada87614f680b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -93,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="main.cpp" line="79" column="6" bodyfile="main.cpp" bodystart="79" bodyend="81" declfile="main.cpp" declline="12" declcolumn="6"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/main.cpp" line="79" column="6" bodyfile="/home/valentin/CLionProjects/cpp-modubs/main.cpp" bodystart="79" bodyend="81" declfile="/home/valentin/CLionProjects/cpp-modubs/main.cpp" declline="12" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="main_8cpp_1a8c9df54e1e7be1b752732fda908efe0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -114,7 +115,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="main.cpp" line="66" column="6" bodyfile="main.cpp" bodystart="66" bodyend="68" declfile="main.cpp" declline="13" declcolumn="6"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/main.cpp" line="66" column="6" bodyfile="/home/valentin/CLionProjects/cpp-modubs/main.cpp" bodystart="66" bodyend="68" declfile="/home/valentin/CLionProjects/cpp-modubs/main.cpp" declline="13" declcolumn="6"/>
+        <referencedby refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="main_8cpp" startline="18" endline="64">main</referencedby>
       </memberdef>
       <memberdef kind="function" id="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -143,7 +145,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="main.cpp" line="83" column="10" bodyfile="main.cpp" bodystart="83" bodyend="107" declfile="main.cpp" declline="15" declcolumn="10"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/main.cpp" line="83" column="10" bodyfile="/home/valentin/CLionProjects/cpp-modubs/main.cpp" bodystart="83" bodyend="107" declfile="/home/valentin/CLionProjects/cpp-modubs/main.cpp" declline="15" declcolumn="10"/>
+        <referencedby refid="namespacemodbus_1_1utils_1a00eb6fbd9aa4c79311df088d010bb086" compoundref="utils_8cpp" startline="3" endline="22">modbus::utils::crc</referencedby>
+        <referencedby refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="main_8cpp" startline="18" endline="64">main</referencedby>
       </memberdef>
       <memberdef kind="function" id="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -165,7 +169,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="main.cpp" line="18" column="5" bodyfile="main.cpp" bodystart="18" bodyend="64"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/main.cpp" line="18" column="5" bodyfile="/home/valentin/CLionProjects/cpp-modubs/main.cpp" bodystart="18" bodyend="64"/>
+        <references refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" compoundref="main_8cpp" startline="83" endline="107">crc</references>
+        <references refid="main_8cpp_1a8c9df54e1e7be1b752732fda908efe0a" compoundref="main_8cpp" startline="66" endline="68">handler</references>
+        <references refid="main_8cpp_1a95e51b33b8b07360278177aac0d99f64" compoundref="main_8cpp" startline="70" endline="76">make_stream_from_buffer</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -190,7 +197,7 @@
 <codeline lineno="15"><highlight class="normal">uint16_t<sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref>(uint8_t<sp/>*data,<sp/>uint8_t<sp/>size,<sp/>uint8_t<sp/>&amp;msb,<sp/>uint8_t<sp/>&amp;lsb);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*argv[])<sp/>{</highlight></codeline>
+<codeline lineno="18" refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*argv[])<sp/>{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/>boost::system::error_code<sp/>ec;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/>asio::io_context<sp/>context;</highlight></codeline>
@@ -238,11 +245,11 @@
 <codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
 <codeline lineno="64"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a8c9df54e1e7be1b752732fda908efe0a" kindref="member">handler</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::system::error_code<sp/>ec,<sp/>std::size_t<sp/>bytes_transfered){</highlight></codeline>
+<codeline lineno="66" refid="main_8cpp_1a8c9df54e1e7be1b752732fda908efe0a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a8c9df54e1e7be1b752732fda908efe0a" kindref="member">handler</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::system::error_code<sp/>ec,<sp/>std::size_t<sp/>bytes_transfered){</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Shit&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>bytes_transfered<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
 <codeline lineno="68"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a95e51b33b8b07360278177aac0d99f64" kindref="member">make_stream_from_buffer</ref>(asio::streambuf<sp/>&amp;asio_buffer,<sp/>uint8_t<sp/>*buff,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>buff_size)<sp/>{</highlight></codeline>
+<codeline lineno="70" refid="main_8cpp_1a95e51b33b8b07360278177aac0d99f64" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a95e51b33b8b07360278177aac0d99f64" kindref="member">make_stream_from_buffer</ref>(asio::streambuf<sp/>&amp;asio_buffer,<sp/>uint8_t<sp/>*buff,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>buff_size)<sp/>{</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>out<sp/>=<sp/>std::ostreambuf_iterator&lt;char&gt;(&amp;asio_buffer);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>buff_size;<sp/>i++)</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>*out++<sp/>=<sp/>buff[i];</highlight></codeline>
@@ -251,11 +258,11 @@
 <codeline lineno="76"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1ad3e61260729326d72aada87614f680b7" kindref="member">make_buffer_from_stream</ref>(asio::streambuf<sp/>&amp;asio_buffer,<sp/>uint8_t<sp/>*buff,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>buff_size)<sp/>{</highlight></codeline>
+<codeline lineno="79" refid="main_8cpp_1ad3e61260729326d72aada87614f680b7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1ad3e61260729326d72aada87614f680b7" kindref="member">make_buffer_from_stream</ref>(asio::streambuf<sp/>&amp;asio_buffer,<sp/>uint8_t<sp/>*buff,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>buff_size)<sp/>{</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>buff<sp/>=<sp/>asio::buffer_cast&lt;uint8_t*&gt;(asio_buffer.data());</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="81"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal">uint16_t<sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref>(uint8_t<sp/>*data,<sp/>uint8_t<sp/>size,<sp/>uint8_t<sp/>&amp;msb,<sp/>uint8_t<sp/>&amp;lsb)<sp/>{</highlight></codeline>
+<codeline lineno="83" refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" refkind="member"><highlight class="normal">uint16_t<sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref>(uint8_t<sp/>*data,<sp/>uint8_t<sp/>size,<sp/>uint8_t<sp/>&amp;msb,<sp/>uint8_t<sp/>&amp;lsb)<sp/>{</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/>uint16_t<sp/>pos;</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/>uint8_t<sp/>i;</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"><sp/><sp/>uint16_t<sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref><sp/>=<sp/>0xFFFF;</highlight></codeline>
@@ -281,6 +288,6 @@
 <codeline lineno="106"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref>;</highlight></codeline>
 <codeline lineno="107"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="main.cpp"/>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/main.cpp"/>
   </compounddef>
 </doxygen>

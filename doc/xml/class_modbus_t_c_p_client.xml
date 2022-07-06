@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbustcpclient.h" line="24" column="22" bodyfile="include/modbustcpclient.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="24" column="22" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_modbus_t_c_p_client_1afef0985cc68f4760d52d2c48ecdcc68b" prot="private" static="no" mutable="no">
         <type>asio::io_context</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbustcpclient.h" line="25" column="20" bodyfile="include/modbustcpclient.h" bodystart="25" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="25" column="20" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_modbus_t_c_p_client_1a6ea25f3e1f4a60473b4ccd352bcf2cbb" prot="private" static="no" mutable="no">
         <type>asio::ip::tcp::socket</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbustcpclient.h" line="26" column="25" bodyfile="include/modbustcpclient.h" bodystart="26" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="26" column="25" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_modbus_t_c_p_client_1a5b39ec996b2efbc385a2c1408786e397" prot="private" static="no" mutable="no">
         <type>asio::ip::tcp::endpoint</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbustcpclient.h" line="27" column="27" bodyfile="include/modbustcpclient.h" bodystart="27" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="27" column="27" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -83,7 +83,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbustcpclient.h" line="17" column="3" bodyfile="src/modbustcpclient.cpp" bodystart="4" bodyend="6"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="17" column="3" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbustcpclient.cpp" bodystart="4" bodyend="6"/>
+        <references refid="class_modbus_client_1a00c972952900c10d538865444000f47e" compoundref="modbusclient_8h" startline="137">ModbusClient::ip</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_t_c_p_client_1a37e32758140ad3848d46e8e103554396" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -97,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbustcpclient.h" line="19" column="8" bodyfile="src/modbustcpclient.cpp" bodystart="8" bodyend="12"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="19" column="8" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbustcpclient.cpp" bodystart="8" bodyend="12"/>
       </memberdef>
       <memberdef kind="function" id="class_modbus_t_c_p_client_1aaa192ba308d25e84aa480dde9d1fdce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -119,7 +120,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbustcpclient.h" line="20" column="8" bodyfile="src/modbustcpclient.cpp" bodystart="14" bodyend="18"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="20" column="8" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbustcpclient.cpp" bodystart="14" bodyend="18"/>
+        <references refid="class_modbus_client_1a00c972952900c10d538865444000f47e" compoundref="modbusclient_8h" startline="137">ModbusClient::ip</references>
+        <references refid="class_modbus_client_1a5700d77d4bc5e4f9e457db668d321f0d" compoundref="modbusclient_8h" startline="138">ModbusClient::port</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_t_c_p_client_1a9d8f0b1e04ee82f43947a1bf431e00e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -133,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbustcpclient.h" line="21" column="8" bodyfile="src/modbustcpclient.cpp" bodystart="20" bodyend="24"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="21" column="8" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbustcpclient.cpp" bodystart="20" bodyend="24"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -170,7 +173,7 @@
         <label>ModbusFramer</label>
       </node>
     </collaborationgraph>
-    <location file="include/modbustcpclient.h" line="15" column="42" bodyfile="include/modbustcpclient.h" bodystart="15" bodyend="28"/>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="15" column="42" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" bodystart="15" bodyend="28"/>
     <listofallmembers>
       <member refid="class_modbus_t_c_p_client_1afef0985cc68f4760d52d2c48ecdcc68b" prot="private" virt="non-virtual"><scope>ModbusTCPClient</scope><name>asio_context</name></member>
       <member refid="class_modbus_t_c_p_client_1a6dd4ea0d7704d975be3d4e3d872301bd" prot="private" virt="non-virtual"><scope>ModbusTCPClient</scope><name>asio_ec</name></member>

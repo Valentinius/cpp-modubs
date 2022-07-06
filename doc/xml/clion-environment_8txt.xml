@@ -11,6 +11,6 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal">Options:-G<sp/>Unix<sp/>Makefiles</highlight></codeline>
     </programlisting>
-    <location file="cmake-build-debug/CMakeFiles/clion-environment.txt"/>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/clion-environment.txt"/>
   </compounddef>
 </doxygen>

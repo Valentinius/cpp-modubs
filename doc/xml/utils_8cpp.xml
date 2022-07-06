@@ -14,7 +14,7 @@
         <label>cstdint</label>
       </node>
       <node id="1">
-        <label>src/utils.cpp</label>
+        <label>/home/valentin/CLionProjects/cpp-modubs/src/utils.cpp</label>
         <link refid="utils_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -27,7 +27,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="utils_8h" kindref="compound">utils.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1utils_1a00eb6fbd9aa4c79311df088d010bb086" kindref="member">modbus::utils::crc</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*data,<sp/>uint8_t<sp/>size,<sp/>uint8_t<sp/>&amp;msb,<sp/>uint8_t<sp/>&amp;lsb)<sp/>{</highlight></codeline>
+<codeline lineno="3" refid="namespacemodbus_1_1utils_1a00eb6fbd9aa4c79311df088d010bb086" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1utils_1a00eb6fbd9aa4c79311df088d010bb086" kindref="member">modbus::utils::crc</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*data,<sp/>uint8_t<sp/>size,<sp/>uint8_t<sp/>&amp;msb,<sp/>uint8_t<sp/>&amp;lsb)<sp/>{</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"><sp/><sp/>uint16_t<sp/>pos;</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"><sp/><sp/>uint16_t<sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref><sp/>=<sp/>0xFFFF;</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -48,6 +48,6 @@
 <codeline lineno="21"><highlight class="normal"><sp/><sp/>msb<sp/>=<sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref><sp/>&amp;<sp/>0x00FF;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="src/utils.cpp"/>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/src/utils.cpp"/>
   </compounddef>
 </doxygen>

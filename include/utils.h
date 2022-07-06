@@ -37,6 +37,13 @@ namespace modbus {
   }
 
   namespace utils {
+  /**
+   * Kukukaudsl kasudlkjqwo djoqwjdojj jj
+   * @param data dlkqwjdlqjdw;lxkcj a;s
+   * @param size fqwlkejlkqw
+   * @param msb
+   * @param lsb
+   */
     void crc(const uint8_t *data, uint8_t size, uint8_t &msb, uint8_t &lsb);
   }
 }

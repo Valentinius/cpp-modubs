@@ -11,6 +11,6 @@
 <codeline lineno="2"><highlight class="normal">/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/edit_cache.dir</highlight></codeline>
 <codeline lineno="3"><highlight class="normal">/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/rebuild_cache.dir</highlight></codeline>
     </programlisting>
-    <location file="cmake-build-debug/CMakeFiles/TargetDirectories.txt"/>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/TargetDirectories.txt"/>
   </compounddef>
 </doxygen>

@@ -143,22 +143,22 @@
   </compound>
   <compound refid="utils_8cpp" kind="file"><name>utils.cpp</name>
   </compound>
-  <compound refid="dir_b68767efdd3d99ccfb48f00f85c5f695" kind="dir"><name>cmake-build-debug/CMakeFiles/3.22.3</name>
+  <compound refid="dir_b68767efdd3d99ccfb48f00f85c5f695" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3</name>
   </compound>
-  <compound refid="dir_95e29a8b8ee7c54052c171a88bb95675" kind="dir"><name>cmake-build-debug</name>
+  <compound refid="dir_95e29a8b8ee7c54052c171a88bb95675" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug</name>
   </compound>
-  <compound refid="dir_f89abcb304c928c7d889aa5625570de5" kind="dir"><name>cmake-build-debug/CMakeFiles</name>
+  <compound refid="dir_f89abcb304c928c7d889aa5625570de5" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles</name>
   </compound>
-  <compound refid="dir_9756b2e6bf3957c50dc5a46b179969f2" kind="dir"><name>cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC</name>
+  <compound refid="dir_9756b2e6bf3957c50dc5a46b179969f2" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC</name>
   </compound>
-  <compound refid="dir_720d36405d39524b939e0100a25cf975" kind="dir"><name>cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX</name>
+  <compound refid="dir_720d36405d39524b939e0100a25cf975" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX</name>
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/include</name>
   </compound>
-  <compound refid="dir_e13d0bbab6b182b39d147fbe8f11c4ca" kind="dir"><name>cmake-build-debug/CMakeFiles/modbus-library-cpp.dir</name>
+  <compound refid="dir_e13d0bbab6b182b39d147fbe8f11c4ca" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir</name>
   </compound>
-  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/src</name>
   </compound>
-  <compound refid="dir_8eb1ae61a5ce2f4b231b9cbdb8a50d83" kind="dir"><name>cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/src</name>
+  <compound refid="dir_8eb1ae61a5ce2f4b231b9cbdb8a50d83" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/src</name>
   </compound>
 </doxygenindex>

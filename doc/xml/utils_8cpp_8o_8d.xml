@@ -12,6 +12,6 @@
 <codeline lineno="3"><highlight class="normal"><sp/>/usr/include/stdc-predef.h<sp/>\</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"><sp/>/home/valentin/CLionProjects/cpp-modubs/include/utils.h</highlight></codeline>
     </programlisting>
-    <location file="cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/src/utils.cpp.o.d"/>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/src/utils.cpp.o.d"/>
   </compounddef>
 </doxygen>

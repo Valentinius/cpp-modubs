@@ -16,7 +16,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="135" column="16" bodyfile="include/modbusclient.h" bodystart="135" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="135" column="16" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" bodystart="135" bodyend="-1"/>
+        <referencedby refid="class_modbus_client_1a1a4800cb5b8af39031505eaa8e20096e" compoundref="modbusclient_8cpp" startline="81" endline="94">formRequest</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_modbus_client_1ab1b58128e98d3ccb83f51621fc81c150" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -29,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="136" column="8" bodyfile="include/modbusclient.h" bodystart="136" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="136" column="8" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" bodystart="136" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_modbus_client_1a00c972952900c10d538865444000f47e" prot="protected" static="no" mutable="no">
         <type>std::string</type>
@@ -42,7 +43,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="137" column="15" bodyfile="include/modbusclient.h" bodystart="137" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="137" column="15" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" bodystart="137" bodyend="-1"/>
+        <referencedby refid="class_modbus_t_c_p_client_1ae6cb19302ccca1261233c3bdc3814529" compoundref="modbustcpclient_8cpp" startline="4" endline="6">ModbusTCPClient::ModbusTCPClient</referencedby>
+        <referencedby refid="class_modbus_t_c_p_client_1aaa192ba308d25e84aa480dde9d1fdce7" compoundref="modbustcpclient_8cpp" startline="14" endline="18">ModbusTCPClient::connect</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_modbus_client_1a5700d77d4bc5e4f9e457db668d321f0d" prot="protected" static="no" mutable="no">
         <type>uint16_t</type>
@@ -55,7 +58,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="138" column="12" bodyfile="include/modbusclient.h" bodystart="138" bodyend="-1"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="138" column="12" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" bodystart="138" bodyend="-1"/>
+        <referencedby refid="class_modbus_t_c_p_client_1aaa192ba308d25e84aa480dde9d1fdce7" compoundref="modbustcpclient_8cpp" startline="14" endline="18">ModbusTCPClient::connect</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -83,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="18" column="3" bodyfile="src/modbusclient.cpp" bodystart="6" bodyend="9"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="18" column="3" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="6" bodyend="9"/>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a8fd569eaaf54ae2fa5e80e55fef41b0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>bool</type>
@@ -97,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="20" column="16"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="20" column="16"/>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a21db4626ea64a253f38215151374b7f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>bool</type>
@@ -119,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="21" column="16"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="21" column="16"/>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1ab9106716464e778d08e14af4c065231b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>bool</type>
@@ -133,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="22" column="16"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="22" column="16"/>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1ab9bba2e136b24a34bfcb844666db2c34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RequestStatus</type>
@@ -162,7 +166,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="24" column="17" bodyfile="src/modbusclient.cpp" bodystart="118" bodyend="123"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="24" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="118" bodyend="123"/>
+        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a7a40efdd2ac64fb99366a8c864893084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RequestStatus</type>
@@ -195,7 +200,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="29" column="17" bodyfile="src/modbusclient.cpp" bodystart="125" bodyend="131"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="29" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="125" bodyend="131"/>
+        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a608213c6942ba429470b88a506d71233" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RequestStatus</type>
@@ -224,7 +230,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="35" column="17" bodyfile="src/modbusclient.cpp" bodystart="133" bodyend="138"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="35" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="133" bodyend="138"/>
+        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a1c2be0fe268c25f773c4eed2b7c9fd08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RequestStatus</type>
@@ -257,7 +264,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="40" column="17" bodyfile="src/modbusclient.cpp" bodystart="140" bodyend="146"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="40" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="140" bodyend="146"/>
+        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a4f825f131b2712c62ea7a453f6a8b084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RequestStatus</type>
@@ -286,7 +294,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="46" column="17" bodyfile="src/modbusclient.cpp" bodystart="11" bodyend="16"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="46" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="11" bodyend="16"/>
+        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1aeffb0621eaec6ff49c8686cd0cc358cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RequestStatus</type>
@@ -319,7 +328,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="51" column="17" bodyfile="src/modbusclient.cpp" bodystart="18" bodyend="24"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="51" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="18" bodyend="24"/>
+        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a5a2c225b2293937b8d026565d6f69701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RequestStatus</type>
@@ -348,7 +358,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="57" column="17" bodyfile="src/modbusclient.cpp" bodystart="26" bodyend="31"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="57" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="26" bodyend="31"/>
+        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1adbea669f0f4675e2113e7e7872a9be9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RequestStatus</type>
@@ -377,7 +388,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="62" column="17" bodyfile="src/modbusclient.cpp" bodystart="148" bodyend="153"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="62" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="148" bodyend="153"/>
+        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1ab59c19ad48ff322f3bcf9f0b61fb7824" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RequestStatus</type>
@@ -410,7 +422,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="67" column="17" bodyfile="src/modbusclient.cpp" bodystart="155" bodyend="161"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="67" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="155" bodyend="161"/>
+        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a7ae78f974f74145221c1b24c71f9e699" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RequestStatus</type>
@@ -439,7 +452,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="73" column="17" bodyfile="src/modbusclient.cpp" bodystart="163" bodyend="168"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="73" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="163" bodyend="168"/>
+        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1ab71f8af50fce8351c8b2db267c8d0e35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RequestStatus</type>
@@ -472,7 +486,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="78" column="17" bodyfile="src/modbusclient.cpp" bodystart="170" bodyend="176"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="78" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="170" bodyend="176"/>
+        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1abf7dcbe74105b353cd49201161bc893c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RequestStatus</type>
@@ -501,7 +516,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="84" column="17" bodyfile="src/modbusclient.cpp" bodystart="33" bodyend="38"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="84" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="33" bodyend="38"/>
+        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1acbf064fdd2cf7fbd1fadd22cf2e072ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RequestStatus</type>
@@ -534,7 +550,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="89" column="17" bodyfile="src/modbusclient.cpp" bodystart="40" bodyend="46"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="89" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="40" bodyend="46"/>
+        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a9ceed9712e9e0c94db11a204792579b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RequestStatus</type>
@@ -563,7 +580,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="95" column="17" bodyfile="src/modbusclient.cpp" bodystart="48" bodyend="53"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="95" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="48" bodyend="53"/>
+        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a02c4a271b6fd808a766f6fcf8b59b86f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RequestStatus</type>
@@ -596,7 +614,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="100" column="17" bodyfile="src/modbusclient.cpp" bodystart="55" bodyend="61"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="100" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="55" bodyend="61"/>
+        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a423d5eefdc0a2e20aba5969474d529f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>RequestStatus</type>
@@ -625,7 +644,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="106" column="17" bodyfile="src/modbusclient.cpp" bodystart="63" bodyend="68"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="106" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="63" bodyend="68"/>
+        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-static-func">
@@ -652,7 +672,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="112" column="18" bodyfile="src/modbusclient.cpp" bodystart="70" bodyend="79"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="112" column="18" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="70" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1ad6abef0fbe2a8f4b9729fb528f30b036" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t *</type>
@@ -681,7 +701,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="120" column="18" bodyfile="src/modbusclient.cpp" bodystart="96" bodyend="101"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="120" column="18" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="96" bodyend="101"/>
+        <referencedby refid="class_modbus_client_1a1a4800cb5b8af39031505eaa8e20096e" compoundref="modbusclient_8cpp" startline="81" endline="94">formRequest</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a3a21c8df117e91d49be308fdf6984b98" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t *</type>
@@ -710,7 +731,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="125" column="18" bodyfile="src/modbusclient.cpp" bodystart="103" bodyend="109"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="125" column="18" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="103" bodyend="109"/>
+        <referencedby refid="class_modbus_client_1a1a4800cb5b8af39031505eaa8e20096e" compoundref="modbusclient_8cpp" startline="81" endline="94">formRequest</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a1e062e0264baff9ad3d96379f226d4d0" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t *</type>
@@ -739,7 +761,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="130" column="18" bodyfile="src/modbusclient.cpp" bodystart="111" bodyend="116"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="130" column="18" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="111" bodyend="116"/>
+        <referencedby refid="class_modbus_client_1a1a4800cb5b8af39031505eaa8e20096e" compoundref="modbusclient_8cpp" startline="81" endline="94">formRequest</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -770,7 +793,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/modbusclient.h" line="115" column="11" bodyfile="src/modbusclient.cpp" bodystart="81" bodyend="94"/>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="115" column="11" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="81" bodyend="94"/>
+        <references refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327ab5e2cddd6610458938989aba81b2d6f2" compoundref="utils_8h" startline="16">modbus::enums::ASCII</references>
+        <references refid="class_modbus_client_1a1e062e0264baff9ad3d96379f226d4d0" compoundref="modbusclient_8cpp" startline="111" endline="116">formASCIIRequest</references>
+        <references refid="class_modbus_client_1a3a21c8df117e91d49be308fdf6984b98" compoundref="modbusclient_8cpp" startline="103" endline="109">formRTURequest</references>
+        <references refid="class_modbus_client_1ad6abef0fbe2a8f4b9729fb528f30b036" compoundref="modbusclient_8cpp" startline="96" endline="101">formTCPRequest</references>
+        <references refid="class_modbus_client_1a66f1f6e1c5ad4db8e40066415952b463" compoundref="modbusclient_8h" startline="135">framer</references>
+        <references refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327a3a61457295e70c88c908f47102c52868" compoundref="utils_8h" startline="15">modbus::enums::RTU</references>
+        <references refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327a1133c80c863cfe1a87a5ffea9b609f85" compoundref="utils_8h" startline="17">modbus::enums::TCP</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -801,7 +831,7 @@
         <label>ModbusFramer</label>
       </node>
     </collaborationgraph>
-    <location file="include/modbusclient.h" line="15" column="19" bodyfile="include/modbusclient.h" bodystart="15" bodyend="141"/>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="15" column="19" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" bodystart="15" bodyend="141"/>
     <listofallmembers>
       <member refid="class_modbus_client_1a8fd569eaaf54ae2fa5e80e55fef41b0e" prot="public" virt="pure-virtual"><scope>ModbusClient</scope><name>connect</name></member>
       <member refid="class_modbus_client_1a21db4626ea64a253f38215151374b7f5" prot="public" virt="pure-virtual"><scope>ModbusClient</scope><name>connect</name></member>
