@@ -1,0 +1,837 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_modbus_client" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>ModbusClient</compoundname>
+    <derivedcompoundref refid="class_modbus_t_c_p_client" prot="public" virt="non-virtual">ModbusTCPClient</derivedcompoundref>
+    <includes refid="modbusclient_8h" local="no">modbusclient.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_modbus_client_1a66f1f6e1c5ad4db8e40066415952b463" prot="protected" static="no" mutable="no">
+        <type>ModbusFramer</type>
+        <definition>ModbusFramer ModbusClient::framer</definition>
+        <argsstring></argsstring>
+        <name>framer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="135" column="16" bodyfile="include/modbusclient.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modbus_client_1ab1b58128e98d3ccb83f51621fc81c150" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ModbusClient::connection_status</definition>
+        <argsstring></argsstring>
+        <name>connection_status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="136" column="8" bodyfile="include/modbusclient.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modbus_client_1a00c972952900c10d538865444000f47e" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ModbusClient::ip</definition>
+        <argsstring></argsstring>
+        <name>ip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="137" column="15" bodyfile="include/modbusclient.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modbus_client_1a5700d77d4bc5e4f9e457db668d321f0d" prot="protected" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t ModbusClient::port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="138" column="12" bodyfile="include/modbusclient.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_modbus_client_1af79b94d73020ef0d64fcc1ab6be974fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ModbusClient::ModbusClient</definition>
+        <argsstring>(std::string ip, uint16_t port, ModbusFramer framer=ModbusFramer::RTU)</argsstring>
+        <name>ModbusClient</name>
+        <param>
+          <type>std::string</type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>ModbusFramer</type>
+          <declname>framer</declname>
+          <defval>ModbusFramer::RTU</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="18" column="3" bodyfile="src/modbusclient.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a8fd569eaaf54ae2fa5e80e55fef41b0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ModbusClient::connect</definition>
+        <argsstring>()=0</argsstring>
+        <name>connect</name>
+        <reimplementedby refid="class_modbus_t_c_p_client_1a37e32758140ad3848d46e8e103554396">connect</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="20" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a21db4626ea64a253f38215151374b7f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ModbusClient::connect</definition>
+        <argsstring>(std::string ip, uint16_t port)=0</argsstring>
+        <name>connect</name>
+        <reimplementedby refid="class_modbus_t_c_p_client_1aaa192ba308d25e84aa480dde9d1fdce7">connect</reimplementedby>
+        <param>
+          <type>std::string</type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="21" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1ab9106716464e778d08e14af4c065231b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ModbusClient::disconnect</definition>
+        <argsstring>()=0</argsstring>
+        <name>disconnect</name>
+        <reimplementedby refid="class_modbus_t_c_p_client_1a9d8f0b1e04ee82f43947a1bf431e00e0">disconnect</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="22" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1ab9bba2e136b24a34bfcb844666db2c34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusClient::readDiscreteInput</definition>
+        <argsstring>(uint16_t register_num, uint8_t slave_id, uint8_t &amp;value, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
+        <name>readDiscreteInput</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>register_num</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>uint8_t &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="24" column="17" bodyfile="src/modbusclient.cpp" bodystart="118" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a7a40efdd2ac64fb99366a8c864893084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusClient::readDiscreteInputs</definition>
+        <argsstring>(uint16_t register_num, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;values, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
+        <name>readDiscreteInputs</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>register_num</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="29" column="17" bodyfile="src/modbusclient.cpp" bodystart="125" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a608213c6942ba429470b88a506d71233" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusClient::readCoil</definition>
+        <argsstring>(uint16_t register_num, uint8_t slave_id, uint8_t &amp;value, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
+        <name>readCoil</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>register_num</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>uint8_t &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="35" column="17" bodyfile="src/modbusclient.cpp" bodystart="133" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a1c2be0fe268c25f773c4eed2b7c9fd08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusClient::readCoils</definition>
+        <argsstring>(uint16_t register_num, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;values, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
+        <name>readCoils</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>register_num</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="40" column="17" bodyfile="src/modbusclient.cpp" bodystart="140" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a4f825f131b2712c62ea7a453f6a8b084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusClient::writeCoil</definition>
+        <argsstring>(uint16_t register_num, uint16_t value, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
+        <name>writeCoil</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>register_num</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="46" column="17" bodyfile="src/modbusclient.cpp" bodystart="11" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1aeffb0621eaec6ff49c8686cd0cc358cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusClient::writeCoils</definition>
+        <argsstring>(uint16_t register_num, uint16_t *values, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
+        <name>writeCoils</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>register_num</declname>
+        </param>
+        <param>
+          <type>uint16_t *</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="51" column="17" bodyfile="src/modbusclient.cpp" bodystart="18" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a5a2c225b2293937b8d026565d6f69701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusClient::writeCoils</definition>
+        <argsstring>(uint16_t register_num, const std::vector&lt; uint16_t &gt; &amp;values, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
+        <name>writeCoils</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>register_num</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; uint16_t &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="57" column="17" bodyfile="src/modbusclient.cpp" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1adbea669f0f4675e2113e7e7872a9be9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusClient::readInputRegister</definition>
+        <argsstring>(uint16_t register_num, uint8_t slave_id, uint8_t &amp;value, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
+        <name>readInputRegister</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>register_num</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>uint8_t &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="62" column="17" bodyfile="src/modbusclient.cpp" bodystart="148" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1ab59c19ad48ff322f3bcf9f0b61fb7824" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusClient::readInputRegisters</definition>
+        <argsstring>(uint16_t register_num, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;values, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
+        <name>readInputRegisters</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>register_num</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="67" column="17" bodyfile="src/modbusclient.cpp" bodystart="155" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a7ae78f974f74145221c1b24c71f9e699" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusClient::readHoldingRegister</definition>
+        <argsstring>(uint16_t register_num, uint8_t slave_id, uint8_t &amp;value, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
+        <name>readHoldingRegister</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>register_num</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>uint8_t &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="73" column="17" bodyfile="src/modbusclient.cpp" bodystart="163" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1ab71f8af50fce8351c8b2db267c8d0e35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusClient::readHoldingRegisters</definition>
+        <argsstring>(uint16_t register_num, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;values, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
+        <name>readHoldingRegisters</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>register_num</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="78" column="17" bodyfile="src/modbusclient.cpp" bodystart="170" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1abf7dcbe74105b353cd49201161bc893c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusClient::writeHoldingRegister</definition>
+        <argsstring>(uint16_t register_num, uint16_t value, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
+        <name>writeHoldingRegister</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>register_num</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="84" column="17" bodyfile="src/modbusclient.cpp" bodystart="33" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1acbf064fdd2cf7fbd1fadd22cf2e072ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusClient::writeHoldingRegisters</definition>
+        <argsstring>(uint16_t register_num, uint16_t *values, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
+        <name>writeHoldingRegisters</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>register_num</declname>
+        </param>
+        <param>
+          <type>uint16_t *</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="89" column="17" bodyfile="src/modbusclient.cpp" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a9ceed9712e9e0c94db11a204792579b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusClient::writeHoldingRegisters</definition>
+        <argsstring>(uint16_t register_num, const std::vector&lt; uint16_t &gt; &amp;values, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
+        <name>writeHoldingRegisters</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>register_num</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; uint16_t &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="95" column="17" bodyfile="src/modbusclient.cpp" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a02c4a271b6fd808a766f6fcf8b59b86f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusClient::sendRawRequest</definition>
+        <argsstring>(uint8_t *request, size_t request_size, uint8_t slave_id, uint8_t *response, size_t &amp;response_size)</argsstring>
+        <name>sendRawRequest</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>request_size</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>response</declname>
+        </param>
+        <param>
+          <type>size_t &amp;</type>
+          <declname>response_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="100" column="17" bodyfile="src/modbusclient.cpp" bodystart="55" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a423d5eefdc0a2e20aba5969474d529f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusClient::sendRequest</definition>
+        <argsstring>(ModbusFunction function, uint8_t *buffer, size_t buffer_size, uint8_t slave_id)</argsstring>
+        <name>sendRequest</name>
+        <param>
+          <type>ModbusFunction</type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>buffer_size</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="106" column="17" bodyfile="src/modbusclient.cpp" bodystart="63" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_modbus_client_1aa905f8aab32244d968b0145ecf613d07" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t *</type>
+        <definition>uint8_t * ModbusClient::formPDU</definition>
+        <argsstring>(ModbusFunction function, const uint8_t *buffer, size_t buffer_size)</argsstring>
+        <name>formPDU</name>
+        <param>
+          <type>ModbusFunction</type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>buffer_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="112" column="18" bodyfile="src/modbusclient.cpp" bodystart="70" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1ad6abef0fbe2a8f4b9729fb528f30b036" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t *</type>
+        <definition>uint8_t * ModbusClient::formTCPRequest</definition>
+        <argsstring>(ModbusFunction function, const uint8_t *buffer, size_t buffer_size, uint8_t slave_id)</argsstring>
+        <name>formTCPRequest</name>
+        <param>
+          <type>ModbusFunction</type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>buffer_size</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="120" column="18" bodyfile="src/modbusclient.cpp" bodystart="96" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a3a21c8df117e91d49be308fdf6984b98" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t *</type>
+        <definition>uint8_t * ModbusClient::formRTURequest</definition>
+        <argsstring>(ModbusFunction function, const uint8_t *buffer, size_t buffer_size, uint8_t slave_id)</argsstring>
+        <name>formRTURequest</name>
+        <param>
+          <type>ModbusFunction</type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>buffer_size</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="125" column="18" bodyfile="src/modbusclient.cpp" bodystart="103" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a1e062e0264baff9ad3d96379f226d4d0" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t *</type>
+        <definition>uint8_t * ModbusClient::formASCIIRequest</definition>
+        <argsstring>(ModbusFunction function, const uint8_t *buffer, size_t buffer_size, uint8_t slave_id)</argsstring>
+        <name>formASCIIRequest</name>
+        <param>
+          <type>ModbusFunction</type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>buffer_size</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="130" column="18" bodyfile="src/modbusclient.cpp" bodystart="111" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_modbus_client_1a1a4800cb5b8af39031505eaa8e20096e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t *</type>
+        <definition>uint8_t * ModbusClient::formRequest</definition>
+        <argsstring>(ModbusFunction function, const uint8_t *buffer, size_t buffer_size, uint8_t slave_id)</argsstring>
+        <name>formRequest</name>
+        <param>
+          <type>ModbusFunction</type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>buffer_size</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/modbusclient.h" line="115" column="11" bodyfile="src/modbusclient.cpp" bodystart="81" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ModbusClient</label>
+        <link refid="class_modbus_client"/>
+      </node>
+      <node id="2">
+        <label>ModbusTCPClient</label>
+        <link refid="class_modbus_t_c_p_client"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ModbusClient</label>
+        <link refid="class_modbus_client"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>framer</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ModbusFramer</label>
+      </node>
+    </collaborationgraph>
+    <location file="include/modbusclient.h" line="15" column="19" bodyfile="include/modbusclient.h" bodystart="15" bodyend="141"/>
+    <listofallmembers>
+      <member refid="class_modbus_client_1a8fd569eaaf54ae2fa5e80e55fef41b0e" prot="public" virt="pure-virtual"><scope>ModbusClient</scope><name>connect</name></member>
+      <member refid="class_modbus_client_1a21db4626ea64a253f38215151374b7f5" prot="public" virt="pure-virtual"><scope>ModbusClient</scope><name>connect</name></member>
+      <member refid="class_modbus_client_1ab1b58128e98d3ccb83f51621fc81c150" prot="protected" virt="non-virtual"><scope>ModbusClient</scope><name>connection_status</name></member>
+      <member refid="class_modbus_client_1ab9106716464e778d08e14af4c065231b" prot="public" virt="pure-virtual"><scope>ModbusClient</scope><name>disconnect</name></member>
+      <member refid="class_modbus_client_1a1e062e0264baff9ad3d96379f226d4d0" prot="protected" virt="non-virtual"><scope>ModbusClient</scope><name>formASCIIRequest</name></member>
+      <member refid="class_modbus_client_1aa905f8aab32244d968b0145ecf613d07" prot="protected" virt="non-virtual"><scope>ModbusClient</scope><name>formPDU</name></member>
+      <member refid="class_modbus_client_1a1a4800cb5b8af39031505eaa8e20096e" prot="protected" virt="non-virtual"><scope>ModbusClient</scope><name>formRequest</name></member>
+      <member refid="class_modbus_client_1a3a21c8df117e91d49be308fdf6984b98" prot="protected" virt="non-virtual"><scope>ModbusClient</scope><name>formRTURequest</name></member>
+      <member refid="class_modbus_client_1ad6abef0fbe2a8f4b9729fb528f30b036" prot="protected" virt="non-virtual"><scope>ModbusClient</scope><name>formTCPRequest</name></member>
+      <member refid="class_modbus_client_1a66f1f6e1c5ad4db8e40066415952b463" prot="protected" virt="non-virtual"><scope>ModbusClient</scope><name>framer</name></member>
+      <member refid="class_modbus_client_1a00c972952900c10d538865444000f47e" prot="protected" virt="non-virtual"><scope>ModbusClient</scope><name>ip</name></member>
+      <member refid="class_modbus_client_1af79b94d73020ef0d64fcc1ab6be974fc" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>ModbusClient</name></member>
+      <member refid="class_modbus_client_1a5700d77d4bc5e4f9e457db668d321f0d" prot="protected" virt="non-virtual"><scope>ModbusClient</scope><name>port</name></member>
+      <member refid="class_modbus_client_1a608213c6942ba429470b88a506d71233" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>readCoil</name></member>
+      <member refid="class_modbus_client_1a1c2be0fe268c25f773c4eed2b7c9fd08" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>readCoils</name></member>
+      <member refid="class_modbus_client_1ab9bba2e136b24a34bfcb844666db2c34" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>readDiscreteInput</name></member>
+      <member refid="class_modbus_client_1a7a40efdd2ac64fb99366a8c864893084" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>readDiscreteInputs</name></member>
+      <member refid="class_modbus_client_1a7ae78f974f74145221c1b24c71f9e699" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>readHoldingRegister</name></member>
+      <member refid="class_modbus_client_1ab71f8af50fce8351c8b2db267c8d0e35" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>readHoldingRegisters</name></member>
+      <member refid="class_modbus_client_1adbea669f0f4675e2113e7e7872a9be9a" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>readInputRegister</name></member>
+      <member refid="class_modbus_client_1ab59c19ad48ff322f3bcf9f0b61fb7824" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>readInputRegisters</name></member>
+      <member refid="class_modbus_client_1a02c4a271b6fd808a766f6fcf8b59b86f" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>sendRawRequest</name></member>
+      <member refid="class_modbus_client_1a423d5eefdc0a2e20aba5969474d529f8" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>sendRequest</name></member>
+      <member refid="class_modbus_client_1a4f825f131b2712c62ea7a453f6a8b084" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>writeCoil</name></member>
+      <member refid="class_modbus_client_1aeffb0621eaec6ff49c8686cd0cc358cc" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>writeCoils</name></member>
+      <member refid="class_modbus_client_1a5a2c225b2293937b8d026565d6f69701" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>writeCoils</name></member>
+      <member refid="class_modbus_client_1abf7dcbe74105b353cd49201161bc893c" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>writeHoldingRegister</name></member>
+      <member refid="class_modbus_client_1acbf064fdd2cf7fbd1fadd22cf2e072ba" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>writeHoldingRegisters</name></member>
+      <member refid="class_modbus_client_1a9ceed9712e9e0c94db11a204792579b4" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>writeHoldingRegisters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

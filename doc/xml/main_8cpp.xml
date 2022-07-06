@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="main_8cpp" kind="file" language="C++">
+    <compoundname>main.cpp</compoundname>
+    <includes local="no">unistd.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">string</includes>
+    <includes local="no">boost/asio.hpp</includes>
+    <includes local="no">boost/asio/ts/buffer.hpp</includes>
+    <includes local="no">boost/asio/ts/internet.hpp</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>boost/asio/ts/buffer.hpp</label>
+      </node>
+      <node id="7">
+        <label>boost/asio/ts/internet.hpp</label>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="1">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>boost/asio.hpp</label>
+      </node>
+      <node id="2">
+        <label>unistd.h</label>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="main_8cpp_1a95e51b33b8b07360278177aac0d99f64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int make_stream_from_buffer</definition>
+        <argsstring>(asio::streambuf &amp;asio_buffer, uint8_t *buff, size_t buff_size)</argsstring>
+        <name>make_stream_from_buffer</name>
+        <param>
+          <type>asio::streambuf &amp;</type>
+          <declname>asio_buffer</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>buff</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>buff_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.cpp" line="70" column="5" bodyfile="main.cpp" bodystart="70" bodyend="76" declfile="main.cpp" declline="11" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="main_8cpp_1ad3e61260729326d72aada87614f680b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void make_buffer_from_stream</definition>
+        <argsstring>(asio::streambuf &amp;asio_buffer, uint8_t *buff, size_t buff_size)</argsstring>
+        <name>make_buffer_from_stream</name>
+        <param>
+          <type>asio::streambuf &amp;</type>
+          <declname>asio_buffer</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>buff</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>buff_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.cpp" line="79" column="6" bodyfile="main.cpp" bodystart="79" bodyend="81" declfile="main.cpp" declline="12" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="main_8cpp_1a8c9df54e1e7be1b752732fda908efe0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void handler</definition>
+        <argsstring>(const boost::system::error_code ec, std::size_t bytes_transfered)</argsstring>
+        <name>handler</name>
+        <param>
+          <type>const boost::system::error_code</type>
+          <declname>ec</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>bytes_transfered</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.cpp" line="66" column="6" bodyfile="main.cpp" bodystart="66" bodyend="68" declfile="main.cpp" declline="13" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t crc</definition>
+        <argsstring>(uint8_t *data, uint8_t size, uint8_t &amp;msb, uint8_t &amp;lsb)</argsstring>
+        <name>crc</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>uint8_t &amp;</type>
+          <declname>msb</declname>
+        </param>
+        <param>
+          <type>uint8_t &amp;</type>
+          <declname>lsb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.cpp" line="83" column="10" bodyfile="main.cpp" bodystart="83" bodyend="107" declfile="main.cpp" declline="15" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, char *argv[])</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.cpp" line="18" column="5" bodyfile="main.cpp" bodystart="18" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;unistd.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/asio.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/asio/ts/buffer.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/asio/ts/internet.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">boost;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a95e51b33b8b07360278177aac0d99f64" kindref="member">make_stream_from_buffer</ref>(asio::streambuf<sp/>&amp;asio_buffer,<sp/>uint8_t<sp/>*buff,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>buff_size);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1ad3e61260729326d72aada87614f680b7" kindref="member">make_buffer_from_stream</ref>(asio::streambuf<sp/>&amp;asio_buffer,<sp/>uint8_t<sp/>*buff,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>buff_size);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a8c9df54e1e7be1b752732fda908efe0a" kindref="member">handler</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::system::error_code<sp/>ec,<sp/>std::size_t<sp/>bytes_transfered);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">uint16_t<sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref>(uint8_t<sp/>*data,<sp/>uint8_t<sp/>size,<sp/>uint8_t<sp/>&amp;msb,<sp/>uint8_t<sp/>&amp;lsb);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*argv[])<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/>boost::system::error_code<sp/>ec;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/>asio::io_context<sp/>context;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/>asio::ip::tcp::endpoint<sp/>endpoint(asio::ip::make_address(</highlight><highlight class="stringliteral">&quot;192.168.127.10&quot;</highlight><highlight class="normal">,<sp/>ec),<sp/>4001);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/>asio::ip::tcp::socket<sp/>socket(context);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>socket.connect(endpoint,<sp/>ec);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!ec)<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Connected!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Failed!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(socket.is_open())<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>buffer[6]<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x01,<sp/>0x03,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x4</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>uint8_t<sp/>buffer[6]<sp/>{endpoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x01,<sp/>0x06,<sp/>0x00,<sp/>0x1C,<sp/>0x00,<sp/>0x01</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>};</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>buffer_with_crc[8];</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>6;<sp/>i++)<sp/>buffer_with_crc[i]<sp/>=<sp/>std::move(buffer[i]);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref>(buffer,<sp/>6,<sp/>buffer_with_crc[6],<sp/>buffer_with_crc[7]);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>unsigned(buffer_with_crc[6])<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>unsigned(buffer_with_crc[7])<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>asio::streambuf<sp/>asio_buffer;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>read_buffer[16];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>16;<sp/>i++)<sp/>read_buffer[i]<sp/>=<sp/>-5;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size<sp/>=<sp/><ref refid="main_8cpp_1a95e51b33b8b07360278177aac0d99f64" kindref="member">make_stream_from_buffer</ref>(asio_buffer,<sp/>buffer_with_crc,<sp/>8);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>socket.write_some(asio_buffer.data(),<sp/>ec);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>socket.async_write_some(asio_buffer.data(),<sp/><ref refid="main_8cpp_1a8c9df54e1e7be1b752732fda908efe0a" kindref="member">handler</ref>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>bytes<sp/>=<sp/>socket.available();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>bytes<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>socket.read_some(asio::buffer(read_buffer),<sp/>ec);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>socket.async_read_some(asio::buffer(read_buffer),<sp/>&amp;<ref refid="main_8cpp_1a8c9df54e1e7be1b752732fda908efe0a" kindref="member">handler</ref>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>sleep(5);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>i:<sp/>read_buffer)<sp/>std::cout<sp/>&lt;&lt;<sp/>unsigned(i)<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a8c9df54e1e7be1b752732fda908efe0a" kindref="member">handler</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::system::error_code<sp/>ec,<sp/>std::size_t<sp/>bytes_transfered){</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Shit&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>bytes_transfered<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a95e51b33b8b07360278177aac0d99f64" kindref="member">make_stream_from_buffer</ref>(asio::streambuf<sp/>&amp;asio_buffer,<sp/>uint8_t<sp/>*buff,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>buff_size)<sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>out<sp/>=<sp/>std::ostreambuf_iterator&lt;char&gt;(&amp;asio_buffer);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>buff_size;<sp/>i++)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>*out++<sp/>=<sp/>buff[i];</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>buff_size;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1ad3e61260729326d72aada87614f680b7" kindref="member">make_buffer_from_stream</ref>(asio::streambuf<sp/>&amp;asio_buffer,<sp/>uint8_t<sp/>*buff,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>buff_size)<sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>buff<sp/>=<sp/>asio::buffer_cast&lt;uint8_t*&gt;(asio_buffer.data());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">uint16_t<sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref>(uint8_t<sp/>*data,<sp/>uint8_t<sp/>size,<sp/>uint8_t<sp/>&amp;msb,<sp/>uint8_t<sp/>&amp;lsb)<sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/>uint16_t<sp/>pos;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>uint8_t<sp/>i;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/>uint16_t<sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref><sp/>=<sp/>0xFFFF;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(pos<sp/>=<sp/>0;<sp/>pos<sp/>&lt;<sp/>size;<sp/>pos++){</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref><sp/>^=<sp/>(uint16_t)data[pos];<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>XOR<sp/>byte<sp/>into<sp/>least<sp/>sig.<sp/>byte<sp/>of<sp/>crc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(uint8_t<sp/>i<sp/>=<sp/>8;<sp/>i<sp/>!=<sp/>0;<sp/>i--){<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Loop<sp/>over<sp/>each<sp/>bit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((<ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref><sp/>&amp;<sp/>0x0001)<sp/>!=<sp/>0){<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>LSB<sp/>is<sp/>set</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref><sp/>&gt;&gt;=<sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Shift<sp/>right<sp/>and<sp/>XOR<sp/>0xA001</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref><sp/>^=<sp/>0xA001;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Else<sp/>LSB<sp/>is<sp/>not<sp/>set</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref><sp/>&gt;&gt;=<sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Just<sp/>shift<sp/>right</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>lsb<sp/>=<sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref><sp/>&gt;&gt;<sp/>8;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>msb<sp/>=<sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref><sp/>&amp;<sp/>0x00FF;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>unsigned(<ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref>)<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Note,<sp/>this<sp/>number<sp/>has<sp/>low<sp/>and<sp/>high<sp/>bytes<sp/>swapped,<sp/>so<sp/>use<sp/>it<sp/>accordingly<sp/>(or<sp/>swap<sp/>bytes)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kindref="member">crc</ref>;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="main.cpp"/>
+  </compounddef>
+</doxygen>

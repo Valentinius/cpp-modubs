@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacemodbus_1_1enums" kind="namespace" language="C++">
+    <compoundname>modbus::enums</compoundname>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6" prot="public" static="no" strong="no">
+        <type></type>
+        <name>RequestStatus</name>
+        <enumvalue id="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" prot="public">
+          <name>SUCCESS</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a637ac5246b77936c6a24a36575c594b4" prot="public">
+          <name>CORRUPTED_DATA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a0de339f9da0e0bdad477025a52c3e8eb" prot="public">
+          <name>TIMEOUT_ERROR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/utils.h" line="8" column="23" bodyfile="include/utils.h" bodystart="8" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ModbusFramer</name>
+        <enumvalue id="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327a3a61457295e70c88c908f47102c52868" prot="public">
+          <name>RTU</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327ab5e2cddd6610458938989aba81b2d6f2" prot="public">
+          <name>ASCII</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327a1133c80c863cfe1a87a5ffea9b609f85" prot="public">
+          <name>TCP</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/utils.h" line="14" column="22" bodyfile="include/utils.h" bodystart="14" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" prot="public" static="no" strong="no">
+        <type></type>
+        <name>RegisterType</name>
+        <enumvalue id="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198ab25ec4c3931c76539ee2fa6b9b2eb44d" prot="public">
+          <name>DISCRETE_INPUTS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a849ccc074302fb7c99c0d0a8bc9af0fd" prot="public">
+          <name>COILS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a99e7f2dca044825e5b497cbce598b823" prot="public">
+          <name>HOLDING_REGISTERS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a7c1099187f875ee3f3117bab13a21c4f" prot="public">
+          <name>INPUT_REGISTERS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/utils.h" line="20" column="22" bodyfile="include/utils.h" bodystart="20" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ModbusFunction</name>
+        <enumvalue id="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a3f1a524a4f7598527afabae041678f08" prot="public">
+          <name>READ_DISCRETE_INPUTS_GROUP</name>
+          <initializer>= 0x02</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a3aacadc8c8e38610f14b414e9ea3441b" prot="public">
+          <name>READ_COILS_GROUP</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70af4b275cd2b3522426d50a0f0b8ff5932" prot="public">
+          <name>READ_INPUTS_GROUP</name>
+          <initializer>= 0x04</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a21a6ee046ce208469c2a6ef3fabf96c9" prot="public">
+          <name>READ_HOLDING_REGISTERS_GROUP</name>
+          <initializer>= 0x03</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70aa74971cc0de33a458ac72859a3755036" prot="public">
+          <name>WRITE_COILS_ONE</name>
+          <initializer>= 0x05</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70aae95d0aa23e9dbd312ce810835ff3c2c" prot="public">
+          <name>WRITE_COILS_GROUP</name>
+          <initializer>= 0x0F</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a91ac7b36a82aa54bf210a895b2e71e7c" prot="public">
+          <name>WRITE_HOLDING_REGISTERS_ONE</name>
+          <initializer>= 0x06</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a683e45425a3322458d14a5bd0d62a2d0" prot="public">
+          <name>WRITE_HOLDING_REGISTERS_GROUP</name>
+          <initializer>= 0x10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/utils.h" line="27" column="24" bodyfile="include/utils.h" bodystart="27" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/utils.h" line="7" column="17"/>
+  </compounddef>
+</doxygen>

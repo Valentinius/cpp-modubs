@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacemodbus" kind="namespace" language="C++">
+    <compoundname>modbus</compoundname>
+    <innernamespace refid="namespacemodbus_1_1enums">modbus::enums</innernamespace>
+    <innernamespace refid="namespacemodbus_1_1utils">modbus::utils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/utils.h" line="6" column="16"/>
+  </compounddef>
+</doxygen>

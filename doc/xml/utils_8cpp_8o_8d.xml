@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="utils_8cpp_8o_8d" kind="file" language="D">
+    <compoundname>utils.cpp.o.d</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">CMakeFiles/<ref refid="namespacemodbus" kindref="compound">modbus</ref>-library-cpp.dir/src/utils.cpp.o:<sp/>\</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/>/home/valentin/CLionProjects/cpp-modubs/src/utils.cpp<sp/>\</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/>/usr/include/stdc-predef.h<sp/>\</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/>/home/valentin/CLionProjects/cpp-modubs/include/utils.h</highlight></codeline>
+    </programlisting>
+    <location file="cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/src/utils.cpp.o.d"/>
+  </compounddef>
+</doxygen>

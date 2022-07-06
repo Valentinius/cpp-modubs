@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="modbustcpclient_8cpp" kind="file" language="C++">
+    <compoundname>modbustcpclient.cpp</compoundname>
+    <includes refid="modbustcpclient_8h" local="yes">modbustcpclient.h</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>cstdint</label>
+      </node>
+      <node id="9">
+        <label>boost/asio/ts/buffer.hpp</label>
+      </node>
+      <node id="10">
+        <label>boost/asio/ts/internet.hpp</label>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="3">
+        <label>modbusclient.h</label>
+        <link refid="modbusclient_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>boost/asio.hpp</label>
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
+      <node id="2">
+        <label>modbustcpclient.h</label>
+        <link refid="modbustcpclient_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/modbustcpclient.cpp</label>
+        <link refid="modbustcpclient_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="modbustcpclient_8h" kindref="compound">modbustcpclient.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><ref refid="class_modbus_t_c_p_client_1ae6cb19302ccca1261233c3bdc3814529" kindref="member">ModbusTCPClient::ModbusTCPClient</ref>(std::string<sp/>ip,<sp/>uint16_t<sp/>port,<sp/><ref refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327" kindref="member">ModbusFramer</ref><sp/>framer):<sp/><ref refid="class_modbus_client" kindref="compound">ModbusClient</ref>(ip,<sp/>port,<sp/>framer),<sp/>asio_socket(asio_context)<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/>this-&gt;asio_endpoint<sp/>=<sp/>asio::ip::tcp::endpoint(asio::ip::make_address(ip,<sp/>this-&gt;asio_ec),<sp/>this-&gt;port);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_modbus_t_c_p_client_1a37e32758140ad3848d46e8e103554396" kindref="member">ModbusTCPClient::connect</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/>this-&gt;asio_ec.clear();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/>this-&gt;asio_socket.connect(this-&gt;asio_endpoint,<sp/>this-&gt;asio_ec);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!this-&gt;asio_ec;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_modbus_t_c_p_client_1a37e32758140ad3848d46e8e103554396" kindref="member">ModbusTCPClient::connect</ref>(std::string<sp/>ip,<sp/>uint16_t<sp/>port)<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/>this-&gt;asio_ec.clear();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>this-&gt;asio_endpoint<sp/>=<sp/>asio::ip::tcp::endpoint(asio::ip::make_address(ip,<sp/>this-&gt;asio_ec),<sp/>port);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!this-&gt;asio_ec;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_modbus_t_c_p_client_1a9d8f0b1e04ee82f43947a1bf431e00e0" kindref="member">ModbusTCPClient::disconnect</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/>this-&gt;asio_ec.clear();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/>this-&gt;asio_socket.close(this-&gt;asio_ec);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!this-&gt;asio_ec;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/modbustcpclient.cpp"/>
+  </compounddef>
+</doxygen>

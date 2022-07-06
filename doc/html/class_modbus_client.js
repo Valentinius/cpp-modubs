@@ -1,0 +1,28 @@
+var class_modbus_client =
+[
+    [ "ModbusClient", "class_modbus_client.html#af79b94d73020ef0d64fcc1ab6be974fc", null ],
+    [ "connect", "class_modbus_client.html#a8fd569eaaf54ae2fa5e80e55fef41b0e", null ],
+    [ "connect", "class_modbus_client.html#a21db4626ea64a253f38215151374b7f5", null ],
+    [ "disconnect", "class_modbus_client.html#ab9106716464e778d08e14af4c065231b", null ],
+    [ "formRequest", "class_modbus_client.html#a1a4800cb5b8af39031505eaa8e20096e", null ],
+    [ "readCoil", "class_modbus_client.html#a608213c6942ba429470b88a506d71233", null ],
+    [ "readCoils", "class_modbus_client.html#a1c2be0fe268c25f773c4eed2b7c9fd08", null ],
+    [ "readDiscreteInput", "class_modbus_client.html#ab9bba2e136b24a34bfcb844666db2c34", null ],
+    [ "readDiscreteInputs", "class_modbus_client.html#a7a40efdd2ac64fb99366a8c864893084", null ],
+    [ "readHoldingRegister", "class_modbus_client.html#a7ae78f974f74145221c1b24c71f9e699", null ],
+    [ "readHoldingRegisters", "class_modbus_client.html#ab71f8af50fce8351c8b2db267c8d0e35", null ],
+    [ "readInputRegister", "class_modbus_client.html#adbea669f0f4675e2113e7e7872a9be9a", null ],
+    [ "readInputRegisters", "class_modbus_client.html#ab59c19ad48ff322f3bcf9f0b61fb7824", null ],
+    [ "sendRawRequest", "class_modbus_client.html#a02c4a271b6fd808a766f6fcf8b59b86f", null ],
+    [ "sendRequest", "class_modbus_client.html#a423d5eefdc0a2e20aba5969474d529f8", null ],
+    [ "writeCoil", "class_modbus_client.html#a4f825f131b2712c62ea7a453f6a8b084", null ],
+    [ "writeCoils", "class_modbus_client.html#a5a2c225b2293937b8d026565d6f69701", null ],
+    [ "writeCoils", "class_modbus_client.html#aeffb0621eaec6ff49c8686cd0cc358cc", null ],
+    [ "writeHoldingRegister", "class_modbus_client.html#abf7dcbe74105b353cd49201161bc893c", null ],
+    [ "writeHoldingRegisters", "class_modbus_client.html#a9ceed9712e9e0c94db11a204792579b4", null ],
+    [ "writeHoldingRegisters", "class_modbus_client.html#acbf064fdd2cf7fbd1fadd22cf2e072ba", null ],
+    [ "connection_status", "class_modbus_client.html#ab1b58128e98d3ccb83f51621fc81c150", null ],
+    [ "framer", "class_modbus_client.html#a66f1f6e1c5ad4db8e40066415952b463", null ],
+    [ "ip", "class_modbus_client.html#a00c972952900c10d538865444000f47e", null ],
+    [ "port", "class_modbus_client.html#a5700d77d4bc5e4f9e457db668d321f0d", null ]
+];
