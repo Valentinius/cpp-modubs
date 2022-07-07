@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacemodbus_1_1utils" kind="namespace" language="C++">
+    <compoundname>modbus::utils</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacemodbus_1_1utils_1a00eb6fbd9aa4c79311df088d010bb086" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void modbus::utils::crc</definition>
+        <argsstring>(const uint8_t *data, uint8_t size, uint8_t &amp;msb, uint8_t &amp;lsb)</argsstring>
+        <name>crc</name>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>uint8_t &amp;</type>
+          <declname>msb</declname>
+        </param>
+        <param>
+          <type>uint8_t &amp;</type>
+          <declname>lsb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Kukukaudsl kasudlkjqwo djoqwjdojj jj <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>dlkqwjdlqjdw;lxkcj a;s </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>fqwlkejlkqw </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>msb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lsb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" line="47" column="10" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/utils.cpp" bodystart="3" bodyend="22" declfile="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" declline="47" declcolumn="10"/>
+        <references refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" compoundref="main_8cpp" startline="83" endline="107">crc</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" line="39" column="17"/>
+  </compounddef>
+</doxygen>

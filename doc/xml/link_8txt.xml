@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="link_8txt" kind="file" language="C++">
+    <compoundname>link.txt</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">/usr/bin/c++<sp/>-g<sp/>CMakeFiles/<ref refid="namespacemodbus" kindref="compound">modbus</ref>-library-cpp.dir/<ref refid="_c_make_c_compiler_id_8c_1a0ddf1224851353fc92bfbff6f499fa97" kindref="member">main</ref>.cpp.o<sp/>CMakeFiles/<ref refid="namespacemodbus" kindref="compound">modbus</ref>-library-cpp.dir/src/modbusclient.cpp.o<sp/>CMakeFiles/<ref refid="namespacemodbus" kindref="compound">modbus</ref>-library-cpp.dir/src/utils.cpp.o<sp/>-o<sp/><ref refid="namespacemodbus" kindref="compound">modbus</ref>-library-cpp<sp/><sp/>-pthread<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/link.txt"/>
+  </compounddef>
+</doxygen>

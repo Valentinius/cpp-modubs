@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="class_modbus_client" kind="class"><name>ModbusClient</name>
+    <member refid="class_modbus_client_1a66f1f6e1c5ad4db8e40066415952b463" kind="variable"><name>framer</name></member>
+    <member refid="class_modbus_client_1ab1b58128e98d3ccb83f51621fc81c150" kind="variable"><name>connection_status</name></member>
+    <member refid="class_modbus_client_1a00c972952900c10d538865444000f47e" kind="variable"><name>ip</name></member>
+    <member refid="class_modbus_client_1a5700d77d4bc5e4f9e457db668d321f0d" kind="variable"><name>port</name></member>
+    <member refid="class_modbus_client_1af79b94d73020ef0d64fcc1ab6be974fc" kind="function"><name>ModbusClient</name></member>
+    <member refid="class_modbus_client_1a8fd569eaaf54ae2fa5e80e55fef41b0e" kind="function"><name>connect</name></member>
+    <member refid="class_modbus_client_1a21db4626ea64a253f38215151374b7f5" kind="function"><name>connect</name></member>
+    <member refid="class_modbus_client_1ab9106716464e778d08e14af4c065231b" kind="function"><name>disconnect</name></member>
+    <member refid="class_modbus_client_1ab9bba2e136b24a34bfcb844666db2c34" kind="function"><name>readDiscreteInput</name></member>
+    <member refid="class_modbus_client_1a7a40efdd2ac64fb99366a8c864893084" kind="function"><name>readDiscreteInputs</name></member>
+    <member refid="class_modbus_client_1a608213c6942ba429470b88a506d71233" kind="function"><name>readCoil</name></member>
+    <member refid="class_modbus_client_1a1c2be0fe268c25f773c4eed2b7c9fd08" kind="function"><name>readCoils</name></member>
+    <member refid="class_modbus_client_1a4f825f131b2712c62ea7a453f6a8b084" kind="function"><name>writeCoil</name></member>
+    <member refid="class_modbus_client_1aeffb0621eaec6ff49c8686cd0cc358cc" kind="function"><name>writeCoils</name></member>
+    <member refid="class_modbus_client_1a5a2c225b2293937b8d026565d6f69701" kind="function"><name>writeCoils</name></member>
+    <member refid="class_modbus_client_1adbea669f0f4675e2113e7e7872a9be9a" kind="function"><name>readInputRegister</name></member>
+    <member refid="class_modbus_client_1ab59c19ad48ff322f3bcf9f0b61fb7824" kind="function"><name>readInputRegisters</name></member>
+    <member refid="class_modbus_client_1a7ae78f974f74145221c1b24c71f9e699" kind="function"><name>readHoldingRegister</name></member>
+    <member refid="class_modbus_client_1ab71f8af50fce8351c8b2db267c8d0e35" kind="function"><name>readHoldingRegisters</name></member>
+    <member refid="class_modbus_client_1abf7dcbe74105b353cd49201161bc893c" kind="function"><name>writeHoldingRegister</name></member>
+    <member refid="class_modbus_client_1acbf064fdd2cf7fbd1fadd22cf2e072ba" kind="function"><name>writeHoldingRegisters</name></member>
+    <member refid="class_modbus_client_1a9ceed9712e9e0c94db11a204792579b4" kind="function"><name>writeHoldingRegisters</name></member>
+    <member refid="class_modbus_client_1a02c4a271b6fd808a766f6fcf8b59b86f" kind="function"><name>sendRawRequest</name></member>
+    <member refid="class_modbus_client_1a423d5eefdc0a2e20aba5969474d529f8" kind="function"><name>sendRequest</name></member>
+    <member refid="class_modbus_client_1aa905f8aab32244d968b0145ecf613d07" kind="function"><name>formPDU</name></member>
+    <member refid="class_modbus_client_1ad6abef0fbe2a8f4b9729fb528f30b036" kind="function"><name>formTCPRequest</name></member>
+    <member refid="class_modbus_client_1a3a21c8df117e91d49be308fdf6984b98" kind="function"><name>formRTURequest</name></member>
+    <member refid="class_modbus_client_1a1e062e0264baff9ad3d96379f226d4d0" kind="function"><name>formASCIIRequest</name></member>
+    <member refid="class_modbus_client_1a1a4800cb5b8af39031505eaa8e20096e" kind="function"><name>formRequest</name></member>
+  </compound>
+  <compound refid="class_modbus_t_c_p_client" kind="class"><name>ModbusTCPClient</name>
+    <member refid="class_modbus_t_c_p_client_1a6dd4ea0d7704d975be3d4e3d872301bd" kind="variable"><name>asio_ec</name></member>
+    <member refid="class_modbus_t_c_p_client_1afef0985cc68f4760d52d2c48ecdcc68b" kind="variable"><name>asio_context</name></member>
+    <member refid="class_modbus_t_c_p_client_1a6ea25f3e1f4a60473b4ccd352bcf2cbb" kind="variable"><name>asio_socket</name></member>
+    <member refid="class_modbus_t_c_p_client_1a5b39ec996b2efbc385a2c1408786e397" kind="variable"><name>asio_endpoint</name></member>
+    <member refid="class_modbus_t_c_p_client_1ae6cb19302ccca1261233c3bdc3814529" kind="function"><name>ModbusTCPClient</name></member>
+    <member refid="class_modbus_t_c_p_client_1a37e32758140ad3848d46e8e103554396" kind="function"><name>connect</name></member>
+    <member refid="class_modbus_t_c_p_client_1aaa192ba308d25e84aa480dde9d1fdce7" kind="function"><name>connect</name></member>
+    <member refid="class_modbus_t_c_p_client_1a9d8f0b1e04ee82f43947a1bf431e00e0" kind="function"><name>disconnect</name></member>
+  </compound>
+  <compound refid="namespaceboost" kind="namespace"><name>boost</name>
+  </compound>
+  <compound refid="namespacemodbus" kind="namespace"><name>modbus</name>
+  </compound>
+  <compound refid="namespacemodbus_1_1enums" kind="namespace"><name>modbus::enums</name>
+    <member refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6" kind="enum"><name>RequestStatus</name></member>
+    <member refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" kind="enumvalue"><name>SUCCESS</name></member>
+    <member refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a637ac5246b77936c6a24a36575c594b4" kind="enumvalue"><name>CORRUPTED_DATA</name></member>
+    <member refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a0de339f9da0e0bdad477025a52c3e8eb" kind="enumvalue"><name>TIMEOUT_ERROR</name></member>
+    <member refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327" kind="enum"><name>ModbusFramer</name></member>
+    <member refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327a3a61457295e70c88c908f47102c52868" kind="enumvalue"><name>RTU</name></member>
+    <member refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327ab5e2cddd6610458938989aba81b2d6f2" kind="enumvalue"><name>ASCII</name></member>
+    <member refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327a1133c80c863cfe1a87a5ffea9b609f85" kind="enumvalue"><name>TCP</name></member>
+    <member refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" kind="enum"><name>RegisterType</name></member>
+    <member refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198ab25ec4c3931c76539ee2fa6b9b2eb44d" kind="enumvalue"><name>DISCRETE_INPUTS</name></member>
+    <member refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a849ccc074302fb7c99c0d0a8bc9af0fd" kind="enumvalue"><name>COILS</name></member>
+    <member refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a99e7f2dca044825e5b497cbce598b823" kind="enumvalue"><name>HOLDING_REGISTERS</name></member>
+    <member refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a7c1099187f875ee3f3117bab13a21c4f" kind="enumvalue"><name>INPUT_REGISTERS</name></member>
+    <member refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70" kind="enum"><name>ModbusFunction</name></member>
+    <member refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a3f1a524a4f7598527afabae041678f08" kind="enumvalue"><name>READ_DISCRETE_INPUTS_GROUP</name></member>
+    <member refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a3aacadc8c8e38610f14b414e9ea3441b" kind="enumvalue"><name>READ_COILS_GROUP</name></member>
+    <member refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70af4b275cd2b3522426d50a0f0b8ff5932" kind="enumvalue"><name>READ_INPUTS_GROUP</name></member>
+    <member refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a21a6ee046ce208469c2a6ef3fabf96c9" kind="enumvalue"><name>READ_HOLDING_REGISTERS_GROUP</name></member>
+    <member refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70aa74971cc0de33a458ac72859a3755036" kind="enumvalue"><name>WRITE_COILS_ONE</name></member>
+    <member refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70aae95d0aa23e9dbd312ce810835ff3c2c" kind="enumvalue"><name>WRITE_COILS_GROUP</name></member>
+    <member refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a91ac7b36a82aa54bf210a895b2e71e7c" kind="enumvalue"><name>WRITE_HOLDING_REGISTERS_ONE</name></member>
+    <member refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a683e45425a3322458d14a5bd0d62a2d0" kind="enumvalue"><name>WRITE_HOLDING_REGISTERS_GROUP</name></member>
+  </compound>
+  <compound refid="namespacemodbus_1_1utils" kind="namespace"><name>modbus::utils</name>
+    <member refid="namespacemodbus_1_1utils_1a00eb6fbd9aa4c79311df088d010bb086" kind="function"><name>crc</name></member>
+  </compound>
+  <compound refid="_c_make_cache_8txt" kind="file"><name>CMakeCache.txt</name>
+  </compound>
+  <compound refid="_c_make_c_compiler_id_8c" kind="file"><name>CMakeCCompilerId.c</name>
+    <member refid="_c_make_c_compiler_id_8c_1ae5510d82e4946f1656f4969911c54736" kind="define"><name>__has_include</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a81dee0709ded976b2e0319239f72d174" kind="define"><name>COMPILER_ID</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" kind="define"><name>STRINGIFY_HELPER</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a43e1cad902b6477bec893cb6430bd6c8" kind="define"><name>STRINGIFY</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1adbc5372f40838899018fadbc89bd588b" kind="define"><name>PLATFORM_ID</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1aba35d0d200deaeb06aee95ca297acb28" kind="define"><name>ARCHITECTURE_ID</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1ad1280362da42492bbc11aa78cbf776ad" kind="define"><name>DEC</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a46d5d95daa1bef867bd0179594310ed5" kind="define"><name>HEX</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1adaee3ee7c5a7a22451ea25e762e1d7d5" kind="define"><name>C_VERSION</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a4b0efeb7a5d59313986b3a0390f050f6" kind="variable"><name>info_compiler</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a2321403dee54ee23f0c2fa849c60f7d4" kind="variable"><name>info_platform</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a59647e99d304ed33b15cb284c27ed391" kind="variable"><name>info_arch</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a4607cccf070750927b458473ca82c090" kind="variable"><name>info_language_standard_default</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a0f46a8a39e09d9b803c4766904fd7e99" kind="variable"><name>info_language_extensions_default</name></member>
+    <member refid="_c_make_c_compiler_id_8c_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_c_make_c_x_x_compiler_id_8cpp" kind="file"><name>CMakeCXXCompilerId.cpp</name>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1ae5510d82e4946f1656f4969911c54736" kind="define"><name>__has_include</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a81dee0709ded976b2e0319239f72d174" kind="define"><name>COMPILER_ID</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" kind="define"><name>STRINGIFY_HELPER</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a43e1cad902b6477bec893cb6430bd6c8" kind="define"><name>STRINGIFY</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1adbc5372f40838899018fadbc89bd588b" kind="define"><name>PLATFORM_ID</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1aba35d0d200deaeb06aee95ca297acb28" kind="define"><name>ARCHITECTURE_ID</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1ad1280362da42492bbc11aa78cbf776ad" kind="define"><name>DEC</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a46d5d95daa1bef867bd0179594310ed5" kind="define"><name>HEX</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a34cc889e576a1ae6c84ae9e0a851ba21" kind="define"><name>CXX_STD</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a4b0efeb7a5d59313986b3a0390f050f6" kind="variable"><name>info_compiler</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a2321403dee54ee23f0c2fa849c60f7d4" kind="variable"><name>info_platform</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a59647e99d304ed33b15cb284c27ed391" kind="variable"><name>info_arch</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a4607cccf070750927b458473ca82c090" kind="variable"><name>info_language_standard_default</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a0f46a8a39e09d9b803c4766904fd7e99" kind="variable"><name>info_language_extensions_default</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="clion-environment_8txt" kind="file"><name>clion-environment.txt</name>
+  </compound>
+  <compound refid="clion-log_8txt" kind="file"><name>clion-log.txt</name>
+  </compound>
+  <compound refid="link_8txt" kind="file"><name>link.txt</name>
+  </compound>
+  <compound refid="main_8cpp_8o_8d" kind="file"><name>main.cpp.o.d</name>
+  </compound>
+  <compound refid="modbusclient_8cpp_8o_8d" kind="file"><name>modbusclient.cpp.o.d</name>
+  </compound>
+  <compound refid="utils_8cpp_8o_8d" kind="file"><name>utils.cpp.o.d</name>
+  </compound>
+  <compound refid="_target_directories_8txt" kind="file"><name>TargetDirectories.txt</name>
+  </compound>
+  <compound refid="_c_make_lists_8txt" kind="file"><name>CMakeLists.txt</name>
+  </compound>
+  <compound refid="modbusclient_8h" kind="file"><name>modbusclient.h</name>
+  </compound>
+  <compound refid="modbustcpclient_8h" kind="file"><name>modbustcpclient.h</name>
+  </compound>
+  <compound refid="utils_8h" kind="file"><name>utils.h</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a95e51b33b8b07360278177aac0d99f64" kind="function"><name>make_stream_from_buffer</name></member>
+    <member refid="main_8cpp_1ad3e61260729326d72aada87614f680b7" kind="function"><name>make_buffer_from_stream</name></member>
+    <member refid="main_8cpp_1a8c9df54e1e7be1b752732fda908efe0a" kind="function"><name>handler</name></member>
+    <member refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kind="function"><name>crc</name></member>
+    <member refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="modbusclient_8cpp" kind="file"><name>modbusclient.cpp</name>
+  </compound>
+  <compound refid="modbustcpclient_8cpp" kind="file"><name>modbustcpclient.cpp</name>
+  </compound>
+  <compound refid="utils_8cpp" kind="file"><name>utils.cpp</name>
+  </compound>
+  <compound refid="dir_b68767efdd3d99ccfb48f00f85c5f695" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3</name>
+  </compound>
+  <compound refid="dir_95e29a8b8ee7c54052c171a88bb95675" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug</name>
+  </compound>
+  <compound refid="dir_f89abcb304c928c7d889aa5625570de5" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles</name>
+  </compound>
+  <compound refid="dir_9756b2e6bf3957c50dc5a46b179969f2" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC</name>
+  </compound>
+  <compound refid="dir_720d36405d39524b939e0100a25cf975" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/include</name>
+  </compound>
+  <compound refid="dir_e13d0bbab6b182b39d147fbe8f11c4ca" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/src</name>
+  </compound>
+  <compound refid="dir_8eb1ae61a5ce2f4b231b9cbdb8a50d83" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/src</name>
+  </compound>
+</doxygenindex>
