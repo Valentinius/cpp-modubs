@@ -27,6 +27,12 @@ target_link_libraries(${PROJECT_NAME} PRIVATE Threads::Threads)
 target_include_directories(
         ${PROJECT_NAME}
         PUBLIC include
+        PUBLIC include/clients
+        PUBLIC include/clients/async
+        PUBLIC include/clients/sync
+        PUBLIC include/framers
+        PUBLIC include/session
+        PUBLIC include/utils
 )
 
 
