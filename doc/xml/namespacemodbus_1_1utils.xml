@@ -3,11 +3,83 @@
   <compounddef id="namespacemodbus_1_1utils" kind="namespace" language="C++">
     <compoundname>modbus::utils</compoundname>
       <sectiondef kind="func">
-      <memberdef kind="function" id="namespacemodbus_1_1utils_1a00eb6fbd9aa4c79311df088d010bb086" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacemodbus_1_1utils_1a49afdaf45d84b935d39cd87de9f2c4eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void modbus::utils::crc</definition>
+        <definition>void modbus::utils::parseRequest</definition>
+        <argsstring>(const std::shared_ptr&lt; ModbusRequest &gt; &amp;modbus_request, uint8_t *raw_request, size_t raw_request_size)</argsstring>
+        <name>parseRequest</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>modbus_request</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>raw_request</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>raw_request_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/parsing.h" line="11" column="10" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/utils/parsing.cpp" bodystart="3" bodyend="7" declfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/parsing.h" declline="11" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemodbus_1_1utils_1a8861050f3912ffdab8a750fc02d0f48b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void modbus::utils::parseResponse</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusRequest &gt; &amp;modbus_request, uint8_t *raw_response, size_t raw_response_size)</argsstring>
+        <name>parseResponse</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>modbus_request</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>raw_response</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>raw_response_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/parsing.h" line="15" column="10" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/utils/parsing.cpp" bodystart="9" bodyend="13" declfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/parsing.h" declline="15" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemodbus_1_1utils_1a3a816eeb89c7040b9e19e0b09a87e46e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ModbusError</type>
+        <definition>ModbusError modbus::utils::parseError</definition>
+        <argsstring>(uint8_t *raw_response, size_t raw_response_req)</argsstring>
+        <name>parseError</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>raw_response</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>raw_response_req</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/parsing.h" line="19" column="18" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/utils/parsing.cpp" bodystart="15" bodyend="18" declfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/parsing.h" declline="19" declcolumn="18"/>
+        <references refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42eac5c91fdff37d925c4ad1a863b5a19404" compoundref="utils_8h" startline="205">modbus::enums::NO_ERROR</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacemodbus_1_1utils_1a7c28b664f6ded864952cc973edb35e6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void modbus::utils::crcRTU</definition>
         <argsstring>(const uint8_t *data, uint8_t size, uint8_t &amp;msb, uint8_t &amp;lsb)</argsstring>
-        <name>crc</name>
+        <name>crcRTU</name>
         <param>
           <type>const uint8_t *</type>
           <declname>data</declname>
@@ -27,12 +99,12 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Kukukaudsl kasudlkjqwo djoqwjdojj jj <parameterlist kind="param"><parameteritem>
+<para>Функция для расчета контрольной суммы для Modbus RTU пакета. <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>data</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>dlkqwjdlqjdw;lxkcj a;s </para>
+<para>- пакет (без контрольной суммы в конце </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -40,7 +112,7 @@
 <parametername>size</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>fqwlkejlkqw </para>
+<para>- размер пакета (без учета контрольной суммы в конце) </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -48,7 +120,7 @@
 <parametername>msb</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>- старший байт контрольной суммы </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -56,7 +128,7 @@
 <parametername>lsb</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
+<para>- младший байт контрольной суммы </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -64,14 +136,222 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" line="47" column="10" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/utils.cpp" bodystart="3" bodyend="22" declfile="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" declline="47" declcolumn="10"/>
-        <references refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" compoundref="main_8cpp" startline="83" endline="107">crc</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/utils.h" line="268" column="10" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/utils/utils.cpp" bodystart="3" bodyend="21" declfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/utils.h" declline="268" declcolumn="10"/>
+        <references refid="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" compoundref="utils_8cpp" startline="23" endline="26">toMsbLsb</references>
+      </memberdef>
+      <memberdef kind="function" id="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void modbus::utils::toMsbLsb</definition>
+        <argsstring>(uint16_t data, uint8_t &amp;lsb, uint8_t &amp;msb)</argsstring>
+        <name>toMsbLsb</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>uint8_t &amp;</type>
+          <declname>lsb</declname>
+        </param>
+        <param>
+          <type>uint8_t &amp;</type>
+          <declname>msb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Метод для разбиения 16-битного значения на старший и младший байты <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- исходное значения </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lsb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- младший байт исходного значения </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>msb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- старший байт исходного значения </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/utils.h" line="276" column="10" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/utils/utils.cpp" bodystart="23" bodyend="26" declfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/utils.h" declline="276" declcolumn="10"/>
+        <referencedby refid="namespacemodbus_1_1utils_1a7c28b664f6ded864952cc973edb35e6b" compoundref="utils_8cpp" startline="3" endline="21">crcRTU</referencedby>
+        <referencedby refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="main_8cpp" startline="20" endline="77">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacemodbus_1_1utils_1ab5044304a18057065cd2d7c33f78c2a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void modbus::utils::toMsbLsb</definition>
+        <argsstring>(uint32_t data, uint16_t &amp;lsb, uint16_t &amp;msb)</argsstring>
+        <name>toMsbLsb</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>uint16_t &amp;</type>
+          <declname>lsb</declname>
+        </param>
+        <param>
+          <type>uint16_t &amp;</type>
+          <declname>msb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Метод для разбиения 32-битного значения на старшие и младшие 16-бит <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- исходное значения </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lsb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- младшие 16-бит исходного значения </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>msb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- старшие 16-бит исходного значения </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/utils.h" line="283" column="10" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/utils/utils.cpp" bodystart="34" bodyend="37" declfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/utils.h" declline="283" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemodbus_1_1utils_1a419f147dcbc1cd876c43ff6a8b89ad23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void modbus::utils::fromMsbLsb</definition>
+        <argsstring>(uint8_t lsb, uint8_t msb, uint16_t &amp;data)</argsstring>
+        <name>fromMsbLsb</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>lsb</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>msb</declname>
+        </param>
+        <param>
+          <type>uint16_t &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Метод для сбора старшего и младшего байта в одно 16-битное число <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lsb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- младший байт исходного числа </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>msb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- старший байт исходного числа </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- итоговое число в одной переменной </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/utils.h" line="291" column="10" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/utils/utils.cpp" bodystart="28" bodyend="32" declfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/utils.h" declline="291" declcolumn="10"/>
+        <referencedby refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="main_8cpp" startline="20" endline="77">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacemodbus_1_1utils_1a61d088be613ff73551a3dc0cd1c0c192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void modbus::utils::fromMsbLsb</definition>
+        <argsstring>(uint16_t lsb, uint16_t msb, uint32_t &amp;data)</argsstring>
+        <name>fromMsbLsb</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>lsb</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>msb</declname>
+        </param>
+        <param>
+          <type>uint32_t &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Метод для сбора старших и младших 16 бит в одно 32-битное число <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lsb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- младшие 16-бит исходного числа </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>msb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- старшие 16-бит исходного числа </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- итоговое число в одной переменной </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/utils.h" line="298" column="10" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/utils/utils.cpp" bodystart="39" bodyend="43" declfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/utils.h" declline="298" declcolumn="10"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
+<para>Пространство имен, содержащее функции, реализация которых (с точки зрения архитектуры и оптимизации) выгода в отдельности от классов. </para>
     </detaileddescription>
-    <location file="/home/valentin/CLionProjects/cpp-modubs/include/utils.h" line="39" column="17"/>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/parsing.h" line="10" column="17"/>
   </compounddef>
 </doxygen>

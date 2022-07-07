@@ -7,25 +7,65 @@
     <includes local="no">boost/asio.hpp</includes>
     <includes local="no">boost/asio/ts/buffer.hpp</includes>
     <includes local="no">boost/asio/ts/internet.hpp</includes>
-    <includedby refid="modbustcpclient_8cpp" local="yes">/home/valentin/CLionProjects/cpp-modubs/src/modbustcpclient.cpp</includedby>
+    <includedby refid="modbustcpclient_8cpp" local="yes">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/sync/modbustcpclient.cpp</includedby>
+    <includedby refid="modbussession_8cpp" local="yes">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp</includedby>
     <incdepgraph>
-      <node id="5">
-        <label>utils.h</label>
-        <link refid="utils_8h"/>
+      <node id="8">
+        <label>modbusrequest.h</label>
+        <link refid="modbusrequest_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="10">
+        <label>functional</label>
+      </node>
+      <node id="1">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h</label>
+        <link refid="modbustcpclient_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
         <label>cstdint</label>
       </node>
-      <node id="8">
+      <node id="13">
         <label>boost/asio/ts/buffer.hpp</label>
       </node>
-      <node id="9">
+      <node id="14">
         <label>boost/asio/ts/internet.hpp</label>
       </node>
       <node id="3">
         <label>string</label>
+      </node>
+      <node id="12">
+        <label>boost/asio.hpp</label>
+      </node>
+      <node id="11">
+        <label>future</label>
+      </node>
+      <node id="4">
+        <label>vector</label>
+      </node>
+      <node id="9">
+        <label>utility</label>
       </node>
       <node id="2">
         <label>modbusclient.h</label>
@@ -36,38 +76,37 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="7">
-        <label>boost/asio.hpp</label>
+      <node id="6">
+        <label>utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
       </node>
-      <node id="4">
-        <label>vector</label>
+      <node id="5">
+        <label>memory</label>
       </node>
+    </incdepgraph>
+    <invincdepgraph>
       <node id="1">
-        <label>/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h</label>
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h</label>
         <link refid="modbustcpclient_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-    </incdepgraph>
-    <invincdepgraph>
-      <node id="1">
-        <label>/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h</label>
-        <link refid="modbustcpclient_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
       </node>
       <node id="2">
-        <label>/home/valentin/CLionProjects/cpp-modubs/src/modbustcpclient.cpp</label>
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/sync/modbustcpclient.cpp</label>
         <link refid="modbustcpclient_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp</label>
+        <link refid="modbussession_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="class_modbus_t_c_p_client" prot="public">ModbusTCPClient</innerclass>
@@ -93,7 +132,7 @@
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="class_modbus_t_c_p_client" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_modbus_t_c_p_client" kindref="compound">ModbusTCPClient</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_modbus_client" kindref="compound">ModbusClient</ref><sp/>{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><ref refid="class_modbus_t_c_p_client" kindref="compound">ModbusTCPClient</ref>(std::string<sp/>ip,<sp/>uint16_t<sp/>port,<sp/><ref refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327" kindref="member">ModbusFramer</ref><sp/>framer<sp/>=<sp/><ref refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327a3a61457295e70c88c908f47102c52868" kindref="member">ModbusFramer::RTU</ref>);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><ref refid="class_modbus_t_c_p_client" kindref="compound">ModbusTCPClient</ref>(std::string<sp/>ip,<sp/>uint16_t<sp/>port,<sp/>ModbusFramer<sp/>framer<sp/>=<sp/><ref refid="namespacemodbus_1_1enums_1a99ce302c742f886581924749193c4be5a3a61457295e70c88c908f47102c52868" kindref="member">ModbusFramer::RTU</ref>);</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>connect()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>connect(std::string<sp/>ip,<sp/>uint16_t<sp/>port)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
@@ -108,6 +147,6 @@
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//MODBUS_LIBRARY_CPP_INCLUDE_MODBUSTCPCLIENT_H_</highlight></codeline>
     </programlisting>
-    <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h"/>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h"/>
   </compounddef>
 </doxygen>

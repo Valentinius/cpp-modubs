@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
   <compounddef id="dir_720d36405d39524b939e0100a25cf975" kind="dir">
-    <compoundname>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX</compoundname>
+    <compoundname>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX</compoundname>
     <innerfile refid="_c_make_c_x_x_compiler_id_8cpp">CMakeCXXCompilerId.cpp</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/"/>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/"/>
   </compounddef>
 </doxygen>

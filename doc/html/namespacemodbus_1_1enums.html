@@ -93,18 +93,45 @@ $(document).ready(function(){initNavTree('namespacemodbus_1_1enums.html',''); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Перечисления</h2></td></tr>
-<tr class="memitem:a5479c4e007352f8ecb2059eb227dbeb6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1enums.html#a5479c4e007352f8ecb2059eb227dbeb6">RequestStatus</a> { <a class="el" href="namespacemodbus_1_1enums.html#a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c">SUCCESS</a> = 0, 
-<a class="el" href="namespacemodbus_1_1enums.html#a5479c4e007352f8ecb2059eb227dbeb6a637ac5246b77936c6a24a36575c594b4">CORRUPTED_DATA</a>, 
-<a class="el" href="namespacemodbus_1_1enums.html#a5479c4e007352f8ecb2059eb227dbeb6a0de339f9da0e0bdad477025a52c3e8eb">TIMEOUT_ERROR</a>
+<tr class="memitem:a5479c4e007352f8ecb2059eb227dbeb6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1enums.html#a5479c4e007352f8ecb2059eb227dbeb6">RequestStatus</a> { <br />
+&#160;&#160;<a class="el" href="namespacemodbus_1_1enums.html#a5479c4e007352f8ecb2059eb227dbeb6a0cb73a7c1b491af0a43f3e338562d5a7">NOT_SENT</a>, 
+<a class="el" href="namespacemodbus_1_1enums.html#a5479c4e007352f8ecb2059eb227dbeb6a00b73915fada3431153d4f16a5d57cc1">SENT</a>, 
+<a class="el" href="namespacemodbus_1_1enums.html#a5479c4e007352f8ecb2059eb227dbeb6a7b14b45a8ae8cb365a8a6a68c7ee339d">SUCCESSFULLY_RESPONSED</a>, 
+<a class="el" href="namespacemodbus_1_1enums.html#a5479c4e007352f8ecb2059eb227dbeb6a95e80bc374178bc5f8101f5060f6170f">INCORRECTLY_RESPONSED</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemodbus_1_1enums.html#a5479c4e007352f8ecb2059eb227dbeb6a0de339f9da0e0bdad477025a52c3e8eb">TIMEOUT_ERROR</a>, 
+<a class="el" href="namespacemodbus_1_1enums.html#a5479c4e007352f8ecb2059eb227dbeb6a17ed797c609c85e1e4f438c4c3934414">INCORRECT_REQUEST</a>
+<br />
  }</td></tr>
 <tr class="separator:a5479c4e007352f8ecb2059eb227dbeb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a766caadc819f2f3413ef023c16f75327"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1enums.html#a766caadc819f2f3413ef023c16f75327">ModbusFramer</a> { <a class="el" href="namespacemodbus_1_1enums.html#a766caadc819f2f3413ef023c16f75327a3a61457295e70c88c908f47102c52868">RTU</a> = 0, 
-<a class="el" href="namespacemodbus_1_1enums.html#a766caadc819f2f3413ef023c16f75327ab5e2cddd6610458938989aba81b2d6f2">ASCII</a> = 1, 
-<a class="el" href="namespacemodbus_1_1enums.html#a766caadc819f2f3413ef023c16f75327a1133c80c863cfe1a87a5ffea9b609f85">TCP</a> = 2
+<tr class="memitem:a0bcc5fdc106dc6bc98216faa21c58b66"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1enums.html#a0bcc5fdc106dc6bc98216faa21c58b66">RequestPriority</a> { <br />
+&#160;&#160;<a class="el" href="namespacemodbus_1_1enums.html#a0bcc5fdc106dc6bc98216faa21c58b66a51e829d7545c5e60a96144712c6f06c2">IMMEDIATE_WRITE</a>, 
+<a class="el" href="namespacemodbus_1_1enums.html#a0bcc5fdc106dc6bc98216faa21c58b66a8d7bab3817ce0fa4f1dc8ca464546698">IMMEDIATE_READ</a>, 
+<a class="el" href="namespacemodbus_1_1enums.html#a0bcc5fdc106dc6bc98216faa21c58b66a38aae4ca5c84132216161212d8a41caa">WRITE</a>, 
+<a class="el" href="namespacemodbus_1_1enums.html#a0bcc5fdc106dc6bc98216faa21c58b66a1702601575d60d56cde76d27d5c7bac2">READ</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemodbus_1_1enums.html#a0bcc5fdc106dc6bc98216faa21c58b66a7bff94d72d592f2f07b188a9fcd111ce">LAZY_READ</a>
+<br />
  }</td></tr>
-<tr class="separator:a766caadc819f2f3413ef023c16f75327"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b65b756b33b52a74954fa0669b86198"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1enums.html#a4b65b756b33b52a74954fa0669b86198">RegisterType</a> { <a class="el" href="namespacemodbus_1_1enums.html#a4b65b756b33b52a74954fa0669b86198ab25ec4c3931c76539ee2fa6b9b2eb44d">DISCRETE_INPUTS</a>, 
-<a class="el" href="namespacemodbus_1_1enums.html#a4b65b756b33b52a74954fa0669b86198a849ccc074302fb7c99c0d0a8bc9af0fd">COILS</a>, 
+<tr class="separator:a0bcc5fdc106dc6bc98216faa21c58b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac03701c08a260f3df4eaed6edca0dfa6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1enums.html#ac03701c08a260f3df4eaed6edca0dfa6">RequestType</a> { <br />
+&#160;&#160;<a class="el" href="namespacemodbus_1_1enums.html#ac03701c08a260f3df4eaed6edca0dfa6ae926e586c39d162b47ec0cb42bd1be3a">SINGLE_REGISTER_WRITE</a>, 
+<a class="el" href="namespacemodbus_1_1enums.html#ac03701c08a260f3df4eaed6edca0dfa6a7bcecb7105266459a84e1004408ceb7a">MULTIPLE_REGISTERS_WRITE</a>, 
+<a class="el" href="namespacemodbus_1_1enums.html#ac03701c08a260f3df4eaed6edca0dfa6a226c06c6031e40d5372e9988040bcf57">PARTIAL_REGISTER_WRITE</a>, 
+<a class="el" href="namespacemodbus_1_1enums.html#ac03701c08a260f3df4eaed6edca0dfa6a08eea056a1c7a37f77b247fb95c48e0e">SINGLE_REGISTER_READ</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemodbus_1_1enums.html#ac03701c08a260f3df4eaed6edca0dfa6ad05a37be7392de8e170d0a9d09c8d058">MULTIPLE_REGISTERS_READ</a>, 
+<a class="el" href="namespacemodbus_1_1enums.html#ac03701c08a260f3df4eaed6edca0dfa6ad09b915a1ae82e81d0ac2291c474f2ef">PARTIAL_REGISTER_READ</a>
+<br />
+ }</td></tr>
+<tr class="separator:ac03701c08a260f3df4eaed6edca0dfa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99ce302c742f886581924749193c4be5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1enums.html#a99ce302c742f886581924749193c4be5">ModbusFramerType</a> { <a class="el" href="namespacemodbus_1_1enums.html#a99ce302c742f886581924749193c4be5a3a61457295e70c88c908f47102c52868">RTU</a> = 0, 
+<a class="el" href="namespacemodbus_1_1enums.html#a99ce302c742f886581924749193c4be5ab5e2cddd6610458938989aba81b2d6f2">ASCII</a> = 1, 
+<a class="el" href="namespacemodbus_1_1enums.html#a99ce302c742f886581924749193c4be5a1133c80c863cfe1a87a5ffea9b609f85">TCP</a> = 2
+ }</td></tr>
+<tr class="separator:a99ce302c742f886581924749193c4be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b65b756b33b52a74954fa0669b86198"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1enums.html#a4b65b756b33b52a74954fa0669b86198">RegisterType</a> { <a class="el" href="namespacemodbus_1_1enums.html#a4b65b756b33b52a74954fa0669b86198a849ccc074302fb7c99c0d0a8bc9af0fd">COILS</a>, 
+<a class="el" href="namespacemodbus_1_1enums.html#a4b65b756b33b52a74954fa0669b86198ab25ec4c3931c76539ee2fa6b9b2eb44d">DISCRETE_INPUTS</a>, 
 <a class="el" href="namespacemodbus_1_1enums.html#a4b65b756b33b52a74954fa0669b86198a99e7f2dca044825e5b497cbce598b823">HOLDING_REGISTERS</a>, 
 <a class="el" href="namespacemodbus_1_1enums.html#a4b65b756b33b52a74954fa0669b86198a7c1099187f875ee3f3117bab13a21c4f">INPUT_REGISTERS</a>
  }</td></tr>
@@ -122,23 +149,85 @@ $(document).ready(function(){initNavTree('namespacemodbus_1_1enums.html',''); in
 <br />
  }</td></tr>
 <tr class="separator:a840731c608991261a8d94682ab069d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c0b52c5221ff129f554251d4860d42e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42e">ModbusError</a> { <br />
+&#160;&#160;<a class="el" href="namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42eac5c91fdff37d925c4ad1a863b5a19404">NO_ERROR</a> = 0x0, 
+<a class="el" href="namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42ea349c0285766ae89d383dcc34af1d0cb4">ILLEGAL_FUNCTION</a> = 0x01, 
+<a class="el" href="namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42ea3a1430a3f4307763efadeccbf74eb17c">ILLEGAL_DATA_ADDRESS</a> = 0x02, 
+<a class="el" href="namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42eac085ce19fb66bb6df3b51fd8024e0d32">ILLEGAL_DATA_VALUE</a> = 0x03, 
+<br />
+&#160;&#160;<a class="el" href="namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42ea5e098e46507691e55c8db1b1ce2e5f0b">SLAVE_DEVICE_FAILURE</a> = 0x04, 
+<a class="el" href="namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42ea74ea67cc007ec92a872751e8c3ade516">ACKNOWLEDGE</a> = 0x05, 
+<a class="el" href="namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42ea09dd3fe5179aa462d52f8e22cac1c21d">SLAVE_DEVICE_BUSY</a> = 0x06, 
+<a class="el" href="namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42ea534a71542c7319ceb1dcebd88c0ac5c9">NEGATIVE_ACKNOWLEDGE</a> = 0x07, 
+<br />
+&#160;&#160;<a class="el" href="namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42ea0c9358d9b5b8da6c4c0efe9966d875ba">MEMORY_PARITY_ERROR</a> = 0x08, 
+<a class="el" href="namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42ea7fde5a6eb9232098b574d270f3946973">GATEWAY_PATH_UNAVAILABLE</a> = 0x0A, 
+<a class="el" href="namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42ea1485564a15abb5907b78da10719699f4">GATEWAY_TARGET_DEVICE_FAILED_TO_RESPONSE</a> = 0x0B
+<br />
+ }</td></tr>
+<tr class="separator:a8c0b52c5221ff129f554251d4860d42e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Перечисления</h2>
-<a id="a766caadc819f2f3413ef023c16f75327"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a766caadc819f2f3413ef023c16f75327">&#9670;&nbsp;</a></span>ModbusFramer</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>В пределах данного пространства имен объявлены основные перечисления для использования библиотеки </p>
+</div><h2 class="groupheader">Перечисления</h2>
+<a id="a8c0b52c5221ff129f554251d4860d42e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c0b52c5221ff129f554251d4860d42e">&#9670;&nbsp;</a></span>ModbusError</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="namespacemodbus_1_1enums.html#a766caadc819f2f3413ef023c16f75327">modbus::enums::ModbusFramer</a></td>
+          <td class="memname">enum <a class="el" href="namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42e">modbus::enums::ModbusError</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Перечисление, характеризующее возможные типы ошибок, которые могут возникнуть в ходе отправки или обработки modbus запроса. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="a766caadc819f2f3413ef023c16f75327a3a61457295e70c88c908f47102c52868"></a>RTU&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a766caadc819f2f3413ef023c16f75327ab5e2cddd6610458938989aba81b2d6f2"></a>ASCII&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a766caadc819f2f3413ef023c16f75327a1133c80c863cfe1a87a5ffea9b609f85"></a>TCP&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="a8c0b52c5221ff129f554251d4860d42eac5c91fdff37d925c4ad1a863b5a19404"></a>NO_ERROR&#160;</td><td class="fielddoc"><p>Ошибок не возникло </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8c0b52c5221ff129f554251d4860d42ea349c0285766ae89d383dcc34af1d0cb4"></a>ILLEGAL_FUNCTION&#160;</td><td class="fielddoc"><p>Принятый код функции не может быть обработан. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8c0b52c5221ff129f554251d4860d42ea3a1430a3f4307763efadeccbf74eb17c"></a>ILLEGAL_DATA_ADDRESS&#160;</td><td class="fielddoc"><p>Адрес данных, указанный в запросе, недоступен. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8c0b52c5221ff129f554251d4860d42eac085ce19fb66bb6df3b51fd8024e0d32"></a>ILLEGAL_DATA_VALUE&#160;</td><td class="fielddoc"><p>Значение, содержащееся в поле данных запроса, является недопустимой величиной </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8c0b52c5221ff129f554251d4860d42ea5e098e46507691e55c8db1b1ce2e5f0b"></a>SLAVE_DEVICE_FAILURE&#160;</td><td class="fielddoc"><p>Невосстанавливаемая ошибка имела место, пока ведомое устройство пыталось выполнить затребованное действие </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8c0b52c5221ff129f554251d4860d42ea74ea67cc007ec92a872751e8c3ade516"></a>ACKNOWLEDGE&#160;</td><td class="fielddoc"><p>Ведомое устройство приняло запрос и обрабатывает его, но это требует много времени. Этот ответ предохраняет ведущее устройство от генерации ошибки тайм-аута. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8c0b52c5221ff129f554251d4860d42ea09dd3fe5179aa462d52f8e22cac1c21d"></a>SLAVE_DEVICE_BUSY&#160;</td><td class="fielddoc"><p>Ведомое устройство занято обработкой команды. Ведущее устройство должно повторить сообщение позже, когда ведомое освободится </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8c0b52c5221ff129f554251d4860d42ea534a71542c7319ceb1dcebd88c0ac5c9"></a>NEGATIVE_ACKNOWLEDGE&#160;</td><td class="fielddoc"><p>Ведомое устройство не может выполнить программную функцию, заданную в запросе. Этот код возвращается для неуспешного программного запроса, использующего функции с номерами 13 или 14. Ведущее устройство должно запросить диагностическую информацию или информацию об ошибках от ведомого </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8c0b52c5221ff129f554251d4860d42ea0c9358d9b5b8da6c4c0efe9966d875ba"></a>MEMORY_PARITY_ERROR&#160;</td><td class="fielddoc"><p>Ведомое устройство при чтении расширенной памяти обнаружило ошибку паритета. Ведущее устройство может повторить запрос, но обычно в таких случаях требуется ремонт </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8c0b52c5221ff129f554251d4860d42ea7fde5a6eb9232098b574d270f3946973"></a>GATEWAY_PATH_UNAVAILABLE&#160;</td><td class="fielddoc"><p>Шлюз неправильно настроен или перегружен запросами </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8c0b52c5221ff129f554251d4860d42ea1485564a15abb5907b78da10719699f4"></a>GATEWAY_TARGET_DEVICE_FAILED_TO_RESPONSE&#160;</td><td class="fielddoc"><p>Slave устройства нет в сети или от него нет ответа </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a99ce302c742f886581924749193c4be5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99ce302c742f886581924749193c4be5">&#9670;&nbsp;</a></span>ModbusFramerType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacemodbus_1_1enums.html#a99ce302c742f886581924749193c4be5">modbus::enums::ModbusFramerType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Перечисление, характеризующая тип объекта, отвечающего за сборку пакета MODBUS </p>
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="a99ce302c742f886581924749193c4be5a3a61457295e70c88c908f47102c52868"></a>RTU&#160;</td><td class="fielddoc"><p>Тип для сборки пакета по протоколу Modbus RTU </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a99ce302c742f886581924749193c4be5ab5e2cddd6610458938989aba81b2d6f2"></a>ASCII&#160;</td><td class="fielddoc"><p>Тип для сборки пакета по протоколу Modbus ASCII </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a99ce302c742f886581924749193c4be5a1133c80c863cfe1a87a5ffea9b609f85"></a>TCP&#160;</td><td class="fielddoc"><p>Тип для сборки пакета по протоколу Modbus TCP </p>
+</td></tr>
 </table>
 
 </div>
@@ -154,15 +243,24 @@ $(document).ready(function(){initNavTree('namespacemodbus_1_1enums.html',''); in
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Перечисление, характеризующее функции MODBUS (по протоколу) </p>
 <table class="fieldtable">
-<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="a840731c608991261a8d94682ab069d70a3f1a524a4f7598527afabae041678f08"></a>READ_DISCRETE_INPUTS_GROUP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a840731c608991261a8d94682ab069d70a3aacadc8c8e38610f14b414e9ea3441b"></a>READ_COILS_GROUP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a840731c608991261a8d94682ab069d70af4b275cd2b3522426d50a0f0b8ff5932"></a>READ_INPUTS_GROUP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a840731c608991261a8d94682ab069d70a21a6ee046ce208469c2a6ef3fabf96c9"></a>READ_HOLDING_REGISTERS_GROUP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a840731c608991261a8d94682ab069d70aa74971cc0de33a458ac72859a3755036"></a>WRITE_COILS_ONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a840731c608991261a8d94682ab069d70aae95d0aa23e9dbd312ce810835ff3c2c"></a>WRITE_COILS_GROUP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a840731c608991261a8d94682ab069d70a91ac7b36a82aa54bf210a895b2e71e7c"></a>WRITE_HOLDING_REGISTERS_ONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a840731c608991261a8d94682ab069d70a683e45425a3322458d14a5bd0d62a2d0"></a>WRITE_HOLDING_REGISTERS_GROUP&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="a840731c608991261a8d94682ab069d70a3f1a524a4f7598527afabae041678f08"></a>READ_DISCRETE_INPUTS_GROUP&#160;</td><td class="fielddoc"><p>Чтение группы discrete input регистров (в частном случае - одного) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a840731c608991261a8d94682ab069d70a3aacadc8c8e38610f14b414e9ea3441b"></a>READ_COILS_GROUP&#160;</td><td class="fielddoc"><p>Чтение группы coil регистров (в частном случае - одного) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a840731c608991261a8d94682ab069d70af4b275cd2b3522426d50a0f0b8ff5932"></a>READ_INPUTS_GROUP&#160;</td><td class="fielddoc"><p>Чтение группы input регистров (в частном случае - одного) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a840731c608991261a8d94682ab069d70a21a6ee046ce208469c2a6ef3fabf96c9"></a>READ_HOLDING_REGISTERS_GROUP&#160;</td><td class="fielddoc"><p>Чтение группы holding регистров (в частном случае - одного) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a840731c608991261a8d94682ab069d70aa74971cc0de33a458ac72859a3755036"></a>WRITE_COILS_ONE&#160;</td><td class="fielddoc"><p>Запись значения в один coil регистр </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a840731c608991261a8d94682ab069d70aae95d0aa23e9dbd312ce810835ff3c2c"></a>WRITE_COILS_GROUP&#160;</td><td class="fielddoc"><p>Запись значений в группу coil регистров </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a840731c608991261a8d94682ab069d70a91ac7b36a82aa54bf210a895b2e71e7c"></a>WRITE_HOLDING_REGISTERS_ONE&#160;</td><td class="fielddoc"><p>Запись значения в один holding регистр </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a840731c608991261a8d94682ab069d70a683e45425a3322458d14a5bd0d62a2d0"></a>WRITE_HOLDING_REGISTERS_GROUP&#160;</td><td class="fielddoc"><p>Запись значений в группу holding регистров </p>
+</td></tr>
 </table>
 
 </div>
@@ -178,11 +276,43 @@ $(document).ready(function(){initNavTree('namespacemodbus_1_1enums.html',''); in
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Перечление, характеризующее тип регистров MODBUS </p>
 <table class="fieldtable">
-<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="a4b65b756b33b52a74954fa0669b86198ab25ec4c3931c76539ee2fa6b9b2eb44d"></a>DISCRETE_INPUTS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4b65b756b33b52a74954fa0669b86198a849ccc074302fb7c99c0d0a8bc9af0fd"></a>COILS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4b65b756b33b52a74954fa0669b86198a99e7f2dca044825e5b497cbce598b823"></a>HOLDING_REGISTERS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4b65b756b33b52a74954fa0669b86198a7c1099187f875ee3f3117bab13a21c4f"></a>INPUT_REGISTERS&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="a4b65b756b33b52a74954fa0669b86198a849ccc074302fb7c99c0d0a8bc9af0fd"></a>COILS&#160;</td><td class="fielddoc"><p>Coil регистры. 1-битовые регистры на чтение и запись. Номера регистров 1-9999 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a4b65b756b33b52a74954fa0669b86198ab25ec4c3931c76539ee2fa6b9b2eb44d"></a>DISCRETE_INPUTS&#160;</td><td class="fielddoc"><p>Discrete input регистры. 1-битовые регистры только на чтение. Номера регистров 10001-19999 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a4b65b756b33b52a74954fa0669b86198a99e7f2dca044825e5b497cbce598b823"></a>HOLDING_REGISTERS&#160;</td><td class="fielddoc"><p>Holding регистры. 16-битовые регистры на чтение и запись. Номера регистров 30001-39999 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a4b65b756b33b52a74954fa0669b86198a7c1099187f875ee3f3117bab13a21c4f"></a>INPUT_REGISTERS&#160;</td><td class="fielddoc"><p>Input регистры. 16-битовые регистры только на чтение. Номера регистров 40001-49999 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a0bcc5fdc106dc6bc98216faa21c58b66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bcc5fdc106dc6bc98216faa21c58b66">&#9670;&nbsp;</a></span>RequestPriority</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacemodbus_1_1enums.html#a0bcc5fdc106dc6bc98216faa21c58b66">modbus::enums::RequestPriority</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Перечисление, характеризующее приоритет запроса к MODBUS в пределах сессии </p>
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="a0bcc5fdc106dc6bc98216faa21c58b66a51e829d7545c5e60a96144712c6f06c2"></a>IMMEDIATE_WRITE&#160;</td><td class="fielddoc"><p>Самый высокий приоритет. Используется чаще всего, когда необходима наиболее быстрая запись (например, для выключения или включения блока питания или других случаев подобного рода) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0bcc5fdc106dc6bc98216faa21c58b66a8d7bab3817ce0fa4f1dc8ca464546698"></a>IMMEDIATE_READ&#160;</td><td class="fielddoc"><p>Самый высокий приоритет для чтения. Используется тогда, когда необходимо быстро обновить статусы, не дожидаясь обычной записи или чтения, которые были запланированы для устройства зараннее </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0bcc5fdc106dc6bc98216faa21c58b66a38aae4ca5c84132216161212d8a41caa"></a>WRITE&#160;</td><td class="fielddoc"><p>Стандартный приоритет для записи. Используется тогда, когда необходимо обновить какие-либо статусы устройства, но это не требует особой срочности </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0bcc5fdc106dc6bc98216faa21c58b66a1702601575d60d56cde76d27d5c7bac2"></a>READ&#160;</td><td class="fielddoc"><p>Стандартный приоритет для чтения. Используется тогда, когда необходимо получить какие-либо статусы устройства, но это не требует особой срочности </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0bcc5fdc106dc6bc98216faa21c58b66a7bff94d72d592f2f07b188a9fcd111ce"></a>LAZY_READ&#160;</td><td class="fielddoc"><p>Приоритет, использующийся для второстепенных запросов на чтение. Например, периодического чтения статусов какого-либо устройства. Создан для того, чтобы периодические чтения не забивали очередь и не блокировали другие более важные запросы к устройству </p>
+</td></tr>
 </table>
 
 </div>
@@ -198,10 +328,49 @@ $(document).ready(function(){initNavTree('namespacemodbus_1_1enums.html',''); in
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Перечисление, характеризующее статус объект <a class="el" href="class_modbus_request.html">ModbusRequest</a> (запроса MODBUS). С помошью него отслеживается текущее состояние запроса, а так же ошибки, возникающие на транспортном уровне. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c"></a>SUCCESS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5479c4e007352f8ecb2059eb227dbeb6a637ac5246b77936c6a24a36575c594b4"></a>CORRUPTED_DATA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5479c4e007352f8ecb2059eb227dbeb6a0de339f9da0e0bdad477025a52c3e8eb"></a>TIMEOUT_ERROR&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="a5479c4e007352f8ecb2059eb227dbeb6a0cb73a7c1b491af0a43f3e338562d5a7"></a>NOT_SENT&#160;</td><td class="fielddoc"><p>Статус, который присваивается запроу после его создания и действует до того, как запрос был отправлен в физическое устройство. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5479c4e007352f8ecb2059eb227dbeb6a00b73915fada3431153d4f16a5d57cc1"></a>SENT&#160;</td><td class="fielddoc"><p>Статус, который присваивается после отправки запроса в физическое устройство и действует до того как либо был получен ответ, либо ответа не было получено за указанный таймаут. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5479c4e007352f8ecb2059eb227dbeb6a7b14b45a8ae8cb365a8a6a68c7ee339d"></a>SUCCESSFULLY_RESPONSED&#160;</td><td class="fielddoc"><p>Статус, присваивающийся запросу после того, как был получен корректный ответ от физического устройства. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5479c4e007352f8ecb2059eb227dbeb6a95e80bc374178bc5f8101f5060f6170f"></a>INCORRECTLY_RESPONSED&#160;</td><td class="fielddoc"><p>Статус, присваивающийся запросу в случае, если ответ от физического устройства был получен, но не является корректным (например, не совпадает контрольная сумма) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5479c4e007352f8ecb2059eb227dbeb6a0de339f9da0e0bdad477025a52c3e8eb"></a>TIMEOUT_ERROR&#160;</td><td class="fielddoc"><p>Статус, присваивающийся запросу в случае, если после отправки запроса по истечению определенного таймаута не было получено никакого ответа от физического устройства </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5479c4e007352f8ecb2059eb227dbeb6a17ed797c609c85e1e4f438c4c3934414"></a>INCORRECT_REQUEST&#160;</td><td class="fielddoc"><p>Статус, присваивающийся запросу в случае, если по объекту запроса нельзя составить корректный буфер для отправки в физическое устройство </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="ac03701c08a260f3df4eaed6edca0dfa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac03701c08a260f3df4eaed6edca0dfa6">&#9670;&nbsp;</a></span>RequestType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacemodbus_1_1enums.html#ac03701c08a260f3df4eaed6edca0dfa6">modbus::enums::RequestType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Перечисление, характеризующее тип объекта запроса (уровень более высокий, чем функции MODBUS) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="ac03701c08a260f3df4eaed6edca0dfa6ae926e586c39d162b47ec0cb42bd1be3a"></a>SINGLE_REGISTER_WRITE&#160;</td><td class="fielddoc"><p>Значение, использующееся тогда, когда необходимо записать значение в какой-либо один регистр </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac03701c08a260f3df4eaed6edca0dfa6a7bcecb7105266459a84e1004408ceb7a"></a>MULTIPLE_REGISTERS_WRITE&#160;</td><td class="fielddoc"><p>Значение, использующееся тогда, когда необходимо записать значение в несколько регистров. Например, msb и lsb части в два разных регистра для хранения int32 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac03701c08a260f3df4eaed6edca0dfa6a226c06c6031e40d5372e9988040bcf57"></a>PARTIAL_REGISTER_WRITE&#160;</td><td class="fielddoc"><p>Значение, использующееся тогда, когда необходимо записать какой-либо бит одного регистра </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac03701c08a260f3df4eaed6edca0dfa6a08eea056a1c7a37f77b247fb95c48e0e"></a>SINGLE_REGISTER_READ&#160;</td><td class="fielddoc"><p>Значение, использующееся тогда, когда необходимо прочитать значение из какого-либо одного регистра </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac03701c08a260f3df4eaed6edca0dfa6ad05a37be7392de8e170d0a9d09c8d058"></a>MULTIPLE_REGISTERS_READ&#160;</td><td class="fielddoc"><p>Значение, использующееся тогда, когда необходимо прочитать значение из нескольких регистров. Например, msb и lsb части в два разных регистра для хранения int32 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac03701c08a260f3df4eaed6edca0dfa6ad09b915a1ae82e81d0ac2291c474f2ef"></a>PARTIAL_REGISTER_READ&#160;</td><td class="fielddoc"><p>Значение, использующееся тогда, когда необходимо прочитать какой-либо бит одного регистра </p>
+</td></tr>
 </table>
 
 </div>

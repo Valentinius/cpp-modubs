@@ -4,23 +4,68 @@
     <compoundname>modbustcpclient.cpp</compoundname>
     <includes refid="modbustcpclient_8h" local="yes">modbustcpclient.h</includes>
     <incdepgraph>
-      <node id="6">
-        <label>utils.h</label>
-        <link refid="utils_8h"/>
+      <node id="9">
+        <label>modbusrequest.h</label>
+        <link refid="modbusrequest_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="7">
+      <node id="11">
+        <label>functional</label>
+      </node>
+      <node id="2">
+        <label>modbustcpclient.h</label>
+        <link refid="modbustcpclient_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
         <label>cstdint</label>
       </node>
-      <node id="9">
+      <node id="14">
         <label>boost/asio/ts/buffer.hpp</label>
       </node>
-      <node id="10">
+      <node id="15">
         <label>boost/asio/ts/internet.hpp</label>
       </node>
       <node id="4">
         <label>string</label>
+      </node>
+      <node id="13">
+        <label>boost/asio.hpp</label>
+      </node>
+      <node id="12">
+        <label>future</label>
+      </node>
+      <node id="1">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/sync/modbustcpclient.cpp</label>
+        <link refid="modbustcpclient_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
+      <node id="10">
+        <label>utility</label>
       </node>
       <node id="3">
         <label>modbusclient.h</label>
@@ -31,32 +76,19 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-      </node>
-      <node id="8">
-        <label>boost/asio.hpp</label>
-      </node>
-      <node id="5">
-        <label>vector</label>
-      </node>
-      <node id="2">
-        <label>modbustcpclient.h</label>
-        <link refid="modbustcpclient_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+      </node>
+      <node id="7">
+        <label>utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="1">
-        <label>/home/valentin/CLionProjects/cpp-modubs/src/modbustcpclient.cpp</label>
-        <link refid="modbustcpclient_8cpp"/>
-        <childnode refid="2" relation="include">
-        </childnode>
+      <node id="6">
+        <label>memory</label>
       </node>
     </incdepgraph>
     <briefdescription>
@@ -67,7 +99,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="modbustcpclient_8h" kindref="compound">modbustcpclient.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4" refid="class_modbus_t_c_p_client_1ae6cb19302ccca1261233c3bdc3814529" refkind="member"><highlight class="normal"><ref refid="class_modbus_t_c_p_client_1ae6cb19302ccca1261233c3bdc3814529" kindref="member">ModbusTCPClient::ModbusTCPClient</ref>(std::string<sp/>ip,<sp/>uint16_t<sp/>port,<sp/><ref refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327" kindref="member">ModbusFramer</ref><sp/>framer):<sp/><ref refid="class_modbus_client" kindref="compound">ModbusClient</ref>(ip,<sp/>port,<sp/>framer),<sp/>asio_socket(asio_context)<sp/>{</highlight></codeline>
+<codeline lineno="4" refid="class_modbus_t_c_p_client_1ae6cb19302ccca1261233c3bdc3814529" refkind="member"><highlight class="normal"><ref refid="class_modbus_t_c_p_client_1ae6cb19302ccca1261233c3bdc3814529" kindref="member">ModbusTCPClient::ModbusTCPClient</ref>(std::string<sp/>ip,<sp/>uint16_t<sp/>port,<sp/>ModbusFramer<sp/>framer):<sp/><ref refid="class_modbus_client" kindref="compound">ModbusClient</ref>(ip,<sp/>port,<sp/>framer),<sp/>asio_socket(asio_context)<sp/>{</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"><sp/><sp/>this-&gt;asio_endpoint<sp/>=<sp/>asio::ip::tcp::endpoint(asio::ip::make_address(<ref refid="class_modbus_client_1a00c972952900c10d538865444000f47e" kindref="member">ip</ref>,<sp/>this-&gt;asio_ec),<sp/>this-&gt;port);</highlight></codeline>
 <codeline lineno="6"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -89,6 +121,6 @@
 <codeline lineno="23"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!this-&gt;asio_ec;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/valentin/CLionProjects/cpp-modubs/src/modbustcpclient.cpp"/>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/sync/modbustcpclient.cpp"/>
   </compounddef>
 </doxygen>

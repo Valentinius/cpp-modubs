@@ -3,53 +3,124 @@
   <compounddef id="utils_8h" kind="file" language="C++">
     <compoundname>utils.h</compoundname>
     <includes local="no">cstdint</includes>
-    <includedby refid="modbusclient_8h" local="yes">/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h</includedby>
-    <includedby refid="utils_8cpp" local="yes">/home/valentin/CLionProjects/cpp-modubs/src/utils.cpp</includedby>
+    <includedby refid="modbusclient_8h" local="yes">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h</includedby>
+    <includedby refid="modbusframer_8h" local="yes">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers/modbusframer.h</includedby>
+    <includedby refid="modbusrequest_8h" local="yes">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h</includedby>
+    <includedby refid="modbussession_8h" local="yes">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h</includedby>
+    <includedby refid="parsing_8h" local="yes">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/parsing.h</includedby>
+    <includedby refid="main_8cpp" local="yes">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/main.cpp</includedby>
+    <includedby refid="utils_8cpp" local="yes">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/utils/utils.cpp</includedby>
     <incdepgraph>
-      <node id="1">
-        <label>/home/valentin/CLionProjects/cpp-modubs/include/utils.h</label>
-        <link refid="utils_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
       <node id="2">
         <label>cstdint</label>
       </node>
-    </incdepgraph>
-    <invincdepgraph>
       <node id="1">
-        <label>/home/valentin/CLionProjects/cpp-modubs/include/utils.h</label>
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/utils.h</label>
         <link refid="utils_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="10">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h</label>
+        <link refid="modbusrequest_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
-      <node id="5">
-        <label>/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp</label>
-        <link refid="modbusclient_8cpp"/>
-      </node>
-      <node id="2">
-        <label>/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h</label>
-        <link refid="modbusclient_8h"/>
-        <childnode refid="3" relation="include">
+      <node id="3">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h</label>
+        <link refid="modbustcpclient_8h"/>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h</label>
-        <link refid="modbustcpclient_8h"/>
-        <childnode refid="4" relation="include">
+      <node id="9">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusframer.cpp</label>
+        <link refid="modbusframer_8cpp"/>
+      </node>
+      <node id="8">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers/modbusframer.h</label>
+        <link refid="modbusframer_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h</label>
+        <link refid="modbussession_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbusrequest.cpp</label>
+        <link refid="modbusrequest_8cpp"/>
+      </node>
+      <node id="15">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/utils/utils.cpp</label>
+        <link refid="utils_8cpp"/>
+      </node>
+      <node id="11">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/parsing.h</label>
+        <link refid="parsing_8h"/>
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
       <node id="4">
-        <label>/home/valentin/CLionProjects/cpp-modubs/src/modbustcpclient.cpp</label>
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/sync/modbustcpclient.cpp</label>
         <link refid="modbustcpclient_8cpp"/>
       </node>
-      <node id="6">
-        <label>/home/valentin/CLionProjects/cpp-modubs/src/utils.cpp</label>
-        <link refid="utils_8cpp"/>
+      <node id="14">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="12">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/utils/parsing.cpp</label>
+        <link refid="parsing_8cpp"/>
+      </node>
+      <node id="2">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h</label>
+        <link refid="modbusclient_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp</label>
+        <link refid="modbussession_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp</label>
+        <link refid="modbusclient_8cpp"/>
       </node>
     </invincdepgraph>
     <innernamespace refid="namespacemodbus">modbus</innernamespace>
@@ -65,45 +136,87 @@
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6" refid="namespacemodbus" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacemodbus" kindref="compound">modbus</ref><sp/>{</highlight></codeline>
-<codeline lineno="7" refid="namespacemodbus_1_1enums" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">enums<sp/>{</highlight></codeline>
-<codeline lineno="8" refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6" kindref="member">RequestStatus</ref><sp/>{</highlight></codeline>
-<codeline lineno="9" refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" kindref="member">SUCCESS</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="10" refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a637ac5246b77936c6a24a36575c594b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a637ac5246b77936c6a24a36575c594b4" kindref="member">CORRUPTED_DATA</ref>,</highlight></codeline>
-<codeline lineno="11" refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a0de339f9da0e0bdad477025a52c3e8eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a0de339f9da0e0bdad477025a52c3e8eb" kindref="member">TIMEOUT_ERROR</ref></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327" kindref="member">ModbusFramer</ref><sp/>{</highlight></codeline>
-<codeline lineno="15" refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327a3a61457295e70c88c908f47102c52868" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327a3a61457295e70c88c908f47102c52868" kindref="member">RTU</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="16" refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327ab5e2cddd6610458938989aba81b2d6f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327ab5e2cddd6610458938989aba81b2d6f2" kindref="member">ASCII</ref><sp/>=<sp/>1,</highlight></codeline>
-<codeline lineno="17" refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327a1133c80c863cfe1a87a5ffea9b609f85" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327a1133c80c863cfe1a87a5ffea9b609f85" kindref="member">TCP</ref><sp/>=<sp/>2</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" kindref="member">RegisterType</ref><sp/>{</highlight></codeline>
-<codeline lineno="21" refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198ab25ec4c3931c76539ee2fa6b9b2eb44d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198ab25ec4c3931c76539ee2fa6b9b2eb44d" kindref="member">DISCRETE_INPUTS</ref>,</highlight></codeline>
-<codeline lineno="22" refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a849ccc074302fb7c99c0d0a8bc9af0fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a849ccc074302fb7c99c0d0a8bc9af0fd" kindref="member">COILS</ref>,</highlight></codeline>
-<codeline lineno="23" refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a99e7f2dca044825e5b497cbce598b823" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a99e7f2dca044825e5b497cbce598b823" kindref="member">HOLDING_REGISTERS</ref>,</highlight></codeline>
-<codeline lineno="24" refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a7c1099187f875ee3f3117bab13a21c4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a7c1099187f875ee3f3117bab13a21c4f" kindref="member">INPUT_REGISTERS</ref></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70" kindref="member">ModbusFunction</ref><sp/>{</highlight></codeline>
-<codeline lineno="28" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a3f1a524a4f7598527afabae041678f08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a3f1a524a4f7598527afabae041678f08" kindref="member">READ_DISCRETE_INPUTS_GROUP</ref><sp/>=<sp/>0x02,</highlight></codeline>
-<codeline lineno="29" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a3aacadc8c8e38610f14b414e9ea3441b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a3aacadc8c8e38610f14b414e9ea3441b" kindref="member">READ_COILS_GROUP</ref><sp/>=<sp/>0x01,</highlight></codeline>
-<codeline lineno="30" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70af4b275cd2b3522426d50a0f0b8ff5932" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70af4b275cd2b3522426d50a0f0b8ff5932" kindref="member">READ_INPUTS_GROUP</ref><sp/>=<sp/>0x04,</highlight></codeline>
-<codeline lineno="31" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a21a6ee046ce208469c2a6ef3fabf96c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a21a6ee046ce208469c2a6ef3fabf96c9" kindref="member">READ_HOLDING_REGISTERS_GROUP</ref><sp/>=<sp/>0x03,</highlight></codeline>
-<codeline lineno="32" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70aa74971cc0de33a458ac72859a3755036" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70aa74971cc0de33a458ac72859a3755036" kindref="member">WRITE_COILS_ONE</ref><sp/>=<sp/>0x05,</highlight></codeline>
-<codeline lineno="33" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70aae95d0aa23e9dbd312ce810835ff3c2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70aae95d0aa23e9dbd312ce810835ff3c2c" kindref="member">WRITE_COILS_GROUP</ref><sp/>=<sp/>0x0F,</highlight></codeline>
-<codeline lineno="34" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a91ac7b36a82aa54bf210a895b2e71e7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a91ac7b36a82aa54bf210a895b2e71e7c" kindref="member">WRITE_HOLDING_REGISTERS_ONE</ref><sp/>=<sp/>0x06,</highlight></codeline>
-<codeline lineno="35" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a683e45425a3322458d14a5bd0d62a2d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a683e45425a3322458d14a5bd0d62a2d0" kindref="member">WRITE_HOLDING_REGISTERS_GROUP</ref><sp/>=<sp/>0x10</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="namespacemodbus_1_1utils" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">utils<sp/>{</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1utils_1a00eb6fbd9aa4c79311df088d010bb086" kindref="member">crc</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*data,<sp/>uint8_t<sp/>size,<sp/>uint8_t<sp/>&amp;msb,<sp/>uint8_t<sp/>&amp;lsb);</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//UNTITLED1_INCLUDE_UTILS_H_</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacemodbus" kindref="compound">modbus</ref><sp/>{</highlight></codeline>
+<codeline lineno="11" refid="namespacemodbus_1_1enums" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">enums<sp/>{</highlight></codeline>
+<codeline lineno="17" refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6" kindref="member">RequestStatus</ref><sp/>{</highlight></codeline>
+<codeline lineno="22" refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a0cb73a7c1b491af0a43f3e338562d5a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a0cb73a7c1b491af0a43f3e338562d5a7" kindref="member">NOT_SENT</ref>,</highlight></codeline>
+<codeline lineno="28" refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a00b73915fada3431153d4f16a5d57cc1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a00b73915fada3431153d4f16a5d57cc1" kindref="member">SENT</ref>,</highlight></codeline>
+<codeline lineno="33" refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a7b14b45a8ae8cb365a8a6a68c7ee339d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a7b14b45a8ae8cb365a8a6a68c7ee339d" kindref="member">SUCCESSFULLY_RESPONSED</ref>,</highlight></codeline>
+<codeline lineno="38" refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a95e80bc374178bc5f8101f5060f6170f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a95e80bc374178bc5f8101f5060f6170f" kindref="member">INCORRECTLY_RESPONSED</ref>,</highlight></codeline>
+<codeline lineno="43" refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a0de339f9da0e0bdad477025a52c3e8eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a0de339f9da0e0bdad477025a52c3e8eb" kindref="member">TIMEOUT_ERROR</ref>,</highlight></codeline>
+<codeline lineno="48" refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a17ed797c609c85e1e4f438c4c3934414" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a17ed797c609c85e1e4f438c4c3934414" kindref="member">INCORRECT_REQUEST</ref></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66" kindref="member">RequestPriority</ref><sp/>{</highlight></codeline>
+<codeline lineno="59" refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66a51e829d7545c5e60a96144712c6f06c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66a51e829d7545c5e60a96144712c6f06c2" kindref="member">IMMEDIATE_WRITE</ref>,</highlight></codeline>
+<codeline lineno="64" refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66a8d7bab3817ce0fa4f1dc8ca464546698" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66a8d7bab3817ce0fa4f1dc8ca464546698" kindref="member">IMMEDIATE_READ</ref>,</highlight></codeline>
+<codeline lineno="69" refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66a38aae4ca5c84132216161212d8a41caa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66a38aae4ca5c84132216161212d8a41caa" kindref="member">WRITE</ref>,</highlight></codeline>
+<codeline lineno="74" refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66a1702601575d60d56cde76d27d5c7bac2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66a1702601575d60d56cde76d27d5c7bac2" kindref="member">READ</ref>,</highlight></codeline>
+<codeline lineno="80" refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66a7bff94d72d592f2f07b188a9fcd111ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66a7bff94d72d592f2f07b188a9fcd111ce" kindref="member">LAZY_READ</ref></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6" kindref="member">RequestType</ref><sp/>{</highlight></codeline>
+<codeline lineno="90" refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6ae926e586c39d162b47ec0cb42bd1be3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6ae926e586c39d162b47ec0cb42bd1be3a" kindref="member">SINGLE_REGISTER_WRITE</ref>,</highlight></codeline>
+<codeline lineno="95" refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6a7bcecb7105266459a84e1004408ceb7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6a7bcecb7105266459a84e1004408ceb7a" kindref="member">MULTIPLE_REGISTERS_WRITE</ref>,</highlight></codeline>
+<codeline lineno="99" refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6a226c06c6031e40d5372e9988040bcf57" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6a226c06c6031e40d5372e9988040bcf57" kindref="member">PARTIAL_REGISTER_WRITE</ref>,</highlight></codeline>
+<codeline lineno="103" refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6a08eea056a1c7a37f77b247fb95c48e0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6a08eea056a1c7a37f77b247fb95c48e0e" kindref="member">SINGLE_REGISTER_READ</ref>,</highlight></codeline>
+<codeline lineno="108" refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6ad05a37be7392de8e170d0a9d09c8d058" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6ad05a37be7392de8e170d0a9d09c8d058" kindref="member">MULTIPLE_REGISTERS_READ</ref>,</highlight></codeline>
+<codeline lineno="112" refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6ad09b915a1ae82e81d0ac2291c474f2ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6ad09b915a1ae82e81d0ac2291c474f2ef" kindref="member">PARTIAL_REGISTER_READ</ref></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="namespacemodbus_1_1enums_1a99ce302c742f886581924749193c4be5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a99ce302c742f886581924749193c4be5" kindref="member">ModbusFramerType</ref><sp/>{</highlight></codeline>
+<codeline lineno="122" refid="namespacemodbus_1_1enums_1a99ce302c742f886581924749193c4be5a3a61457295e70c88c908f47102c52868" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a99ce302c742f886581924749193c4be5a3a61457295e70c88c908f47102c52868" kindref="member">RTU</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="126" refid="namespacemodbus_1_1enums_1a99ce302c742f886581924749193c4be5ab5e2cddd6610458938989aba81b2d6f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a99ce302c742f886581924749193c4be5ab5e2cddd6610458938989aba81b2d6f2" kindref="member">ASCII</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="130" refid="namespacemodbus_1_1enums_1a99ce302c742f886581924749193c4be5a1133c80c863cfe1a87a5ffea9b609f85" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a99ce302c742f886581924749193c4be5a1133c80c863cfe1a87a5ffea9b609f85" kindref="member">TCP</ref><sp/>=<sp/>2</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" kindref="member">RegisterType</ref><sp/>{</highlight></codeline>
+<codeline lineno="141" refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a849ccc074302fb7c99c0d0a8bc9af0fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a849ccc074302fb7c99c0d0a8bc9af0fd" kindref="member">COILS</ref>,</highlight></codeline>
+<codeline lineno="146" refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198ab25ec4c3931c76539ee2fa6b9b2eb44d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198ab25ec4c3931c76539ee2fa6b9b2eb44d" kindref="member">DISCRETE_INPUTS</ref>,</highlight></codeline>
+<codeline lineno="151" refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a99e7f2dca044825e5b497cbce598b823" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a99e7f2dca044825e5b497cbce598b823" kindref="member">HOLDING_REGISTERS</ref>,</highlight></codeline>
+<codeline lineno="156" refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a7c1099187f875ee3f3117bab13a21c4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a7c1099187f875ee3f3117bab13a21c4f" kindref="member">INPUT_REGISTERS</ref></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70" kindref="member">ModbusFunction</ref><sp/>{</highlight></codeline>
+<codeline lineno="166" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a3f1a524a4f7598527afabae041678f08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a3f1a524a4f7598527afabae041678f08" kindref="member">READ_DISCRETE_INPUTS_GROUP</ref><sp/>=<sp/>0x02,</highlight></codeline>
+<codeline lineno="170" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a3aacadc8c8e38610f14b414e9ea3441b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a3aacadc8c8e38610f14b414e9ea3441b" kindref="member">READ_COILS_GROUP</ref><sp/>=<sp/>0x01,</highlight></codeline>
+<codeline lineno="174" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70af4b275cd2b3522426d50a0f0b8ff5932" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70af4b275cd2b3522426d50a0f0b8ff5932" kindref="member">READ_INPUTS_GROUP</ref><sp/>=<sp/>0x04,</highlight></codeline>
+<codeline lineno="178" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a21a6ee046ce208469c2a6ef3fabf96c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a21a6ee046ce208469c2a6ef3fabf96c9" kindref="member">READ_HOLDING_REGISTERS_GROUP</ref><sp/>=<sp/>0x03,</highlight></codeline>
+<codeline lineno="182" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70aa74971cc0de33a458ac72859a3755036" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70aa74971cc0de33a458ac72859a3755036" kindref="member">WRITE_COILS_ONE</ref><sp/>=<sp/>0x05,</highlight></codeline>
+<codeline lineno="186" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70aae95d0aa23e9dbd312ce810835ff3c2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70aae95d0aa23e9dbd312ce810835ff3c2c" kindref="member">WRITE_COILS_GROUP</ref><sp/>=<sp/>0x0F,</highlight></codeline>
+<codeline lineno="190" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a91ac7b36a82aa54bf210a895b2e71e7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a91ac7b36a82aa54bf210a895b2e71e7c" kindref="member">WRITE_HOLDING_REGISTERS_ONE</ref><sp/>=<sp/>0x06,</highlight></codeline>
+<codeline lineno="194" refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a683e45425a3322458d14a5bd0d62a2d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a683e45425a3322458d14a5bd0d62a2d0" kindref="member">WRITE_HOLDING_REGISTERS_GROUP</ref><sp/>=<sp/>0x10</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42e" kindref="member">ModbusError</ref><sp/>{</highlight></codeline>
+<codeline lineno="205" refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42eac5c91fdff37d925c4ad1a863b5a19404" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42eac5c91fdff37d925c4ad1a863b5a19404" kindref="member">NO_ERROR</ref><sp/>=<sp/>0x0,</highlight></codeline>
+<codeline lineno="209" refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea349c0285766ae89d383dcc34af1d0cb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea349c0285766ae89d383dcc34af1d0cb4" kindref="member">ILLEGAL_FUNCTION</ref><sp/>=<sp/>0x01,</highlight></codeline>
+<codeline lineno="213" refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea3a1430a3f4307763efadeccbf74eb17c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea3a1430a3f4307763efadeccbf74eb17c" kindref="member">ILLEGAL_DATA_ADDRESS</ref><sp/>=<sp/>0x02,</highlight></codeline>
+<codeline lineno="217" refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42eac085ce19fb66bb6df3b51fd8024e0d32" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42eac085ce19fb66bb6df3b51fd8024e0d32" kindref="member">ILLEGAL_DATA_VALUE</ref><sp/>=<sp/>0x03,</highlight></codeline>
+<codeline lineno="222" refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea5e098e46507691e55c8db1b1ce2e5f0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea5e098e46507691e55c8db1b1ce2e5f0b" kindref="member">SLAVE_DEVICE_FAILURE</ref><sp/>=<sp/>0x04,</highlight></codeline>
+<codeline lineno="227" refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea74ea67cc007ec92a872751e8c3ade516" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea74ea67cc007ec92a872751e8c3ade516" kindref="member">ACKNOWLEDGE</ref><sp/>=<sp/>0x05,</highlight></codeline>
+<codeline lineno="232" refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea09dd3fe5179aa462d52f8e22cac1c21d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea09dd3fe5179aa462d52f8e22cac1c21d" kindref="member">SLAVE_DEVICE_BUSY</ref><sp/>=<sp/>0x06,</highlight></codeline>
+<codeline lineno="239" refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea534a71542c7319ceb1dcebd88c0ac5c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea534a71542c7319ceb1dcebd88c0ac5c9" kindref="member">NEGATIVE_ACKNOWLEDGE</ref><sp/>=<sp/>0x07,</highlight></codeline>
+<codeline lineno="244" refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea0c9358d9b5b8da6c4c0efe9966d875ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea0c9358d9b5b8da6c4c0efe9966d875ba" kindref="member">MEMORY_PARITY_ERROR</ref><sp/>=<sp/>0x08,</highlight></codeline>
+<codeline lineno="248" refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea7fde5a6eb9232098b574d270f3946973" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea7fde5a6eb9232098b574d270f3946973" kindref="member">GATEWAY_PATH_UNAVAILABLE</ref><sp/>=<sp/>0x0A,</highlight></codeline>
+<codeline lineno="252" refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea1485564a15abb5907b78da10719699f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea1485564a15abb5907b78da10719699f4" kindref="member">GATEWAY_TARGET_DEVICE_FAILED_TO_RESPONSE</ref><sp/>=<sp/>0x0B</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">utils<sp/>{</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1utils_1a7c28b664f6ded864952cc973edb35e6b" kindref="member">crcRTU</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*data,<sp/>uint8_t<sp/>size,<sp/>uint8_t<sp/>&amp;msb,<sp/>uint8_t<sp/>&amp;lsb);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" kindref="member">toMsbLsb</ref>(uint16_t<sp/>data,<sp/>uint8_t<sp/>&amp;lsb,<sp/>uint8_t<sp/>&amp;msb);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" kindref="member">toMsbLsb</ref>(uint32_t<sp/>data,<sp/>uint16_t<sp/>&amp;lsb,<sp/>uint16_t<sp/>&amp;msb);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1utils_1a419f147dcbc1cd876c43ff6a8b89ad23" kindref="member">fromMsbLsb</ref>(uint8_t<sp/>lsb,<sp/>uint8_t<sp/>msb,<sp/>uint16_t<sp/>&amp;data);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1utils_1a419f147dcbc1cd876c43ff6a8b89ad23" kindref="member">fromMsbLsb</ref>(uint16_t<sp/>lsb,<sp/>uint16_t<sp/>msb,<sp/>uint32_t<sp/>&amp;data);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="302"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//UNTITLED1_INCLUDE_UTILS_H_</highlight></codeline>
     </programlisting>
-    <location file="/home/valentin/CLionProjects/cpp-modubs/include/utils.h"/>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/utils.h"/>
   </compounddef>
 </doxygen>

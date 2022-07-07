@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Modbus cpp: Исходный файл /home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h</title>
+<title>Modbus cpp: Исходный файл /home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('modbustcpclient_8h_source.html',''); i
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_modbus_t_c_p_client.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_modbus_t_c_p_client.html">ModbusTCPClient</a>: <span class="keyword">public</span> <a class="code" href="class_modbus_client.html">ModbusClient</a> {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <a class="code" href="class_modbus_t_c_p_client.html">ModbusTCPClient</a>(std::string ip, uint16_t port, <a class="code" href="namespacemodbus_1_1enums.html#a766caadc819f2f3413ef023c16f75327">ModbusFramer</a> framer = <a class="code" href="namespacemodbus_1_1enums.html#a766caadc819f2f3413ef023c16f75327a3a61457295e70c88c908f47102c52868">ModbusFramer::RTU</a>);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <a class="code" href="class_modbus_t_c_p_client.html">ModbusTCPClient</a>(std::string ip, uint16_t port, ModbusFramer framer = <a class="code" href="namespacemodbus_1_1enums.html#a99ce302c742f886581924749193c4be5a3a61457295e70c88c908f47102c52868">ModbusFramer::RTU</a>);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <span class="keywordtype">bool</span> connect() <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keywordtype">bool</span> connect(std::string ip, uint16_t port) <span class="keyword">override</span>;</div>
@@ -120,15 +120,14 @@ $(document).ready(function(){initNavTree('modbustcpclient_8h_source.html',''); i
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif //MODBUS_LIBRARY_CPP_INCLUDE_MODBUSTCPCLIENT_H_</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclass_modbus_client_html"><div class="ttname"><a href="class_modbus_client.html">ModbusClient</a></div><div class="ttdef"><b>Definition:</b> modbusclient.h:15</div></div>
+<div class="ttc" id="aclass_modbus_client_html"><div class="ttname"><a href="class_modbus_client.html">ModbusClient</a></div><div class="ttdef"><b>Definition:</b> modbusclient.h:16</div></div>
 <div class="ttc" id="amodbusclient_8h_html"><div class="ttname"><a href="modbusclient_8h.html">modbusclient.h</a></div></div>
 <div class="ttc" id="aclass_modbus_t_c_p_client_html"><div class="ttname"><a href="class_modbus_t_c_p_client.html">ModbusTCPClient</a></div><div class="ttdef"><b>Definition:</b> modbustcpclient.h:15</div></div>
-<div class="ttc" id="anamespacemodbus_1_1enums_html_a766caadc819f2f3413ef023c16f75327"><div class="ttname"><a href="namespacemodbus_1_1enums.html#a766caadc819f2f3413ef023c16f75327">modbus::enums::ModbusFramer</a></div><div class="ttdeci">ModbusFramer</div><div class="ttdef"><b>Definition:</b> utils.h:14</div></div>
-<div class="ttc" id="anamespacemodbus_1_1enums_html_a766caadc819f2f3413ef023c16f75327a3a61457295e70c88c908f47102c52868"><div class="ttname"><a href="namespacemodbus_1_1enums.html#a766caadc819f2f3413ef023c16f75327a3a61457295e70c88c908f47102c52868">modbus::enums::RTU</a></div><div class="ttdeci">@ RTU</div><div class="ttdef"><b>Definition:</b> utils.h:15</div></div>
+<div class="ttc" id="anamespacemodbus_1_1enums_html_a99ce302c742f886581924749193c4be5a3a61457295e70c88c908f47102c52868"><div class="ttname"><a href="namespacemodbus_1_1enums.html#a99ce302c742f886581924749193c4be5a3a61457295e70c88c908f47102c52868">modbus::enums::RTU</a></div><div class="ttdeci">@ RTU</div><div class="ttdef"><b>Definition:</b> utils.h:122</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="modbustcpclient_8h.html">modbustcpclient.h</a></li>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_a8d4fc7c03ff59e4c0aef75ceaccd9ea.html">clients</a></li><li class="navelem"><a class="el" href="dir_c23d3b1c58ba79e139f1ee1c81e4d663.html">sync</a></li><li class="navelem"><a class="el" href="modbustcpclient_8h.html">modbustcpclient.h</a></li>
     <li class="footer">Создано системой
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

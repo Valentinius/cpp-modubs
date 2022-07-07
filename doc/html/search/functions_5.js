@@ -1,11 +1,10 @@
 var searchData=
 [
-  ['readcoil_127',['readCoil',['../class_modbus_client.html#a608213c6942ba429470b88a506d71233',1,'ModbusClient']]],
-  ['readcoils_128',['readCoils',['../class_modbus_client.html#a1c2be0fe268c25f773c4eed2b7c9fd08',1,'ModbusClient']]],
-  ['readdiscreteinput_129',['readDiscreteInput',['../class_modbus_client.html#ab9bba2e136b24a34bfcb844666db2c34',1,'ModbusClient']]],
-  ['readdiscreteinputs_130',['readDiscreteInputs',['../class_modbus_client.html#a7a40efdd2ac64fb99366a8c864893084',1,'ModbusClient']]],
-  ['readholdingregister_131',['readHoldingRegister',['../class_modbus_client.html#a7ae78f974f74145221c1b24c71f9e699',1,'ModbusClient']]],
-  ['readholdingregisters_132',['readHoldingRegisters',['../class_modbus_client.html#ab71f8af50fce8351c8b2db267c8d0e35',1,'ModbusClient']]],
-  ['readinputregister_133',['readInputRegister',['../class_modbus_client.html#adbea669f0f4675e2113e7e7872a9be9a',1,'ModbusClient']]],
-  ['readinputregisters_134',['readInputRegisters',['../class_modbus_client.html#ab59c19ad48ff322f3bcf9f0b61fb7824',1,'ModbusClient']]]
+  ['getregisters_341',['getRegisters',['../class_modbus_request.html#a34b249fa2f5ee4e347318ed9a632b15b',1,'ModbusRequest']]],
+  ['getregistertype_342',['getRegisterType',['../class_modbus_request.html#a153399d44fa5fefe48be780b88b1b23f',1,'ModbusRequest']]],
+  ['getrequestpriority_343',['getRequestPriority',['../class_modbus_request.html#a6b0aeb14e69b1c955437559156b7cd2f',1,'ModbusRequest']]],
+  ['getrequeststatus_344',['getRequestStatus',['../class_modbus_request.html#a5eb1ec6a450116b87fa7b1a10d89faca',1,'ModbusRequest']]],
+  ['getrequesttype_345',['getRequestType',['../class_modbus_request.html#a3e97b4e72ef586e12cbdb266b1f787c9',1,'ModbusRequest']]],
+  ['getslaveid_346',['getSlaveId',['../class_modbus_request.html#a97360b4504ab801c4d55f90865f75f13',1,'ModbusRequest']]],
+  ['getvalues_347',['getValues',['../class_modbus_request.html#a6df8d0e9cd93013dcf3ead6f8c4c9521',1,'ModbusRequest']]]
 ];

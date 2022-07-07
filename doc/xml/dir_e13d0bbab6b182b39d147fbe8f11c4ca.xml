@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
   <compounddef id="dir_e13d0bbab6b182b39d147fbe8f11c4ca" kind="dir">
-    <compoundname>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir</compoundname>
-    <innerdir refid="dir_8eb1ae61a5ce2f4b231b9cbdb8a50d83">/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/src</innerdir>
+    <compoundname>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir</compoundname>
+    <innerdir refid="dir_8eb1ae61a5ce2f4b231b9cbdb8a50d83">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/src</innerdir>
     <innerfile refid="main_8cpp_8o_8d">main.cpp.o.d</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/"/>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/"/>
   </compounddef>
 </doxygen>

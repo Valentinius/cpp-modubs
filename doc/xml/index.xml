@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
   <compound refid="class_modbus_client" kind="class"><name>ModbusClient</name>
-    <member refid="class_modbus_client_1a66f1f6e1c5ad4db8e40066415952b463" kind="variable"><name>framer</name></member>
+    <member refid="class_modbus_client_1ad1925d04680d1fb06517da857902f408" kind="variable"><name>framer</name></member>
     <member refid="class_modbus_client_1ab1b58128e98d3ccb83f51621fc81c150" kind="variable"><name>connection_status</name></member>
     <member refid="class_modbus_client_1a00c972952900c10d538865444000f47e" kind="variable"><name>ip</name></member>
     <member refid="class_modbus_client_1a5700d77d4bc5e4f9e457db668d321f0d" kind="variable"><name>port</name></member>
@@ -9,27 +9,109 @@
     <member refid="class_modbus_client_1a8fd569eaaf54ae2fa5e80e55fef41b0e" kind="function"><name>connect</name></member>
     <member refid="class_modbus_client_1a21db4626ea64a253f38215151374b7f5" kind="function"><name>connect</name></member>
     <member refid="class_modbus_client_1ab9106716464e778d08e14af4c065231b" kind="function"><name>disconnect</name></member>
-    <member refid="class_modbus_client_1ab9bba2e136b24a34bfcb844666db2c34" kind="function"><name>readDiscreteInput</name></member>
-    <member refid="class_modbus_client_1a7a40efdd2ac64fb99366a8c864893084" kind="function"><name>readDiscreteInputs</name></member>
-    <member refid="class_modbus_client_1a608213c6942ba429470b88a506d71233" kind="function"><name>readCoil</name></member>
-    <member refid="class_modbus_client_1a1c2be0fe268c25f773c4eed2b7c9fd08" kind="function"><name>readCoils</name></member>
-    <member refid="class_modbus_client_1a4f825f131b2712c62ea7a453f6a8b084" kind="function"><name>writeCoil</name></member>
-    <member refid="class_modbus_client_1aeffb0621eaec6ff49c8686cd0cc358cc" kind="function"><name>writeCoils</name></member>
-    <member refid="class_modbus_client_1a5a2c225b2293937b8d026565d6f69701" kind="function"><name>writeCoils</name></member>
-    <member refid="class_modbus_client_1adbea669f0f4675e2113e7e7872a9be9a" kind="function"><name>readInputRegister</name></member>
-    <member refid="class_modbus_client_1ab59c19ad48ff322f3bcf9f0b61fb7824" kind="function"><name>readInputRegisters</name></member>
-    <member refid="class_modbus_client_1a7ae78f974f74145221c1b24c71f9e699" kind="function"><name>readHoldingRegister</name></member>
-    <member refid="class_modbus_client_1ab71f8af50fce8351c8b2db267c8d0e35" kind="function"><name>readHoldingRegisters</name></member>
-    <member refid="class_modbus_client_1abf7dcbe74105b353cd49201161bc893c" kind="function"><name>writeHoldingRegister</name></member>
-    <member refid="class_modbus_client_1acbf064fdd2cf7fbd1fadd22cf2e072ba" kind="function"><name>writeHoldingRegisters</name></member>
-    <member refid="class_modbus_client_1a9ceed9712e9e0c94db11a204792579b4" kind="function"><name>writeHoldingRegisters</name></member>
-    <member refid="class_modbus_client_1a02c4a271b6fd808a766f6fcf8b59b86f" kind="function"><name>sendRawRequest</name></member>
-    <member refid="class_modbus_client_1a423d5eefdc0a2e20aba5969474d529f8" kind="function"><name>sendRequest</name></member>
+    <member refid="class_modbus_client_1aa92398b080bed5e90d4f921139396ac0" kind="function"><name>readDiscreteInput</name></member>
+    <member refid="class_modbus_client_1a5090ed601a48541323781daaebe2543a" kind="function"><name>readDiscreteInputs</name></member>
+    <member refid="class_modbus_client_1a8de4db774eabd797118ddae961237710" kind="function"><name>readCoil</name></member>
+    <member refid="class_modbus_client_1ac94aa9cf9a0827cc5363f31139b501c0" kind="function"><name>readCoils</name></member>
+    <member refid="class_modbus_client_1a30a15e770abfab958496a66d553cadd4" kind="function"><name>writeCoil</name></member>
+    <member refid="class_modbus_client_1ac005e495b52f43db2ece4d6fde79f8ec" kind="function"><name>writeCoils</name></member>
+    <member refid="class_modbus_client_1a9ab1ec0d27b731e4319802da59021f0a" kind="function"><name>writeCoils</name></member>
+    <member refid="class_modbus_client_1abf60e436ffe06764b4e4ddec6d87a72e" kind="function"><name>readInputRegister</name></member>
+    <member refid="class_modbus_client_1aeff25a2dd21e2830ebcd2e79ba57ac46" kind="function"><name>readInputRegisters</name></member>
+    <member refid="class_modbus_client_1a392811740528b9155499316f1b8f0520" kind="function"><name>readHoldingRegister</name></member>
+    <member refid="class_modbus_client_1a832b4634d3cc4e34edd54288019b0e33" kind="function"><name>readHoldingRegisters</name></member>
+    <member refid="class_modbus_client_1a1fd3bdf7239d17ac3f1f1914e66ae64d" kind="function"><name>writeHoldingRegister</name></member>
+    <member refid="class_modbus_client_1aa748d1344a489b17675f1cf5870245b3" kind="function"><name>writeHoldingRegisters</name></member>
+    <member refid="class_modbus_client_1a5b627829f90820af920a113b208a4bea" kind="function"><name>writeHoldingRegisters</name></member>
+    <member refid="class_modbus_client_1aedde720268d0976602db1aa47cb205cc" kind="function"><name>readDiscreteInput</name></member>
+    <member refid="class_modbus_client_1a2f5b881b661c9482e30013e1ae9f7999" kind="function"><name>readDiscreteInputs</name></member>
+    <member refid="class_modbus_client_1aa29711287627aec43993c7160a396967" kind="function"><name>readCoil</name></member>
+    <member refid="class_modbus_client_1a2c61ba0a0c2b8daa611e06cecf12a2a8" kind="function"><name>readCoils</name></member>
+    <member refid="class_modbus_client_1a85592896cbce764d2507ca88fcd04afe" kind="function"><name>writeCoil</name></member>
+    <member refid="class_modbus_client_1a3cc722919523ba9ba6d7a77fad860ac8" kind="function"><name>writeCoils</name></member>
+    <member refid="class_modbus_client_1a122c967136f8b5e21c957c15a2dd3d4d" kind="function"><name>readInputRegister</name></member>
+    <member refid="class_modbus_client_1a9fa55d70543e0cd3b5a6056acf4a70aa" kind="function"><name>readInputRegisters</name></member>
+    <member refid="class_modbus_client_1a1738d824b2c2d34d562041242df84376" kind="function"><name>readHoldingRegister</name></member>
+    <member refid="class_modbus_client_1aed77556743c0faa335aeabbe009deed0" kind="function"><name>readHoldingRegisters</name></member>
+    <member refid="class_modbus_client_1adb536b8feb9df4307ca97dd99462c1d3" kind="function"><name>writeHoldingRegister</name></member>
+    <member refid="class_modbus_client_1ae1f555f8c18b43a2f5c6718eb762f3dd" kind="function"><name>writeHoldingRegisters</name></member>
+    <member refid="class_modbus_client_1a1e8a3109bd15b0d4c34abff3f873d076" kind="function"><name>sendRawRequest</name></member>
+    <member refid="class_modbus_client_1ad5bcf74561ff2a87dce0aadce1b83cc5" kind="function"><name>sendRequest</name></member>
     <member refid="class_modbus_client_1aa905f8aab32244d968b0145ecf613d07" kind="function"><name>formPDU</name></member>
     <member refid="class_modbus_client_1ad6abef0fbe2a8f4b9729fb528f30b036" kind="function"><name>formTCPRequest</name></member>
     <member refid="class_modbus_client_1a3a21c8df117e91d49be308fdf6984b98" kind="function"><name>formRTURequest</name></member>
     <member refid="class_modbus_client_1a1e062e0264baff9ad3d96379f226d4d0" kind="function"><name>formASCIIRequest</name></member>
     <member refid="class_modbus_client_1a1a4800cb5b8af39031505eaa8e20096e" kind="function"><name>formRequest</name></member>
+  </compound>
+  <compound refid="class_modbus_framer" kind="class"><name>ModbusFramer</name>
+    <member refid="class_modbus_framer_1a2e161e435e83f17f78fea7360a371ea0" kind="function"><name>parseRequest</name></member>
+    <member refid="class_modbus_framer_1a62847ff496b0795e9daba38186000ada" kind="function"><name>parseResponse</name></member>
+    <member refid="class_modbus_framer_1adeca2981c1fb4385a5893d974793de34" kind="function"><name>parseError</name></member>
+    <member refid="class_modbus_framer_1ae5b23076e4c8c547a15d2a7b9ede5615" kind="function"><name>parseSingleRegisterWriteRequest</name></member>
+    <member refid="class_modbus_framer_1a963fa1081ec3ac220aa99a2f6957bedd" kind="function"><name>parseMultipleRegistersWriteRequest</name></member>
+    <member refid="class_modbus_framer_1a5219ec86e59526e100356468bf623b0b" kind="function"><name>parsePartialRegisterWriteRequest</name></member>
+    <member refid="class_modbus_framer_1afafafec050db07213ca36fe79ce2fcc7" kind="function"><name>parseSingleRegisterReadRequest</name></member>
+    <member refid="class_modbus_framer_1a91f3691798959ac378180f06ee0bf499" kind="function"><name>parseMultipleRegistersReadRequest</name></member>
+    <member refid="class_modbus_framer_1a823e09590c7994270dd2ae494882ad14" kind="function"><name>parsePartialRegisterReadRequest</name></member>
+    <member refid="class_modbus_framer_1a92464cf48d9ea5a6faa7e6448c78ecea" kind="function"><name>parseReadRequest</name></member>
+  </compound>
+  <compound refid="class_modbus_request" kind="class"><name>ModbusRequest</name>
+    <member refid="class_modbus_request_1a6d782779e9229db411b43a037d8b57bf" kind="friend"><name>ModbusRequestComparator</name></member>
+    <member refid="class_modbus_request_1a99445b758cb9e5c9b219a21fcd13fa92" kind="variable"><name>request_type</name></member>
+    <member refid="class_modbus_request_1af5cece2e891d3ddefb3359283817fbfa" kind="variable"><name>request_status</name></member>
+    <member refid="class_modbus_request_1a36bac3647f9bedcfb59116a4ee543c37" kind="variable"><name>request_priority</name></member>
+    <member refid="class_modbus_request_1ae043bcf655d36412dee32905d44aa0e2" kind="variable"><name>register_type</name></member>
+    <member refid="class_modbus_request_1a9fe3793f01f592172c8852907cde02a1" kind="variable"><name>slave_id</name></member>
+    <member refid="class_modbus_request_1afb1e27e9552e9e7ce9d64e92acf69bfe" kind="variable"><name>registers</name></member>
+    <member refid="class_modbus_request_1a0d9b686b1a013775a92f7b36d6cdc03a" kind="variable"><name>values</name></member>
+    <member refid="class_modbus_request_1ad11a5ec13668698ccd39ee8bce29c3f5" kind="variable"><name>bit_num</name></member>
+    <member refid="class_modbus_request_1a7e7be4ae7688f6490939262707645c0b" kind="variable"><name>sent_callback</name></member>
+    <member refid="class_modbus_request_1a67bfedb7ddecca3985f42f1daef4eb66" kind="variable"><name>responsed_callback</name></member>
+    <member refid="class_modbus_request_1ae0e40cfb1a8c15f72ee8bd5b4f37673d" kind="variable"><name>timeout_callback</name></member>
+    <member refid="class_modbus_request_1afad85272edbef62d5f00819b5c40444d" kind="variable"><name>future_async</name></member>
+    <member refid="class_modbus_request_1afe5e6ec5c7bbd7670aa2b43cfeec94ff" kind="function"><name>ModbusRequest</name></member>
+    <member refid="class_modbus_request_1acb41e26447c31187c4a29baeb220e5ea" kind="function"><name>ModbusRequest</name></member>
+    <member refid="class_modbus_request_1a84ff53c9ffab83e27ce562104573fb63" kind="function"><name>ModbusRequest</name></member>
+    <member refid="class_modbus_request_1a38eb0c4d363bd9bfddc4f54a104768ca" kind="function"><name>ModbusRequest</name></member>
+    <member refid="class_modbus_request_1a6ab523dcb32ca0316bc7ad2272d28b15" kind="function"><name>ModbusRequest</name></member>
+    <member refid="class_modbus_request_1a284a41bbda0f19a75f785272d6487c52" kind="function"><name>ModbusRequest</name></member>
+    <member refid="class_modbus_request_1a3e97b4e72ef586e12cbdb266b1f787c9" kind="function"><name>getRequestType</name></member>
+    <member refid="class_modbus_request_1a5eb1ec6a450116b87fa7b1a10d89faca" kind="function"><name>getRequestStatus</name></member>
+    <member refid="class_modbus_request_1a6b0aeb14e69b1c955437559156b7cd2f" kind="function"><name>getRequestPriority</name></member>
+    <member refid="class_modbus_request_1a153399d44fa5fefe48be780b88b1b23f" kind="function"><name>getRegisterType</name></member>
+    <member refid="class_modbus_request_1a97360b4504ab801c4d55f90865f75f13" kind="function"><name>getSlaveId</name></member>
+    <member refid="class_modbus_request_1a34b249fa2f5ee4e347318ed9a632b15b" kind="function"><name>getRegisters</name></member>
+    <member refid="class_modbus_request_1a6df8d0e9cd93013dcf3ead6f8c4c9521" kind="function"><name>getValues</name></member>
+    <member refid="class_modbus_request_1add40e44465eb86ab295a298bd285f75a" kind="function"><name>setValue</name></member>
+    <member refid="class_modbus_request_1a8ecb3acea1023a82fd5c63f45beae702" kind="function"><name>setRequestStatus</name></member>
+    <member refid="class_modbus_request_1a8ca98c44a9daf1249d76484e721d751f" kind="function"><name>setSentCallback</name></member>
+    <member refid="class_modbus_request_1a613d6da561387a768b345e28a4d61d22" kind="function"><name>setResponsedCallback</name></member>
+    <member refid="class_modbus_request_1aa03f58341cb447c21291183ac7383b3c" kind="function"><name>setTimeoutCallback</name></member>
+    <member refid="class_modbus_request_1a9d90b368a4ebbfbd132db6563a6e3183" kind="function"><name>setFutureAsync</name></member>
+  </compound>
+  <compound refid="class_modbus_request_comparator" kind="class"><name>ModbusRequestComparator</name>
+    <member refid="class_modbus_request_comparator_1ae3f60afa1d3bead3c9cf575edaa09a8e" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="class_modbus_session" kind="class"><name>ModbusSession</name>
+    <member refid="class_modbus_session_1a7545a0745a9cb3b9b303c8ee185502e2" kind="variable"><name>request_queues</name></member>
+    <member refid="class_modbus_session_1a07cecffe8ffb77aacce0655c84d6a8a3" kind="variable"><name>clients</name></member>
+    <member refid="class_modbus_session_1a4ce841f384e27c7f18f7c2f092abafc0" kind="variable"><name>future_run_async</name></member>
+    <member refid="class_modbus_session_1ab183a017a7cb9ee9deb54f45e1419f30" kind="function"><name>ModbusSession</name></member>
+    <member refid="class_modbus_session_1a81fad84eb467995875d7911192ffb735" kind="function"><name>addClient</name></member>
+    <member refid="class_modbus_session_1a583e0924ecb233b49c81efd14cc4ddfe" kind="function"><name>addClient</name></member>
+    <member refid="class_modbus_session_1a80ffc1ddbd83a5c69a69cb9859187cff" kind="function"><name>removeClient</name></member>
+    <member refid="class_modbus_session_1abb7d5f22a8dfb9cb7e1963255693601e" kind="function"><name>removeClient</name></member>
+    <member refid="class_modbus_session_1a2d44dd6939a1cb05703518d5edddc70c" kind="function"><name>run</name></member>
+    <member refid="class_modbus_session_1a1603510d1c1b0bad7fe6150aad5088b4" kind="function"><name>stop</name></member>
+    <member refid="class_modbus_session_1a46319e5fc6bad0390dbadbfaa9e9f729" kind="function"><name>terminate</name></member>
+    <member refid="class_modbus_session_1afb70c3f8392277918d37e0646a2c851b" kind="function"><name>addRequest</name></member>
+    <member refid="class_modbus_session_1a9e34ab291d68db4ed9a3b85381e0b8d4" kind="function"><name>_run</name></member>
+    <member refid="class_modbus_session_1acad4e219299b4d5181c60415c13cf173" kind="function"><name>_multipleRegistersReadProcess</name></member>
+    <member refid="class_modbus_session_1af9cb1ec8389350ebc34a9c8f62525b20" kind="function"><name>_singleRegisterReadProcess</name></member>
+    <member refid="class_modbus_session_1a9a37dedb46b1fa63a660c42edec07318" kind="function"><name>_partialRegistersReadProcess</name></member>
+    <member refid="class_modbus_session_1aff1f501afae43290e7a0a7e3bcd49ccb" kind="function"><name>_multipleRegistersWriteProcess</name></member>
+    <member refid="class_modbus_session_1a86b15fb008def9a817198f4ab7cb2486" kind="function"><name>_singleRegisterWriteProcess</name></member>
+    <member refid="class_modbus_session_1a402ea7b13d336bf84dccdab5118aed4a" kind="function"><name>_partialRegistersWriteProcess</name></member>
   </compound>
   <compound refid="class_modbus_t_c_p_client" kind="class"><name>ModbusTCPClient</name>
     <member refid="class_modbus_t_c_p_client_1a6dd4ea0d7704d975be3d4e3d872301bd" kind="variable"><name>asio_ec</name></member>
@@ -47,16 +129,32 @@
   </compound>
   <compound refid="namespacemodbus_1_1enums" kind="namespace"><name>modbus::enums</name>
     <member refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6" kind="enum"><name>RequestStatus</name></member>
-    <member refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" kind="enumvalue"><name>SUCCESS</name></member>
-    <member refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a637ac5246b77936c6a24a36575c594b4" kind="enumvalue"><name>CORRUPTED_DATA</name></member>
+    <member refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a0cb73a7c1b491af0a43f3e338562d5a7" kind="enumvalue"><name>NOT_SENT</name></member>
+    <member refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a00b73915fada3431153d4f16a5d57cc1" kind="enumvalue"><name>SENT</name></member>
+    <member refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a7b14b45a8ae8cb365a8a6a68c7ee339d" kind="enumvalue"><name>SUCCESSFULLY_RESPONSED</name></member>
+    <member refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a95e80bc374178bc5f8101f5060f6170f" kind="enumvalue"><name>INCORRECTLY_RESPONSED</name></member>
     <member refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a0de339f9da0e0bdad477025a52c3e8eb" kind="enumvalue"><name>TIMEOUT_ERROR</name></member>
-    <member refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327" kind="enum"><name>ModbusFramer</name></member>
-    <member refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327a3a61457295e70c88c908f47102c52868" kind="enumvalue"><name>RTU</name></member>
-    <member refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327ab5e2cddd6610458938989aba81b2d6f2" kind="enumvalue"><name>ASCII</name></member>
-    <member refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327a1133c80c863cfe1a87a5ffea9b609f85" kind="enumvalue"><name>TCP</name></member>
+    <member refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a17ed797c609c85e1e4f438c4c3934414" kind="enumvalue"><name>INCORRECT_REQUEST</name></member>
+    <member refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66" kind="enum"><name>RequestPriority</name></member>
+    <member refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66a51e829d7545c5e60a96144712c6f06c2" kind="enumvalue"><name>IMMEDIATE_WRITE</name></member>
+    <member refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66a8d7bab3817ce0fa4f1dc8ca464546698" kind="enumvalue"><name>IMMEDIATE_READ</name></member>
+    <member refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66a38aae4ca5c84132216161212d8a41caa" kind="enumvalue"><name>WRITE</name></member>
+    <member refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66a1702601575d60d56cde76d27d5c7bac2" kind="enumvalue"><name>READ</name></member>
+    <member refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66a7bff94d72d592f2f07b188a9fcd111ce" kind="enumvalue"><name>LAZY_READ</name></member>
+    <member refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6" kind="enum"><name>RequestType</name></member>
+    <member refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6ae926e586c39d162b47ec0cb42bd1be3a" kind="enumvalue"><name>SINGLE_REGISTER_WRITE</name></member>
+    <member refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6a7bcecb7105266459a84e1004408ceb7a" kind="enumvalue"><name>MULTIPLE_REGISTERS_WRITE</name></member>
+    <member refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6a226c06c6031e40d5372e9988040bcf57" kind="enumvalue"><name>PARTIAL_REGISTER_WRITE</name></member>
+    <member refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6a08eea056a1c7a37f77b247fb95c48e0e" kind="enumvalue"><name>SINGLE_REGISTER_READ</name></member>
+    <member refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6ad05a37be7392de8e170d0a9d09c8d058" kind="enumvalue"><name>MULTIPLE_REGISTERS_READ</name></member>
+    <member refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6ad09b915a1ae82e81d0ac2291c474f2ef" kind="enumvalue"><name>PARTIAL_REGISTER_READ</name></member>
+    <member refid="namespacemodbus_1_1enums_1a99ce302c742f886581924749193c4be5" kind="enum"><name>ModbusFramerType</name></member>
+    <member refid="namespacemodbus_1_1enums_1a99ce302c742f886581924749193c4be5a3a61457295e70c88c908f47102c52868" kind="enumvalue"><name>RTU</name></member>
+    <member refid="namespacemodbus_1_1enums_1a99ce302c742f886581924749193c4be5ab5e2cddd6610458938989aba81b2d6f2" kind="enumvalue"><name>ASCII</name></member>
+    <member refid="namespacemodbus_1_1enums_1a99ce302c742f886581924749193c4be5a1133c80c863cfe1a87a5ffea9b609f85" kind="enumvalue"><name>TCP</name></member>
     <member refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" kind="enum"><name>RegisterType</name></member>
-    <member refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198ab25ec4c3931c76539ee2fa6b9b2eb44d" kind="enumvalue"><name>DISCRETE_INPUTS</name></member>
     <member refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a849ccc074302fb7c99c0d0a8bc9af0fd" kind="enumvalue"><name>COILS</name></member>
+    <member refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198ab25ec4c3931c76539ee2fa6b9b2eb44d" kind="enumvalue"><name>DISCRETE_INPUTS</name></member>
     <member refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a99e7f2dca044825e5b497cbce598b823" kind="enumvalue"><name>HOLDING_REGISTERS</name></member>
     <member refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a7c1099187f875ee3f3117bab13a21c4f" kind="enumvalue"><name>INPUT_REGISTERS</name></member>
     <member refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70" kind="enum"><name>ModbusFunction</name></member>
@@ -68,11 +166,139 @@
     <member refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70aae95d0aa23e9dbd312ce810835ff3c2c" kind="enumvalue"><name>WRITE_COILS_GROUP</name></member>
     <member refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a91ac7b36a82aa54bf210a895b2e71e7c" kind="enumvalue"><name>WRITE_HOLDING_REGISTERS_ONE</name></member>
     <member refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a683e45425a3322458d14a5bd0d62a2d0" kind="enumvalue"><name>WRITE_HOLDING_REGISTERS_GROUP</name></member>
+    <member refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42e" kind="enum"><name>ModbusError</name></member>
+    <member refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42eac5c91fdff37d925c4ad1a863b5a19404" kind="enumvalue"><name>NO_ERROR</name></member>
+    <member refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea349c0285766ae89d383dcc34af1d0cb4" kind="enumvalue"><name>ILLEGAL_FUNCTION</name></member>
+    <member refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea3a1430a3f4307763efadeccbf74eb17c" kind="enumvalue"><name>ILLEGAL_DATA_ADDRESS</name></member>
+    <member refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42eac085ce19fb66bb6df3b51fd8024e0d32" kind="enumvalue"><name>ILLEGAL_DATA_VALUE</name></member>
+    <member refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea5e098e46507691e55c8db1b1ce2e5f0b" kind="enumvalue"><name>SLAVE_DEVICE_FAILURE</name></member>
+    <member refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea74ea67cc007ec92a872751e8c3ade516" kind="enumvalue"><name>ACKNOWLEDGE</name></member>
+    <member refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea09dd3fe5179aa462d52f8e22cac1c21d" kind="enumvalue"><name>SLAVE_DEVICE_BUSY</name></member>
+    <member refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea534a71542c7319ceb1dcebd88c0ac5c9" kind="enumvalue"><name>NEGATIVE_ACKNOWLEDGE</name></member>
+    <member refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea0c9358d9b5b8da6c4c0efe9966d875ba" kind="enumvalue"><name>MEMORY_PARITY_ERROR</name></member>
+    <member refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea7fde5a6eb9232098b574d270f3946973" kind="enumvalue"><name>GATEWAY_PATH_UNAVAILABLE</name></member>
+    <member refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42ea1485564a15abb5907b78da10719699f4" kind="enumvalue"><name>GATEWAY_TARGET_DEVICE_FAILED_TO_RESPONSE</name></member>
   </compound>
   <compound refid="namespacemodbus_1_1utils" kind="namespace"><name>modbus::utils</name>
-    <member refid="namespacemodbus_1_1utils_1a00eb6fbd9aa4c79311df088d010bb086" kind="function"><name>crc</name></member>
+    <member refid="namespacemodbus_1_1utils_1a49afdaf45d84b935d39cd87de9f2c4eb" kind="function"><name>parseRequest</name></member>
+    <member refid="namespacemodbus_1_1utils_1a8861050f3912ffdab8a750fc02d0f48b" kind="function"><name>parseResponse</name></member>
+    <member refid="namespacemodbus_1_1utils_1a3a816eeb89c7040b9e19e0b09a87e46e" kind="function"><name>parseError</name></member>
+    <member refid="namespacemodbus_1_1utils_1a7c28b664f6ded864952cc973edb35e6b" kind="function"><name>crcRTU</name></member>
+    <member refid="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" kind="function"><name>toMsbLsb</name></member>
+    <member refid="namespacemodbus_1_1utils_1ab5044304a18057065cd2d7c33f78c2a9" kind="function"><name>toMsbLsb</name></member>
+    <member refid="namespacemodbus_1_1utils_1a419f147dcbc1cd876c43ff6a8b89ad23" kind="function"><name>fromMsbLsb</name></member>
+    <member refid="namespacemodbus_1_1utils_1a61d088be613ff73551a3dc0cd1c0c192" kind="function"><name>fromMsbLsb</name></member>
   </compound>
   <compound refid="_c_make_cache_8txt" kind="file"><name>CMakeCache.txt</name>
+    <member refid="_c_make_cache_8txt_1a5a46e68107b399f5e2449dcb5f1d8414" kind="variable"><name>__pad0__</name></member>
+    <member refid="_c_make_cache_8txt_1aba69e7d86e970c5454fedf7e25cbf49e" kind="variable"><name>__STDC_VERSION__</name></member>
+    <member refid="_c_make_cache_8txt_1a391447bc12001cf307b9fec77d32c722" kind="variable"><name>__STDC_UTF_16__</name></member>
+    <member refid="_c_make_cache_8txt_1aebc193933efcf54801ba103bf6d12dbb" kind="variable"><name>__STDC_UTF_32__</name></member>
+    <member refid="_c_make_cache_8txt_1aacc78bc040f85bfc5d36eda8c048a1fe" kind="variable"><name>__STDC_HOSTED__</name></member>
+    <member refid="_c_make_cache_8txt_1a4f955bfc59f2aa5f37123f7fa8c45974" kind="variable"><name>__GNUC__</name></member>
+    <member refid="_c_make_cache_8txt_1aefc5089d158028a655f8653d849ea643" kind="variable"><name>__GNUC_MINOR__</name></member>
+    <member refid="_c_make_cache_8txt_1a68c7f08caefc9a019e0b82ec6b3fa343" kind="variable"><name>__GNUC_PATCHLEVEL__</name></member>
+    <member refid="_c_make_cache_8txt_1abb4404c3387f41ca320babfbcff1102f" kind="variable"><name>__VERSION__</name></member>
+    <member refid="_c_make_cache_8txt_1acf476ec759fbe7a6aa89427ea8965872" kind="variable"><name>__ATOMIC_RELAXED</name></member>
+    <member refid="_c_make_cache_8txt_1a44cd817264eb1136dae5f3b248f8fa8e" kind="variable"><name>__ATOMIC_SEQ_CST</name></member>
+    <member refid="_c_make_cache_8txt_1a77baa125558a766167c49286c9873d7f" kind="variable"><name>__ATOMIC_ACQUIRE</name></member>
+    <member refid="_c_make_cache_8txt_1a5738074ef1a9257e5bcb0b527c2c93a3" kind="variable"><name>__ATOMIC_RELEASE</name></member>
+    <member refid="_c_make_cache_8txt_1a93654874cdfb30676f9c0c31eb3511c0" kind="variable"><name>__ATOMIC_ACQ_REL</name></member>
+    <member refid="_c_make_cache_8txt_1a000e85470c6f5d9f1aa22fa4df83f0b9" kind="variable"><name>__ATOMIC_CONSUME</name></member>
+    <member refid="_c_make_cache_8txt_1a1511d292a5f78fc21a6158b593ac851f" kind="variable"><name>__pic__</name></member>
+    <member refid="_c_make_cache_8txt_1a9d2faa5c809ed8528370ec492faaccef" kind="variable"><name>__PIC__</name></member>
+    <member refid="_c_make_cache_8txt_1a86a17f51e74711e6e0922cade6331e71" kind="variable"><name>__pie__</name></member>
+    <member refid="_c_make_cache_8txt_1a536e32b75159affbe2197b81a061284b" kind="variable"><name>__PIE__</name></member>
+    <member refid="_c_make_cache_8txt_1a8af0fd31855c1121674e7d0adf6acbee" kind="variable"><name>__FINITE_MATH_ONLY__</name></member>
+    <member refid="_c_make_cache_8txt_1aae88ee59a31703e88a326390e91a32fd" kind="variable"><name>_LP64</name></member>
+    <member refid="_c_make_cache_8txt_1a2dcb516e6c55b8bdfd122dc65ada57b5" kind="variable"><name>__LP64__</name></member>
+    <member refid="_c_make_cache_8txt_1a52701f18fd19d3d5e1f83ec11c05d570" kind="variable"><name>__SIZEOF_INT__</name></member>
+    <member refid="_c_make_cache_8txt_1a25b323872510a2d005ee2f45f5efd38b" kind="variable"><name>__SIZEOF_LONG__</name></member>
+    <member refid="_c_make_cache_8txt_1a87bd59f7da0f977c3d450e95b4f00532" kind="variable"><name>__SIZEOF_LONG_LONG__</name></member>
+    <member refid="_c_make_cache_8txt_1a13a1a9ce0eb7429c078ea705b54ac44d" kind="variable"><name>__SIZEOF_SHORT__</name></member>
+    <member refid="_c_make_cache_8txt_1a99451faa2465beb743c5cadc6a20f102" kind="variable"><name>__SIZEOF_FLOAT__</name></member>
+    <member refid="_c_make_cache_8txt_1acb4d0f0ad8b370190fb78d60045cbe85" kind="variable"><name>__SIZEOF_DOUBLE__</name></member>
+    <member refid="_c_make_cache_8txt_1a398170fb1a6ec5ddef97aada19630f92" kind="variable"><name>__SIZEOF_LONG_DOUBLE__</name></member>
+    <member refid="_c_make_cache_8txt_1a8a0ccc607658039e8f34c766290b880a" kind="variable"><name>__SIZEOF_SIZE_T__</name></member>
+    <member refid="_c_make_cache_8txt_1af18faf2347e6868d6c9ed02b46326720" kind="variable"><name>__CHAR_BIT__</name></member>
+    <member refid="_c_make_cache_8txt_1ade3bae6ac3c6cb0079bc5a1a61316c5a" kind="variable"><name>__BIGGEST_ALIGNMENT__</name></member>
+    <member refid="_c_make_cache_8txt_1a668b60d2f5086a7b075f8d739e3a02d5" kind="variable"><name>__ORDER_LITTLE_ENDIAN__</name></member>
+    <member refid="_c_make_cache_8txt_1aadebb1c0721f9b0a30fe99e903ab7379" kind="variable"><name>__ORDER_BIG_ENDIAN__</name></member>
+    <member refid="_c_make_cache_8txt_1a1d768fc4923117ddc111812917d014f1" kind="variable"><name>__ORDER_PDP_ENDIAN__</name></member>
+    <member refid="_c_make_cache_8txt_1a06b21194cf5550fb37cc1282001bdc0e" kind="variable"><name>__BYTE_ORDER__</name></member>
+    <member refid="_c_make_cache_8txt_1af83df19811ef575ae2b34e8c904a0408" kind="variable"><name>__FLOAT_WORD_ORDER__</name></member>
+    <member refid="_c_make_cache_8txt_1a1ee656ff8807634813d40465fb2bcdc1" kind="variable"><name>__SIZEOF_POINTER__</name></member>
+    <member refid="_c_make_cache_8txt_1afad16a5dece04ae3a5d68fc746889cdd" kind="variable"><name>__SIZE_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a79a3d8790b2588b09777910863574e09" kind="variable"><name>int</name></member>
+    <member refid="_c_make_cache_8txt_1a2e569667c74a773d6110a55fb19fe7d7" kind="variable"><name>__PTRDIFF_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a20f76e5c58ddc0926b85e9093730c9ae" kind="variable"><name>__WCHAR_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1ab9eb6de4ef3e35d820fa14bf279673c6" kind="variable"><name>__WINT_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1add72759aac6536e641bc2e8c12366d4b" kind="variable"><name>__INTMAX_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1ae27a42a4b7ff92c051bf4badd2702611" kind="variable"><name>__UINTMAX_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a7e380349dd3aa6cea0d744c2e90e4721" kind="variable"><name>__CHAR16_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1af91b17fdb800ffc733b2eddf51172eac" kind="variable"><name>__CHAR32_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a2c74d832cde290cb39ee58eda6214a78" kind="variable"><name>__SIG_ATOMIC_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a7068c995e5075e4589201a350d1cefca" kind="variable"><name>__INT8_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1afe71f11dacb15682cdc012f7208e6e09" kind="variable"><name>char</name></member>
+    <member refid="_c_make_cache_8txt_1aecf40d0b02f3ea9194acecf92ef8ad0b" kind="variable"><name>__INT16_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1aff307c0fcea6eefb5eead1fd6d9b8153" kind="variable"><name>__INT32_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1aa68c5513d779cc8e92de1fb1e99a1451" kind="variable"><name>__INT64_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1acdac745c75cc6d9467f0e8f428cb7c38" kind="variable"><name>__UINT8_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a7c334ef15565439f16847268e5aecc00" kind="variable"><name>__UINT16_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1ae5f84304c1e72cdd73b6da53c4d47f25" kind="variable"><name>__UINT32_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1ae5334e804b67b171a886cb9c2a6241f0" kind="variable"><name>__UINT64_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a0f059754211c536004913c4594b226b7" kind="variable"><name>__INT_LEAST8_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a6841cc391d897d17cd36b6389eedf1a9" kind="variable"><name>__INT_LEAST16_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a2bf5f979cc9392d0cf97a14d736d628a" kind="variable"><name>__INT_LEAST32_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1acaedfaa861fcf2ab2ed6fef67d552001" kind="variable"><name>__INT_LEAST64_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a2a5868ec6fe252f426662079d5187d04" kind="variable"><name>__UINT_LEAST8_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a0cf7166f2026cc52431a063b5f16caa7" kind="variable"><name>__UINT_LEAST16_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a2b66f33976e9bc55e27367e3b1448e40" kind="variable"><name>__UINT_LEAST32_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1afb89ddd568254fb1f9e5eeb6fdb13d0b" kind="variable"><name>__UINT_LEAST64_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a200c99a73bb9894a85b11b122e3e26d0" kind="variable"><name>__INT_FAST8_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a0c08f8106efbb6105db009f25e8d8664" kind="variable"><name>__INT_FAST16_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1ae5117fe8af2968c8df646c90f5eb24d4" kind="variable"><name>__INT_FAST32_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a7ed6af681304005196de13467b9442d5" kind="variable"><name>__INT_FAST64_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a41340f1e822a8ea4d6994bba627339fd" kind="variable"><name>__UINT_FAST8_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a2231ce950df5d5eaf1dc88cb718b4569" kind="variable"><name>__UINT_FAST16_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1ad5e5c8a8bb834a4f9d47edfe6ec88204" kind="variable"><name>__UINT_FAST32_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1aa588b63d52e2735c82b0262ae2034b2e" kind="variable"><name>__UINT_FAST64_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1ac93efd8e9d485881d53ab451f844c8ec" kind="variable"><name>__INTPTR_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1a835a336a71d176cb81526e3e2acf8343" kind="variable"><name>__UINTPTR_TYPE__</name></member>
+    <member refid="_c_make_cache_8txt_1af2a3b27e09cc851abc4ef3e7daea66c2" kind="variable"><name>__GXX_ABI_VERSION</name></member>
+    <member refid="_c_make_cache_8txt_1ad1e3a625f5463100aab8db5fedf63d52" kind="variable"><name>__SCHAR_MAX__</name></member>
+    <member refid="_c_make_cache_8txt_1aaa2dae7d1963575bc4e3e95e3fee9ed4" kind="variable"><name>__SHRT_MAX__</name></member>
+    <member refid="_c_make_cache_8txt_1a9fce70495bb7d54b8b4adc9f7f63ea8e" kind="variable"><name>__INT_MAX__</name></member>
+    <member refid="_c_make_cache_8txt_1a9efbe01f7e7b66cbdac106fb51e2f65f" kind="variable"><name>__LONG_MAX__</name></member>
+    <member refid="_c_make_cache_8txt_1ade7a297151900f13d47b71e6a9dda0a1" kind="variable"><name>__LONG_LONG_MAX__</name></member>
+    <member refid="_c_make_cache_8txt_1ab06c84ef26aaf126084f60730505b6b4" kind="variable"><name>__WCHAR_MAX__</name></member>
+    <member refid="_c_make_cache_8txt_1ab2394184364567c4286a32eec574295e" kind="variable"><name>__WCHAR_MIN__</name></member>
+    <member refid="_c_make_cache_8txt_1ade9fb9056c1b3e7f9417478f12ac5452" kind="variable"><name>__WINT_MAX__</name></member>
+    <member refid="_c_make_cache_8txt_1a0101eb15159977cbfe763d0d71a7023f" kind="variable"><name>__WINT_MIN__</name></member>
+    <member refid="_c_make_cache_8txt_1a047880d1824d5ce75ac17952c273fcc5" kind="variable"><name>__PTRDIFF_MAX__</name></member>
+    <member refid="_c_make_cache_8txt_1ad4abf877d7a79e3d1d13494ce6d64d73" kind="variable"><name>__SIZE_MAX__</name></member>
+    <member refid="_c_make_cache_8txt_1a2c18bf51ac4987d34556c1d5204fafc3" kind="variable"><name>__SCHAR_WIDTH__</name></member>
+    <member refid="_c_make_cache_8txt_1abdc98d940bf09b4a0e8117a07ab53600" kind="variable"><name>__SHRT_WIDTH__</name></member>
+    <member refid="_c_make_cache_8txt_1a4425e966afffdbd4811d4982b7a34c37" kind="variable"><name>__INT_WIDTH__</name></member>
+    <member refid="_c_make_cache_8txt_1ae5a5a8c99b3b2c3c9ab5d97d46cfb088" kind="variable"><name>__LONG_WIDTH__</name></member>
+    <member refid="_c_make_cache_8txt_1a930c46d4be0a88c898010804768abf19" kind="variable"><name>__LONG_LONG_WIDTH__</name></member>
+    <member refid="_c_make_cache_8txt_1a3691baefe5665cd4bb5f811dfd191c64" kind="variable"><name>__WCHAR_WIDTH__</name></member>
+    <member refid="_c_make_cache_8txt_1afd7b42a6ec49614fdb2965edfcc52547" kind="variable"><name>__WINT_WIDTH__</name></member>
+    <member refid="_c_make_cache_8txt_1ae5564189ac0fc1c50dbf6a91ff5c9ba1" kind="variable"><name>__PTRDIFF_WIDTH__</name></member>
+    <member refid="_c_make_cache_8txt_1a682b2c79725efd70c65549fac4060ae4" kind="variable"><name>__SIZE_WIDTH__</name></member>
+    <member refid="_c_make_cache_8txt_1a6b068320140ebfbbeaa001c18465ea9e" kind="variable"><name>__INTMAX_MAX__</name></member>
+    <member refid="_c_make_cache_8txt_1ae84758144b16fbed96a3e6ea5781d3ad" kind="variable"><name>CMAKE_EXTRA_GENERATOR_CXX_SYSTEM_INCLUDE_DIRS</name></member>
+    <member refid="_c_make_cache_8txt_1aac1d6a1710812201527c735f7c6afbaa" kind="variable"><name>c</name></member>
+    <member refid="_c_make_cache_8txt_1a4e00b9c657cdeb7b14ea0c43097dcecc" kind="variable"><name>backward</name></member>
+    <member refid="_c_make_cache_8txt_1a986ccfc90e04633694fe6cff5472be19" kind="variable"><name>include</name></member>
+    <member refid="_c_make_cache_8txt_1acb61b5fec09bcc7d3b88bf1109612ea6" kind="variable"><name>gnu</name></member>
+    <member refid="_c_make_cache_8txt_1ab210976cb9b88cff4b84f82940881802" kind="variable"><name>CMAKE_EXTRA_GENERATOR_C_SYSTEM_DEFINED_MACROS</name></member>
+    <member refid="_c_make_cache_8txt_1ad56d00d3d7b282aa4096d39b0f15746c" kind="variable"><name>CMAKE_EXTRA_GENERATOR_C_SYSTEM_INCLUDE_DIRS</name></member>
+    <member refid="_c_make_cache_8txt_1a15033d43fd4881ecb41d0a9ef3f98c8b" kind="function"><name>__has_include</name></member>
+    <member refid="_c_make_cache_8txt_1a97e2b5b7d48e0c704f01b437bbb41bc3" kind="function"><name>__has_include__</name></member>
+    <member refid="_c_make_cache_8txt_1a6bc72b80bcdbfe30be5d38536affde6f" kind="function"><name>__has_include_next</name></member>
+    <member refid="_c_make_cache_8txt_1ac96b06945e62d6ea6764b6d86745ec26" kind="function"><name>__has_include_next__</name></member>
+    <member refid="_c_make_cache_8txt_1a2f10a19f2682f0eb61615edae3fa69ef" kind="function"><name>__INTMAX_C</name></member>
   </compound>
   <compound refid="_c_make_c_compiler_id_8c" kind="file"><name>CMakeCCompilerId.c</name>
     <member refid="_c_make_c_compiler_id_8c_1ae5510d82e4946f1656f4969911c54736" kind="define"><name>__has_include</name></member>
@@ -118,47 +344,117 @@
   </compound>
   <compound refid="modbusclient_8cpp_8o_8d" kind="file"><name>modbusclient.cpp.o.d</name>
   </compound>
+  <compound refid="modbusrequest_8cpp_8o_8d" kind="file"><name>modbusrequest.cpp.o.d</name>
+  </compound>
+  <compound refid="modbussession_8cpp_8o_8d" kind="file"><name>modbussession.cpp.o.d</name>
+  </compound>
+  <compound refid="modbustcpclient_8cpp_8o_8d" kind="file"><name>modbustcpclient.cpp.o.d</name>
+  </compound>
   <compound refid="utils_8cpp_8o_8d" kind="file"><name>utils.cpp.o.d</name>
+  </compound>
+  <compound refid="count_8txt" kind="file"><name>count.txt</name>
   </compound>
   <compound refid="_target_directories_8txt" kind="file"><name>TargetDirectories.txt</name>
   </compound>
   <compound refid="_c_make_lists_8txt" kind="file"><name>CMakeLists.txt</name>
   </compound>
+  <compound refid="asyncmodbusserialclient_8h" kind="file"><name>asyncmodbusserialclient.h</name>
+  </compound>
+  <compound refid="asyncmodbustcpclient_8h" kind="file"><name>asyncmodbustcpclient.h</name>
+  </compound>
   <compound refid="modbusclient_8h" kind="file"><name>modbusclient.h</name>
   </compound>
+  <compound refid="modbusserialclient_8h" kind="file"><name>modbusserialclient.h</name>
+  </compound>
   <compound refid="modbustcpclient_8h" kind="file"><name>modbustcpclient.h</name>
+  </compound>
+  <compound refid="modbusasciiframer_8h" kind="file"><name>modbusasciiframer.h</name>
+  </compound>
+  <compound refid="modbusframer_8h" kind="file"><name>modbusframer.h</name>
+  </compound>
+  <compound refid="modbusrtuframer_8h" kind="file"><name>modbusrtuframer.h</name>
+  </compound>
+  <compound refid="modbustcpframer_8h" kind="file"><name>modbustcpframer.h</name>
+  </compound>
+  <compound refid="modbusrequest_8h" kind="file"><name>modbusrequest.h</name>
+  </compound>
+  <compound refid="modbussession_8h" kind="file"><name>modbussession.h</name>
+  </compound>
+  <compound refid="parsing_8h" kind="file"><name>parsing.h</name>
   </compound>
   <compound refid="utils_8h" kind="file"><name>utils.h</name>
   </compound>
   <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
-    <member refid="main_8cpp_1a95e51b33b8b07360278177aac0d99f64" kind="function"><name>make_stream_from_buffer</name></member>
-    <member refid="main_8cpp_1ad3e61260729326d72aada87614f680b7" kind="function"><name>make_buffer_from_stream</name></member>
-    <member refid="main_8cpp_1a8c9df54e1e7be1b752732fda908efe0a" kind="function"><name>handler</name></member>
-    <member refid="main_8cpp_1a5f59a67c34f3b19cce901a248b2c025a" kind="function"><name>crc</name></member>
     <member refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="asyncmodbusserialclient_8cpp" kind="file"><name>asyncmodbusserialclient.cpp</name>
+  </compound>
+  <compound refid="asyncmodbustcpclient_8cpp" kind="file"><name>asyncmodbustcpclient.cpp</name>
   </compound>
   <compound refid="modbusclient_8cpp" kind="file"><name>modbusclient.cpp</name>
   </compound>
+  <compound refid="modbusserialclient_8cpp" kind="file"><name>modbusserialclient.cpp</name>
+  </compound>
   <compound refid="modbustcpclient_8cpp" kind="file"><name>modbustcpclient.cpp</name>
+  </compound>
+  <compound refid="modbusasciiframer_8cpp" kind="file"><name>modbusasciiframer.cpp</name>
+  </compound>
+  <compound refid="modbusframer_8cpp" kind="file"><name>modbusframer.cpp</name>
+  </compound>
+  <compound refid="modbusrtuframer_8cpp" kind="file"><name>modbusrtuframer.cpp</name>
+  </compound>
+  <compound refid="modbustcpframer_8cpp" kind="file"><name>modbustcpframer.cpp</name>
+  </compound>
+  <compound refid="modbusrequest_8cpp" kind="file"><name>modbusrequest.cpp</name>
+  </compound>
+  <compound refid="modbussession_8cpp" kind="file"><name>modbussession.cpp</name>
+  </compound>
+  <compound refid="parsing_8cpp" kind="file"><name>parsing.cpp</name>
   </compound>
   <compound refid="utils_8cpp" kind="file"><name>utils.cpp</name>
   </compound>
-  <compound refid="dir_b68767efdd3d99ccfb48f00f85c5f695" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3</name>
+  <compound refid="dir_b68767efdd3d99ccfb48f00f85c5f695" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3</name>
   </compound>
-  <compound refid="dir_95e29a8b8ee7c54052c171a88bb95675" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug</name>
+  <compound refid="dir_db09cf93793bbf74b9d33bf405e81bcd" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/async</name>
   </compound>
-  <compound refid="dir_f89abcb304c928c7d889aa5625570de5" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles</name>
+  <compound refid="dir_626824dc66e02c6fdcfe5ff52a348587" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/async</name>
   </compound>
-  <compound refid="dir_9756b2e6bf3957c50dc5a46b179969f2" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC</name>
+  <compound refid="dir_44454380e89751d088dd05c94905df2f" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients</name>
   </compound>
-  <compound refid="dir_720d36405d39524b939e0100a25cf975" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX</name>
+  <compound refid="dir_a8d4fc7c03ff59e4c0aef75ceaccd9ea" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients</name>
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/include</name>
+  <compound refid="dir_95e29a8b8ee7c54052c171a88bb95675" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug</name>
   </compound>
-  <compound refid="dir_e13d0bbab6b182b39d147fbe8f11c4ca" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir</name>
+  <compound refid="dir_f89abcb304c928c7d889aa5625570de5" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles</name>
   </compound>
-  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/src</name>
+  <compound refid="dir_9756b2e6bf3957c50dc5a46b179969f2" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC</name>
   </compound>
-  <compound refid="dir_8eb1ae61a5ce2f4b231b9cbdb8a50d83" kind="dir"><name>/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/src</name>
+  <compound refid="dir_720d36405d39524b939e0100a25cf975" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX</name>
+  </compound>
+  <compound refid="dir_567b54f72cb72672bfa1fbee88e5b9ac" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers</name>
+  </compound>
+  <compound refid="dir_3aa1b961769a5bdb807815079a9522bd" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include</name>
+  </compound>
+  <compound refid="dir_e13d0bbab6b182b39d147fbe8f11c4ca" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir</name>
+  </compound>
+  <compound refid="dir_27c43e56711e3b680ceb64a20a4e4caa" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/Progress</name>
+  </compound>
+  <compound refid="dir_53e88f7fa585331171beac223e0e5b81" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session</name>
+  </compound>
+  <compound refid="dir_c6c6addb29aa8d5a65319811dc0d6b4c" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session</name>
+  </compound>
+  <compound refid="dir_8eb1ae61a5ce2f4b231b9cbdb8a50d83" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/modbus-library-cpp.dir/src</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src</name>
+  </compound>
+  <compound refid="dir_9bc88d1a9914b5d3e84a0f8cec41ac69" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/sync</name>
+  </compound>
+  <compound refid="dir_c23d3b1c58ba79e139f1ee1c81e4d663" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync</name>
+  </compound>
+  <compound refid="dir_313caf1132e152dd9b58bea13a4052ca" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/utils</name>
+  </compound>
+  <compound refid="dir_821002d4f10779a80d4fb17bc32f21f1" kind="dir"><name>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils</name>
   </compound>
 </doxygenindex>

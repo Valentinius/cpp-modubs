@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['success_165',['SUCCESS',['../namespacemodbus_1_1enums.html#a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c',1,'modbus::enums']]]
+  ['lazy_5fread_515',['LAZY_READ',['../namespacemodbus_1_1enums.html#a0bcc5fdc106dc6bc98216faa21c58b66a7bff94d72d592f2f07b188a9fcd111ce',1,'modbus::enums']]]
 ];

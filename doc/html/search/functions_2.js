@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['formasciirequest_116',['formASCIIRequest',['../class_modbus_client.html#a1e062e0264baff9ad3d96379f226d4d0',1,'ModbusClient']]],
-  ['formpdu_117',['formPDU',['../class_modbus_client.html#aa905f8aab32244d968b0145ecf613d07',1,'ModbusClient']]],
-  ['formrequest_118',['formRequest',['../class_modbus_client.html#a1a4800cb5b8af39031505eaa8e20096e',1,'ModbusClient']]],
-  ['formrturequest_119',['formRTURequest',['../class_modbus_client.html#a3a21c8df117e91d49be308fdf6984b98',1,'ModbusClient']]],
-  ['formtcprequest_120',['formTCPRequest',['../class_modbus_client.html#ad6abef0fbe2a8f4b9729fb528f30b036',1,'ModbusClient']]]
+  ['connect_332',['connect',['../class_modbus_client.html#a8fd569eaaf54ae2fa5e80e55fef41b0e',1,'ModbusClient::connect()=0'],['../class_modbus_client.html#a21db4626ea64a253f38215151374b7f5',1,'ModbusClient::connect(std::string ip, uint16_t port)=0'],['../class_modbus_t_c_p_client.html#a37e32758140ad3848d46e8e103554396',1,'ModbusTCPClient::connect() override'],['../class_modbus_t_c_p_client.html#aaa192ba308d25e84aa480dde9d1fdce7',1,'ModbusTCPClient::connect(std::string ip, uint16_t port) override']]],
+  ['crcrtu_333',['crcRTU',['../namespacemodbus_1_1utils.html#a7c28b664f6ded864952cc973edb35e6b',1,'modbus::utils']]]
 ];

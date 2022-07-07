@@ -13,7 +13,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="17" column="11" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="17" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="17" column="11" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_c_make_c_compiler_id_8c_1a81dee0709ded976b2e0319239f72d174" prot="public" static="no">
         <name>COMPILER_ID</name>
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="396" column="10" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="396" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="396" column="10" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="396" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_c_make_c_compiler_id_8c_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" prot="public" static="no">
         <name>STRINGIFY_HELPER</name>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="416" column="9" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="416" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="416" column="9" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="416" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_c_make_c_compiler_id_8c_1a43e1cad902b6477bec893cb6430bd6c8" prot="public" static="no">
         <name>STRINGIFY</name>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="417" column="9" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="417" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="417" column="9" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="417" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_c_make_c_compiler_id_8c_1adbc5372f40838899018fadbc89bd588b" prot="public" static="no">
         <name>PLATFORM_ID</name>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="524" column="10" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="524" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="524" column="10" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="524" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_c_make_c_compiler_id_8c_1aba35d0d200deaeb06aee95ca297acb28" prot="public" static="no">
         <name>ARCHITECTURE_ID</name>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="652" column="12" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="652" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="652" column="12" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="652" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_c_make_c_compiler_id_8c_1ad1280362da42492bbc11aa78cbf776ad" prot="public" static="no">
         <name>DEC</name>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="656" column="9" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="656" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="656" column="9" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="656" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_c_make_c_compiler_id_8c_1a46d5d95daa1bef867bd0179594310ed5" prot="public" static="no">
         <name>HEX</name>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="667" column="9" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="667" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="667" column="9" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="667" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="_c_make_c_compiler_id_8c_1adaee3ee7c5a7a22451ea25e762e1d7d5" prot="public" static="no">
         <name>C_VERSION</name>
@@ -116,12 +116,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="741" column="13" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="741" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="741" column="13" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="741" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
       <memberdef kind="variable" id="_c_make_c_compiler_id_8c_1a4b0efeb7a5d59313986b3a0390f050f6" prot="public" static="no" mutable="no">
-        <type>char const  *</type>
+        <type><ref refid="_c_make_cache_8txt_1afe71f11dacb15682cdc012f7208e6e09" kindref="member">char</ref> const  *</type>
         <definition>char const* info_compiler</definition>
         <argsstring></argsstring>
         <name>info_compiler</name>
@@ -132,11 +132,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="403" column="12" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="403" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="403" column="12" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="403" bodyend="-1"/>
         <referencedby refid="_c_make_c_compiler_id_8c_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_c_make_c_compiler_id_8c" startline="775" endline="801">main</referencedby>
       </memberdef>
       <memberdef kind="variable" id="_c_make_c_compiler_id_8c_1a2321403dee54ee23f0c2fa849c60f7d4" prot="public" static="no" mutable="no">
-        <type>char const  *</type>
+        <type><ref refid="_c_make_cache_8txt_1afe71f11dacb15682cdc012f7208e6e09" kindref="member">char</ref> const  *</type>
         <definition>char const* info_platform</definition>
         <argsstring></argsstring>
         <name>info_platform</name>
@@ -147,11 +147,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="732" column="12" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="732" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="732" column="12" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="732" bodyend="-1"/>
         <referencedby refid="_c_make_c_compiler_id_8c_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_c_make_c_compiler_id_8c" startline="775" endline="801">main</referencedby>
       </memberdef>
       <memberdef kind="variable" id="_c_make_c_compiler_id_8c_1a59647e99d304ed33b15cb284c27ed391" prot="public" static="no" mutable="no">
-        <type>char const  *</type>
+        <type><ref refid="_c_make_cache_8txt_1afe71f11dacb15682cdc012f7208e6e09" kindref="member">char</ref> const  *</type>
         <definition>char const* info_arch</definition>
         <argsstring></argsstring>
         <name>info_arch</name>
@@ -162,11 +162,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="733" column="12" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="733" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="733" column="12" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="733" bodyend="-1"/>
         <referencedby refid="_c_make_c_compiler_id_8c_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_c_make_c_compiler_id_8c" startline="775" endline="801">main</referencedby>
       </memberdef>
       <memberdef kind="variable" id="_c_make_c_compiler_id_8c_1a4607cccf070750927b458473ca82c090" prot="public" static="no" mutable="no">
-        <type>const char *</type>
+        <type>const <ref refid="_c_make_cache_8txt_1afe71f11dacb15682cdc012f7208e6e09" kindref="member">char</ref> *</type>
         <definition>const char* info_language_standard_default</definition>
         <argsstring></argsstring>
         <name>info_language_standard_default</name>
@@ -178,11 +178,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="754" column="12" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="754" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="754" column="12" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="754" bodyend="-1"/>
         <referencedby refid="_c_make_c_compiler_id_8c_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_c_make_c_compiler_id_8c" startline="775" endline="801">main</referencedby>
       </memberdef>
       <memberdef kind="variable" id="_c_make_c_compiler_id_8c_1a0f46a8a39e09d9b803c4766904fd7e99" prot="public" static="no" mutable="no">
-        <type>const char *</type>
+        <type>const <ref refid="_c_make_cache_8txt_1afe71f11dacb15682cdc012f7208e6e09" kindref="member">char</ref> *</type>
         <definition>const char* info_language_extensions_default</definition>
         <argsstring></argsstring>
         <name>info_language_extensions_default</name>
@@ -201,22 +201,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="757" column="12" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="757" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="757" column="12" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="757" bodyend="-1"/>
         <referencedby refid="_c_make_c_compiler_id_8c_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_c_make_c_compiler_id_8c" startline="775" endline="801">main</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
       <memberdef kind="function" id="_c_make_c_compiler_id_8c_1a0ddf1224851353fc92bfbff6f499fa97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
+        <type><ref refid="_c_make_cache_8txt_1a79a3d8790b2588b09777910863574e09" kindref="member">int</ref></type>
         <definition>int main</definition>
         <argsstring>(int argc, char *argv[])</argsstring>
         <name>main</name>
         <param>
-          <type>int</type>
+          <type><ref refid="_c_make_cache_8txt_1a79a3d8790b2588b09777910863574e09" kindref="member">int</ref></type>
           <declname>argc</declname>
         </param>
         <param>
-          <type>char *</type>
+          <type><ref refid="_c_make_cache_8txt_1afe71f11dacb15682cdc012f7208e6e09" kindref="member">char</ref> *</type>
           <declname>argv</declname>
           <array>[]</array>
         </param>
@@ -226,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="775" column="5" bodyfile="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="775" bodyend="801"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" line="775" column="5" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" bodystart="775" bodyend="801"/>
         <references refid="_c_make_c_compiler_id_8c_1a59647e99d304ed33b15cb284c27ed391" compoundref="_c_make_c_compiler_id_8c" startline="733">info_arch</references>
         <references refid="_c_make_c_compiler_id_8c_1a4b0efeb7a5d59313986b3a0390f050f6" compoundref="_c_make_c_compiler_id_8c" startline="403">info_compiler</references>
         <references refid="_c_make_c_compiler_id_8c_1a0f46a8a39e09d9b803c4766904fd7e99" compoundref="_c_make_c_compiler_id_8c" startline="757">info_language_extensions_default</references>
@@ -1042,6 +1042,6 @@
 <codeline lineno="801"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="802"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/valentin/CLionProjects/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c"/>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c"/>
   </compounddef>
 </doxygen>

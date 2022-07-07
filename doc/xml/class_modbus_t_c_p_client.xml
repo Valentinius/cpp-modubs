@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="24" column="22" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h" line="24" column="22" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_modbus_t_c_p_client_1afef0985cc68f4760d52d2c48ecdcc68b" prot="private" static="no" mutable="no">
         <type>asio::io_context</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="25" column="20" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" bodystart="25" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h" line="25" column="20" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_modbus_t_c_p_client_1a6ea25f3e1f4a60473b4ccd352bcf2cbb" prot="private" static="no" mutable="no">
         <type>asio::ip::tcp::socket</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="26" column="25" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" bodystart="26" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h" line="26" column="25" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_modbus_t_c_p_client_1a5b39ec996b2efbc385a2c1408786e397" prot="private" static="no" mutable="no">
         <type>asio::ip::tcp::endpoint</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="27" column="27" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" bodystart="27" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h" line="27" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -73,7 +73,7 @@
           <declname>port</declname>
         </param>
         <param>
-          <type>ModbusFramer</type>
+          <type><ref refid="class_modbus_framer" kindref="compound">ModbusFramer</ref></type>
           <declname>framer</declname>
           <defval>ModbusFramer::RTU</defval>
         </param>
@@ -83,8 +83,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="17" column="3" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbustcpclient.cpp" bodystart="4" bodyend="6"/>
-        <references refid="class_modbus_client_1a00c972952900c10d538865444000f47e" compoundref="modbusclient_8h" startline="137">ModbusClient::ip</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h" line="17" column="3" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/sync/modbustcpclient.cpp" bodystart="4" bodyend="6"/>
+        <references refid="class_modbus_client_1a00c972952900c10d538865444000f47e" compoundref="modbusclient_8h" startline="163">ModbusClient::ip</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_t_c_p_client_1a37e32758140ad3848d46e8e103554396" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="19" column="8" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbustcpclient.cpp" bodystart="8" bodyend="12"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h" line="19" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/sync/modbustcpclient.cpp" bodystart="8" bodyend="12"/>
       </memberdef>
       <memberdef kind="function" id="class_modbus_t_c_p_client_1aaa192ba308d25e84aa480dde9d1fdce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -120,9 +120,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="20" column="8" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbustcpclient.cpp" bodystart="14" bodyend="18"/>
-        <references refid="class_modbus_client_1a00c972952900c10d538865444000f47e" compoundref="modbusclient_8h" startline="137">ModbusClient::ip</references>
-        <references refid="class_modbus_client_1a5700d77d4bc5e4f9e457db668d321f0d" compoundref="modbusclient_8h" startline="138">ModbusClient::port</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h" line="20" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/sync/modbustcpclient.cpp" bodystart="14" bodyend="18"/>
+        <references refid="class_modbus_client_1a00c972952900c10d538865444000f47e" compoundref="modbusclient_8h" startline="163">ModbusClient::ip</references>
+        <references refid="class_modbus_client_1a5700d77d4bc5e4f9e457db668d321f0d" compoundref="modbusclient_8h" startline="164">ModbusClient::port</references>
       </memberdef>
       <memberdef kind="function" id="class_modbus_t_c_p_client_1a9d8f0b1e04ee82f43947a1bf431e00e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="21" column="8" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbustcpclient.cpp" bodystart="20" bodyend="24"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h" line="21" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/sync/modbustcpclient.cpp" bodystart="20" bodyend="24"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -171,9 +171,10 @@
       </node>
       <node id="3">
         <label>ModbusFramer</label>
+        <link refid="class_modbus_framer"/>
       </node>
     </collaborationgraph>
-    <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" line="15" column="42" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbustcpclient.h" bodystart="15" bodyend="28"/>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h" line="15" column="42" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h" bodystart="15" bodyend="28"/>
     <listofallmembers>
       <member refid="class_modbus_t_c_p_client_1afef0985cc68f4760d52d2c48ecdcc68b" prot="private" virt="non-virtual"><scope>ModbusTCPClient</scope><name>asio_context</name></member>
       <member refid="class_modbus_t_c_p_client_1a6dd4ea0d7704d975be3d4e3d872301bd" prot="private" virt="non-virtual"><scope>ModbusTCPClient</scope><name>asio_ec</name></member>
@@ -188,27 +189,39 @@
       <member refid="class_modbus_client_1a1a4800cb5b8af39031505eaa8e20096e" prot="protected" virt="non-virtual"><scope>ModbusTCPClient</scope><name>formRequest</name></member>
       <member refid="class_modbus_client_1a3a21c8df117e91d49be308fdf6984b98" prot="protected" virt="non-virtual"><scope>ModbusTCPClient</scope><name>formRTURequest</name></member>
       <member refid="class_modbus_client_1ad6abef0fbe2a8f4b9729fb528f30b036" prot="protected" virt="non-virtual"><scope>ModbusTCPClient</scope><name>formTCPRequest</name></member>
-      <member refid="class_modbus_client_1a66f1f6e1c5ad4db8e40066415952b463" prot="protected" virt="non-virtual"><scope>ModbusTCPClient</scope><name>framer</name></member>
+      <member refid="class_modbus_client_1ad1925d04680d1fb06517da857902f408" prot="protected" virt="non-virtual"><scope>ModbusTCPClient</scope><name>framer</name></member>
       <member refid="class_modbus_client_1a00c972952900c10d538865444000f47e" prot="protected" virt="non-virtual"><scope>ModbusTCPClient</scope><name>ip</name></member>
       <member refid="class_modbus_client_1af79b94d73020ef0d64fcc1ab6be974fc" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>ModbusClient</name></member>
       <member refid="class_modbus_t_c_p_client_1ae6cb19302ccca1261233c3bdc3814529" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>ModbusTCPClient</name></member>
       <member refid="class_modbus_client_1a5700d77d4bc5e4f9e457db668d321f0d" prot="protected" virt="non-virtual"><scope>ModbusTCPClient</scope><name>port</name></member>
-      <member refid="class_modbus_client_1a608213c6942ba429470b88a506d71233" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>readCoil</name></member>
-      <member refid="class_modbus_client_1a1c2be0fe268c25f773c4eed2b7c9fd08" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>readCoils</name></member>
-      <member refid="class_modbus_client_1ab9bba2e136b24a34bfcb844666db2c34" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>readDiscreteInput</name></member>
-      <member refid="class_modbus_client_1a7a40efdd2ac64fb99366a8c864893084" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>readDiscreteInputs</name></member>
-      <member refid="class_modbus_client_1a7ae78f974f74145221c1b24c71f9e699" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>readHoldingRegister</name></member>
-      <member refid="class_modbus_client_1ab71f8af50fce8351c8b2db267c8d0e35" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>readHoldingRegisters</name></member>
-      <member refid="class_modbus_client_1adbea669f0f4675e2113e7e7872a9be9a" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>readInputRegister</name></member>
-      <member refid="class_modbus_client_1ab59c19ad48ff322f3bcf9f0b61fb7824" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>readInputRegisters</name></member>
-      <member refid="class_modbus_client_1a02c4a271b6fd808a766f6fcf8b59b86f" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>sendRawRequest</name></member>
-      <member refid="class_modbus_client_1a423d5eefdc0a2e20aba5969474d529f8" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>sendRequest</name></member>
-      <member refid="class_modbus_client_1a4f825f131b2712c62ea7a453f6a8b084" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>writeCoil</name></member>
-      <member refid="class_modbus_client_1aeffb0621eaec6ff49c8686cd0cc358cc" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>writeCoils</name></member>
-      <member refid="class_modbus_client_1a5a2c225b2293937b8d026565d6f69701" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>writeCoils</name></member>
-      <member refid="class_modbus_client_1abf7dcbe74105b353cd49201161bc893c" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>writeHoldingRegister</name></member>
-      <member refid="class_modbus_client_1acbf064fdd2cf7fbd1fadd22cf2e072ba" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>writeHoldingRegisters</name></member>
-      <member refid="class_modbus_client_1a9ceed9712e9e0c94db11a204792579b4" prot="public" virt="non-virtual"><scope>ModbusTCPClient</scope><name>writeHoldingRegisters</name></member>
+      <member refid="class_modbus_client_1a8de4db774eabd797118ddae961237710" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>readCoil</name></member>
+      <member refid="class_modbus_client_1aa29711287627aec43993c7160a396967" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>readCoil</name></member>
+      <member refid="class_modbus_client_1ac94aa9cf9a0827cc5363f31139b501c0" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>readCoils</name></member>
+      <member refid="class_modbus_client_1a2c61ba0a0c2b8daa611e06cecf12a2a8" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>readCoils</name></member>
+      <member refid="class_modbus_client_1aa92398b080bed5e90d4f921139396ac0" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>readDiscreteInput</name></member>
+      <member refid="class_modbus_client_1aedde720268d0976602db1aa47cb205cc" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>readDiscreteInput</name></member>
+      <member refid="class_modbus_client_1a5090ed601a48541323781daaebe2543a" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>readDiscreteInputs</name></member>
+      <member refid="class_modbus_client_1a2f5b881b661c9482e30013e1ae9f7999" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>readDiscreteInputs</name></member>
+      <member refid="class_modbus_client_1a392811740528b9155499316f1b8f0520" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>readHoldingRegister</name></member>
+      <member refid="class_modbus_client_1a1738d824b2c2d34d562041242df84376" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>readHoldingRegister</name></member>
+      <member refid="class_modbus_client_1a832b4634d3cc4e34edd54288019b0e33" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>readHoldingRegisters</name></member>
+      <member refid="class_modbus_client_1aed77556743c0faa335aeabbe009deed0" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>readHoldingRegisters</name></member>
+      <member refid="class_modbus_client_1abf60e436ffe06764b4e4ddec6d87a72e" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>readInputRegister</name></member>
+      <member refid="class_modbus_client_1a122c967136f8b5e21c957c15a2dd3d4d" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>readInputRegister</name></member>
+      <member refid="class_modbus_client_1aeff25a2dd21e2830ebcd2e79ba57ac46" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>readInputRegisters</name></member>
+      <member refid="class_modbus_client_1a9fa55d70543e0cd3b5a6056acf4a70aa" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>readInputRegisters</name></member>
+      <member refid="class_modbus_client_1a1e8a3109bd15b0d4c34abff3f873d076" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>sendRawRequest</name></member>
+      <member refid="class_modbus_client_1ad5bcf74561ff2a87dce0aadce1b83cc5" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>sendRequest</name></member>
+      <member refid="class_modbus_client_1a30a15e770abfab958496a66d553cadd4" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>writeCoil</name></member>
+      <member refid="class_modbus_client_1a85592896cbce764d2507ca88fcd04afe" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>writeCoil</name></member>
+      <member refid="class_modbus_client_1ac005e495b52f43db2ece4d6fde79f8ec" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>writeCoils</name></member>
+      <member refid="class_modbus_client_1a9ab1ec0d27b731e4319802da59021f0a" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>writeCoils</name></member>
+      <member refid="class_modbus_client_1a3cc722919523ba9ba6d7a77fad860ac8" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>writeCoils</name></member>
+      <member refid="class_modbus_client_1a1fd3bdf7239d17ac3f1f1914e66ae64d" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>writeHoldingRegister</name></member>
+      <member refid="class_modbus_client_1adb536b8feb9df4307ca97dd99462c1d3" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>writeHoldingRegister</name></member>
+      <member refid="class_modbus_client_1aa748d1344a489b17675f1cf5870245b3" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>writeHoldingRegisters</name></member>
+      <member refid="class_modbus_client_1a5b627829f90820af920a113b208a4bea" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>writeHoldingRegisters</name></member>
+      <member refid="class_modbus_client_1ae1f555f8c18b43a2f5c6718eb762f3dd" prot="public" virt="virtual"><scope>ModbusTCPClient</scope><name>writeHoldingRegisters</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['main_122',['main',['../_c_make_c_compiler_id_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;CMakeCCompilerId.c'],['../_c_make_c_x_x_compiler_id_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;CMakeCXXCompilerId.cpp'],['../main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.cpp']]],
-  ['make_5fbuffer_5ffrom_5fstream_123',['make_buffer_from_stream',['../main_8cpp.html#ad3e61260729326d72aada87614f680b7',1,'main.cpp']]],
-  ['make_5fstream_5ffrom_5fbuffer_124',['make_stream_from_buffer',['../main_8cpp.html#a95e51b33b8b07360278177aac0d99f64',1,'main.cpp']]],
-  ['modbusclient_125',['ModbusClient',['../class_modbus_client.html#af79b94d73020ef0d64fcc1ab6be974fc',1,'ModbusClient']]],
-  ['modbustcpclient_126',['ModbusTCPClient',['../class_modbus_t_c_p_client.html#ae6cb19302ccca1261233c3bdc3814529',1,'ModbusTCPClient']]]
+  ['formasciirequest_335',['formASCIIRequest',['../class_modbus_client.html#a1e062e0264baff9ad3d96379f226d4d0',1,'ModbusClient']]],
+  ['formpdu_336',['formPDU',['../class_modbus_client.html#aa905f8aab32244d968b0145ecf613d07',1,'ModbusClient']]],
+  ['formrequest_337',['formRequest',['../class_modbus_client.html#a1a4800cb5b8af39031505eaa8e20096e',1,'ModbusClient']]],
+  ['formrturequest_338',['formRTURequest',['../class_modbus_client.html#a3a21c8df117e91d49be308fdf6984b98',1,'ModbusClient']]],
+  ['formtcprequest_339',['formTCPRequest',['../class_modbus_client.html#ad6abef0fbe2a8f4b9729fb528f30b036',1,'ModbusClient']]],
+  ['frommsblsb_340',['fromMsbLsb',['../namespacemodbus_1_1utils.html#a419f147dcbc1cd876c43ff6a8b89ad23',1,'modbus::utils::fromMsbLsb(uint8_t lsb, uint8_t msb, uint16_t &amp;data)'],['../namespacemodbus_1_1utils.html#a61d088be613ff73551a3dc0cd1c0c192',1,'modbus::utils::fromMsbLsb(uint16_t lsb, uint16_t msb, uint32_t &amp;data)']]]
 ];

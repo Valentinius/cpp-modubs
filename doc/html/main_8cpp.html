@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Modbus cpp: Файл /home/valentin/CLionProjects/cpp-modubs/main.cpp</title>
+<title>Modbus cpp: Файл /home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/main.cpp</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('main_8cpp.html',''); initResizable(); 
   <div class="summary">
 <a href="#func-members">Функции</a>  </div>
   <div class="headertitle">
-<div class="title">Файл /home/valentin/CLionProjects/cpp-modubs/main.cpp</div>  </div>
+<div class="title">Файл /home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/main.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;unistd.h&gt;</code><br />
@@ -96,122 +96,30 @@ $(document).ready(function(){initNavTree('main_8cpp.html',''); initResizable(); 
 <code>#include &lt;boost/asio.hpp&gt;</code><br />
 <code>#include &lt;boost/asio/ts/buffer.hpp&gt;</code><br />
 <code>#include &lt;boost/asio/ts/internet.hpp&gt;</code><br />
+<code>#include &quot;<a class="el" href="utils_8h_source.html">utils.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Граф включаемых заголовочных файлов для main.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="main_8cpp__incl.png" border="0" usemap="#_2home_2valentin_2_c_lion_projects_2cpp-modubs_2main_8cpp" alt=""/></div>
-<map name="_2home_2valentin_2_c_lion_projects_2cpp-modubs_2main_8cpp" id="_2home_2valentin_2_c_lion_projects_2cpp-modubs_2main_8cpp">
-<area shape="rect" title=" " alt="" coords="187,5,399,47"/>
-<area shape="rect" title=" " alt="" coords="5,95,80,121"/>
-<area shape="rect" title=" " alt="" coords="104,95,184,121"/>
-<area shape="rect" title=" " alt="" coords="208,95,267,121"/>
-<area shape="rect" title=" " alt="" coords="291,95,408,121"/>
-<area shape="rect" title=" " alt="" coords="433,95,607,121"/>
-<area shape="rect" title=" " alt="" coords="631,95,819,121"/>
+<div class="center"><img src="main_8cpp__incl.png" border="0" usemap="#_2home_2alexeykozlovsky_2_documents_2_j_i_n_r_2modbus-library-cpp_2cpp-modubs_2main_8cpp" alt=""/></div>
+<map name="_2home_2alexeykozlovsky_2_documents_2_j_i_n_r_2modbus-library-cpp_2cpp-modubs_2main_8cpp" id="_2home_2alexeykozlovsky_2_documents_2_j_i_n_r_2modbus-library-cpp_2cpp-modubs_2main_8cpp">
+<area shape="rect" title=" " alt="" coords="238,5,417,76"/>
+<area shape="rect" title=" " alt="" coords="5,124,73,151"/>
+<area shape="rect" title=" " alt="" coords="98,124,170,151"/>
+<area shape="rect" title=" " alt="" coords="195,124,249,151"/>
+<area shape="rect" title=" " alt="" coords="274,124,381,151"/>
+<area shape="rect" title=" " alt="" coords="405,124,564,151"/>
+<area shape="rect" title=" " alt="" coords="588,124,757,151"/>
+<area shape="rect" href="utils_8h.html" title=" " alt="" coords="781,124,839,151"/>
+<area shape="rect" title=" " alt="" coords="779,199,841,225"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Функции</h2></td></tr>
-<tr class="memitem:a95e51b33b8b07360278177aac0d99f64"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a95e51b33b8b07360278177aac0d99f64">make_stream_from_buffer</a> (asio::streambuf &amp;asio_buffer, uint8_t *buff, size_t buff_size)</td></tr>
-<tr class="separator:a95e51b33b8b07360278177aac0d99f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3e61260729326d72aada87614f680b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#ad3e61260729326d72aada87614f680b7">make_buffer_from_stream</a> (asio::streambuf &amp;asio_buffer, uint8_t *buff, size_t buff_size)</td></tr>
-<tr class="separator:ad3e61260729326d72aada87614f680b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c9df54e1e7be1b752732fda908efe0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a8c9df54e1e7be1b752732fda908efe0a">handler</a> (const boost::system::error_code ec, std::size_t bytes_transfered)</td></tr>
-<tr class="separator:a8c9df54e1e7be1b752732fda908efe0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f59a67c34f3b19cce901a248b2c025a"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a5f59a67c34f3b19cce901a248b2c025a">crc</a> (uint8_t *data, uint8_t size, uint8_t &amp;msb, uint8_t &amp;lsb)</td></tr>
-<tr class="separator:a5f59a67c34f3b19cce901a248b2c025a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
+<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_make_cache_8txt.html#a79a3d8790b2588b09777910863574e09">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (<a class="el" href="_c_make_cache_8txt.html#a79a3d8790b2588b09777910863574e09">int</a> argc, <a class="el" href="_c_make_cache_8txt.html#afe71f11dacb15682cdc012f7208e6e09">char</a> *argv[])</td></tr>
 <tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Функции</h2>
-<a id="a5f59a67c34f3b19cce901a248b2c025a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f59a67c34f3b19cce901a248b2c025a">&#9670;&nbsp;</a></span>crc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t crc </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t &amp;&#160;</td>
-          <td class="paramname"><em>msb</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t &amp;&#160;</td>
-          <td class="paramname"><em>lsb</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Граф вызова функции:</div>
-<div class="dyncontent">
-<div class="center"><img src="main_8cpp_a5f59a67c34f3b19cce901a248b2c025a_icgraph.png" border="0" usemap="#main_8cpp_a5f59a67c34f3b19cce901a248b2c025a_icgraph" alt=""/></div>
-<map name="main_8cpp_a5f59a67c34f3b19cce901a248b2c025a_icgraph" id="main_8cpp_a5f59a67c34f3b19cce901a248b2c025a_icgraph">
-<area shape="rect" title=" " alt="" coords="191,31,232,57"/>
-<area shape="rect" href="namespacemodbus_1_1utils.html#a00eb6fbd9aa4c79311df088d010bb086" title=" " alt="" coords="5,5,143,32"/>
-<area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="47,56,101,83"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a8c9df54e1e7be1b752732fda908efe0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c9df54e1e7be1b752732fda908efe0a">&#9670;&nbsp;</a></span>handler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void handler </td>
-          <td>(</td>
-          <td class="paramtype">const boost::system::error_code&#160;</td>
-          <td class="paramname"><em>ec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::size_t&#160;</td>
-          <td class="paramname"><em>bytes_transfered</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Граф вызова функции:</div>
-<div class="dyncontent">
-<div class="center"><img src="main_8cpp_a8c9df54e1e7be1b752732fda908efe0a_icgraph.png" border="0" usemap="#main_8cpp_a8c9df54e1e7be1b752732fda908efe0a_icgraph" alt=""/></div>
-<map name="main_8cpp_a8c9df54e1e7be1b752732fda908efe0a_icgraph" id="main_8cpp_a8c9df54e1e7be1b752732fda908efe0a_icgraph">
-<area shape="rect" title=" " alt="" coords="108,5,179,32"/>
-<area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,60,32"/>
-</map>
-</div>
-
-</div>
-</div>
 <a id="a0ddf1224851353fc92bfbff6f499fa97"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ddf1224851353fc92bfbff6f499fa97">&#9670;&nbsp;</a></span>main()</h2>
 
@@ -219,15 +127,15 @@ $(document).ready(function(){initNavTree('main_8cpp.html',''); initResizable(); 
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int main </td>
+          <td class="memname"><a class="el" href="_c_make_cache_8txt.html#a79a3d8790b2588b09777910863574e09">int</a> main </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="_c_make_cache_8txt.html#a79a3d8790b2588b09777910863574e09">int</a>&#160;</td>
           <td class="paramname"><em>argc</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">char *&#160;</td>
+          <td class="paramtype"><a class="el" href="_c_make_cache_8txt.html#afe71f11dacb15682cdc012f7208e6e09">char</a> *&#160;</td>
           <td class="paramname"><em>argv</em>[]&#160;</td>
         </tr>
         <tr>
@@ -242,87 +150,9 @@ $(document).ready(function(){initNavTree('main_8cpp.html',''); initResizable(); 
 <div class="dyncontent">
 <div class="center"><img src="main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.png" border="0" usemap="#main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph" alt=""/></div>
 <map name="main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph" id="main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph">
-<area shape="rect" title=" " alt="" coords="5,56,60,83"/>
-<area shape="rect" href="main_8cpp.html#a5f59a67c34f3b19cce901a248b2c025a" title=" " alt="" coords="185,5,226,32"/>
-<area shape="rect" href="main_8cpp.html#a8c9df54e1e7be1b752732fda908efe0a" title=" " alt="" coords="170,56,241,83"/>
-<area shape="rect" href="main_8cpp.html#a95e51b33b8b07360278177aac0d99f64" title=" " alt="" coords="108,107,303,133"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ad3e61260729326d72aada87614f680b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3e61260729326d72aada87614f680b7">&#9670;&nbsp;</a></span>make_buffer_from_stream()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void make_buffer_from_stream </td>
-          <td>(</td>
-          <td class="paramtype">asio::streambuf &amp;&#160;</td>
-          <td class="paramname"><em>asio_buffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>buff</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>buff_size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a95e51b33b8b07360278177aac0d99f64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95e51b33b8b07360278177aac0d99f64">&#9670;&nbsp;</a></span>make_stream_from_buffer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int make_stream_from_buffer </td>
-          <td>(</td>
-          <td class="paramtype">asio::streambuf &amp;&#160;</td>
-          <td class="paramname"><em>asio_buffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>buff</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>buff_size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Граф вызова функции:</div>
-<div class="dyncontent">
-<div class="center"><img src="main_8cpp_a95e51b33b8b07360278177aac0d99f64_icgraph.png" border="0" usemap="#main_8cpp_a95e51b33b8b07360278177aac0d99f64_icgraph" alt=""/></div>
-<map name="main_8cpp_a95e51b33b8b07360278177aac0d99f64_icgraph" id="main_8cpp_a95e51b33b8b07360278177aac0d99f64_icgraph">
-<area shape="rect" title=" " alt="" coords="108,5,303,32"/>
-<area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,60,32"/>
+<area shape="rect" title=" " alt="" coords="5,31,56,57"/>
+<area shape="rect" href="namespacemodbus_1_1utils.html#a419f147dcbc1cd876c43ff6a8b89ad23" title=" " alt="" coords="104,5,284,32"/>
+<area shape="rect" href="namespacemodbus_1_1utils.html#a34b2faa17849f4cc8096b09edc3d4cf4" title=" " alt="" coords="111,56,277,83"/>
 </map>
 </div>
 

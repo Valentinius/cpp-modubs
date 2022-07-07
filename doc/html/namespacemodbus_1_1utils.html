@@ -93,18 +93,34 @@ $(document).ready(function(){initNavTree('namespacemodbus_1_1utils.html',''); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Функции</h2></td></tr>
-<tr class="memitem:a00eb6fbd9aa4c79311df088d010bb086"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1utils.html#a00eb6fbd9aa4c79311df088d010bb086">crc</a> (const uint8_t *data, uint8_t size, uint8_t &amp;msb, uint8_t &amp;lsb)</td></tr>
-<tr class="separator:a00eb6fbd9aa4c79311df088d010bb086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49afdaf45d84b935d39cd87de9f2c4eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1utils.html#a49afdaf45d84b935d39cd87de9f2c4eb">parseRequest</a> (const std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;modbus_request, uint8_t *raw_request, size_t raw_request_size)</td></tr>
+<tr class="separator:a49afdaf45d84b935d39cd87de9f2c4eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8861050f3912ffdab8a750fc02d0f48b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1utils.html#a8861050f3912ffdab8a750fc02d0f48b">parseResponse</a> (std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;modbus_request, uint8_t *raw_response, size_t raw_response_size)</td></tr>
+<tr class="separator:a8861050f3912ffdab8a750fc02d0f48b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a816eeb89c7040b9e19e0b09a87e46e"><td class="memItemLeft" align="right" valign="top">ModbusError&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1utils.html#a3a816eeb89c7040b9e19e0b09a87e46e">parseError</a> (uint8_t *raw_response, size_t raw_response_req)</td></tr>
+<tr class="separator:a3a816eeb89c7040b9e19e0b09a87e46e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c28b664f6ded864952cc973edb35e6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1utils.html#a7c28b664f6ded864952cc973edb35e6b">crcRTU</a> (const uint8_t *data, uint8_t size, uint8_t &amp;msb, uint8_t &amp;lsb)</td></tr>
+<tr class="separator:a7c28b664f6ded864952cc973edb35e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34b2faa17849f4cc8096b09edc3d4cf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1utils.html#a34b2faa17849f4cc8096b09edc3d4cf4">toMsbLsb</a> (uint16_t data, uint8_t &amp;lsb, uint8_t &amp;msb)</td></tr>
+<tr class="separator:a34b2faa17849f4cc8096b09edc3d4cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5044304a18057065cd2d7c33f78c2a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1utils.html#ab5044304a18057065cd2d7c33f78c2a9">toMsbLsb</a> (uint32_t data, uint16_t &amp;lsb, uint16_t &amp;msb)</td></tr>
+<tr class="separator:ab5044304a18057065cd2d7c33f78c2a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a419f147dcbc1cd876c43ff6a8b89ad23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1utils.html#a419f147dcbc1cd876c43ff6a8b89ad23">fromMsbLsb</a> (uint8_t lsb, uint8_t msb, uint16_t &amp;data)</td></tr>
+<tr class="separator:a419f147dcbc1cd876c43ff6a8b89ad23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61d088be613ff73551a3dc0cd1c0c192"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemodbus_1_1utils.html#a61d088be613ff73551a3dc0cd1c0c192">fromMsbLsb</a> (uint16_t lsb, uint16_t msb, uint32_t &amp;data)</td></tr>
+<tr class="separator:a61d088be613ff73551a3dc0cd1c0c192"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Функции</h2>
-<a id="a00eb6fbd9aa4c79311df088d010bb086"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00eb6fbd9aa4c79311df088d010bb086">&#9670;&nbsp;</a></span>crc()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Пространство имен, содержащее функции, реализация которых (с точки зрения архитектуры и оптимизации) выгода в отдельности от классов. </p>
+</div><h2 class="groupheader">Функции</h2>
+<a id="a7c28b664f6ded864952cc973edb35e6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c28b664f6ded864952cc973edb35e6b">&#9670;&nbsp;</a></span>crcRTU()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void modbus::utils::crc </td>
+          <td class="memname">void modbus::utils::crcRTU </td>
           <td>(</td>
           <td class="paramtype">const uint8_t *&#160;</td>
           <td class="paramname"><em>data</em>, </td>
@@ -134,24 +150,307 @@ $(document).ready(function(){initNavTree('namespacemodbus_1_1utils.html',''); in
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Kukukaudsl kasudlkjqwo djoqwjdojj jj </p><dl class="params"><dt>Аргументы</dt><dd>
+<p>Функция для расчета контрольной суммы для Modbus RTU пакета. </p><dl class="params"><dt>Аргументы</dt><dd>
   <table class="params">
-    <tr><td class="paramname">data</td><td>dlkqwjdlqjdw;lxkcj a;s </td></tr>
-    <tr><td class="paramname">size</td><td>fqwlkejlkqw </td></tr>
-    <tr><td class="paramname">msb</td><td></td></tr>
-    <tr><td class="paramname">lsb</td><td></td></tr>
+    <tr><td class="paramname">data</td><td>- пакет (без контрольной суммы в конце </td></tr>
+    <tr><td class="paramname">size</td><td>- размер пакета (без учета контрольной суммы в конце) </td></tr>
+    <tr><td class="paramname">msb</td><td>- старший байт контрольной суммы </td></tr>
+    <tr><td class="paramname">lsb</td><td>- младший байт контрольной суммы </td></tr>
   </table>
   </dd>
 </dl>
 <div class="dynheader">
 Граф вызовов:</div>
 <div class="dyncontent">
-<div class="center"><img src="namespacemodbus_1_1utils_a00eb6fbd9aa4c79311df088d010bb086_cgraph.png" border="0" usemap="#namespacemodbus_1_1utils_a00eb6fbd9aa4c79311df088d010bb086_cgraph" alt=""/></div>
-<map name="namespacemodbus_1_1utils_a00eb6fbd9aa4c79311df088d010bb086_cgraph" id="namespacemodbus_1_1utils_a00eb6fbd9aa4c79311df088d010bb086_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,143,32"/>
-<area shape="rect" href="main_8cpp.html#a5f59a67c34f3b19cce901a248b2c025a" title=" " alt="" coords="191,5,232,32"/>
+<div class="center"><img src="namespacemodbus_1_1utils_a7c28b664f6ded864952cc973edb35e6b_cgraph.png" border="0" usemap="#namespacemodbus_1_1utils_a7c28b664f6ded864952cc973edb35e6b_cgraph" alt=""/></div>
+<map name="namespacemodbus_1_1utils_a7c28b664f6ded864952cc973edb35e6b_cgraph" id="namespacemodbus_1_1utils_a7c28b664f6ded864952cc973edb35e6b_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,160,32"/>
+<area shape="rect" href="namespacemodbus_1_1utils.html#a34b2faa17849f4cc8096b09edc3d4cf4" title=" " alt="" coords="208,5,373,32"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="a61d088be613ff73551a3dc0cd1c0c192"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61d088be613ff73551a3dc0cd1c0c192">&#9670;&nbsp;</a></span>fromMsbLsb() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void modbus::utils::fromMsbLsb </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>lsb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>msb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t &amp;&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Метод для сбора старших и младших 16 бит в одно 32-битное число </p><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lsb</td><td>- младшие 16-бит исходного числа </td></tr>
+    <tr><td class="paramname">msb</td><td>- старшие 16-бит исходного числа </td></tr>
+    <tr><td class="paramname">data</td><td>- итоговое число в одной переменной </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a419f147dcbc1cd876c43ff6a8b89ad23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a419f147dcbc1cd876c43ff6a8b89ad23">&#9670;&nbsp;</a></span>fromMsbLsb() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void modbus::utils::fromMsbLsb </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>lsb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>msb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t &amp;&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Метод для сбора старшего и младшего байта в одно 16-битное число </p><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lsb</td><td>- младший байт исходного числа </td></tr>
+    <tr><td class="paramname">msb</td><td>- старший байт исходного числа </td></tr>
+    <tr><td class="paramname">data</td><td>- итоговое число в одной переменной </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacemodbus_1_1utils_a419f147dcbc1cd876c43ff6a8b89ad23_icgraph.png" border="0" usemap="#namespacemodbus_1_1utils_a419f147dcbc1cd876c43ff6a8b89ad23_icgraph" alt=""/></div>
+<map name="namespacemodbus_1_1utils_a419f147dcbc1cd876c43ff6a8b89ad23_icgraph" id="namespacemodbus_1_1utils_a419f147dcbc1cd876c43ff6a8b89ad23_icgraph">
+<area shape="rect" title=" " alt="" coords="104,5,284,32"/>
+<area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,56,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3a816eeb89c7040b9e19e0b09a87e46e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a816eeb89c7040b9e19e0b09a87e46e">&#9670;&nbsp;</a></span>parseError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ModbusError modbus::utils::parseError </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>raw_response</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>raw_response_req</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a49afdaf45d84b935d39cd87de9f2c4eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49afdaf45d84b935d39cd87de9f2c4eb">&#9670;&nbsp;</a></span>parseRequest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void modbus::utils::parseRequest </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>modbus_request</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>raw_request</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>raw_request_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8861050f3912ffdab8a750fc02d0f48b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8861050f3912ffdab8a750fc02d0f48b">&#9670;&nbsp;</a></span>parseResponse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void modbus::utils::parseResponse </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>modbus_request</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>raw_response</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>raw_response_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a34b2faa17849f4cc8096b09edc3d4cf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34b2faa17849f4cc8096b09edc3d4cf4">&#9670;&nbsp;</a></span>toMsbLsb() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void modbus::utils::toMsbLsb </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t &amp;&#160;</td>
+          <td class="paramname"><em>lsb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t &amp;&#160;</td>
+          <td class="paramname"><em>msb</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Метод для разбиения 16-битного значения на старший и младший байты </p><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>- исходное значения </td></tr>
+    <tr><td class="paramname">lsb</td><td>- младший байт исходного значения </td></tr>
+    <tr><td class="paramname">msb</td><td>- старший байт исходного значения </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespacemodbus_1_1utils_a34b2faa17849f4cc8096b09edc3d4cf4_icgraph.png" border="0" usemap="#namespacemodbus_1_1utils_a34b2faa17849f4cc8096b09edc3d4cf4_icgraph" alt=""/></div>
+<map name="namespacemodbus_1_1utils_a34b2faa17849f4cc8096b09edc3d4cf4_icgraph" id="namespacemodbus_1_1utils_a34b2faa17849f4cc8096b09edc3d4cf4_icgraph">
+<area shape="rect" title=" " alt="" coords="208,31,373,57"/>
+<area shape="rect" href="namespacemodbus_1_1utils.html#a7c28b664f6ded864952cc973edb35e6b" title=" " alt="" coords="5,5,160,32"/>
+<area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="57,56,108,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab5044304a18057065cd2d7c33f78c2a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5044304a18057065cd2d7c33f78c2a9">&#9670;&nbsp;</a></span>toMsbLsb() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void modbus::utils::toMsbLsb </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t &amp;&#160;</td>
+          <td class="paramname"><em>lsb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t &amp;&#160;</td>
+          <td class="paramname"><em>msb</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Метод для разбиения 32-битного значения на старшие и младшие 16-бит </p><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>- исходное значения </td></tr>
+    <tr><td class="paramname">lsb</td><td>- младшие 16-бит исходного значения </td></tr>
+    <tr><td class="paramname">msb</td><td>- старшие 16-бит исходного значения </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

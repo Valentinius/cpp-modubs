@@ -1,8 +1,11 @@
 var searchData=
 [
-  ['read_5fcoils_5fgroup_160',['READ_COILS_GROUP',['../namespacemodbus_1_1enums.html#a840731c608991261a8d94682ab069d70a3aacadc8c8e38610f14b414e9ea3441b',1,'modbus::enums']]],
-  ['read_5fdiscrete_5finputs_5fgroup_161',['READ_DISCRETE_INPUTS_GROUP',['../namespacemodbus_1_1enums.html#a840731c608991261a8d94682ab069d70a3f1a524a4f7598527afabae041678f08',1,'modbus::enums']]],
-  ['read_5fholding_5fregisters_5fgroup_162',['READ_HOLDING_REGISTERS_GROUP',['../namespacemodbus_1_1enums.html#a840731c608991261a8d94682ab069d70a21a6ee046ce208469c2a6ef3fabf96c9',1,'modbus::enums']]],
-  ['read_5finputs_5fgroup_163',['READ_INPUTS_GROUP',['../namespacemodbus_1_1enums.html#a840731c608991261a8d94682ab069d70af4b275cd2b3522426d50a0f0b8ff5932',1,'modbus::enums']]],
-  ['rtu_164',['RTU',['../namespacemodbus_1_1enums.html#a766caadc819f2f3413ef023c16f75327a3a61457295e70c88c908f47102c52868',1,'modbus::enums']]]
+  ['illegal_5fdata_5faddress_507',['ILLEGAL_DATA_ADDRESS',['../namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42ea3a1430a3f4307763efadeccbf74eb17c',1,'modbus::enums']]],
+  ['illegal_5fdata_5fvalue_508',['ILLEGAL_DATA_VALUE',['../namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42eac085ce19fb66bb6df3b51fd8024e0d32',1,'modbus::enums']]],
+  ['illegal_5ffunction_509',['ILLEGAL_FUNCTION',['../namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42ea349c0285766ae89d383dcc34af1d0cb4',1,'modbus::enums']]],
+  ['immediate_5fread_510',['IMMEDIATE_READ',['../namespacemodbus_1_1enums.html#a0bcc5fdc106dc6bc98216faa21c58b66a8d7bab3817ce0fa4f1dc8ca464546698',1,'modbus::enums']]],
+  ['immediate_5fwrite_511',['IMMEDIATE_WRITE',['../namespacemodbus_1_1enums.html#a0bcc5fdc106dc6bc98216faa21c58b66a51e829d7545c5e60a96144712c6f06c2',1,'modbus::enums']]],
+  ['incorrect_5frequest_512',['INCORRECT_REQUEST',['../namespacemodbus_1_1enums.html#a5479c4e007352f8ecb2059eb227dbeb6a17ed797c609c85e1e4f438c4c3934414',1,'modbus::enums']]],
+  ['incorrectly_5fresponsed_513',['INCORRECTLY_RESPONSED',['../namespacemodbus_1_1enums.html#a5479c4e007352f8ecb2059eb227dbeb6a95e80bc374178bc5f8101f5060f6170f',1,'modbus::enums']]],
+  ['input_5fregisters_514',['INPUT_REGISTERS',['../namespacemodbus_1_1enums.html#a4b65b756b33b52a74954fa0669b86198a7c1099187f875ee3f3117bab13a21c4f',1,'modbus::enums']]]
 ];

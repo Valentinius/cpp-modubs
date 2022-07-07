@@ -1,10 +1,13 @@
 var searchData=
 [
-  ['info_5farch_29',['info_arch',['../_c_make_c_compiler_id_8c.html#a59647e99d304ed33b15cb284c27ed391',1,'info_arch():&#160;CMakeCCompilerId.c'],['../_c_make_c_x_x_compiler_id_8cpp.html#a59647e99d304ed33b15cb284c27ed391',1,'info_arch():&#160;CMakeCXXCompilerId.cpp']]],
-  ['info_5fcompiler_30',['info_compiler',['../_c_make_c_compiler_id_8c.html#a4b0efeb7a5d59313986b3a0390f050f6',1,'info_compiler():&#160;CMakeCCompilerId.c'],['../_c_make_c_x_x_compiler_id_8cpp.html#a4b0efeb7a5d59313986b3a0390f050f6',1,'info_compiler():&#160;CMakeCXXCompilerId.cpp']]],
-  ['info_5flanguage_5fextensions_5fdefault_31',['info_language_extensions_default',['../_c_make_c_compiler_id_8c.html#a0f46a8a39e09d9b803c4766904fd7e99',1,'info_language_extensions_default():&#160;CMakeCCompilerId.c'],['../_c_make_c_x_x_compiler_id_8cpp.html#a0f46a8a39e09d9b803c4766904fd7e99',1,'info_language_extensions_default():&#160;CMakeCXXCompilerId.cpp']]],
-  ['info_5flanguage_5fstandard_5fdefault_32',['info_language_standard_default',['../_c_make_c_compiler_id_8c.html#a4607cccf070750927b458473ca82c090',1,'info_language_standard_default():&#160;CMakeCCompilerId.c'],['../_c_make_c_x_x_compiler_id_8cpp.html#a4607cccf070750927b458473ca82c090',1,'info_language_standard_default():&#160;CMakeCXXCompilerId.cpp']]],
-  ['info_5fplatform_33',['info_platform',['../_c_make_c_compiler_id_8c.html#a2321403dee54ee23f0c2fa849c60f7d4',1,'info_platform():&#160;CMakeCCompilerId.c'],['../_c_make_c_x_x_compiler_id_8cpp.html#a2321403dee54ee23f0c2fa849c60f7d4',1,'info_platform():&#160;CMakeCXXCompilerId.cpp']]],
-  ['input_5fregisters_34',['INPUT_REGISTERS',['../namespacemodbus_1_1enums.html#a4b65b756b33b52a74954fa0669b86198a7c1099187f875ee3f3117bab13a21c4f',1,'modbus::enums']]],
-  ['ip_35',['ip',['../class_modbus_client.html#a00c972952900c10d538865444000f47e',1,'ModbusClient']]]
+  ['gateway_5fpath_5funavailable_137',['GATEWAY_PATH_UNAVAILABLE',['../namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42ea7fde5a6eb9232098b574d270f3946973',1,'modbus::enums']]],
+  ['gateway_5ftarget_5fdevice_5ffailed_5fto_5fresponse_138',['GATEWAY_TARGET_DEVICE_FAILED_TO_RESPONSE',['../namespacemodbus_1_1enums.html#a8c0b52c5221ff129f554251d4860d42ea1485564a15abb5907b78da10719699f4',1,'modbus::enums']]],
+  ['getregisters_139',['getRegisters',['../class_modbus_request.html#a34b249fa2f5ee4e347318ed9a632b15b',1,'ModbusRequest']]],
+  ['getregistertype_140',['getRegisterType',['../class_modbus_request.html#a153399d44fa5fefe48be780b88b1b23f',1,'ModbusRequest']]],
+  ['getrequestpriority_141',['getRequestPriority',['../class_modbus_request.html#a6b0aeb14e69b1c955437559156b7cd2f',1,'ModbusRequest']]],
+  ['getrequeststatus_142',['getRequestStatus',['../class_modbus_request.html#a5eb1ec6a450116b87fa7b1a10d89faca',1,'ModbusRequest']]],
+  ['getrequesttype_143',['getRequestType',['../class_modbus_request.html#a3e97b4e72ef586e12cbdb266b1f787c9',1,'ModbusRequest']]],
+  ['getslaveid_144',['getSlaveId',['../class_modbus_request.html#a97360b4504ab801c4d55f90865f75f13',1,'ModbusRequest']]],
+  ['getvalues_145',['getValues',['../class_modbus_request.html#a6df8d0e9cd93013dcf3ead6f8c4c9521',1,'ModbusRequest']]],
+  ['gnu_146',['gnu',['../_c_make_cache_8txt.html#acb61b5fec09bcc7d3b88bf1109612ea6',1,'CMakeCache.txt']]]
 ];

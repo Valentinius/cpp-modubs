@@ -1,14 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
   <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
-    <compoundname>/home/valentin/CLionProjects/cpp-modubs/src</compoundname>
-    <innerfile refid="modbusclient_8cpp">modbusclient.cpp</innerfile>
-    <innerfile refid="modbustcpclient_8cpp">modbustcpclient.cpp</innerfile>
-    <innerfile refid="utils_8cpp">utils.cpp</innerfile>
+    <compoundname>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src</compoundname>
+    <innerdir refid="dir_44454380e89751d088dd05c94905df2f">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients</innerdir>
+    <innerdir refid="dir_567b54f72cb72672bfa1fbee88e5b9ac">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers</innerdir>
+    <innerdir refid="dir_53e88f7fa585331171beac223e0e5b81">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session</innerdir>
+    <innerdir refid="dir_313caf1132e152dd9b58bea13a4052ca">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/utils</innerdir>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/valentin/CLionProjects/cpp-modubs/src/"/>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/"/>
   </compounddef>
 </doxygen>

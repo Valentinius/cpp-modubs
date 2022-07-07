@@ -5,9 +5,9 @@
     <derivedcompoundref refid="class_modbus_t_c_p_client" prot="public" virt="non-virtual">ModbusTCPClient</derivedcompoundref>
     <includes refid="modbusclient_8h" local="no">modbusclient.h</includes>
       <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="class_modbus_client_1a66f1f6e1c5ad4db8e40066415952b463" prot="protected" static="no" mutable="no">
-        <type>ModbusFramer</type>
-        <definition>ModbusFramer ModbusClient::framer</definition>
+      <memberdef kind="variable" id="class_modbus_client_1ad1925d04680d1fb06517da857902f408" prot="protected" static="no" mutable="no">
+        <type>const <ref refid="class_modbus_framer" kindref="compound">ModbusFramer</ref></type>
+        <definition>const ModbusFramer ModbusClient::framer</definition>
         <argsstring></argsstring>
         <name>framer</name>
         <briefdescription>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="135" column="16" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" bodystart="135" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="161" column="22" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" bodystart="161" bodyend="-1"/>
         <referencedby refid="class_modbus_client_1a1a4800cb5b8af39031505eaa8e20096e" compoundref="modbusclient_8cpp" startline="81" endline="94">formRequest</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_modbus_client_1ab1b58128e98d3ccb83f51621fc81c150" prot="protected" static="no" mutable="no">
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="136" column="8" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" bodystart="136" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="162" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" bodystart="162" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_modbus_client_1a00c972952900c10d538865444000f47e" prot="protected" static="no" mutable="no">
         <type>std::string</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="137" column="15" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" bodystart="137" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="163" column="15" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" bodystart="163" bodyend="-1"/>
         <referencedby refid="class_modbus_t_c_p_client_1ae6cb19302ccca1261233c3bdc3814529" compoundref="modbustcpclient_8cpp" startline="4" endline="6">ModbusTCPClient::ModbusTCPClient</referencedby>
         <referencedby refid="class_modbus_t_c_p_client_1aaa192ba308d25e84aa480dde9d1fdce7" compoundref="modbustcpclient_8cpp" startline="14" endline="18">ModbusTCPClient::connect</referencedby>
       </memberdef>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="138" column="12" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" bodystart="138" bodyend="-1"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="164" column="12" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" bodystart="164" bodyend="-1"/>
         <referencedby refid="class_modbus_t_c_p_client_1aaa192ba308d25e84aa480dde9d1fdce7" compoundref="modbustcpclient_8cpp" startline="14" endline="18">ModbusTCPClient::connect</referencedby>
       </memberdef>
       </sectiondef>
@@ -77,7 +77,7 @@
           <declname>port</declname>
         </param>
         <param>
-          <type>ModbusFramer</type>
+          <type><ref refid="class_modbus_framer" kindref="compound">ModbusFramer</ref></type>
           <declname>framer</declname>
           <defval>ModbusFramer::RTU</defval>
         </param>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="18" column="3" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="6" bodyend="9"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="19" column="3" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="6" bodyend="9"/>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a8fd569eaaf54ae2fa5e80e55fef41b0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>bool</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="20" column="16"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="21" column="16"/>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a21db4626ea64a253f38215151374b7f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>bool</type>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="21" column="16"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="22" column="16"/>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1ab9106716464e778d08e14af4c065231b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>bool</type>
@@ -137,11 +137,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="22" column="16"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="23" column="16"/>
       </memberdef>
-      <memberdef kind="function" id="class_modbus_client_1ab9bba2e136b24a34bfcb844666db2c34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>RequestStatus</type>
-        <definition>RequestStatus ModbusClient::readDiscreteInput</definition>
+      <memberdef kind="function" id="class_modbus_client_1aa92398b080bed5e90d4f921139396ac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusClient::readDiscreteInput</definition>
         <argsstring>(uint16_t register_num, uint8_t slave_id, uint8_t &amp;value, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
         <name>readDiscreteInput</name>
         <param>
@@ -166,12 +166,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="24" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="118" bodyend="123"/>
-        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="25" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="118" bodyend="123"/>
       </memberdef>
-      <memberdef kind="function" id="class_modbus_client_1a7a40efdd2ac64fb99366a8c864893084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>RequestStatus</type>
-        <definition>RequestStatus ModbusClient::readDiscreteInputs</definition>
+      <memberdef kind="function" id="class_modbus_client_1a5090ed601a48541323781daaebe2543a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusClient::readDiscreteInputs</definition>
         <argsstring>(uint16_t register_num, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;values, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
         <name>readDiscreteInputs</name>
         <param>
@@ -200,12 +199,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="29" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="125" bodyend="131"/>
-        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="30" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="125" bodyend="131"/>
       </memberdef>
-      <memberdef kind="function" id="class_modbus_client_1a608213c6942ba429470b88a506d71233" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>RequestStatus</type>
-        <definition>RequestStatus ModbusClient::readCoil</definition>
+      <memberdef kind="function" id="class_modbus_client_1a8de4db774eabd797118ddae961237710" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusClient::readCoil</definition>
         <argsstring>(uint16_t register_num, uint8_t slave_id, uint8_t &amp;value, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
         <name>readCoil</name>
         <param>
@@ -230,12 +228,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="35" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="133" bodyend="138"/>
-        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="36" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="133" bodyend="138"/>
       </memberdef>
-      <memberdef kind="function" id="class_modbus_client_1a1c2be0fe268c25f773c4eed2b7c9fd08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>RequestStatus</type>
-        <definition>RequestStatus ModbusClient::readCoils</definition>
+      <memberdef kind="function" id="class_modbus_client_1ac94aa9cf9a0827cc5363f31139b501c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusClient::readCoils</definition>
         <argsstring>(uint16_t register_num, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;values, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
         <name>readCoils</name>
         <param>
@@ -264,12 +261,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="40" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="140" bodyend="146"/>
-        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="41" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="140" bodyend="146"/>
       </memberdef>
-      <memberdef kind="function" id="class_modbus_client_1a4f825f131b2712c62ea7a453f6a8b084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>RequestStatus</type>
-        <definition>RequestStatus ModbusClient::writeCoil</definition>
+      <memberdef kind="function" id="class_modbus_client_1a30a15e770abfab958496a66d553cadd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusClient::writeCoil</definition>
         <argsstring>(uint16_t register_num, uint16_t value, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
         <name>writeCoil</name>
         <param>
@@ -294,12 +290,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="46" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="11" bodyend="16"/>
-        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="47" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="11" bodyend="16"/>
       </memberdef>
-      <memberdef kind="function" id="class_modbus_client_1aeffb0621eaec6ff49c8686cd0cc358cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>RequestStatus</type>
-        <definition>RequestStatus ModbusClient::writeCoils</definition>
+      <memberdef kind="function" id="class_modbus_client_1ac005e495b52f43db2ece4d6fde79f8ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusClient::writeCoils</definition>
         <argsstring>(uint16_t register_num, uint16_t *values, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
         <name>writeCoils</name>
         <param>
@@ -328,12 +323,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="51" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="18" bodyend="24"/>
-        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="52" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="18" bodyend="24"/>
       </memberdef>
-      <memberdef kind="function" id="class_modbus_client_1a5a2c225b2293937b8d026565d6f69701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>RequestStatus</type>
-        <definition>RequestStatus ModbusClient::writeCoils</definition>
+      <memberdef kind="function" id="class_modbus_client_1a9ab1ec0d27b731e4319802da59021f0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusClient::writeCoils</definition>
         <argsstring>(uint16_t register_num, const std::vector&lt; uint16_t &gt; &amp;values, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
         <name>writeCoils</name>
         <param>
@@ -358,12 +352,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="57" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="26" bodyend="31"/>
-        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="58" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="26" bodyend="31"/>
       </memberdef>
-      <memberdef kind="function" id="class_modbus_client_1adbea669f0f4675e2113e7e7872a9be9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>RequestStatus</type>
-        <definition>RequestStatus ModbusClient::readInputRegister</definition>
+      <memberdef kind="function" id="class_modbus_client_1abf60e436ffe06764b4e4ddec6d87a72e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusClient::readInputRegister</definition>
         <argsstring>(uint16_t register_num, uint8_t slave_id, uint8_t &amp;value, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
         <name>readInputRegister</name>
         <param>
@@ -388,12 +381,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="62" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="148" bodyend="153"/>
-        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="63" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="148" bodyend="153"/>
       </memberdef>
-      <memberdef kind="function" id="class_modbus_client_1ab59c19ad48ff322f3bcf9f0b61fb7824" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>RequestStatus</type>
-        <definition>RequestStatus ModbusClient::readInputRegisters</definition>
+      <memberdef kind="function" id="class_modbus_client_1aeff25a2dd21e2830ebcd2e79ba57ac46" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusClient::readInputRegisters</definition>
         <argsstring>(uint16_t register_num, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;values, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
         <name>readInputRegisters</name>
         <param>
@@ -422,12 +414,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="67" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="155" bodyend="161"/>
-        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="68" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="155" bodyend="161"/>
       </memberdef>
-      <memberdef kind="function" id="class_modbus_client_1a7ae78f974f74145221c1b24c71f9e699" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>RequestStatus</type>
-        <definition>RequestStatus ModbusClient::readHoldingRegister</definition>
+      <memberdef kind="function" id="class_modbus_client_1a392811740528b9155499316f1b8f0520" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusClient::readHoldingRegister</definition>
         <argsstring>(uint16_t register_num, uint8_t slave_id, uint8_t &amp;value, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
         <name>readHoldingRegister</name>
         <param>
@@ -452,12 +443,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="73" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="163" bodyend="168"/>
-        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="74" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="163" bodyend="168"/>
       </memberdef>
-      <memberdef kind="function" id="class_modbus_client_1ab71f8af50fce8351c8b2db267c8d0e35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>RequestStatus</type>
-        <definition>RequestStatus ModbusClient::readHoldingRegisters</definition>
+      <memberdef kind="function" id="class_modbus_client_1a832b4634d3cc4e34edd54288019b0e33" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusClient::readHoldingRegisters</definition>
         <argsstring>(uint16_t register_num, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;values, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
         <name>readHoldingRegisters</name>
         <param>
@@ -486,12 +476,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="78" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="170" bodyend="176"/>
-        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="79" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="170" bodyend="176"/>
       </memberdef>
-      <memberdef kind="function" id="class_modbus_client_1abf7dcbe74105b353cd49201161bc893c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>RequestStatus</type>
-        <definition>RequestStatus ModbusClient::writeHoldingRegister</definition>
+      <memberdef kind="function" id="class_modbus_client_1a1fd3bdf7239d17ac3f1f1914e66ae64d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusClient::writeHoldingRegister</definition>
         <argsstring>(uint16_t register_num, uint16_t value, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
         <name>writeHoldingRegister</name>
         <param>
@@ -516,12 +505,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="84" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="33" bodyend="38"/>
-        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="85" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="33" bodyend="38"/>
       </memberdef>
-      <memberdef kind="function" id="class_modbus_client_1acbf064fdd2cf7fbd1fadd22cf2e072ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>RequestStatus</type>
-        <definition>RequestStatus ModbusClient::writeHoldingRegisters</definition>
+      <memberdef kind="function" id="class_modbus_client_1aa748d1344a489b17675f1cf5870245b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusClient::writeHoldingRegisters</definition>
         <argsstring>(uint16_t register_num, uint16_t *values, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
         <name>writeHoldingRegisters</name>
         <param>
@@ -550,12 +538,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="89" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="40" bodyend="46"/>
-        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="90" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="40" bodyend="46"/>
       </memberdef>
-      <memberdef kind="function" id="class_modbus_client_1a9ceed9712e9e0c94db11a204792579b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>RequestStatus</type>
-        <definition>RequestStatus ModbusClient::writeHoldingRegisters</definition>
+      <memberdef kind="function" id="class_modbus_client_1a5b627829f90820af920a113b208a4bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusClient::writeHoldingRegisters</definition>
         <argsstring>(uint16_t register_num, const std::vector&lt; uint16_t &gt; &amp;values, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</argsstring>
         <name>writeHoldingRegisters</name>
         <param>
@@ -580,12 +567,215 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="95" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="48" bodyend="53"/>
-        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="96" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="48" bodyend="53"/>
       </memberdef>
-      <memberdef kind="function" id="class_modbus_client_1a02c4a271b6fd808a766f6fcf8b59b86f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>RequestStatus</type>
-        <definition>RequestStatus ModbusClient::sendRawRequest</definition>
+      <memberdef kind="function" id="class_modbus_client_1aedde720268d0976602db1aa47cb205cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ModbusClient::readDiscreteInput</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusRequest &gt; &amp;request)</argsstring>
+        <name>readDiscreteInput</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="101" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a2f5b881b661c9482e30013e1ae9f7999" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ModbusClient::readDiscreteInputs</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusRequest &gt; &amp;request)</argsstring>
+        <name>readDiscreteInputs</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="103" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1aa29711287627aec43993c7160a396967" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ModbusClient::readCoil</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusRequest &gt; &amp;request)</argsstring>
+        <name>readCoil</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="105" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a2c61ba0a0c2b8daa611e06cecf12a2a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ModbusClient::readCoils</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusRequest &gt; &amp;request)</argsstring>
+        <name>readCoils</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="107" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a85592896cbce764d2507ca88fcd04afe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ModbusClient::writeCoil</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusRequest &gt; &amp;request)</argsstring>
+        <name>writeCoil</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="109" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a3cc722919523ba9ba6d7a77fad860ac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ModbusClient::writeCoils</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusRequest &gt; &amp;request)</argsstring>
+        <name>writeCoils</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="111" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a122c967136f8b5e21c957c15a2dd3d4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ModbusClient::readInputRegister</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusRequest &gt; &amp;request)</argsstring>
+        <name>readInputRegister</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="113" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a9fa55d70543e0cd3b5a6056acf4a70aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ModbusClient::readInputRegisters</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusRequest &gt; &amp;request)</argsstring>
+        <name>readInputRegisters</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="115" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a1738d824b2c2d34d562041242df84376" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ModbusClient::readHoldingRegister</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusRequest &gt; &amp;request)</argsstring>
+        <name>readHoldingRegister</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="117" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1aed77556743c0faa335aeabbe009deed0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ModbusClient::readHoldingRegisters</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusRequest &gt; &amp;request)</argsstring>
+        <name>readHoldingRegisters</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="119" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1adb536b8feb9df4307ca97dd99462c1d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ModbusClient::writeHoldingRegister</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusRequest &gt; &amp;request)</argsstring>
+        <name>writeHoldingRegister</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="121" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1ae1f555f8c18b43a2f5c6718eb762f3dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ModbusClient::writeHoldingRegisters</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusRequest &gt; &amp;request)</argsstring>
+        <name>writeHoldingRegisters</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="123" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_client_1a1e8a3109bd15b0d4c34abff3f873d076" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusClient::sendRawRequest</definition>
         <argsstring>(uint8_t *request, size_t request_size, uint8_t slave_id, uint8_t *response, size_t &amp;response_size)</argsstring>
         <name>sendRawRequest</name>
         <param>
@@ -614,12 +804,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="100" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="55" bodyend="61"/>
-        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="126" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="55" bodyend="61"/>
       </memberdef>
-      <memberdef kind="function" id="class_modbus_client_1a423d5eefdc0a2e20aba5969474d529f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>RequestStatus</type>
-        <definition>RequestStatus ModbusClient::sendRequest</definition>
+      <memberdef kind="function" id="class_modbus_client_1ad5bcf74561ff2a87dce0aadce1b83cc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusClient::sendRequest</definition>
         <argsstring>(ModbusFunction function, uint8_t *buffer, size_t buffer_size, uint8_t slave_id)</argsstring>
         <name>sendRequest</name>
         <param>
@@ -644,8 +833,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="106" column="17" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="63" bodyend="68"/>
-        <references refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6a5d73234eb85a14383c5fbe3b8d67663c" compoundref="utils_8h" startline="9">modbus::enums::SUCCESS</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="132" column="27" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="63" bodyend="68"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-static-func">
@@ -672,7 +860,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="112" column="18" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="70" bodyend="79"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="138" column="18" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="70" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1ad6abef0fbe2a8f4b9729fb528f30b036" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t *</type>
@@ -701,7 +889,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="120" column="18" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="96" bodyend="101"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="146" column="18" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="96" bodyend="101"/>
         <referencedby refid="class_modbus_client_1a1a4800cb5b8af39031505eaa8e20096e" compoundref="modbusclient_8cpp" startline="81" endline="94">formRequest</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a3a21c8df117e91d49be308fdf6984b98" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -731,7 +919,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="125" column="18" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="103" bodyend="109"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="151" column="18" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="103" bodyend="109"/>
         <referencedby refid="class_modbus_client_1a1a4800cb5b8af39031505eaa8e20096e" compoundref="modbusclient_8cpp" startline="81" endline="94">formRequest</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_modbus_client_1a1e062e0264baff9ad3d96379f226d4d0" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -761,7 +949,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="130" column="18" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="111" bodyend="116"/>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="156" column="18" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="111" bodyend="116"/>
         <referencedby refid="class_modbus_client_1a1a4800cb5b8af39031505eaa8e20096e" compoundref="modbusclient_8cpp" startline="81" endline="94">formRequest</referencedby>
       </memberdef>
       </sectiondef>
@@ -793,14 +981,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="115" column="11" bodyfile="/home/valentin/CLionProjects/cpp-modubs/src/modbusclient.cpp" bodystart="81" bodyend="94"/>
-        <references refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327ab5e2cddd6610458938989aba81b2d6f2" compoundref="utils_8h" startline="16">modbus::enums::ASCII</references>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="141" column="11" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp" bodystart="81" bodyend="94"/>
+        <references refid="namespacemodbus_1_1enums_1a99ce302c742f886581924749193c4be5ab5e2cddd6610458938989aba81b2d6f2" compoundref="utils_8h" startline="126">modbus::enums::ASCII</references>
         <references refid="class_modbus_client_1a1e062e0264baff9ad3d96379f226d4d0" compoundref="modbusclient_8cpp" startline="111" endline="116">formASCIIRequest</references>
         <references refid="class_modbus_client_1a3a21c8df117e91d49be308fdf6984b98" compoundref="modbusclient_8cpp" startline="103" endline="109">formRTURequest</references>
         <references refid="class_modbus_client_1ad6abef0fbe2a8f4b9729fb528f30b036" compoundref="modbusclient_8cpp" startline="96" endline="101">formTCPRequest</references>
-        <references refid="class_modbus_client_1a66f1f6e1c5ad4db8e40066415952b463" compoundref="modbusclient_8h" startline="135">framer</references>
-        <references refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327a3a61457295e70c88c908f47102c52868" compoundref="utils_8h" startline="15">modbus::enums::RTU</references>
-        <references refid="namespacemodbus_1_1enums_1a766caadc819f2f3413ef023c16f75327a1133c80c863cfe1a87a5ffea9b609f85" compoundref="utils_8h" startline="17">modbus::enums::TCP</references>
+        <references refid="class_modbus_client_1ad1925d04680d1fb06517da857902f408" compoundref="modbusclient_8h" startline="161">framer</references>
+        <references refid="namespacemodbus_1_1enums_1a99ce302c742f886581924749193c4be5a3a61457295e70c88c908f47102c52868" compoundref="utils_8h" startline="122">modbus::enums::RTU</references>
+        <references refid="namespacemodbus_1_1enums_1a99ce302c742f886581924749193c4be5a1133c80c863cfe1a87a5ffea9b609f85" compoundref="utils_8h" startline="130">modbus::enums::TCP</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -829,9 +1017,10 @@
       </node>
       <node id="2">
         <label>ModbusFramer</label>
+        <link refid="class_modbus_framer"/>
       </node>
     </collaborationgraph>
-    <location file="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" line="15" column="19" bodyfile="/home/valentin/CLionProjects/cpp-modubs/include/modbusclient.h" bodystart="15" bodyend="141"/>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" line="16" column="19" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h" bodystart="16" bodyend="167"/>
     <listofallmembers>
       <member refid="class_modbus_client_1a8fd569eaaf54ae2fa5e80e55fef41b0e" prot="public" virt="pure-virtual"><scope>ModbusClient</scope><name>connect</name></member>
       <member refid="class_modbus_client_1a21db4626ea64a253f38215151374b7f5" prot="public" virt="pure-virtual"><scope>ModbusClient</scope><name>connect</name></member>
@@ -842,26 +1031,38 @@
       <member refid="class_modbus_client_1a1a4800cb5b8af39031505eaa8e20096e" prot="protected" virt="non-virtual"><scope>ModbusClient</scope><name>formRequest</name></member>
       <member refid="class_modbus_client_1a3a21c8df117e91d49be308fdf6984b98" prot="protected" virt="non-virtual"><scope>ModbusClient</scope><name>formRTURequest</name></member>
       <member refid="class_modbus_client_1ad6abef0fbe2a8f4b9729fb528f30b036" prot="protected" virt="non-virtual"><scope>ModbusClient</scope><name>formTCPRequest</name></member>
-      <member refid="class_modbus_client_1a66f1f6e1c5ad4db8e40066415952b463" prot="protected" virt="non-virtual"><scope>ModbusClient</scope><name>framer</name></member>
+      <member refid="class_modbus_client_1ad1925d04680d1fb06517da857902f408" prot="protected" virt="non-virtual"><scope>ModbusClient</scope><name>framer</name></member>
       <member refid="class_modbus_client_1a00c972952900c10d538865444000f47e" prot="protected" virt="non-virtual"><scope>ModbusClient</scope><name>ip</name></member>
       <member refid="class_modbus_client_1af79b94d73020ef0d64fcc1ab6be974fc" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>ModbusClient</name></member>
       <member refid="class_modbus_client_1a5700d77d4bc5e4f9e457db668d321f0d" prot="protected" virt="non-virtual"><scope>ModbusClient</scope><name>port</name></member>
-      <member refid="class_modbus_client_1a608213c6942ba429470b88a506d71233" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>readCoil</name></member>
-      <member refid="class_modbus_client_1a1c2be0fe268c25f773c4eed2b7c9fd08" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>readCoils</name></member>
-      <member refid="class_modbus_client_1ab9bba2e136b24a34bfcb844666db2c34" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>readDiscreteInput</name></member>
-      <member refid="class_modbus_client_1a7a40efdd2ac64fb99366a8c864893084" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>readDiscreteInputs</name></member>
-      <member refid="class_modbus_client_1a7ae78f974f74145221c1b24c71f9e699" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>readHoldingRegister</name></member>
-      <member refid="class_modbus_client_1ab71f8af50fce8351c8b2db267c8d0e35" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>readHoldingRegisters</name></member>
-      <member refid="class_modbus_client_1adbea669f0f4675e2113e7e7872a9be9a" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>readInputRegister</name></member>
-      <member refid="class_modbus_client_1ab59c19ad48ff322f3bcf9f0b61fb7824" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>readInputRegisters</name></member>
-      <member refid="class_modbus_client_1a02c4a271b6fd808a766f6fcf8b59b86f" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>sendRawRequest</name></member>
-      <member refid="class_modbus_client_1a423d5eefdc0a2e20aba5969474d529f8" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>sendRequest</name></member>
-      <member refid="class_modbus_client_1a4f825f131b2712c62ea7a453f6a8b084" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>writeCoil</name></member>
-      <member refid="class_modbus_client_1aeffb0621eaec6ff49c8686cd0cc358cc" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>writeCoils</name></member>
-      <member refid="class_modbus_client_1a5a2c225b2293937b8d026565d6f69701" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>writeCoils</name></member>
-      <member refid="class_modbus_client_1abf7dcbe74105b353cd49201161bc893c" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>writeHoldingRegister</name></member>
-      <member refid="class_modbus_client_1acbf064fdd2cf7fbd1fadd22cf2e072ba" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>writeHoldingRegisters</name></member>
-      <member refid="class_modbus_client_1a9ceed9712e9e0c94db11a204792579b4" prot="public" virt="non-virtual"><scope>ModbusClient</scope><name>writeHoldingRegisters</name></member>
+      <member refid="class_modbus_client_1a8de4db774eabd797118ddae961237710" prot="public" virt="virtual"><scope>ModbusClient</scope><name>readCoil</name></member>
+      <member refid="class_modbus_client_1aa29711287627aec43993c7160a396967" prot="public" virt="virtual"><scope>ModbusClient</scope><name>readCoil</name></member>
+      <member refid="class_modbus_client_1ac94aa9cf9a0827cc5363f31139b501c0" prot="public" virt="virtual"><scope>ModbusClient</scope><name>readCoils</name></member>
+      <member refid="class_modbus_client_1a2c61ba0a0c2b8daa611e06cecf12a2a8" prot="public" virt="virtual"><scope>ModbusClient</scope><name>readCoils</name></member>
+      <member refid="class_modbus_client_1aa92398b080bed5e90d4f921139396ac0" prot="public" virt="virtual"><scope>ModbusClient</scope><name>readDiscreteInput</name></member>
+      <member refid="class_modbus_client_1aedde720268d0976602db1aa47cb205cc" prot="public" virt="virtual"><scope>ModbusClient</scope><name>readDiscreteInput</name></member>
+      <member refid="class_modbus_client_1a5090ed601a48541323781daaebe2543a" prot="public" virt="virtual"><scope>ModbusClient</scope><name>readDiscreteInputs</name></member>
+      <member refid="class_modbus_client_1a2f5b881b661c9482e30013e1ae9f7999" prot="public" virt="virtual"><scope>ModbusClient</scope><name>readDiscreteInputs</name></member>
+      <member refid="class_modbus_client_1a392811740528b9155499316f1b8f0520" prot="public" virt="virtual"><scope>ModbusClient</scope><name>readHoldingRegister</name></member>
+      <member refid="class_modbus_client_1a1738d824b2c2d34d562041242df84376" prot="public" virt="virtual"><scope>ModbusClient</scope><name>readHoldingRegister</name></member>
+      <member refid="class_modbus_client_1a832b4634d3cc4e34edd54288019b0e33" prot="public" virt="virtual"><scope>ModbusClient</scope><name>readHoldingRegisters</name></member>
+      <member refid="class_modbus_client_1aed77556743c0faa335aeabbe009deed0" prot="public" virt="virtual"><scope>ModbusClient</scope><name>readHoldingRegisters</name></member>
+      <member refid="class_modbus_client_1abf60e436ffe06764b4e4ddec6d87a72e" prot="public" virt="virtual"><scope>ModbusClient</scope><name>readInputRegister</name></member>
+      <member refid="class_modbus_client_1a122c967136f8b5e21c957c15a2dd3d4d" prot="public" virt="virtual"><scope>ModbusClient</scope><name>readInputRegister</name></member>
+      <member refid="class_modbus_client_1aeff25a2dd21e2830ebcd2e79ba57ac46" prot="public" virt="virtual"><scope>ModbusClient</scope><name>readInputRegisters</name></member>
+      <member refid="class_modbus_client_1a9fa55d70543e0cd3b5a6056acf4a70aa" prot="public" virt="virtual"><scope>ModbusClient</scope><name>readInputRegisters</name></member>
+      <member refid="class_modbus_client_1a1e8a3109bd15b0d4c34abff3f873d076" prot="public" virt="virtual"><scope>ModbusClient</scope><name>sendRawRequest</name></member>
+      <member refid="class_modbus_client_1ad5bcf74561ff2a87dce0aadce1b83cc5" prot="public" virt="virtual"><scope>ModbusClient</scope><name>sendRequest</name></member>
+      <member refid="class_modbus_client_1a30a15e770abfab958496a66d553cadd4" prot="public" virt="virtual"><scope>ModbusClient</scope><name>writeCoil</name></member>
+      <member refid="class_modbus_client_1a85592896cbce764d2507ca88fcd04afe" prot="public" virt="virtual"><scope>ModbusClient</scope><name>writeCoil</name></member>
+      <member refid="class_modbus_client_1ac005e495b52f43db2ece4d6fde79f8ec" prot="public" virt="virtual"><scope>ModbusClient</scope><name>writeCoils</name></member>
+      <member refid="class_modbus_client_1a9ab1ec0d27b731e4319802da59021f0a" prot="public" virt="virtual"><scope>ModbusClient</scope><name>writeCoils</name></member>
+      <member refid="class_modbus_client_1a3cc722919523ba9ba6d7a77fad860ac8" prot="public" virt="virtual"><scope>ModbusClient</scope><name>writeCoils</name></member>
+      <member refid="class_modbus_client_1a1fd3bdf7239d17ac3f1f1914e66ae64d" prot="public" virt="virtual"><scope>ModbusClient</scope><name>writeHoldingRegister</name></member>
+      <member refid="class_modbus_client_1adb536b8feb9df4307ca97dd99462c1d3" prot="public" virt="virtual"><scope>ModbusClient</scope><name>writeHoldingRegister</name></member>
+      <member refid="class_modbus_client_1aa748d1344a489b17675f1cf5870245b3" prot="public" virt="virtual"><scope>ModbusClient</scope><name>writeHoldingRegisters</name></member>
+      <member refid="class_modbus_client_1a5b627829f90820af920a113b208a4bea" prot="public" virt="virtual"><scope>ModbusClient</scope><name>writeHoldingRegisters</name></member>
+      <member refid="class_modbus_client_1ae1f555f8c18b43a2f5c6718eb762f3dd" prot="public" virt="virtual"><scope>ModbusClient</scope><name>writeHoldingRegisters</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

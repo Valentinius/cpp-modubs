@@ -101,8 +101,8 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
 <div class="dyncontent">
 <div class="center"><img src="class_modbus_client__inherit__graph.png" border="0" usemap="#_modbus_client_inherit__map" alt="Inheritance graph"/></div>
 <map name="_modbus_client_inherit__map" id="_modbus_client_inherit__map">
-<area shape="rect" title=" " alt="" coords="17,5,128,32"/>
-<area shape="rect" href="class_modbus_t_c_p_client.html" title=" " alt="" coords="5,80,140,107"/>
+<area shape="rect" title=" " alt="" coords="19,5,121,32"/>
+<area shape="rect" href="class_modbus_t_c_p_client.html" title=" " alt="" coords="5,80,135,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">см. легенду</a>]</span></center></div>
 <div class="dynheader">
@@ -110,14 +110,14 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
 <div class="dyncontent">
 <div class="center"><img src="class_modbus_client__coll__graph.png" border="0" usemap="#_modbus_client_coll__map" alt="Collaboration graph"/></div>
 <map name="_modbus_client_coll__map" id="_modbus_client_coll__map">
-<area shape="rect" title=" " alt="" coords="9,95,120,121"/>
-<area shape="rect" title=" " alt="" coords="5,5,124,32"/>
+<area shape="rect" title=" " alt="" coords="9,95,111,121"/>
+<area shape="rect" href="class_modbus_framer.html" title=" " alt="" coords="5,5,115,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">см. легенду</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Открытые члены</h2></td></tr>
-<tr class="memitem:af79b94d73020ef0d64fcc1ab6be974fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#af79b94d73020ef0d64fcc1ab6be974fc">ModbusClient</a> (std::string <a class="el" href="class_modbus_client.html#a00c972952900c10d538865444000f47e">ip</a>, uint16_t <a class="el" href="class_modbus_client.html#a5700d77d4bc5e4f9e457db668d321f0d">port</a>, ModbusFramer <a class="el" href="class_modbus_client.html#a66f1f6e1c5ad4db8e40066415952b463">framer</a>=ModbusFramer::RTU)</td></tr>
+<tr class="memitem:af79b94d73020ef0d64fcc1ab6be974fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#af79b94d73020ef0d64fcc1ab6be974fc">ModbusClient</a> (std::string <a class="el" href="class_modbus_client.html#a00c972952900c10d538865444000f47e">ip</a>, uint16_t <a class="el" href="class_modbus_client.html#a5700d77d4bc5e4f9e457db668d321f0d">port</a>, <a class="el" href="class_modbus_framer.html">ModbusFramer</a> <a class="el" href="class_modbus_client.html#ad1925d04680d1fb06517da857902f408">framer</a>=ModbusFramer::RTU)</td></tr>
 <tr class="separator:af79b94d73020ef0d64fcc1ab6be974fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fd569eaaf54ae2fa5e80e55fef41b0e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a8fd569eaaf54ae2fa5e80e55fef41b0e">connect</a> ()=0</td></tr>
 <tr class="separator:a8fd569eaaf54ae2fa5e80e55fef41b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,38 +125,62 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
 <tr class="separator:a21db4626ea64a253f38215151374b7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9106716464e778d08e14af4c065231b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#ab9106716464e778d08e14af4c065231b">disconnect</a> ()=0</td></tr>
 <tr class="separator:ab9106716464e778d08e14af4c065231b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9bba2e136b24a34bfcb844666db2c34"><td class="memItemLeft" align="right" valign="top">RequestStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#ab9bba2e136b24a34bfcb844666db2c34">readDiscreteInput</a> (uint16_t register_num, uint8_t slave_id, uint8_t &amp;value, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
-<tr class="separator:ab9bba2e136b24a34bfcb844666db2c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a40efdd2ac64fb99366a8c864893084"><td class="memItemLeft" align="right" valign="top">RequestStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a7a40efdd2ac64fb99366a8c864893084">readDiscreteInputs</a> (uint16_t register_num, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;values, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
-<tr class="separator:a7a40efdd2ac64fb99366a8c864893084"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a608213c6942ba429470b88a506d71233"><td class="memItemLeft" align="right" valign="top">RequestStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a608213c6942ba429470b88a506d71233">readCoil</a> (uint16_t register_num, uint8_t slave_id, uint8_t &amp;value, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
-<tr class="separator:a608213c6942ba429470b88a506d71233"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c2be0fe268c25f773c4eed2b7c9fd08"><td class="memItemLeft" align="right" valign="top">RequestStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a1c2be0fe268c25f773c4eed2b7c9fd08">readCoils</a> (uint16_t register_num, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;values, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
-<tr class="separator:a1c2be0fe268c25f773c4eed2b7c9fd08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f825f131b2712c62ea7a453f6a8b084"><td class="memItemLeft" align="right" valign="top">RequestStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a4f825f131b2712c62ea7a453f6a8b084">writeCoil</a> (uint16_t register_num, uint16_t value, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
-<tr class="separator:a4f825f131b2712c62ea7a453f6a8b084"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeffb0621eaec6ff49c8686cd0cc358cc"><td class="memItemLeft" align="right" valign="top">RequestStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#aeffb0621eaec6ff49c8686cd0cc358cc">writeCoils</a> (uint16_t register_num, uint16_t *values, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
-<tr class="separator:aeffb0621eaec6ff49c8686cd0cc358cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a2c225b2293937b8d026565d6f69701"><td class="memItemLeft" align="right" valign="top">RequestStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a5a2c225b2293937b8d026565d6f69701">writeCoils</a> (uint16_t register_num, const std::vector&lt; uint16_t &gt; &amp;values, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
-<tr class="separator:a5a2c225b2293937b8d026565d6f69701"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbea669f0f4675e2113e7e7872a9be9a"><td class="memItemLeft" align="right" valign="top">RequestStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#adbea669f0f4675e2113e7e7872a9be9a">readInputRegister</a> (uint16_t register_num, uint8_t slave_id, uint8_t &amp;value, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
-<tr class="separator:adbea669f0f4675e2113e7e7872a9be9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab59c19ad48ff322f3bcf9f0b61fb7824"><td class="memItemLeft" align="right" valign="top">RequestStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#ab59c19ad48ff322f3bcf9f0b61fb7824">readInputRegisters</a> (uint16_t register_num, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;values, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
-<tr class="separator:ab59c19ad48ff322f3bcf9f0b61fb7824"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ae78f974f74145221c1b24c71f9e699"><td class="memItemLeft" align="right" valign="top">RequestStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a7ae78f974f74145221c1b24c71f9e699">readHoldingRegister</a> (uint16_t register_num, uint8_t slave_id, uint8_t &amp;value, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
-<tr class="separator:a7ae78f974f74145221c1b24c71f9e699"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab71f8af50fce8351c8b2db267c8d0e35"><td class="memItemLeft" align="right" valign="top">RequestStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#ab71f8af50fce8351c8b2db267c8d0e35">readHoldingRegisters</a> (uint16_t register_num, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;values, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
-<tr class="separator:ab71f8af50fce8351c8b2db267c8d0e35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf7dcbe74105b353cd49201161bc893c"><td class="memItemLeft" align="right" valign="top">RequestStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#abf7dcbe74105b353cd49201161bc893c">writeHoldingRegister</a> (uint16_t register_num, uint16_t value, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
-<tr class="separator:abf7dcbe74105b353cd49201161bc893c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbf064fdd2cf7fbd1fadd22cf2e072ba"><td class="memItemLeft" align="right" valign="top">RequestStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#acbf064fdd2cf7fbd1fadd22cf2e072ba">writeHoldingRegisters</a> (uint16_t register_num, uint16_t *values, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
-<tr class="separator:acbf064fdd2cf7fbd1fadd22cf2e072ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ceed9712e9e0c94db11a204792579b4"><td class="memItemLeft" align="right" valign="top">RequestStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a9ceed9712e9e0c94db11a204792579b4">writeHoldingRegisters</a> (uint16_t register_num, const std::vector&lt; uint16_t &gt; &amp;values, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
-<tr class="separator:a9ceed9712e9e0c94db11a204792579b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02c4a271b6fd808a766f6fcf8b59b86f"><td class="memItemLeft" align="right" valign="top">RequestStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a02c4a271b6fd808a766f6fcf8b59b86f">sendRawRequest</a> (uint8_t *request, size_t request_size, uint8_t slave_id, uint8_t *response, size_t &amp;response_size)</td></tr>
-<tr class="separator:a02c4a271b6fd808a766f6fcf8b59b86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a423d5eefdc0a2e20aba5969474d529f8"><td class="memItemLeft" align="right" valign="top">RequestStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a423d5eefdc0a2e20aba5969474d529f8">sendRequest</a> (ModbusFunction function, uint8_t *buffer, size_t buffer_size, uint8_t slave_id)</td></tr>
-<tr class="separator:a423d5eefdc0a2e20aba5969474d529f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa92398b080bed5e90d4f921139396ac0"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#aa92398b080bed5e90d4f921139396ac0">readDiscreteInput</a> (uint16_t register_num, uint8_t slave_id, uint8_t &amp;value, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
+<tr class="separator:aa92398b080bed5e90d4f921139396ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5090ed601a48541323781daaebe2543a"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a5090ed601a48541323781daaebe2543a">readDiscreteInputs</a> (uint16_t register_num, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;values, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
+<tr class="separator:a5090ed601a48541323781daaebe2543a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8de4db774eabd797118ddae961237710"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a8de4db774eabd797118ddae961237710">readCoil</a> (uint16_t register_num, uint8_t slave_id, uint8_t &amp;value, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
+<tr class="separator:a8de4db774eabd797118ddae961237710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac94aa9cf9a0827cc5363f31139b501c0"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#ac94aa9cf9a0827cc5363f31139b501c0">readCoils</a> (uint16_t register_num, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;values, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
+<tr class="separator:ac94aa9cf9a0827cc5363f31139b501c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30a15e770abfab958496a66d553cadd4"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a30a15e770abfab958496a66d553cadd4">writeCoil</a> (uint16_t register_num, uint16_t value, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
+<tr class="separator:a30a15e770abfab958496a66d553cadd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac005e495b52f43db2ece4d6fde79f8ec"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#ac005e495b52f43db2ece4d6fde79f8ec">writeCoils</a> (uint16_t register_num, uint16_t *values, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
+<tr class="separator:ac005e495b52f43db2ece4d6fde79f8ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ab1ec0d27b731e4319802da59021f0a"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a9ab1ec0d27b731e4319802da59021f0a">writeCoils</a> (uint16_t register_num, const std::vector&lt; uint16_t &gt; &amp;values, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
+<tr class="separator:a9ab1ec0d27b731e4319802da59021f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf60e436ffe06764b4e4ddec6d87a72e"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#abf60e436ffe06764b4e4ddec6d87a72e">readInputRegister</a> (uint16_t register_num, uint8_t slave_id, uint8_t &amp;value, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
+<tr class="separator:abf60e436ffe06764b4e4ddec6d87a72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeff25a2dd21e2830ebcd2e79ba57ac46"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#aeff25a2dd21e2830ebcd2e79ba57ac46">readInputRegisters</a> (uint16_t register_num, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;values, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
+<tr class="separator:aeff25a2dd21e2830ebcd2e79ba57ac46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a392811740528b9155499316f1b8f0520"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a392811740528b9155499316f1b8f0520">readHoldingRegister</a> (uint16_t register_num, uint8_t slave_id, uint8_t &amp;value, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
+<tr class="separator:a392811740528b9155499316f1b8f0520"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a832b4634d3cc4e34edd54288019b0e33"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a832b4634d3cc4e34edd54288019b0e33">readHoldingRegisters</a> (uint16_t register_num, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;values, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
+<tr class="separator:a832b4634d3cc4e34edd54288019b0e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fd3bdf7239d17ac3f1f1914e66ae64d"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a1fd3bdf7239d17ac3f1f1914e66ae64d">writeHoldingRegister</a> (uint16_t register_num, uint16_t value, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
+<tr class="separator:a1fd3bdf7239d17ac3f1f1914e66ae64d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa748d1344a489b17675f1cf5870245b3"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#aa748d1344a489b17675f1cf5870245b3">writeHoldingRegisters</a> (uint16_t register_num, uint16_t *values, uint16_t count, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
+<tr class="separator:aa748d1344a489b17675f1cf5870245b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b627829f90820af920a113b208a4bea"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a5b627829f90820af920a113b208a4bea">writeHoldingRegisters</a> (uint16_t register_num, const std::vector&lt; uint16_t &gt; &amp;values, uint8_t slave_id, std::vector&lt; uint8_t &gt; &amp;result)</td></tr>
+<tr class="separator:a5b627829f90820af920a113b208a4bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedde720268d0976602db1aa47cb205cc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#aedde720268d0976602db1aa47cb205cc">readDiscreteInput</a> (std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;request)</td></tr>
+<tr class="separator:aedde720268d0976602db1aa47cb205cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f5b881b661c9482e30013e1ae9f7999"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a2f5b881b661c9482e30013e1ae9f7999">readDiscreteInputs</a> (std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;request)</td></tr>
+<tr class="separator:a2f5b881b661c9482e30013e1ae9f7999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa29711287627aec43993c7160a396967"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#aa29711287627aec43993c7160a396967">readCoil</a> (std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;request)</td></tr>
+<tr class="separator:aa29711287627aec43993c7160a396967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c61ba0a0c2b8daa611e06cecf12a2a8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a2c61ba0a0c2b8daa611e06cecf12a2a8">readCoils</a> (std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;request)</td></tr>
+<tr class="separator:a2c61ba0a0c2b8daa611e06cecf12a2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85592896cbce764d2507ca88fcd04afe"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a85592896cbce764d2507ca88fcd04afe">writeCoil</a> (std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;request)</td></tr>
+<tr class="separator:a85592896cbce764d2507ca88fcd04afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cc722919523ba9ba6d7a77fad860ac8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a3cc722919523ba9ba6d7a77fad860ac8">writeCoils</a> (std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;request)</td></tr>
+<tr class="separator:a3cc722919523ba9ba6d7a77fad860ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a122c967136f8b5e21c957c15a2dd3d4d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a122c967136f8b5e21c957c15a2dd3d4d">readInputRegister</a> (std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;request)</td></tr>
+<tr class="separator:a122c967136f8b5e21c957c15a2dd3d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fa55d70543e0cd3b5a6056acf4a70aa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a9fa55d70543e0cd3b5a6056acf4a70aa">readInputRegisters</a> (std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;request)</td></tr>
+<tr class="separator:a9fa55d70543e0cd3b5a6056acf4a70aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1738d824b2c2d34d562041242df84376"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a1738d824b2c2d34d562041242df84376">readHoldingRegister</a> (std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;request)</td></tr>
+<tr class="separator:a1738d824b2c2d34d562041242df84376"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed77556743c0faa335aeabbe009deed0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#aed77556743c0faa335aeabbe009deed0">readHoldingRegisters</a> (std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;request)</td></tr>
+<tr class="separator:aed77556743c0faa335aeabbe009deed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb536b8feb9df4307ca97dd99462c1d3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#adb536b8feb9df4307ca97dd99462c1d3">writeHoldingRegister</a> (std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;request)</td></tr>
+<tr class="separator:adb536b8feb9df4307ca97dd99462c1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1f555f8c18b43a2f5c6718eb762f3dd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#ae1f555f8c18b43a2f5c6718eb762f3dd">writeHoldingRegisters</a> (std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;request)</td></tr>
+<tr class="separator:ae1f555f8c18b43a2f5c6718eb762f3dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e8a3109bd15b0d4c34abff3f873d076"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a1e8a3109bd15b0d4c34abff3f873d076">sendRawRequest</a> (uint8_t *request, size_t request_size, uint8_t slave_id, uint8_t *response, size_t &amp;response_size)</td></tr>
+<tr class="separator:a1e8a3109bd15b0d4c34abff3f873d076"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5bcf74561ff2a87dce0aadce1b83cc5"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#ad5bcf74561ff2a87dce0aadce1b83cc5">sendRequest</a> (ModbusFunction function, uint8_t *buffer, size_t buffer_size, uint8_t slave_id)</td></tr>
+<tr class="separator:ad5bcf74561ff2a87dce0aadce1b83cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Защищенные члены</h2></td></tr>
@@ -176,8 +200,8 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Защищенные данные</h2></td></tr>
-<tr class="memitem:a66f1f6e1c5ad4db8e40066415952b463"><td class="memItemLeft" align="right" valign="top">ModbusFramer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a66f1f6e1c5ad4db8e40066415952b463">framer</a></td></tr>
-<tr class="separator:a66f1f6e1c5ad4db8e40066415952b463"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1925d04680d1fb06517da857902f408"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_modbus_framer.html">ModbusFramer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#ad1925d04680d1fb06517da857902f408">framer</a></td></tr>
+<tr class="separator:ad1925d04680d1fb06517da857902f408"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1b58128e98d3ccb83f51621fc81c150"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#ab1b58128e98d3ccb83f51621fc81c150">connection_status</a></td></tr>
 <tr class="separator:ab1b58128e98d3ccb83f51621fc81c150"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00c972952900c10d538865444000f47e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_modbus_client.html#a00c972952900c10d538865444000f47e">ip</a></td></tr>
@@ -207,7 +231,7 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ModbusFramer&#160;</td>
+          <td class="paramtype"><a class="el" href="class_modbus_framer.html">ModbusFramer</a>&#160;</td>
           <td class="paramname"><em>framer</em> = <code>ModbusFramer::RTU</code>&#160;</td>
         </tr>
         <tr>
@@ -363,8 +387,8 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
 <div class="dyncontent">
 <div class="center"><img src="class_modbus_client_a1e062e0264baff9ad3d96379f226d4d0_icgraph.png" border="0" usemap="#class_modbus_client_a1e062e0264baff9ad3d96379f226d4d0_icgraph" alt=""/></div>
 <map name="class_modbus_client_a1e062e0264baff9ad3d96379f226d4d0_icgraph" id="class_modbus_client_a1e062e0264baff9ad3d96379f226d4d0_icgraph">
-<area shape="rect" title=" " alt="" coords="256,5,493,32"/>
-<area shape="rect" href="class_modbus_client.html#a1a4800cb5b8af39031505eaa8e20096e" title=" " alt="" coords="5,5,208,32"/>
+<area shape="rect" title=" " alt="" coords="239,5,460,32"/>
+<area shape="rect" href="class_modbus_client.html#a1a4800cb5b8af39031505eaa8e20096e" title=" " alt="" coords="5,5,191,32"/>
 </map>
 </div>
 
@@ -462,10 +486,10 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
 <div class="dyncontent">
 <div class="center"><img src="class_modbus_client_a1a4800cb5b8af39031505eaa8e20096e_cgraph.png" border="0" usemap="#class_modbus_client_a1a4800cb5b8af39031505eaa8e20096e_cgraph" alt=""/></div>
 <map name="class_modbus_client_a1a4800cb5b8af39031505eaa8e20096e_cgraph" id="class_modbus_client_a1a4800cb5b8af39031505eaa8e20096e_cgraph">
-<area shape="rect" title=" " alt="" coords="5,56,208,83"/>
-<area shape="rect" href="class_modbus_client.html#a1e062e0264baff9ad3d96379f226d4d0" title=" " alt="" coords="256,5,493,32"/>
-<area shape="rect" href="class_modbus_client.html#a3a21c8df117e91d49be308fdf6984b98" title=" " alt="" coords="260,56,489,83"/>
-<area shape="rect" href="class_modbus_client.html#ad6abef0fbe2a8f4b9729fb528f30b036" title=" " alt="" coords="261,107,488,133"/>
+<area shape="rect" title=" " alt="" coords="5,56,191,83"/>
+<area shape="rect" href="class_modbus_client.html#a1e062e0264baff9ad3d96379f226d4d0" title=" " alt="" coords="239,5,460,32"/>
+<area shape="rect" href="class_modbus_client.html#a3a21c8df117e91d49be308fdf6984b98" title=" " alt="" coords="243,56,456,83"/>
+<area shape="rect" href="class_modbus_client.html#ad6abef0fbe2a8f4b9729fb528f30b036" title=" " alt="" coords="243,107,455,133"/>
 </map>
 </div>
 
@@ -521,8 +545,8 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
 <div class="dyncontent">
 <div class="center"><img src="class_modbus_client_a3a21c8df117e91d49be308fdf6984b98_icgraph.png" border="0" usemap="#class_modbus_client_a3a21c8df117e91d49be308fdf6984b98_icgraph" alt=""/></div>
 <map name="class_modbus_client_a3a21c8df117e91d49be308fdf6984b98_icgraph" id="class_modbus_client_a3a21c8df117e91d49be308fdf6984b98_icgraph">
-<area shape="rect" title=" " alt="" coords="256,5,485,32"/>
-<area shape="rect" href="class_modbus_client.html#a1a4800cb5b8af39031505eaa8e20096e" title=" " alt="" coords="5,5,208,32"/>
+<area shape="rect" title=" " alt="" coords="239,5,452,32"/>
+<area shape="rect" href="class_modbus_client.html#a1a4800cb5b8af39031505eaa8e20096e" title=" " alt="" coords="5,5,191,32"/>
 </map>
 </div>
 
@@ -578,21 +602,50 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
 <div class="dyncontent">
 <div class="center"><img src="class_modbus_client_ad6abef0fbe2a8f4b9729fb528f30b036_icgraph.png" border="0" usemap="#class_modbus_client_ad6abef0fbe2a8f4b9729fb528f30b036_icgraph" alt=""/></div>
 <map name="class_modbus_client_ad6abef0fbe2a8f4b9729fb528f30b036_icgraph" id="class_modbus_client_ad6abef0fbe2a8f4b9729fb528f30b036_icgraph">
-<area shape="rect" title=" " alt="" coords="256,5,483,32"/>
-<area shape="rect" href="class_modbus_client.html#a1a4800cb5b8af39031505eaa8e20096e" title=" " alt="" coords="5,5,208,32"/>
+<area shape="rect" title=" " alt="" coords="239,5,451,32"/>
+<area shape="rect" href="class_modbus_client.html#a1a4800cb5b8af39031505eaa8e20096e" title=" " alt="" coords="5,5,191,32"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a608213c6942ba429470b88a506d71233"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a608213c6942ba429470b88a506d71233">&#9670;&nbsp;</a></span>readCoil()</h2>
+<a id="aa29711287627aec43993c7160a396967"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa29711287627aec43993c7160a396967">&#9670;&nbsp;</a></span>readCoil() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RequestStatus ModbusClient::readCoil </td>
+          <td class="memname">virtual void ModbusClient::readCoil </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8de4db774eabd797118ddae961237710"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8de4db774eabd797118ddae961237710">&#9670;&nbsp;</a></span>readCoil() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; ModbusClient::readCoil </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>register_num</em>, </td>
@@ -621,18 +674,52 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a1c2be0fe268c25f773c4eed2b7c9fd08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c2be0fe268c25f773c4eed2b7c9fd08">&#9670;&nbsp;</a></span>readCoils()</h2>
+<a id="a2c61ba0a0c2b8daa611e06cecf12a2a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c61ba0a0c2b8daa611e06cecf12a2a8">&#9670;&nbsp;</a></span>readCoils() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RequestStatus ModbusClient::readCoils </td>
+          <td class="memname">virtual void ModbusClient::readCoils </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac94aa9cf9a0827cc5363f31139b501c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac94aa9cf9a0827cc5363f31139b501c0">&#9670;&nbsp;</a></span>readCoils() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; ModbusClient::readCoils </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>register_num</em>, </td>
@@ -667,18 +754,52 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ab9bba2e136b24a34bfcb844666db2c34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9bba2e136b24a34bfcb844666db2c34">&#9670;&nbsp;</a></span>readDiscreteInput()</h2>
+<a id="aedde720268d0976602db1aa47cb205cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedde720268d0976602db1aa47cb205cc">&#9670;&nbsp;</a></span>readDiscreteInput() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RequestStatus ModbusClient::readDiscreteInput </td>
+          <td class="memname">virtual void ModbusClient::readDiscreteInput </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa92398b080bed5e90d4f921139396ac0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa92398b080bed5e90d4f921139396ac0">&#9670;&nbsp;</a></span>readDiscreteInput() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; ModbusClient::readDiscreteInput </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>register_num</em>, </td>
@@ -707,18 +828,52 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a7a40efdd2ac64fb99366a8c864893084"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a40efdd2ac64fb99366a8c864893084">&#9670;&nbsp;</a></span>readDiscreteInputs()</h2>
+<a id="a2f5b881b661c9482e30013e1ae9f7999"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f5b881b661c9482e30013e1ae9f7999">&#9670;&nbsp;</a></span>readDiscreteInputs() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RequestStatus ModbusClient::readDiscreteInputs </td>
+          <td class="memname">virtual void ModbusClient::readDiscreteInputs </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5090ed601a48541323781daaebe2543a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5090ed601a48541323781daaebe2543a">&#9670;&nbsp;</a></span>readDiscreteInputs() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; ModbusClient::readDiscreteInputs </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>register_num</em>, </td>
@@ -753,18 +908,52 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a7ae78f974f74145221c1b24c71f9e699"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ae78f974f74145221c1b24c71f9e699">&#9670;&nbsp;</a></span>readHoldingRegister()</h2>
+<a id="a1738d824b2c2d34d562041242df84376"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1738d824b2c2d34d562041242df84376">&#9670;&nbsp;</a></span>readHoldingRegister() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RequestStatus ModbusClient::readHoldingRegister </td>
+          <td class="memname">virtual void ModbusClient::readHoldingRegister </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a392811740528b9155499316f1b8f0520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a392811740528b9155499316f1b8f0520">&#9670;&nbsp;</a></span>readHoldingRegister() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; ModbusClient::readHoldingRegister </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>register_num</em>, </td>
@@ -793,18 +982,52 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ab71f8af50fce8351c8b2db267c8d0e35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab71f8af50fce8351c8b2db267c8d0e35">&#9670;&nbsp;</a></span>readHoldingRegisters()</h2>
+<a id="aed77556743c0faa335aeabbe009deed0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed77556743c0faa335aeabbe009deed0">&#9670;&nbsp;</a></span>readHoldingRegisters() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RequestStatus ModbusClient::readHoldingRegisters </td>
+          <td class="memname">virtual void ModbusClient::readHoldingRegisters </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a832b4634d3cc4e34edd54288019b0e33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a832b4634d3cc4e34edd54288019b0e33">&#9670;&nbsp;</a></span>readHoldingRegisters() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; ModbusClient::readHoldingRegisters </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>register_num</em>, </td>
@@ -839,18 +1062,52 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="adbea669f0f4675e2113e7e7872a9be9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbea669f0f4675e2113e7e7872a9be9a">&#9670;&nbsp;</a></span>readInputRegister()</h2>
+<a id="a122c967136f8b5e21c957c15a2dd3d4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a122c967136f8b5e21c957c15a2dd3d4d">&#9670;&nbsp;</a></span>readInputRegister() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RequestStatus ModbusClient::readInputRegister </td>
+          <td class="memname">virtual void ModbusClient::readInputRegister </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf60e436ffe06764b4e4ddec6d87a72e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf60e436ffe06764b4e4ddec6d87a72e">&#9670;&nbsp;</a></span>readInputRegister() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; ModbusClient::readInputRegister </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>register_num</em>, </td>
@@ -879,18 +1136,52 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ab59c19ad48ff322f3bcf9f0b61fb7824"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab59c19ad48ff322f3bcf9f0b61fb7824">&#9670;&nbsp;</a></span>readInputRegisters()</h2>
+<a id="a9fa55d70543e0cd3b5a6056acf4a70aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fa55d70543e0cd3b5a6056acf4a70aa">&#9670;&nbsp;</a></span>readInputRegisters() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RequestStatus ModbusClient::readInputRegisters </td>
+          <td class="memname">virtual void ModbusClient::readInputRegisters </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeff25a2dd21e2830ebcd2e79ba57ac46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeff25a2dd21e2830ebcd2e79ba57ac46">&#9670;&nbsp;</a></span>readInputRegisters() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; ModbusClient::readInputRegisters </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>register_num</em>, </td>
@@ -925,18 +1216,26 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a02c4a271b6fd808a766f6fcf8b59b86f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02c4a271b6fd808a766f6fcf8b59b86f">&#9670;&nbsp;</a></span>sendRawRequest()</h2>
+<a id="a1e8a3109bd15b0d4c34abff3f873d076"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e8a3109bd15b0d4c34abff3f873d076">&#9670;&nbsp;</a></span>sendRawRequest()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RequestStatus ModbusClient::sendRawRequest </td>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; ModbusClient::sendRawRequest </td>
           <td>(</td>
           <td class="paramtype">uint8_t *&#160;</td>
           <td class="paramname"><em>request</em>, </td>
@@ -971,18 +1270,26 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a423d5eefdc0a2e20aba5969474d529f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a423d5eefdc0a2e20aba5969474d529f8">&#9670;&nbsp;</a></span>sendRequest()</h2>
+<a id="ad5bcf74561ff2a87dce0aadce1b83cc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5bcf74561ff2a87dce0aadce1b83cc5">&#9670;&nbsp;</a></span>sendRequest()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RequestStatus ModbusClient::sendRequest </td>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; ModbusClient::sendRequest </td>
           <td>(</td>
           <td class="paramtype">ModbusFunction&#160;</td>
           <td class="paramname"><em>function</em>, </td>
@@ -1011,18 +1318,52 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a4f825f131b2712c62ea7a453f6a8b084"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f825f131b2712c62ea7a453f6a8b084">&#9670;&nbsp;</a></span>writeCoil()</h2>
+<a id="a85592896cbce764d2507ca88fcd04afe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85592896cbce764d2507ca88fcd04afe">&#9670;&nbsp;</a></span>writeCoil() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RequestStatus ModbusClient::writeCoil </td>
+          <td class="memname">virtual void ModbusClient::writeCoil </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30a15e770abfab958496a66d553cadd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30a15e770abfab958496a66d553cadd4">&#9670;&nbsp;</a></span>writeCoil() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; ModbusClient::writeCoil </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>register_num</em>, </td>
@@ -1051,18 +1392,52 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a5a2c225b2293937b8d026565d6f69701"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a2c225b2293937b8d026565d6f69701">&#9670;&nbsp;</a></span>writeCoils() <span class="overload">[1/2]</span></h2>
+<a id="a3cc722919523ba9ba6d7a77fad860ac8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cc722919523ba9ba6d7a77fad860ac8">&#9670;&nbsp;</a></span>writeCoils() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RequestStatus ModbusClient::writeCoils </td>
+          <td class="memname">virtual void ModbusClient::writeCoils </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ab1ec0d27b731e4319802da59021f0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ab1ec0d27b731e4319802da59021f0a">&#9670;&nbsp;</a></span>writeCoils() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; ModbusClient::writeCoils </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>register_num</em>, </td>
@@ -1091,18 +1466,26 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aeffb0621eaec6ff49c8686cd0cc358cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeffb0621eaec6ff49c8686cd0cc358cc">&#9670;&nbsp;</a></span>writeCoils() <span class="overload">[2/2]</span></h2>
+<a id="ac005e495b52f43db2ece4d6fde79f8ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac005e495b52f43db2ece4d6fde79f8ec">&#9670;&nbsp;</a></span>writeCoils() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RequestStatus ModbusClient::writeCoils </td>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; ModbusClient::writeCoils </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>register_num</em>, </td>
@@ -1137,18 +1520,52 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="abf7dcbe74105b353cd49201161bc893c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf7dcbe74105b353cd49201161bc893c">&#9670;&nbsp;</a></span>writeHoldingRegister()</h2>
+<a id="adb536b8feb9df4307ca97dd99462c1d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb536b8feb9df4307ca97dd99462c1d3">&#9670;&nbsp;</a></span>writeHoldingRegister() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RequestStatus ModbusClient::writeHoldingRegister </td>
+          <td class="memname">virtual void ModbusClient::writeHoldingRegister </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1fd3bdf7239d17ac3f1f1914e66ae64d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fd3bdf7239d17ac3f1f1914e66ae64d">&#9670;&nbsp;</a></span>writeHoldingRegister() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; ModbusClient::writeHoldingRegister </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>register_num</em>, </td>
@@ -1177,18 +1594,52 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a9ceed9712e9e0c94db11a204792579b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ceed9712e9e0c94db11a204792579b4">&#9670;&nbsp;</a></span>writeHoldingRegisters() <span class="overload">[1/2]</span></h2>
+<a id="ae1f555f8c18b43a2f5c6718eb762f3dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1f555f8c18b43a2f5c6718eb762f3dd">&#9670;&nbsp;</a></span>writeHoldingRegisters() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RequestStatus ModbusClient::writeHoldingRegisters </td>
+          <td class="memname">virtual void ModbusClient::writeHoldingRegisters </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b627829f90820af920a113b208a4bea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b627829f90820af920a113b208a4bea">&#9670;&nbsp;</a></span>writeHoldingRegisters() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; ModbusClient::writeHoldingRegisters </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>register_num</em>, </td>
@@ -1217,18 +1668,26 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="acbf064fdd2cf7fbd1fadd22cf2e072ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbf064fdd2cf7fbd1fadd22cf2e072ba">&#9670;&nbsp;</a></span>writeHoldingRegisters() <span class="overload">[2/2]</span></h2>
+<a id="aa748d1344a489b17675f1cf5870245b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa748d1344a489b17675f1cf5870245b3">&#9670;&nbsp;</a></span>writeHoldingRegisters() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RequestStatus ModbusClient::writeHoldingRegisters </td>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_modbus_request.html">ModbusRequest</a> &gt; ModbusClient::writeHoldingRegisters </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>register_num</em>, </td>
@@ -1263,6 +1722,11 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1290,8 +1754,8 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
 
 </div>
 </div>
-<a id="a66f1f6e1c5ad4db8e40066415952b463"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66f1f6e1c5ad4db8e40066415952b463">&#9670;&nbsp;</a></span>framer</h2>
+<a id="ad1925d04680d1fb06517da857902f408"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1925d04680d1fb06517da857902f408">&#9670;&nbsp;</a></span>framer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1300,7 +1764,7 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ModbusFramer ModbusClient::framer</td>
+          <td class="memname">const <a class="el" href="class_modbus_framer.html">ModbusFramer</a> ModbusClient::framer</td>
         </tr>
       </table>
   </td>
@@ -1357,8 +1821,8 @@ $(document).ready(function(){initNavTree('class_modbus_client.html',''); initRes
 </div>
 </div>
 <hr/>Объявления и описания членов классов находятся в файлах:<ul>
-<li>/home/valentin/CLionProjects/cpp-modubs/include/<a class="el" href="modbusclient_8h_source.html">modbusclient.h</a></li>
-<li>/home/valentin/CLionProjects/cpp-modubs/src/<a class="el" href="modbusclient_8cpp.html">modbusclient.cpp</a></li>
+<li>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/<a class="el" href="modbusclient_8h_source.html">modbusclient.h</a></li>
+<li>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/<a class="el" href="modbusclient_8cpp.html">modbusclient.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
