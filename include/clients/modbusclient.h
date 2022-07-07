@@ -3,12 +3,13 @@
 
 #include <string>
 #include <vector>
+#include <memory>
 
 #include "utils.h"
 
-using modbus::enums::RequestStatus;
+#include "modbusrequest.h"
+
 using modbus::enums::ModbusFramer;
-using modbus::enums::RegisterType;
 using modbus::enums::ModbusFunction;
 
 
@@ -21,89 +22,114 @@ class ModbusClient {
   virtual bool connect(std::string ip, uint16_t port) = 0;
   virtual bool disconnect() = 0;
 
-  RequestStatus readDiscreteInput(uint16_t register_num,
+  virtual std::shared_ptr<ModbusRequest> readDiscreteInput(uint16_t register_num,
                                   uint8_t slave_id,
                                   uint8_t &value,
                                   std::vector<uint8_t> &result);
 
-  RequestStatus readDiscreteInputs(uint16_t register_num,
+  virtual std::shared_ptr<ModbusRequest> readDiscreteInputs(uint16_t register_num,
                                    uint16_t count,
                                    uint8_t slave_id,
                                    std::vector<uint8_t> &values,
                                    std::vector<uint8_t> &result);
 
-  RequestStatus readCoil(uint16_t register_num,
+  virtual std::shared_ptr<ModbusRequest> readCoil(uint16_t register_num,
                          uint8_t slave_id,
                          uint8_t &value,
                          std::vector<uint8_t> &result);
 
-  RequestStatus readCoils(uint16_t register_num,
+  virtual std::shared_ptr<ModbusRequest> readCoils(uint16_t register_num,
                           uint16_t count,
                           uint8_t slave_id,
                           std::vector<uint8_t> &values,
                           std::vector<uint8_t> &result);
 
-  RequestStatus writeCoil(uint16_t register_num,
+  virtual std::shared_ptr<ModbusRequest> writeCoil(uint16_t register_num,
                           uint16_t value,
                           uint8_t slave_id,
                           std::vector<uint8_t> &result);
 
-  RequestStatus writeCoils(uint16_t register_num,
+  virtual std::shared_ptr<ModbusRequest> writeCoils(uint16_t register_num,
                            uint16_t *values,
                            uint16_t count,
                            uint8_t slave_id,
                            std::vector<uint8_t> &result);
 
-  RequestStatus writeCoils(uint16_t register_num,
+  virtual std::shared_ptr<ModbusRequest> writeCoils(uint16_t register_num,
                            const std::vector<uint16_t> &values,
                            uint8_t slave_id,
                            std::vector<uint8_t> &result);
 
-  RequestStatus readInputRegister(uint16_t register_num,
+  virtual std::shared_ptr<ModbusRequest> readInputRegister(uint16_t register_num,
                                   uint8_t slave_id,
                                   uint8_t &value,
                                   std::vector<uint8_t> &result);
 
-  RequestStatus readInputRegisters(uint16_t register_num,
+  virtual std::shared_ptr<ModbusRequest> readInputRegisters(uint16_t register_num,
                                    uint16_t count,
                                    uint8_t slave_id,
                                    std::vector<uint8_t> &values,
                                    std::vector<uint8_t> &result);
 
-  RequestStatus readHoldingRegister(uint16_t register_num,
+  virtual std::shared_ptr<ModbusRequest> readHoldingRegister(uint16_t register_num,
                                     uint8_t slave_id,
                                     uint8_t &value,
                                     std::vector<uint8_t> &result);
 
-  RequestStatus readHoldingRegisters(uint16_t register_num,
+  virtual std::shared_ptr<ModbusRequest> readHoldingRegisters(uint16_t register_num,
                                      uint16_t count,
                                      uint8_t slave_id,
                                      std::vector<uint8_t> &values,
                                      std::vector<uint8_t> &result);
 
-  RequestStatus writeHoldingRegister(uint16_t register_num,
+  virtual std::shared_ptr<ModbusRequest> writeHoldingRegister(uint16_t register_num,
                                      uint16_t value,
                                      uint8_t slave_id,
                                      std::vector<uint8_t> &result);
 
-  RequestStatus writeHoldingRegisters(uint16_t register_num,
+  virtual std::shared_ptr<ModbusRequest> writeHoldingRegisters(uint16_t register_num,
                                       uint16_t *values,
                                       uint16_t count,
                                       uint8_t slave_id,
                                       std::vector<uint8_t> &result);
 
-  RequestStatus writeHoldingRegisters(uint16_t register_num,
+  virtual std::shared_ptr<ModbusRequest> writeHoldingRegisters(uint16_t register_num,
                                       const std::vector<uint16_t> &values,
                                       uint8_t slave_id,
                                       std::vector<uint8_t> &result);
 
-  RequestStatus sendRawRequest(uint8_t *request,
+  virtual void readDiscreteInput(std::shared_ptr<ModbusRequest> &request);
+
+  virtual void readDiscreteInputs(std::shared_ptr<ModbusRequest> &request);
+
+  virtual void readCoil(std::shared_ptr<ModbusRequest> &request);
+
+  virtual void readCoils(std::shared_ptr<ModbusRequest> &request);
+
+  virtual void writeCoil(std::shared_ptr<ModbusRequest> &request);
+
+  virtual void writeCoils(std::shared_ptr<ModbusRequest> &request);
+
+  virtual void readInputRegister(std::shared_ptr<ModbusRequest> &request);
+
+  virtual void readInputRegisters(std::shared_ptr<ModbusRequest> &request);
+
+  virtual void readHoldingRegister(std::shared_ptr<ModbusRequest> &request);
+
+  virtual void readHoldingRegisters(std::shared_ptr<ModbusRequest> &request);
+
+  virtual void writeHoldingRegister(std::shared_ptr<ModbusRequest> &request);
+
+  virtual void writeHoldingRegisters(std::shared_ptr<ModbusRequest> &request);
+
+
+  virtual std::shared_ptr<ModbusRequest> sendRawRequest(uint8_t *request,
                                size_t request_size,
                                uint8_t slave_id,
                                uint8_t *response,
                                size_t &response_size);
 
-  RequestStatus sendRequest(ModbusFunction function,
+  virtual std::shared_ptr<ModbusRequest> sendRequest(ModbusFunction function,
                             uint8_t *buffer,
                             size_t buffer_size,
                             uint8_t slave_id);
@@ -132,7 +158,7 @@ class ModbusClient {
                                    size_t buffer_size,
                                    uint8_t slave_id);
 
-  ModbusFramer framer;
+  const ModbusFramer framer;
   bool connection_status;
   std::string ip;
   uint16_t port;

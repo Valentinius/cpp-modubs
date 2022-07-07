@@ -8,63 +8,63 @@ ModbusClient::ModbusClient(std::string ip, uint16_t port, ModbusFramer framer):
 
 }
 
-RequestStatus ModbusClient::writeCoil(uint16_t register_num,
+std::shared_ptr<ModbusRequest> ModbusClient::writeCoil(uint16_t register_num,
                                       uint16_t value,
                                       uint8_t slave_id,
                                       std::vector<uint8_t> &result) {
-  return RequestStatus::SUCCESS;
+  return nullptr;
 }
 
-RequestStatus ModbusClient::writeCoils(uint16_t register_num,
+std::shared_ptr<ModbusRequest> ModbusClient::writeCoils(uint16_t register_num,
                                        uint16_t *values,
                                        uint16_t count,
                                        uint8_t slave_id,
                                        std::vector<uint8_t> &result) {
-  return RequestStatus::SUCCESS;
+  return nullptr;
 }
 
-RequestStatus ModbusClient::writeCoils(uint16_t register_num,
+std::shared_ptr<ModbusRequest> ModbusClient::writeCoils(uint16_t register_num,
                                        const std::vector<uint16_t> &values,
                                        uint8_t slave_id,
                                        std::vector<uint8_t> &result) {
-  return RequestStatus::SUCCESS;
+  return nullptr;
 }
 
-RequestStatus ModbusClient::writeHoldingRegister(uint16_t register_num,
+std::shared_ptr<ModbusRequest> ModbusClient::writeHoldingRegister(uint16_t register_num,
                                                  uint16_t value,
                                                  uint8_t slave_id,
                                                  std::vector<uint8_t> &result) {
-  return RequestStatus::SUCCESS;
+  return nullptr;
 }
 
-RequestStatus ModbusClient::writeHoldingRegisters(uint16_t register_num,
+std::shared_ptr<ModbusRequest> ModbusClient::writeHoldingRegisters(uint16_t register_num,
                                                   uint16_t *values,
                                                   uint16_t count,
                                                   uint8_t slave_id,
                                                   std::vector<uint8_t> &result) {
-  return RequestStatus::SUCCESS;
+  return nullptr;
 }
 
-RequestStatus ModbusClient::writeHoldingRegisters(uint16_t register_num,
+std::shared_ptr<ModbusRequest> ModbusClient::writeHoldingRegisters(uint16_t register_num,
                                                   const std::vector<uint16_t> &values,
                                                   uint8_t slave_id,
                                                   std::vector<uint8_t> &result) {
-  return RequestStatus::SUCCESS;
+  return nullptr;
 }
 
-RequestStatus ModbusClient::sendRawRequest(uint8_t *request,
+std::shared_ptr<ModbusRequest> ModbusClient::sendRawRequest(uint8_t *request,
                                            size_t request_size,
                                            uint8_t slave_id,
                                            uint8_t *response,
                                            size_t &response_size) {
-  return RequestStatus::SUCCESS;
+  return nullptr;
 }
 
-RequestStatus ModbusClient::sendRequest(ModbusFunction function,
+std::shared_ptr<ModbusRequest> ModbusClient::sendRequest(ModbusFunction function,
                                         uint8_t *buffer,
                                         size_t buffer_size,
                                         uint8_t slave_id) {
-  return RequestStatus::SUCCESS;
+  return nullptr;
 }
 
 uint8_t  *ModbusClient::formPDU(ModbusFunction function,
@@ -115,62 +115,62 @@ uint8_t *ModbusClient::formASCIIRequest(ModbusFunction function,
   return nullptr;
 }
 
-RequestStatus ModbusClient::readDiscreteInput(uint16_t register_num,
+std::shared_ptr<ModbusRequest> ModbusClient::readDiscreteInput(uint16_t register_num,
                                               uint8_t slave_id,
                                               uint8_t &value,
                                               std::vector<uint8_t> &result) {
-  return RequestStatus::SUCCESS;
+  return nullptr;
 }
 
-RequestStatus ModbusClient::readDiscreteInputs(uint16_t register_num,
+std::shared_ptr<ModbusRequest> ModbusClient::readDiscreteInputs(uint16_t register_num,
                                                uint16_t count,
                                                uint8_t slave_id,
                                                std::vector<uint8_t> &values,
                                                std::vector<uint8_t> &result) {
-  return RequestStatus::SUCCESS;
+  return nullptr;
 }
 
-RequestStatus ModbusClient::readCoil(uint16_t register_num,
+std::shared_ptr<ModbusRequest> ModbusClient::readCoil(uint16_t register_num,
                                      uint8_t slave_id,
                                      uint8_t &value,
                                      std::vector<uint8_t> &result) {
-  return RequestStatus::SUCCESS;
+  return nullptr;
 }
 
-RequestStatus ModbusClient::readCoils(uint16_t register_num,
+std::shared_ptr<ModbusRequest> ModbusClient::readCoils(uint16_t register_num,
                                       uint16_t count,
                                       uint8_t slave_id,
                                       std::vector<uint8_t> &values,
                                       std::vector<uint8_t> &result) {
-  return RequestStatus::SUCCESS;
+  return nullptr;
 }
 
-RequestStatus ModbusClient::readInputRegister(uint16_t register_num,
+std::shared_ptr<ModbusRequest> ModbusClient::readInputRegister(uint16_t register_num,
                                               uint8_t slave_id,
                                               uint8_t &value,
                                               std::vector<uint8_t> &result) {
-  return RequestStatus::SUCCESS;
+  return nullptr;
 }
 
-RequestStatus ModbusClient::readInputRegisters(uint16_t register_num,
+std::shared_ptr<ModbusRequest> ModbusClient::readInputRegisters(uint16_t register_num,
                                                uint16_t count,
                                                uint8_t slave_id,
                                                std::vector<uint8_t> &values,
                                                std::vector<uint8_t> &result) {
-  return RequestStatus::SUCCESS;
+  return nullptr;
 }
 
-RequestStatus ModbusClient::readHoldingRegister(uint16_t register_num,
+std::shared_ptr<ModbusRequest> ModbusClient::readHoldingRegister(uint16_t register_num,
                                                 uint8_t slave_id,
                                                 uint8_t &value,
                                                 std::vector<uint8_t> &result) {
-  return RequestStatus::SUCCESS;
+  return nullptr;
 }
 
-RequestStatus ModbusClient::readHoldingRegisters(uint16_t register_num,
+std::shared_ptr<ModbusRequest> ModbusClient::readHoldingRegisters(uint16_t register_num,
                                                  uint16_t count,
                                                  uint8_t slave_id,
                                                  std::vector<uint8_t> &values,
                                                  std::vector<uint8_t> &result) {
-  return RequestStatus::SUCCESS;
+  return nullptr;
 }
