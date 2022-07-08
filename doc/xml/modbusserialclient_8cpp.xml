@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="modbusserialclient_8cpp" kind="file" language="C++">
+    <compoundname>modbusserialclient.cpp</compoundname>
+    <includes refid="modbusserialclient_8h" local="yes">modbusserialclient.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>modbusserialclient.h</label>
+        <link refid="modbusserialclient_8h"/>
+      </node>
+      <node id="1">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/sync/modbusserialclient.cpp</label>
+        <link refid="modbusserialclient_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="modbusserialclient_8h" kindref="compound">modbusserialclient.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/sync/modbusserialclient.cpp"/>
+  </compounddef>
+</doxygen>

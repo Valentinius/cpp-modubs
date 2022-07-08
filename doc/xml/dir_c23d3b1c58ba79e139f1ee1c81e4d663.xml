@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_c23d3b1c58ba79e139f1ee1c81e4d663" kind="dir">
+    <compoundname>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync</compoundname>
+    <innerfile refid="modbusserialclient_8h">modbusserialclient.h</innerfile>
+    <innerfile refid="modbustcpclient_8h">modbustcpclient.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/"/>
+  </compounddef>
+</doxygen>

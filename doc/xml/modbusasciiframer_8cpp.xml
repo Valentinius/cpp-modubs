@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="modbusasciiframer_8cpp" kind="file" language="C++">
+    <compoundname>modbusasciiframer.cpp</compoundname>
+    <includes refid="modbusasciiframer_8h" local="yes">modbusasciiframer.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusasciiframer.cpp</label>
+        <link refid="modbusasciiframer_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>modbusasciiframer.h</label>
+        <link refid="modbusasciiframer_8h"/>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="modbusasciiframer_8h" kindref="compound">modbusasciiframer.h</ref>&quot;</highlight></codeline>
+    </programlisting>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusasciiframer.cpp"/>
+  </compounddef>
+</doxygen>

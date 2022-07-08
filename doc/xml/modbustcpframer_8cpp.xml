@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="modbustcpframer_8cpp" kind="file" language="C++">
+    <compoundname>modbustcpframer.cpp</compoundname>
+    <includes refid="modbustcpframer_8h" local="yes">modbustcpframer.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbustcpframer.cpp</label>
+        <link refid="modbustcpframer_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>modbustcpframer.h</label>
+        <link refid="modbustcpframer_8h"/>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="modbustcpframer_8h" kindref="compound">modbustcpframer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbustcpframer.cpp"/>
+  </compounddef>
+</doxygen>

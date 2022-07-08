@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="modbusserialclient_8h" kind="file" language="C++">
+    <compoundname>modbusserialclient.h</compoundname>
+    <includedby refid="modbusserialclient_8cpp" local="yes">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/sync/modbusserialclient.cpp</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbusserialclient.h</label>
+        <link refid="modbusserialclient_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/sync/modbusserialclient.cpp</label>
+        <link refid="modbusserialclient_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Created<sp/>by<sp/>alexeykozlovsky<sp/>on<sp/>07.07.22.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MODBUS_LIBRARY_CPP_INCLUDE_CLIENTS_MODBUSSERIALCLIENT_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MODBUS_LIBRARY_CPP_INCLUDE_CLIENTS_MODBUSSERIALCLIENT_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//MODBUS_LIBRARY_CPP_INCLUDE_CLIENTS_MODBUSSERIALCLIENT_H_</highlight></codeline>
+    </programlisting>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbusserialclient.h"/>
+  </compounddef>
+</doxygen>

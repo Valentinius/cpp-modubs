@@ -1,0 +1,620 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_modbus_request" kind="class" language="C++" prot="public">
+    <compoundname>ModbusRequest</compoundname>
+    <includes refid="modbusrequest_8h" local="no">modbusrequest.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_modbus_request_1a6d782779e9229db411b43a037d8b57bf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class ModbusRequestComparator</definition>
+        <argsstring></argsstring>
+        <name>ModbusRequestComparator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="19" column="3" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_modbus_request_1a99445b758cb9e5c9b219a21fcd13fa92" prot="private" static="no" mutable="no">
+        <type>const RequestType</type>
+        <definition>const RequestType ModbusRequest::request_type</definition>
+        <argsstring></argsstring>
+        <name>request_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="118" column="21" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modbus_request_1af5cece2e891d3ddefb3359283817fbfa" prot="private" static="no" mutable="no">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusRequest::request_status</definition>
+        <argsstring></argsstring>
+        <name>request_status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="119" column="17" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modbus_request_1a36bac3647f9bedcfb59116a4ee543c37" prot="private" static="no" mutable="no">
+        <type>const RequestPriority</type>
+        <definition>const RequestPriority ModbusRequest::request_priority</definition>
+        <argsstring></argsstring>
+        <name>request_priority</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="120" column="25" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modbus_request_1ae043bcf655d36412dee32905d44aa0e2" prot="private" static="no" mutable="no">
+        <type>const RegisterType</type>
+        <definition>const RegisterType ModbusRequest::register_type</definition>
+        <argsstring></argsstring>
+        <name>register_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="121" column="22" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modbus_request_1a9fe3793f01f592172c8852907cde02a1" prot="private" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t ModbusRequest::slave_id</definition>
+        <argsstring></argsstring>
+        <name>slave_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="122" column="17" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modbus_request_1afb1e27e9552e9e7ce9d64e92acf69bfe" prot="private" static="no" mutable="no">
+        <type>const std::vector&lt; uint16_t &gt;</type>
+        <definition>const std::vector&lt;uint16_t&gt; ModbusRequest::registers</definition>
+        <argsstring></argsstring>
+        <name>registers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="124" column="21" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modbus_request_1a0d9b686b1a013775a92f7b36d6cdc03a" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; uint16_t &gt;</type>
+        <definition>std::vector&lt;uint16_t&gt; ModbusRequest::values</definition>
+        <argsstring></argsstring>
+        <name>values</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="125" column="15" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modbus_request_1ad11a5ec13668698ccd39ee8bce29c3f5" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ModbusRequest::bit_num</definition>
+        <argsstring></argsstring>
+        <name>bit_num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="126" column="11" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modbus_request_1a7e7be4ae7688f6490939262707645c0b" prot="private" static="no" mutable="no">
+        <type>std::function&lt; void(const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;)&gt;</type>
+        <definition>std::function&lt;void(const std::shared_ptr&lt;ModbusRequest&gt;&amp;)&gt; ModbusRequest::sent_callback</definition>
+        <argsstring></argsstring>
+        <name>sent_callback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="128" column="17" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modbus_request_1a67bfedb7ddecca3985f42f1daef4eb66" prot="private" static="no" mutable="no">
+        <type>std::function&lt; void(const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;)&gt;</type>
+        <definition>std::function&lt;void(const std::shared_ptr&lt;ModbusRequest&gt;&amp;)&gt; ModbusRequest::responsed_callback</definition>
+        <argsstring></argsstring>
+        <name>responsed_callback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="129" column="17" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modbus_request_1ae0e40cfb1a8c15f72ee8bd5b4f37673d" prot="private" static="no" mutable="no">
+        <type>std::function&lt; void(const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;)&gt;</type>
+        <definition>std::function&lt;void(const std::shared_ptr&lt;ModbusRequest&gt;&amp;)&gt; ModbusRequest::timeout_callback</definition>
+        <argsstring></argsstring>
+        <name>timeout_callback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="130" column="17" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modbus_request_1afad85272edbef62d5f00819b5c40444d" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; std::future&lt; void &gt; &gt;</type>
+        <definition>std::shared_ptr&lt;std::future&lt;void&gt; &gt; ModbusRequest::future_async</definition>
+        <argsstring></argsstring>
+        <name>future_async</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="132" column="19" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_modbus_request_1afe5e6ec5c7bbd7670aa2b43cfeec94ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ModbusRequest::ModbusRequest</definition>
+        <argsstring>(uint16_t msb_reg, uint16_t lsb_reg, RegisterType register_type, RequestPriority request_priority, uint8_t slave_id, uint32_t value)</argsstring>
+        <name>ModbusRequest</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>msb_reg</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>lsb_reg</declname>
+        </param>
+        <param>
+          <type>RegisterType</type>
+          <declname>register_type</declname>
+        </param>
+        <param>
+          <type>RequestPriority</type>
+          <declname>request_priority</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="22" column="3" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbusrequest.cpp" bodystart="6" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1acb41e26447c31187c4a29baeb220e5ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ModbusRequest::ModbusRequest</definition>
+        <argsstring>(uint16_t reg_num, RegisterType register_type, RequestPriority request_priority, uint8_t slave_id, uint16_t value)</argsstring>
+        <name>ModbusRequest</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>reg_num</declname>
+        </param>
+        <param>
+          <type>RegisterType</type>
+          <declname>register_type</declname>
+        </param>
+        <param>
+          <type>RequestPriority</type>
+          <declname>request_priority</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="29" column="3" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbusrequest.cpp" bodystart="22" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1a84ff53c9ffab83e27ce562104573fb63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ModbusRequest::ModbusRequest</definition>
+        <argsstring>(uint16_t reg_num, uint8_t byte_num, RegisterType register_type, RequestPriority request_priority, uint8_t slave_id, bool byte_value)</argsstring>
+        <name>ModbusRequest</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>reg_num</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>byte_num</declname>
+        </param>
+        <param>
+          <type>RegisterType</type>
+          <declname>register_type</declname>
+        </param>
+        <param>
+          <type>RequestPriority</type>
+          <declname>request_priority</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>byte_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="35" column="3" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbusrequest.cpp" bodystart="37" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1a38eb0c4d363bd9bfddc4f54a104768ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ModbusRequest::ModbusRequest</definition>
+        <argsstring>(uint16_t msb_reg, uint16_t lsb_reg, RegisterType register_type, RequestPriority request_priority, uint8_t slave_id)</argsstring>
+        <name>ModbusRequest</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>msb_reg</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>lsb_reg</declname>
+        </param>
+        <param>
+          <type>RegisterType</type>
+          <declname>register_type</declname>
+        </param>
+        <param>
+          <type>RequestPriority</type>
+          <declname>request_priority</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="42" column="3" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbusrequest.cpp" bodystart="53" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1a6ab523dcb32ca0316bc7ad2272d28b15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ModbusRequest::ModbusRequest</definition>
+        <argsstring>(uint16_t reg_num, RegisterType register_type, RequestPriority request_priority, uint8_t slave_id)</argsstring>
+        <name>ModbusRequest</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>reg_num</declname>
+        </param>
+        <param>
+          <type>RegisterType</type>
+          <declname>register_type</declname>
+        </param>
+        <param>
+          <type>RequestPriority</type>
+          <declname>request_priority</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="48" column="3" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbusrequest.cpp" bodystart="67" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1a284a41bbda0f19a75f785272d6487c52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ModbusRequest::ModbusRequest</definition>
+        <argsstring>(uint16_t reg_num, uint8_t byte_num, RegisterType register_type, RequestPriority request_priority, uint8_t slave_id)</argsstring>
+        <name>ModbusRequest</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>reg_num</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>byte_num</declname>
+        </param>
+        <param>
+          <type>RegisterType</type>
+          <declname>register_type</declname>
+        </param>
+        <param>
+          <type>RequestPriority</type>
+          <declname>request_priority</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>slave_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="53" column="3" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbusrequest.cpp" bodystart="80" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1a3e97b4e72ef586e12cbdb266b1f787c9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>RequestType</type>
+        <definition>RequestType ModbusRequest::getRequestType</definition>
+        <argsstring>() const</argsstring>
+        <name>getRequestType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="60" column="22" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="60" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1a5eb1ec6a450116b87fa7b1a10d89faca" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>RequestStatus</type>
+        <definition>RequestStatus ModbusRequest::getRequestStatus</definition>
+        <argsstring>() const</argsstring>
+        <name>getRequestStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="64" column="24" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1a6b0aeb14e69b1c955437559156b7cd2f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>RequestPriority</type>
+        <definition>RequestPriority ModbusRequest::getRequestPriority</definition>
+        <argsstring>() const</argsstring>
+        <name>getRequestPriority</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="68" column="26" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1a153399d44fa5fefe48be780b88b1b23f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>RegisterType</type>
+        <definition>RegisterType ModbusRequest::getRegisterType</definition>
+        <argsstring>() const</argsstring>
+        <name>getRegisterType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="72" column="23" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="72" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1a97360b4504ab801c4d55f90865f75f13" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t ModbusRequest::getSlaveId</definition>
+        <argsstring>() const</argsstring>
+        <name>getSlaveId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="76" column="18" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="76" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1a34b249fa2f5ee4e347318ed9a632b15b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; uint16_t &gt; &amp;</type>
+        <definition>const std::vector&lt;uint16_t&gt;&amp; ModbusRequest::getRegisters</definition>
+        <argsstring>() const</argsstring>
+        <name>getRegisters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="80" column="28" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1a6df8d0e9cd93013dcf3ead6f8c4c9521" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ModbusRequest::getValues</definition>
+        <argsstring>(std::vector&lt; uint16_t &gt; &amp;values) const</argsstring>
+        <name>getValues</name>
+        <param>
+          <type>std::vector&lt; uint16_t &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="84" column="15" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="84" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1add40e44465eb86ab295a298bd285f75a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusRequest::setValue</definition>
+        <argsstring>(size_t value)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type>size_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="93" column="15" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="93" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1a8ecb3acea1023a82fd5c63f45beae702" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusRequest::setRequestStatus</definition>
+        <argsstring>(RequestStatus request_status)</argsstring>
+        <name>setRequestStatus</name>
+        <param>
+          <type>RequestStatus</type>
+          <declname>request_status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="97" column="15" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="97" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1a8ca98c44a9daf1249d76484e721d751f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusRequest::setSentCallback</definition>
+        <argsstring>(std::function&lt; void(const std::shared_ptr&lt; ModbusRequest &gt; &amp;)&gt; callback)</argsstring>
+        <name>setSentCallback</name>
+        <param>
+          <type>std::function&lt; void(const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;)&gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="101" column="15" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="101" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1a613d6da561387a768b345e28a4d61d22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusRequest::setResponsedCallback</definition>
+        <argsstring>(std::function&lt; void(const std::shared_ptr&lt; ModbusRequest &gt; &amp;)&gt; callback)</argsstring>
+        <name>setResponsedCallback</name>
+        <param>
+          <type>std::function&lt; void(const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;)&gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="105" column="15" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="105" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1aa03f58341cb447c21291183ac7383b3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusRequest::setTimeoutCallback</definition>
+        <argsstring>(std::function&lt; void(const std::shared_ptr&lt; ModbusRequest &gt; &amp;)&gt; callback)</argsstring>
+        <name>setTimeoutCallback</name>
+        <param>
+          <type>std::function&lt; void(const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;)&gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="109" column="15" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="109" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_request_1a9d90b368a4ebbfbd132db6563a6e3183" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusRequest::setFutureAsync</definition>
+        <argsstring>(std::shared_ptr&lt; std::future&lt; void &gt;&gt; &amp;future_async)</argsstring>
+        <name>setFutureAsync</name>
+        <param>
+          <type>std::shared_ptr&lt; std::future&lt; void &gt;&gt; &amp;</type>
+          <declname>future_async</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="113" column="15" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="113" bodyend="115"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="18" column="20" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="18" bodyend="133"/>
+    <listofallmembers>
+      <member refid="class_modbus_request_1ad11a5ec13668698ccd39ee8bce29c3f5" prot="private" virt="non-virtual"><scope>ModbusRequest</scope><name>bit_num</name></member>
+      <member refid="class_modbus_request_1afad85272edbef62d5f00819b5c40444d" prot="private" virt="non-virtual"><scope>ModbusRequest</scope><name>future_async</name></member>
+      <member refid="class_modbus_request_1a34b249fa2f5ee4e347318ed9a632b15b" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>getRegisters</name></member>
+      <member refid="class_modbus_request_1a153399d44fa5fefe48be780b88b1b23f" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>getRegisterType</name></member>
+      <member refid="class_modbus_request_1a6b0aeb14e69b1c955437559156b7cd2f" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>getRequestPriority</name></member>
+      <member refid="class_modbus_request_1a5eb1ec6a450116b87fa7b1a10d89faca" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>getRequestStatus</name></member>
+      <member refid="class_modbus_request_1a3e97b4e72ef586e12cbdb266b1f787c9" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>getRequestType</name></member>
+      <member refid="class_modbus_request_1a97360b4504ab801c4d55f90865f75f13" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>getSlaveId</name></member>
+      <member refid="class_modbus_request_1a6df8d0e9cd93013dcf3ead6f8c4c9521" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>getValues</name></member>
+      <member refid="class_modbus_request_1afe5e6ec5c7bbd7670aa2b43cfeec94ff" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>ModbusRequest</name></member>
+      <member refid="class_modbus_request_1acb41e26447c31187c4a29baeb220e5ea" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>ModbusRequest</name></member>
+      <member refid="class_modbus_request_1a84ff53c9ffab83e27ce562104573fb63" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>ModbusRequest</name></member>
+      <member refid="class_modbus_request_1a38eb0c4d363bd9bfddc4f54a104768ca" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>ModbusRequest</name></member>
+      <member refid="class_modbus_request_1a6ab523dcb32ca0316bc7ad2272d28b15" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>ModbusRequest</name></member>
+      <member refid="class_modbus_request_1a284a41bbda0f19a75f785272d6487c52" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>ModbusRequest</name></member>
+      <member refid="class_modbus_request_1a6d782779e9229db411b43a037d8b57bf" prot="private" virt="non-virtual"><scope>ModbusRequest</scope><name>ModbusRequestComparator</name></member>
+      <member refid="class_modbus_request_1ae043bcf655d36412dee32905d44aa0e2" prot="private" virt="non-virtual"><scope>ModbusRequest</scope><name>register_type</name></member>
+      <member refid="class_modbus_request_1afb1e27e9552e9e7ce9d64e92acf69bfe" prot="private" virt="non-virtual"><scope>ModbusRequest</scope><name>registers</name></member>
+      <member refid="class_modbus_request_1a36bac3647f9bedcfb59116a4ee543c37" prot="private" virt="non-virtual"><scope>ModbusRequest</scope><name>request_priority</name></member>
+      <member refid="class_modbus_request_1af5cece2e891d3ddefb3359283817fbfa" prot="private" virt="non-virtual"><scope>ModbusRequest</scope><name>request_status</name></member>
+      <member refid="class_modbus_request_1a99445b758cb9e5c9b219a21fcd13fa92" prot="private" virt="non-virtual"><scope>ModbusRequest</scope><name>request_type</name></member>
+      <member refid="class_modbus_request_1a67bfedb7ddecca3985f42f1daef4eb66" prot="private" virt="non-virtual"><scope>ModbusRequest</scope><name>responsed_callback</name></member>
+      <member refid="class_modbus_request_1a7e7be4ae7688f6490939262707645c0b" prot="private" virt="non-virtual"><scope>ModbusRequest</scope><name>sent_callback</name></member>
+      <member refid="class_modbus_request_1a9d90b368a4ebbfbd132db6563a6e3183" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>setFutureAsync</name></member>
+      <member refid="class_modbus_request_1a8ecb3acea1023a82fd5c63f45beae702" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>setRequestStatus</name></member>
+      <member refid="class_modbus_request_1a613d6da561387a768b345e28a4d61d22" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>setResponsedCallback</name></member>
+      <member refid="class_modbus_request_1a8ca98c44a9daf1249d76484e721d751f" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>setSentCallback</name></member>
+      <member refid="class_modbus_request_1aa03f58341cb447c21291183ac7383b3c" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>setTimeoutCallback</name></member>
+      <member refid="class_modbus_request_1add40e44465eb86ab295a298bd285f75a" prot="public" virt="non-virtual"><scope>ModbusRequest</scope><name>setValue</name></member>
+      <member refid="class_modbus_request_1a9fe3793f01f592172c8852907cde02a1" prot="private" virt="non-virtual"><scope>ModbusRequest</scope><name>slave_id</name></member>
+      <member refid="class_modbus_request_1ae0e40cfb1a8c15f72ee8bd5b4f37673d" prot="private" virt="non-virtual"><scope>ModbusRequest</scope><name>timeout_callback</name></member>
+      <member refid="class_modbus_request_1a0d9b686b1a013775a92f7b36d6cdc03a" prot="private" virt="non-virtual"><scope>ModbusRequest</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

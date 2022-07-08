@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_modbus_session" kind="class" language="C++" prot="public">
+    <compoundname>ModbusSession</compoundname>
+    <includes refid="modbussession_8h" local="no">modbussession.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_modbus_session_1a7545a0745a9cb3b9b303c8ee185502e2" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::priority_queue&lt; std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;, std::vector&lt; std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &gt;, <ref refid="class_modbus_request_comparator" kindref="compound">ModbusRequestComparator</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::priority_queue&lt;std::shared_ptr&lt;ModbusRequest&gt;, std::vector&lt;std::shared_ptr&lt;ModbusRequest&gt; &gt;, ModbusRequestComparator&gt; &gt; ModbusSession::request_queues</definition>
+        <argsstring></argsstring>
+        <name>request_queues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="89" column="2" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modbus_session_1a07cecffe8ffb77aacce0655c84d6a8a3" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::shared_ptr&lt; <ref refid="class_modbus_client" kindref="compound">ModbusClient</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::shared_ptr&lt;ModbusClient&gt; &gt; ModbusSession::clients</definition>
+        <argsstring></argsstring>
+        <name>clients</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="90" column="15" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_modbus_session_1a4ce841f384e27c7f18f7c2f092abafc0" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; std::future&lt; void &gt; &gt;</type>
+        <definition>std::shared_ptr&lt;std::future&lt;void&gt; &gt; ModbusSession::future_run_async</definition>
+        <argsstring></argsstring>
+        <name>future_run_async</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="92" column="19" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_modbus_session_1ab183a017a7cb9ee9deb54f45e1419f30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ModbusSession::ModbusSession</definition>
+        <argsstring>()</argsstring>
+        <name>ModbusSession</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="22" column="3" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_session_1a81fad84eb467995875d7911192ffb735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>void ModbusSession::addClient</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusClient &gt; modbus_client)</argsstring>
+        <name>addClient</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_client" kindref="compound">ModbusClient</ref> &gt;</type>
+          <declname>modbus_client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Метод для добавление MODBUS клиента явно. Причем клиентами могут быть все те объекты, классы которых являются наследниками абстрактного класса <ref refid="class_modbus_client" kindref="compound">ModbusClient</ref>. Это позволяет в случае чего работать сразу с TCP/IP, а также, например, RS-232 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modbus_client</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- указатель на клиент </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>индекс добавленного клиента в векторе клиентов сессии. Он необходим для того, чтобы в дальнейшем обращаться к данному клиенту через сессию. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="33" column="10" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_session_1a91fecf8f09ffa0cc93a4861793ec1c47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t ModbusSession::addClient</definition>
+        <argsstring>(std::string ip, uint16_t port, ModbusFramerType modbus_framer)</argsstring>
+        <name>addClient</name>
+        <param>
+          <type>std::string</type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>ModbusFramerType</type>
+          <declname>modbus_framer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Метод для добавление MODBUS TCP клиента явно (без необходимости до этого создавать его объект) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- ip адрес modbus устройства </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>port</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- порт modbus устройства </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>modbus_framer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- обертка, служащая для формирования пакета MODBUS </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>индекс добавленного клиента в векторе клиентов сессии. Он необходим для того, чтобы в дальнейшем обращаться к данному клиенту через сессию. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="43" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_session_1a80ffc1ddbd83a5c69a69cb9859187cff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusSession::removeClient</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusClient &gt; modbus_client)</argsstring>
+        <name>removeClient</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_client" kindref="compound">ModbusClient</ref> &gt;</type>
+          <declname>modbus_client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Удаление клиента из сесии по его указателю <simplesect kind="warning"><para>Не рекомендуется использовать этот метод, так как он работает дольше чем его перегрузка, которая удаляет клиента по индексу </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modbus_client</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- указатель на клиент </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="51" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp" bodystart="24" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_session_1abb7d5f22a8dfb9cb7e1963255693601e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusSession::removeClient</definition>
+        <argsstring>(int client_num)</argsstring>
+        <name>removeClient</name>
+        <param>
+          <type><ref refid="_c_make_cache_8txt_1a79a3d8790b2588b09777910863574e09" kindref="member">int</ref></type>
+          <declname>client_num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Удаление клиента из сессии по его индексу в векторе клиентов сессии <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>client_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- индекс клиента </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="57" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_session_1a2d44dd6939a1cb05703518d5edddc70c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt; bool &gt; ModbusSession::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Метод для запуска сессии. <simplesect kind="return"><para>вектор логических переменных, показывающих, установлено ли корректное подключение с клиентами в ходе запуска сесии или нет </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="64" column="15" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp" bodystart="41" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_session_1a1603510d1c1b0bad7fe6150aad5088b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusSession::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Метод для остановки сессии. До остановки должны заверщиться все запросы, которые было в сессии до того, как был вызван этот метод. Запросы, добавленные в сессию после вызова этого метода и до завершения сессии исполнены не будут </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="71" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_session_1a46319e5fc6bad0390dbadbfaa9e9f729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusSession::terminate</definition>
+        <argsstring>()</argsstring>
+        <name>terminate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Метод для быстрой остановке сессии. Сессия завершается сразу <simplesect kind="warning"><para>Рекомендуется использовать этот метод только в тех случаях, когда он действительно необходим </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="77" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_session_1afb70c3f8392277918d37e0646a2c851b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; ModbusRequest &gt; ModbusSession::addRequest</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusRequest &gt; request, size_t client_num)</argsstring>
+        <name>addRequest</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt;</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>client_num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Метод для добавления запроса в сессию. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- указатель на объект запроса </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>client_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- индекс клиента в векторе клиентов сесии </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>указатель на объект запроса </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="85" column="19" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp" bodystart="93" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_modbus_session_1a9e34ab291d68db4ed9a3b85381e0b8d4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusSession::_run</definition>
+        <argsstring>()</argsstring>
+        <name>_run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="94" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp" bodystart="51" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_session_1acad4e219299b4d5181c60415c13cf173" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusSession::_multipleRegistersReadProcess</definition>
+        <argsstring>(const std::shared_ptr&lt; ModbusRequest &gt; &amp;request, const std::vector&lt; uint16_t &gt; &amp;registers, size_t client_id, std::vector&lt; uint8_t &gt; &amp;request_result)</argsstring>
+        <name>_multipleRegistersReadProcess</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; uint16_t &gt; &amp;</type>
+          <declname>registers</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>client_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>request_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="96" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp" bodystart="103" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_session_1af9cb1ec8389350ebc34a9c8f62525b20" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusSession::_singleRegisterReadProcess</definition>
+        <argsstring>(const std::shared_ptr&lt; ModbusRequest &gt; &amp;request, const std::vector&lt; uint16_t &gt; &amp;registers, size_t client_id, std::vector&lt; uint8_t &gt; &amp;request_result)</argsstring>
+        <name>_singleRegisterReadProcess</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; uint16_t &gt; &amp;</type>
+          <declname>registers</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>client_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>request_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="100" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp" bodystart="139" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_session_1a9a37dedb46b1fa63a660c42edec07318" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusSession::_partialRegistersReadProcess</definition>
+        <argsstring>(const std::shared_ptr&lt; ModbusRequest &gt; &amp;request, const std::vector&lt; uint16_t &gt; &amp;registers, size_t client_id, std::vector&lt; uint8_t &gt; &amp;request_result)</argsstring>
+        <name>_partialRegistersReadProcess</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; uint16_t &gt; &amp;</type>
+          <declname>registers</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>client_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>request_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="104" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp" bodystart="155" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_session_1aff1f501afae43290e7a0a7e3bcd49ccb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusSession::_multipleRegistersWriteProcess</definition>
+        <argsstring>(const std::shared_ptr&lt; ModbusRequest &gt; &amp;request, const std::vector&lt; uint16_t &gt; &amp;registers, size_t client_id, std::vector&lt; uint8_t &gt; &amp;request_result)</argsstring>
+        <name>_multipleRegistersWriteProcess</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; uint16_t &gt; &amp;</type>
+          <declname>registers</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>client_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>request_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="108" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp" bodystart="171" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_session_1a86b15fb008def9a817198f4ab7cb2486" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusSession::_singleRegisterWriteProcess</definition>
+        <argsstring>(const std::shared_ptr&lt; ModbusRequest &gt; &amp;request, const std::vector&lt; uint16_t &gt; &amp;registers, size_t client_id, std::vector&lt; uint8_t &gt; &amp;request_result)</argsstring>
+        <name>_singleRegisterWriteProcess</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; uint16_t &gt; &amp;</type>
+          <declname>registers</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>client_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>request_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="112" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp" bodystart="187" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_session_1a402ea7b13d336bf84dccdab5118aed4a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModbusSession::_partialRegistersWriteProcess</definition>
+        <argsstring>(const std::shared_ptr&lt; ModbusRequest &gt; &amp;request, const std::vector&lt; uint16_t &gt; &amp;registers, size_t client_id, std::vector&lt; uint8_t &gt; &amp;request_result)</argsstring>
+        <name>_partialRegistersWriteProcess</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; uint16_t &gt; &amp;</type>
+          <declname>registers</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>client_id</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt; &amp;</type>
+          <declname>request_result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="116" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp" bodystart="203" bodyend="217"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Класс, характеризующий сессия MODBUS </para>
+    </detaileddescription>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" line="20" column="20" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h" bodystart="20" bodyend="120"/>
+    <listofallmembers>
+      <member refid="class_modbus_session_1acad4e219299b4d5181c60415c13cf173" prot="private" virt="non-virtual"><scope>ModbusSession</scope><name>_multipleRegistersReadProcess</name></member>
+      <member refid="class_modbus_session_1aff1f501afae43290e7a0a7e3bcd49ccb" prot="private" virt="non-virtual"><scope>ModbusSession</scope><name>_multipleRegistersWriteProcess</name></member>
+      <member refid="class_modbus_session_1a9a37dedb46b1fa63a660c42edec07318" prot="private" virt="non-virtual"><scope>ModbusSession</scope><name>_partialRegistersReadProcess</name></member>
+      <member refid="class_modbus_session_1a402ea7b13d336bf84dccdab5118aed4a" prot="private" virt="non-virtual"><scope>ModbusSession</scope><name>_partialRegistersWriteProcess</name></member>
+      <member refid="class_modbus_session_1a9e34ab291d68db4ed9a3b85381e0b8d4" prot="private" virt="non-virtual"><scope>ModbusSession</scope><name>_run</name></member>
+      <member refid="class_modbus_session_1af9cb1ec8389350ebc34a9c8f62525b20" prot="private" virt="non-virtual"><scope>ModbusSession</scope><name>_singleRegisterReadProcess</name></member>
+      <member refid="class_modbus_session_1a86b15fb008def9a817198f4ab7cb2486" prot="private" virt="non-virtual"><scope>ModbusSession</scope><name>_singleRegisterWriteProcess</name></member>
+      <member refid="class_modbus_session_1a81fad84eb467995875d7911192ffb735" prot="public" virt="non-virtual"><scope>ModbusSession</scope><name>addClient</name></member>
+      <member refid="class_modbus_session_1a91fecf8f09ffa0cc93a4861793ec1c47" prot="public" virt="non-virtual"><scope>ModbusSession</scope><name>addClient</name></member>
+      <member refid="class_modbus_session_1afb70c3f8392277918d37e0646a2c851b" prot="public" virt="non-virtual"><scope>ModbusSession</scope><name>addRequest</name></member>
+      <member refid="class_modbus_session_1a07cecffe8ffb77aacce0655c84d6a8a3" prot="private" virt="non-virtual"><scope>ModbusSession</scope><name>clients</name></member>
+      <member refid="class_modbus_session_1a4ce841f384e27c7f18f7c2f092abafc0" prot="private" virt="non-virtual"><scope>ModbusSession</scope><name>future_run_async</name></member>
+      <member refid="class_modbus_session_1ab183a017a7cb9ee9deb54f45e1419f30" prot="public" virt="non-virtual"><scope>ModbusSession</scope><name>ModbusSession</name></member>
+      <member refid="class_modbus_session_1a80ffc1ddbd83a5c69a69cb9859187cff" prot="public" virt="non-virtual"><scope>ModbusSession</scope><name>removeClient</name></member>
+      <member refid="class_modbus_session_1abb7d5f22a8dfb9cb7e1963255693601e" prot="public" virt="non-virtual"><scope>ModbusSession</scope><name>removeClient</name></member>
+      <member refid="class_modbus_session_1a7545a0745a9cb3b9b303c8ee185502e2" prot="private" virt="non-virtual"><scope>ModbusSession</scope><name>request_queues</name></member>
+      <member refid="class_modbus_session_1a2d44dd6939a1cb05703518d5edddc70c" prot="public" virt="non-virtual"><scope>ModbusSession</scope><name>run</name></member>
+      <member refid="class_modbus_session_1a1603510d1c1b0bad7fe6150aad5088b4" prot="public" virt="non-virtual"><scope>ModbusSession</scope><name>stop</name></member>
+      <member refid="class_modbus_session_1a46319e5fc6bad0390dbadbfaa9e9f729" prot="public" virt="non-virtual"><scope>ModbusSession</scope><name>terminate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

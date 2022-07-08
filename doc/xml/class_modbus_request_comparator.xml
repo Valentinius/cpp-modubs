@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_modbus_request_comparator" kind="class" language="C++" prot="public">
+    <compoundname>ModbusRequestComparator</compoundname>
+    <includes refid="modbusrequest_8h" local="no">modbusrequest.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_modbus_request_comparator_1ae3f60afa1d3bead3c9cf575edaa09a8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ModbusRequestComparator::operator()</definition>
+        <argsstring>(const std::shared_ptr&lt; ModbusRequest &gt; &amp;request1, const std::shared_ptr&lt; ModbusRequest &gt; &amp;request2)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request1</declname>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="137" column="15" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="137" bodyend="140"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" line="135" column="30" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h" bodystart="135" bodyend="141"/>
+    <listofallmembers>
+      <member refid="class_modbus_request_comparator_1ae3f60afa1d3bead3c9cf575edaa09a8e" prot="public" virt="non-virtual"><scope>ModbusRequestComparator</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

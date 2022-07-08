@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="modbusrequest_8h" kind="file" language="C++">
+    <compoundname>modbusrequest.h</compoundname>
+    <includes local="no">utility</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">functional</includes>
+    <includes local="no">future</includes>
+    <includes refid="utils_8h" local="yes">utils.h</includes>
+    <includedby refid="modbusclient_8h" local="yes">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h</includedby>
+    <includedby refid="modbusframer_8h" local="yes">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers/modbusframer.h</includedby>
+    <includedby refid="modbussession_8h" local="yes">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h</includedby>
+    <includedby refid="parsing_8h" local="yes">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/parsing.h</includedby>
+    <includedby refid="modbusrequest_8cpp" local="yes">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbusrequest.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h</label>
+        <link refid="modbusrequest_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>functional</label>
+      </node>
+      <node id="8">
+        <label>cstdint</label>
+      </node>
+      <node id="6">
+        <label>future</label>
+      </node>
+      <node id="3">
+        <label>vector</label>
+      </node>
+      <node id="2">
+        <label>utility</label>
+      </node>
+      <node id="7">
+        <label>utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h</label>
+        <link refid="modbusrequest_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/sync/modbustcpclient.h</label>
+        <link refid="modbustcpclient_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusframer.cpp</label>
+        <link refid="modbusframer_8cpp"/>
+      </node>
+      <node id="8">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers/modbusframer.h</label>
+        <link refid="modbusframer_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbussession.h</label>
+        <link refid="modbussession_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbusrequest.cpp</label>
+        <link refid="modbusrequest_8cpp"/>
+      </node>
+      <node id="10">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/utils/parsing.h</label>
+        <link refid="parsing_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/sync/modbustcpclient.cpp</label>
+        <link refid="modbustcpclient_8cpp"/>
+      </node>
+      <node id="11">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/utils/parsing.cpp</label>
+        <link refid="parsing_8cpp"/>
+      </node>
+      <node id="2">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/clients/modbusclient.h</label>
+        <link refid="modbusclient_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/session/modbussession.cpp</label>
+        <link refid="modbussession_8cpp"/>
+      </node>
+      <node id="7">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/modbusclient.cpp</label>
+        <link refid="modbusclient_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_modbus_request" prot="public">ModbusRequest</innerclass>
+    <innerclass refid="class_modbus_request_comparator" prot="public">ModbusRequestComparator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>MODBUS_LIBRARY_CPP_INCLUDE_MODBUSREQUEST_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MODBUS_LIBRARY_CPP_INCLUDE_MODBUSREQUEST_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;utility&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;future&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="utils_8h" kindref="compound">utils.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6" kindref="member">modbus::enums::RequestStatus</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6" kindref="member">modbus::enums::RequestType</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66" kindref="member">modbus::enums::RequestPriority</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" kindref="member">modbus::enums::RegisterType</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_modbus_request" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref><sp/>{</highlight></codeline>
+<codeline lineno="19" refid="class_modbus_request_1a6d782779e9229db411b43a037d8b57bf" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_modbus_request_comparator" kindref="compound">ModbusRequestComparator</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><ref refid="class_modbus_request_1afe5e6ec5c7bbd7670aa2b43cfeec94ff" kindref="member">ModbusRequest</ref>(uint16_t<sp/>msb_reg,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/>lsb_reg,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" kindref="member">RegisterType</ref><sp/>register_type,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66" kindref="member">RequestPriority</ref><sp/>request_priority,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>slave_id,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><ref refid="class_modbus_request_1afe5e6ec5c7bbd7670aa2b43cfeec94ff" kindref="member">ModbusRequest</ref>(uint16_t<sp/>reg_num,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" kindref="member">RegisterType</ref><sp/>register_type,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66" kindref="member">RequestPriority</ref><sp/>request_priority,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>slave_id,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/>value);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><ref refid="class_modbus_request_1afe5e6ec5c7bbd7670aa2b43cfeec94ff" kindref="member">ModbusRequest</ref>(uint16_t<sp/>reg_num,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>byte_num,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" kindref="member">RegisterType</ref><sp/>register_type,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66" kindref="member">RequestPriority</ref><sp/>request_priority,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>slave_id,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>byte_value);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><ref refid="class_modbus_request_1afe5e6ec5c7bbd7670aa2b43cfeec94ff" kindref="member">ModbusRequest</ref>(uint16_t<sp/>msb_reg,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/>lsb_reg,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" kindref="member">RegisterType</ref><sp/>register_type,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66" kindref="member">RequestPriority</ref><sp/>request_priority,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>slave_id);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><ref refid="class_modbus_request_1afe5e6ec5c7bbd7670aa2b43cfeec94ff" kindref="member">ModbusRequest</ref>(uint16_t<sp/>reg_num,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" kindref="member">RegisterType</ref><sp/>register_type,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66" kindref="member">RequestPriority</ref><sp/>request_priority,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>slave_id);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><ref refid="class_modbus_request_1afe5e6ec5c7bbd7670aa2b43cfeec94ff" kindref="member">ModbusRequest</ref>(uint16_t<sp/>reg_num,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>byte_num,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" kindref="member">RegisterType</ref><sp/>register_type,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66" kindref="member">RequestPriority</ref><sp/>request_priority,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>slave_id);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="class_modbus_request_1a3e97b4e72ef586e12cbdb266b1f787c9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6" kindref="member">RequestType</ref><sp/><ref refid="class_modbus_request_1a3e97b4e72ef586e12cbdb266b1f787c9" kindref="member">getRequestType</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;request_type;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="class_modbus_request_1a5eb1ec6a450116b87fa7b1a10d89faca" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6" kindref="member">RequestStatus</ref><sp/><ref refid="class_modbus_request_1a5eb1ec6a450116b87fa7b1a10d89faca" kindref="member">getRequestStatus</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;request_status;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="class_modbus_request_1a6b0aeb14e69b1c955437559156b7cd2f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66" kindref="member">RequestPriority</ref><sp/><ref refid="class_modbus_request_1a6b0aeb14e69b1c955437559156b7cd2f" kindref="member">getRequestPriority</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;request_priority;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="class_modbus_request_1a153399d44fa5fefe48be780b88b1b23f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" kindref="member">RegisterType</ref><sp/><ref refid="class_modbus_request_1a153399d44fa5fefe48be780b88b1b23f" kindref="member">getRegisterType</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;register_type;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="class_modbus_request_1a97360b4504ab801c4d55f90865f75f13" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="class_modbus_request_1a97360b4504ab801c4d55f90865f75f13" kindref="member">getSlaveId</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;slave_id;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="class_modbus_request_1a34b249fa2f5ee4e347318ed9a632b15b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;uint16_t&gt;&amp;<sp/><ref refid="class_modbus_request_1a34b249fa2f5ee4e347318ed9a632b15b" kindref="member">getRegisters</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;registers;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="class_modbus_request_1a6df8d0e9cd93013dcf3ead6f8c4c9521" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_modbus_request_1a6df8d0e9cd93013dcf3ead6f8c4c9521" kindref="member">getValues</ref>(std::vector&lt;uint16_t&gt;<sp/>&amp;values)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;future_async)<sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;future_async-&gt;get();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>values<sp/>=<sp/>this-&gt;values;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="class_modbus_request_1add40e44465eb86ab295a298bd285f75a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_modbus_request_1add40e44465eb86ab295a298bd285f75a" kindref="member">setValue</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>value)<sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;value<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="class_modbus_request_1a8ecb3acea1023a82fd5c63f45beae702" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_modbus_request_1a8ecb3acea1023a82fd5c63f45beae702" kindref="member">setRequestStatus</ref>(<ref refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6" kindref="member">RequestStatus</ref><sp/>request_status)<sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;request_status<sp/>=<sp/>request_status;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="class_modbus_request_1a8ca98c44a9daf1249d76484e721d751f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_modbus_request_1a8ca98c44a9daf1249d76484e721d751f" kindref="member">setSentCallback</ref>(std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;&amp;)&gt;<sp/>callback)<sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;sent_callback<sp/>=<sp/>std::move(callback);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="class_modbus_request_1a613d6da561387a768b345e28a4d61d22" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_modbus_request_1a613d6da561387a768b345e28a4d61d22" kindref="member">setResponsedCallback</ref>(std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;&amp;)&gt;<sp/>callback)<sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;responsed_callback<sp/>=<sp/>std::move(callback);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="class_modbus_request_1aa03f58341cb447c21291183ac7383b3c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_modbus_request_1aa03f58341cb447c21291183ac7383b3c" kindref="member">setTimeoutCallback</ref>(std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;&amp;)&gt;<sp/>callback)<sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;timeout_callback<sp/>=<sp/>std::move(callback);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="class_modbus_request_1a9d90b368a4ebbfbd132db6563a6e3183" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_modbus_request_1a9d90b368a4ebbfbd132db6563a6e3183" kindref="member">setFutureAsync</ref>(std::shared_ptr&lt;std::future&lt;void&gt;&gt;<sp/>&amp;future_async)<sp/>{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;future_async<sp/>=<sp/>future_async;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6" kindref="member">RequestType</ref><sp/>request_type;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><ref refid="namespacemodbus_1_1enums_1a5479c4e007352f8ecb2059eb227dbeb6" kindref="member">RequestStatus</ref><sp/>request_status;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a0bcc5fdc106dc6bc98216faa21c58b66" kindref="member">RequestPriority</ref><sp/>request_priority;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198" kindref="member">RegisterType</ref><sp/>register_type;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>slave_id;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;uint16_t&gt;<sp/>registers;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/>std::vector&lt;uint16_t&gt;<sp/>values;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/>uint8_t<sp/>bit_num;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/>std::function&lt;void(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;&amp;)&gt;<sp/>sent_callback;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>std::function&lt;void(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;&amp;)&gt;<sp/>responsed_callback;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/>std::function&lt;void(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;&amp;)&gt;<sp/>timeout_callback;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/>std::shared_ptr&lt;std::future&lt;void&gt;&gt;<sp/>future_async;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="class_modbus_request_comparator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_modbus_request_comparator" kindref="compound">ModbusRequestComparator</ref><sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="137" refid="class_modbus_request_comparator_1ae3f60afa1d3bead3c9cf575edaa09a8e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_modbus_request_comparator_1ae3f60afa1d3bead3c9cf575edaa09a8e" kindref="member">operator() </ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;&amp;<sp/>request1,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;&amp;<sp/>request2)<sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>request1-&gt;request_priority<sp/>&gt;<sp/>request2-&gt;request_priority;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//MODBUS_LIBRARY_CPP_INCLUDE_MODBUSREQUEST_H_</highlight></codeline>
+    </programlisting>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/session/modbusrequest.h"/>
+  </compounddef>
+</doxygen>

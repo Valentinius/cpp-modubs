@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="modbusrtuframer_8cpp" kind="file" language="C++">
+    <compoundname>modbusrtuframer.cpp</compoundname>
+    <includes refid="modbusrtuframer_8h" local="yes">modbusrtuframer.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>modbusrtuframer.h</label>
+        <link refid="modbusrtuframer_8h"/>
+      </node>
+      <node id="1">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusrtuframer.cpp</label>
+        <link refid="modbusrtuframer_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="modbusrtuframer_8h" kindref="compound">modbusrtuframer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusrtuframer.cpp"/>
+  </compounddef>
+</doxygen>

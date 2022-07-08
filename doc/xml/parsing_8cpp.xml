@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="parsing_8cpp" kind="file" language="C++">
+    <compoundname>parsing.cpp</compoundname>
+    <includes refid="parsing_8h" local="yes">parsing.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>modbusrequest.h</label>
+        <link refid="modbusrequest_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>functional</label>
+      </node>
+      <node id="10">
+        <label>cstdint</label>
+      </node>
+      <node id="2">
+        <label>parsing.h</label>
+        <link refid="parsing_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>future</label>
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
+      <node id="4">
+        <label>utility</label>
+      </node>
+      <node id="1">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/utils/parsing.cpp</label>
+        <link refid="parsing_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="parsing_8h" kindref="compound">parsing.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespacemodbus_1_1utils_1a49afdaf45d84b935d39cd87de9f2c4eb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1utils_1a49afdaf45d84b935d39cd87de9f2c4eb" kindref="member">modbus::utils::parseRequest</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;<sp/>&amp;modbus_request,</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*raw_request,</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>raw_request_size)<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="namespacemodbus_1_1utils_1a8861050f3912ffdab8a750fc02d0f48b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1utils_1a8861050f3912ffdab8a750fc02d0f48b" kindref="member">modbus::utils::parseResponse</ref>(std::shared_ptr&lt;ModbusRequest&gt;<sp/>&amp;modbus_request,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*raw_response,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>raw_response_size)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="namespacemodbus_1_1utils_1a3a816eeb89c7040b9e19e0b09a87e46e" refkind="member"><highlight class="normal"><ref refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42e" kindref="member">ModbusError</ref><sp/><ref refid="namespacemodbus_1_1utils_1a3a816eeb89c7040b9e19e0b09a87e46e" kindref="member">modbus::utils::parseError</ref>(uint8_t<sp/>*raw_response,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>raw_response_req)<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42eac5c91fdff37d925c4ad1a863b5a19404" kindref="member">ModbusError::NO_ERROR</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/utils/parsing.cpp"/>
+  </compounddef>
+</doxygen>

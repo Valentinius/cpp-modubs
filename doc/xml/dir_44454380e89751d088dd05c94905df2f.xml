@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_44454380e89751d088dd05c94905df2f" kind="dir">
+    <compoundname>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients</compoundname>
+    <innerdir refid="dir_626824dc66e02c6fdcfe5ff52a348587">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/async</innerdir>
+    <innerdir refid="dir_9bc88d1a9914b5d3e84a0f8cec41ac69">/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/sync</innerdir>
+    <innerfile refid="modbusclient_8cpp">modbusclient.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/clients/"/>
+  </compounddef>
+</doxygen>

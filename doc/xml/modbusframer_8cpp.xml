@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="modbusframer_8cpp" kind="file" language="C++">
+    <compoundname>modbusframer.cpp</compoundname>
+    <includes refid="modbusframer_8h" local="yes">modbusframer.h</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>modbusrequest.h</label>
+        <link refid="modbusrequest_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>functional</label>
+      </node>
+      <node id="4">
+        <label>cstdint</label>
+      </node>
+      <node id="1">
+        <label>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusframer.cpp</label>
+        <link refid="modbusframer_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>modbusframer.h</label>
+        <link refid="modbusframer_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>future</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+      <node id="7">
+        <label>utility</label>
+      </node>
+      <node id="3">
+        <label>utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="modbusframer_8h" kindref="compound">modbusframer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70" kindref="member">modbus::enums::ModbusFunction</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" kindref="member">modbus::utils::toMsbLsb</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_modbus_framer_1a2e161e435e83f17f78fea7360a371ea0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_modbus_framer_1a2e161e435e83f17f78fea7360a371ea0" kindref="member">ModbusFramer::parseRequest</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;<sp/>&amp;request,</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*raw_request,</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>&amp;raw_request_size)<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/>*raw_request++<sp/>=<sp/>request-&gt;getSlaveId();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(request-&gt;<sp/>getRequestType())<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6ae926e586c39d162b47ec0cb42bd1be3a" kindref="member">modbus::enums::SINGLE_REGISTER_WRITE</ref>:</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6a7bcecb7105266459a84e1004408ceb7a" kindref="member">modbus::enums::MULTIPLE_REGISTERS_WRITE</ref>:</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6a226c06c6031e40d5372e9988040bcf57" kindref="member">modbus::enums::PARTIAL_REGISTER_WRITE</ref>:</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6a08eea056a1c7a37f77b247fb95c48e0e" kindref="member">modbus::enums::SINGLE_REGISTER_READ</ref>:</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6ad05a37be7392de8e170d0a9d09c8d058" kindref="member">modbus::enums::MULTIPLE_REGISTERS_READ</ref>:</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6ad09b915a1ae82e81d0ac2291c474f2ef" kindref="member">modbus::enums::PARTIAL_REGISTER_READ</ref>:</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_modbus_framer_1a62847ff496b0795e9daba38186000ada" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_modbus_framer_1a62847ff496b0795e9daba38186000ada" kindref="member">ModbusFramer::parseResponse</ref>(std::shared_ptr&lt;ModbusRequest&gt;<sp/>&amp;request,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*raw_request,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>raw_request_size)<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="class_modbus_framer_1adeca2981c1fb4385a5893d974793de34" refkind="member"><highlight class="normal"><ref refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42e" kindref="member">ModbusError</ref><sp/><ref refid="class_modbus_framer_1adeca2981c1fb4385a5893d974793de34" kindref="member">ModbusFramer::parseError</ref>(uint8_t<sp/>*raw_request,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>raw_request_size)<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42eac5c91fdff37d925c4ad1a863b5a19404" kindref="member">ModbusError::NO_ERROR</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ModbusFramer::parseSingleRegisterWriteRequest(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;<sp/>&amp;request,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*raw_request)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>std::vector&lt;uint16_t&gt;<sp/>values;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(request-&gt;getRegisterType())<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a849ccc074302fb7c99c0d0a8bc9af0fd" kindref="member">modbus::enums::COILS</ref>:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>*raw_request++<sp/>=<sp/>(uint8_t)<sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70aa74971cc0de33a458ac72859a3755036" kindref="member">ModbusFunction::WRITE_COILS_ONE</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!request-&gt;getValues(values))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!values.empty())<sp/><ref refid="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" kindref="member">toMsbLsb</ref>(0xFF00,<sp/>*(raw_request<sp/>+<sp/>2),<sp/>*(raw_request<sp/>+<sp/>3));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" kindref="member">toMsbLsb</ref>(0x0000,<sp/>*(raw_request<sp/>+<sp/>2),<sp/>*(raw_request<sp/>+<sp/>3));</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a99e7f2dca044825e5b497cbce598b823" kindref="member">modbus::enums::HOLDING_REGISTERS</ref>:</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>*raw_request++<sp/>=<sp/>(uint8_t)<sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a91ac7b36a82aa54bf210a895b2e71e7c" kindref="member">ModbusFunction::WRITE_HOLDING_REGISTERS_ONE</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!request-&gt;getValues(values))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!values.empty())<sp/><ref refid="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" kindref="member">toMsbLsb</ref>(values[0],<sp/>*(raw_request<sp/>+<sp/>2),<sp/>*(raw_request<sp/>+<sp/>3));</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><ref refid="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" kindref="member">toMsbLsb</ref>(request-&gt;getRegisters()[0],<sp/>*(raw_request),<sp/>*(raw_request<sp/>+<sp/>1));</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>raw_request<sp/>+=<sp/>4;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ModbusFramer::parseMultipleRegistersWriteRequest(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;<sp/>&amp;request,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*raw_request)<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/>std::vector&lt;uint16_t&gt;<sp/>values;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(request-&gt;getRegisterType())<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a849ccc074302fb7c99c0d0a8bc9af0fd" kindref="member">modbus::enums::COILS</ref>:</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>*raw_request++<sp/>=<sp/>(uint8_t)<sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70aae95d0aa23e9dbd312ce810835ff3c2c" kindref="member">ModbusFunction::WRITE_COILS_GROUP</ref>;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!request-&gt;getValues(values))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(values.empty())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>values.size();<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(values[i])<sp/><ref refid="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" kindref="member">toMsbLsb</ref>(0xFF00,<sp/>*(raw_request<sp/>+<sp/>i<sp/>+<sp/>4),<sp/>*(raw_request<sp/>+<sp/>i<sp/>+<sp/>5));</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" kindref="member">toMsbLsb</ref>(0x0000,<sp/>*(raw_request<sp/>+<sp/>i<sp/>+<sp/>4),<sp/>*(raw_request<sp/>+<sp/>i<sp/>+<sp/>5));</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a99e7f2dca044825e5b497cbce598b823" kindref="member">modbus::enums::HOLDING_REGISTERS</ref>:</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>*raw_request++<sp/>=<sp/>(uint8_t)<sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a683e45425a3322458d14a5bd0d62a2d0" kindref="member">ModbusFunction::WRITE_HOLDING_REGISTERS_GROUP</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!request-&gt;getValues(values))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(values.empty())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>values.size();<sp/>i++)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" kindref="member">toMsbLsb</ref>(values[i],<sp/>*(raw_request<sp/>+<sp/>i<sp/>+<sp/>4),<sp/>*(raw_request<sp/>+<sp/>i<sp/>+<sp/>5));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;uint16_t&gt;<sp/>registers<sp/>=<sp/>request-&gt;getRegisters();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(registers[1]<sp/>-<sp/>registers[0]<sp/>==<sp/>1)<sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" kindref="member">toMsbLsb</ref>(registers[0],<sp/>*raw_request,<sp/>*(raw_request<sp/>+<sp/>1));</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" kindref="member">toMsbLsb</ref>(registers.size(),<sp/>*(raw_request<sp/>+<sp/>2),<sp/>*(raw_request<sp/>+<sp/>3));</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>raw_request<sp/>+=<sp/>4<sp/>+<sp/>values.size()<sp/>*<sp/>2;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ModbusFramer::parsePartialRegisterWriteRequest(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;<sp/>&amp;request,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*raw_request)<sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ModbusFramer::parseSingleRegisterReadRequest(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;<sp/>&amp;request,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*raw_request)<sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!this-&gt;parseReadRequest(request,<sp/>raw_request))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><ref refid="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" kindref="member">toMsbLsb</ref>(request-&gt;getRegisters().size(),<sp/>*raw_request,<sp/>*(raw_request<sp/>+<sp/>1));</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ModbusFramer::parseMultipleRegistersReadRequest(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;<sp/>&amp;request,</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*raw_request)<sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!this-&gt;parseReadRequest(request,<sp/>raw_request))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;uint16_t&gt;<sp/>registers<sp/>=<sp/>request-&gt;getRegisters();</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>дописать!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ModbusFramer::parsePartialRegisterReadRequest(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;<sp/>&amp;request,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*raw_request)<sp/>{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/>std::vector&lt;uint16_t&gt;<sp/>values;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(request-&gt;getRegisterType())<sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a849ccc074302fb7c99c0d0a8bc9af0fd" kindref="member">modbus::enums::COILS</ref>:</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198ab25ec4c3931c76539ee2fa6b9b2eb44d" kindref="member">modbus::enums::DISCRETE_INPUTS</ref>:</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a99e7f2dca044825e5b497cbce598b823" kindref="member">modbus::enums::HOLDING_REGISTERS</ref>:</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a7c1099187f875ee3f3117bab13a21c4f" kindref="member">modbus::enums::INPUT_REGISTERS</ref>:</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ModbusFramer::parseReadRequest(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;ModbusRequest&gt;<sp/>&amp;request,<sp/>uint8_t<sp/>*raw_request)<sp/>{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/>std::vector&lt;uint16_t&gt;<sp/>values;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(request-&gt;getRegisterType())<sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a849ccc074302fb7c99c0d0a8bc9af0fd" kindref="member">modbus::enums::COILS</ref>:</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>*raw_request++<sp/>=<sp/>(uint8_t)<sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a3aacadc8c8e38610f14b414e9ea3441b" kindref="member">ModbusFunction::READ_COILS_GROUP</ref>;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198ab25ec4c3931c76539ee2fa6b9b2eb44d" kindref="member">modbus::enums::DISCRETE_INPUTS</ref>:</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>*raw_request++<sp/>=<sp/>(uint8_t)<sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a3f1a524a4f7598527afabae041678f08" kindref="member">ModbusFunction::READ_DISCRETE_INPUTS_GROUP</ref>;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a99e7f2dca044825e5b497cbce598b823" kindref="member">modbus::enums::HOLDING_REGISTERS</ref>:</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>*raw_request++<sp/>=<sp/>(uint8_t)<sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70a21a6ee046ce208469c2a6ef3fabf96c9" kindref="member">ModbusFunction::READ_HOLDING_REGISTERS_GROUP</ref>;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespacemodbus_1_1enums_1a4b65b756b33b52a74954fa0669b86198a7c1099187f875ee3f3117bab13a21c4f" kindref="member">modbus::enums::INPUT_REGISTERS</ref>:</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>*raw_request++<sp/>=<sp/>(uint8_t)<sp/><ref refid="namespacemodbus_1_1enums_1a840731c608991261a8d94682ab069d70af4b275cd2b3522426d50a0f0b8ff5932" kindref="member">ModbusFunction::READ_INPUTS_GROUP</ref>;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!request-&gt;getValues(values))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(values.empty())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><ref refid="namespacemodbus_1_1utils_1a34b2faa17849f4cc8096b09edc3d4cf4" kindref="member">toMsbLsb</ref>(request-&gt;getRegisters()[0],<sp/>*raw_request,<sp/>*(raw_request<sp/>+<sp/>1));</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>raw_request<sp/>+=<sp/>3;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusframer.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_modbus_framer" kind="class" language="C++" prot="public">
+    <compoundname>ModbusFramer</compoundname>
+    <includes refid="modbusframer_8h" local="no">modbusframer.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_modbus_framer_1a2e161e435e83f17f78fea7360a371ea0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ModbusFramer::parseRequest</definition>
+        <argsstring>(const std::shared_ptr&lt; ModbusRequest &gt; &amp;request, uint8_t *raw_request, size_t &amp;raw_request_size)</argsstring>
+        <name>parseRequest</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>raw_request</declname>
+        </param>
+        <param>
+          <type>size_t &amp;</type>
+          <declname>raw_request_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers/modbusframer.h" line="16" column="16" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusframer.cpp" bodystart="7" bodyend="19"/>
+        <references refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6ad05a37be7392de8e170d0a9d09c8d058" compoundref="utils_8h" startline="108">modbus::enums::MULTIPLE_REGISTERS_READ</references>
+        <references refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6a7bcecb7105266459a84e1004408ceb7a" compoundref="utils_8h" startline="95">modbus::enums::MULTIPLE_REGISTERS_WRITE</references>
+        <references refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6ad09b915a1ae82e81d0ac2291c474f2ef" compoundref="utils_8h" startline="112">modbus::enums::PARTIAL_REGISTER_READ</references>
+        <references refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6a226c06c6031e40d5372e9988040bcf57" compoundref="utils_8h" startline="99">modbus::enums::PARTIAL_REGISTER_WRITE</references>
+        <references refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6a08eea056a1c7a37f77b247fb95c48e0e" compoundref="utils_8h" startline="103">modbus::enums::SINGLE_REGISTER_READ</references>
+        <references refid="namespacemodbus_1_1enums_1ac03701c08a260f3df4eaed6edca0dfa6ae926e586c39d162b47ec0cb42bd1be3a" compoundref="utils_8h" startline="90">modbus::enums::SINGLE_REGISTER_WRITE</references>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_framer_1a62847ff496b0795e9daba38186000ada" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ModbusFramer::parseResponse</definition>
+        <argsstring>(std::shared_ptr&lt; ModbusRequest &gt; &amp;request, uint8_t *raw_request, size_t raw_request_size)</argsstring>
+        <name>parseResponse</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>raw_request</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>raw_request_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers/modbusframer.h" line="19" column="16" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusframer.cpp" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_framer_1adeca2981c1fb4385a5893d974793de34" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ModbusError</type>
+        <definition>ModbusError ModbusFramer::parseError</definition>
+        <argsstring>(uint8_t *raw_request, size_t raw_request_size)</argsstring>
+        <name>parseError</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>raw_request</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>raw_request_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers/modbusframer.h" line="23" column="23" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusframer.cpp" bodystart="27" bodyend="29"/>
+        <references refid="namespacemodbus_1_1enums_1a8c0b52c5221ff129f554251d4860d42eac5c91fdff37d925c4ad1a863b5a19404" compoundref="utils_8h" startline="205">modbus::enums::NO_ERROR</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_modbus_framer_1ae5b23076e4c8c547a15d2a7b9ede5615" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ModbusFramer::parseSingleRegisterWriteRequest</definition>
+        <argsstring>(const std::shared_ptr&lt; ModbusRequest &gt; &amp;request, uint8_t *raw_request)</argsstring>
+        <name>parseSingleRegisterWriteRequest</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>raw_request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers/modbusframer.h" line="26" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusframer.cpp" bodystart="31" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_framer_1a963fa1081ec3ac220aa99a2f6957bedd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ModbusFramer::parseMultipleRegistersWriteRequest</definition>
+        <argsstring>(const std::shared_ptr&lt; ModbusRequest &gt; &amp;request, uint8_t *raw_request)</argsstring>
+        <name>parseMultipleRegistersWriteRequest</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>raw_request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers/modbusframer.h" line="27" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusframer.cpp" bodystart="57" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_framer_1a5219ec86e59526e100356468bf623b0b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ModbusFramer::parsePartialRegisterWriteRequest</definition>
+        <argsstring>(const std::shared_ptr&lt; ModbusRequest &gt; &amp;request, uint8_t *raw_request)</argsstring>
+        <name>parsePartialRegisterWriteRequest</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>raw_request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers/modbusframer.h" line="28" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusframer.cpp" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_framer_1afafafec050db07213ca36fe79ce2fcc7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ModbusFramer::parseSingleRegisterReadRequest</definition>
+        <argsstring>(const std::shared_ptr&lt; ModbusRequest &gt; &amp;request, uint8_t *raw_request)</argsstring>
+        <name>parseSingleRegisterReadRequest</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>raw_request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers/modbusframer.h" line="29" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusframer.cpp" bodystart="98" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_framer_1a91f3691798959ac378180f06ee0bf499" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ModbusFramer::parseMultipleRegistersReadRequest</definition>
+        <argsstring>(const std::shared_ptr&lt; ModbusRequest &gt; &amp;request, uint8_t *raw_request)</argsstring>
+        <name>parseMultipleRegistersReadRequest</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>raw_request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers/modbusframer.h" line="30" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusframer.cpp" bodystart="105" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_framer_1a823e09590c7994270dd2ae494882ad14" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ModbusFramer::parsePartialRegisterReadRequest</definition>
+        <argsstring>(const std::shared_ptr&lt; ModbusRequest &gt; &amp;request, uint8_t *raw_request)</argsstring>
+        <name>parsePartialRegisterReadRequest</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>raw_request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers/modbusframer.h" line="31" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusframer.cpp" bodystart="112" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_modbus_framer_1a92464cf48d9ea5a6faa7e6448c78ecea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ModbusFramer::parseReadRequest</definition>
+        <argsstring>(const std::shared_ptr&lt; ModbusRequest &gt; &amp;request, uint8_t *raw_request)</argsstring>
+        <name>parseReadRequest</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_modbus_request" kindref="compound">ModbusRequest</ref> &gt; &amp;</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>raw_request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers/modbusframer.h" line="33" column="8" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/modbusframer.cpp" bodystart="124" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers/modbusframer.h" line="14" column="19" bodyfile="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/include/framers/modbusframer.h" bodystart="14" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_modbus_framer_1adeca2981c1fb4385a5893d974793de34" prot="public" virt="virtual"><scope>ModbusFramer</scope><name>parseError</name></member>
+      <member refid="class_modbus_framer_1a91f3691798959ac378180f06ee0bf499" prot="private" virt="non-virtual"><scope>ModbusFramer</scope><name>parseMultipleRegistersReadRequest</name></member>
+      <member refid="class_modbus_framer_1a963fa1081ec3ac220aa99a2f6957bedd" prot="private" virt="non-virtual"><scope>ModbusFramer</scope><name>parseMultipleRegistersWriteRequest</name></member>
+      <member refid="class_modbus_framer_1a823e09590c7994270dd2ae494882ad14" prot="private" virt="non-virtual"><scope>ModbusFramer</scope><name>parsePartialRegisterReadRequest</name></member>
+      <member refid="class_modbus_framer_1a5219ec86e59526e100356468bf623b0b" prot="private" virt="non-virtual"><scope>ModbusFramer</scope><name>parsePartialRegisterWriteRequest</name></member>
+      <member refid="class_modbus_framer_1a92464cf48d9ea5a6faa7e6448c78ecea" prot="private" virt="non-virtual"><scope>ModbusFramer</scope><name>parseReadRequest</name></member>
+      <member refid="class_modbus_framer_1a2e161e435e83f17f78fea7360a371ea0" prot="public" virt="virtual"><scope>ModbusFramer</scope><name>parseRequest</name></member>
+      <member refid="class_modbus_framer_1a62847ff496b0795e9daba38186000ada" prot="public" virt="virtual"><scope>ModbusFramer</scope><name>parseResponse</name></member>
+      <member refid="class_modbus_framer_1afafafec050db07213ca36fe79ce2fcc7" prot="private" virt="non-virtual"><scope>ModbusFramer</scope><name>parseSingleRegisterReadRequest</name></member>
+      <member refid="class_modbus_framer_1ae5b23076e4c8c547a15d2a7b9ede5615" prot="private" virt="non-virtual"><scope>ModbusFramer</scope><name>parseSingleRegisterWriteRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

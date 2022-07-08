@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_567b54f72cb72672bfa1fbee88e5b9ac" kind="dir">
+    <compoundname>/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers</compoundname>
+    <innerfile refid="modbusasciiframer_8cpp">modbusasciiframer.cpp</innerfile>
+    <innerfile refid="modbusframer_8cpp">modbusframer.cpp</innerfile>
+    <innerfile refid="modbusrtuframer_8cpp">modbusrtuframer.cpp</innerfile>
+    <innerfile refid="modbustcpframer_8cpp">modbustcpframer.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/alexeykozlovsky/Documents/JINR/modbus-library-cpp/cpp-modubs/src/framers/"/>
+  </compounddef>
+</doxygen>
